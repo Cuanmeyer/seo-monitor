@@ -1,0 +1,13 @@
+# Netlify serves the static dashboard the monitor writes. No build step:
+# whatever the last run committed to public/ is what gets served.
+
+[build]
+  publish = "public"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Cache-Control = "public, max-age=300"

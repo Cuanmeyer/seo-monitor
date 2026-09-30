@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEO Health Monitor</title>
+<style>
+  :root {
+    color-scheme: light;
+    --plane: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --border: rgba(11, 11, 11, 0.10);
+    --series: #2a78d6;
+    --series-soft: rgba(42, 120, 214, 0.12);
+    --good: #0ca30c;
+    --warning: #fab219;
+    --serious: #ec835a;
+    --critical: #d03b3b;
+    --critical-soft: rgba(208, 59, 59, 0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --plane: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --axis: #383835;
+      --border: rgba(255, 255, 255, 0.10);
+      --series: #3987e5;
+      --series-soft: rgba(57, 135, 229, 0.16);
+      --critical-soft: rgba(208, 59, 59, 0.16);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --plane: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --border: rgba(255, 255, 255, 0.10);
+    --series: #3987e5;
+    --series-soft: rgba(57, 135, 229, 0.16);
+    --critical-soft: rgba(208, 59, 59, 0.16);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 64px;
+    background: var(--plane);
+    color: var(--ink);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+
+  header { padding: 40px 0 24px; }
+  h1 { font-size: 26px; font-weight: 650; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); font-size: 14px; margin: 0; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  h2 { font-size: 17px; font-weight: 620; margin: 0 0 4px; }
+  h3 { font-size: 14px; font-weight: 600; margin: 0 0 12px; color: var(--ink-2); }
+  .client-domain { color: var(--muted); font-size: 13px; margin: 0 0 18px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th {
+    text-align: left; font-weight: 600; color: var(--ink-2);
+    padding: 8px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap;
+  }
+  td { padding: 10px; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  .scroll { overflow-x: auto; margin: 0 -4px; }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12.5px; font-weight: 560; white-space: nowrap;
+    padding: 3px 9px 3px 7px; border-radius: 99px;
+    border: 1px solid var(--border);
+  }
+  .dot { width: 8px; height: 8px; border-radius: 99px; flex: none; }
+  .pill.good .dot { background: var(--good); }
+  .pill.warning .dot { background: var(--warning); }
+  .pill.watching .dot { background: var(--serious); }
+  .pill.serious .dot { background: var(--serious); }
+  .pill.critical .dot { background: var(--critical); }
+  .pill.unknown .dot { background: var(--muted); }
+  .pill.critical { color: var(--critical); border-color: var(--critical); }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .kpi { border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+  .kpi .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .kpi .value { font-size: 26px; font-weight: 640; margin-top: 4px; letter-spacing: -0.02em; }
+  /* Deltas stay in text ink. Colour here would assert a verdict the number
+     does not carry: impressions rising while CTR collapses is not "good". */
+  .kpi .delta { font-size: 13px; margin-top: 2px; color: var(--ink-2); }
+
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
+  .chart-wrap { position: relative; }
+  .chart-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+  .chart-note { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .tooltip {
+    position: absolute; pointer-events: none; opacity: 0;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 10px; font-size: 12.5px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12); transition: opacity .1s; z-index: 5;
+    min-width: 140px;
+  }
+  .tooltip .t-date { color: var(--muted); font-size: 11.5px; margin-bottom: 4px; }
+  .tooltip .t-row { display: flex; justify-content: space-between; gap: 14px; font-variant-numeric: tabular-nums; }
+
+  .alert {
+    border: 1px solid var(--border); border-left: 3px solid var(--warning);
+    border-radius: 8px; padding: 14px; margin-bottom: 10px;
+  }
+  .alert.critical { border-left-color: var(--critical); }
+  .alert .a-head { font-weight: 600; margin-bottom: 6px; }
+  .alert .a-meta { font-size: 13px; color: var(--ink-2); }
+  .alert ul { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .alert .a-hint { font-size: 13px; color: var(--ink-2); margin-top: 8px; font-style: italic; }
+  .alert a { color: var(--series); }
+
+  details { margin-top: 18px; }
+  summary { cursor: pointer; font-size: 13px; color: var(--ink-2); }
+  .datatable { margin-top: 12px; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .empty { color: var(--muted); font-size: 14px; }
+  footer { color: var(--muted); font-size: 12.5px; padding-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SEO Health Monitor</h1>
+    <p class="sub" id="generated"></p>
+  </header>
+  <div id="app"></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const DATA = {"generated_at": "2026-09-21T16:12:13+00:00", "signals": [{"key": "organic_clicks", "label": "Clicks"}, {"key": "organic_impressions", "label": "Impressions"}, {"key": "ctr_divergence", "label": "CTR"}, {"key": "indexation_priority", "label": "Indexation"}, {"key": "indexation_rate", "label": "Index rate"}, {"key": "core_web_vitals", "label": "Core Web Vitals"}, {"key": "llm_referrals", "label": "LLM referrals"}], "clients": [{"slug": "arcstore", "name": "ArcStore", "domain": "www.arcstore.co.za", "as_of": "2026-09-18", "statuses": {"organic_clicks": {"state": "good", "note": "Inside threshold"}, "organic_impressions": {"state": "good", "note": "Inside threshold"}, "ctr_divergence": {"state": "watching", "note": "Outside threshold, but not yet for long enough to alert"}, "indexation_priority": {"state": "unknown", "note": "Not enough history yet"}, "indexation_rate": {"state": "unknown", "note": "Not enough history yet"}, "core_web_vitals": {"state": "unknown", "note": "Not enough history yet"}, "llm_referrals": {"state": "unknown", "note": "Not enough history yet"}}, "source_status": {"gsc": {"note": "seeded", "ok": true}}, "open_alerts": [], "kpis": {"clicks": {"current": 20403, "baseline": 21707}, "impressions": {"current": 808830, "baseline": 677567}, "position": 6.8, "indexed_rate": null}, "series": {"dates": ["2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-25", "2026-07-26", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-08", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21", "2026-08-22", "2026-08-23", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04", "2026-09-05", "2026-09-06", "2026-09-07", "2026-09-08", "2026-09-09", "2026-09-10", "2026-09-11", "2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18"], "clicks": [2861, 2909, 2844, 2806, 2863, 2915, 3342, 3120, 2870, 3036, 3352, 3160, 3046, 2892, 2951, 6039, 3528, 3426, 3832, 3309, 3250, 3433, 3764, 3940, 3446, 3256, 3013, 3090, 3213, 3679, 3605, 3906, 3759, 3489, 3738, 3700, 3728, 3619, 3245, 3211, 2923, 3014, 3248, 2883, 2926, 2757, 2947, 2627, 2722, 3105, 2964, 2664, 2642, 2712, 2734, 2856, 2824, 2638, 2822, 2825, 2911, 2730, 2848, 3021, 2861, 3223, 3252, 3229, 3318, 3315, 3558, 3545, 3524, 3436, 3057, 3044, 3383, 3389, 3383, 3199, 2938, 2929, 2770, 2849, 2974, 2891, 3009, 2887, 2938, 2855], "impressions": [80769, 88188, 89555, 86944, 93053, 84766, 78970, 76913, 78292, 77876, 80056, 79613, 77716, 74496, 77060, 86430, 84980, 81654, 92677, 80601, 80449, 83058, 103212, 107474, 98083, 93587, 93948, 91721, 100046, 96400, 101489, 101391, 91222, 95931, 91713, 91673, 96799, 93482, 99997, 86986, 82404, 86408, 88894, 89693, 94257, 94365, 100675, 76069, 82115, 78095, 90592, 71995, 80950, 80865, 84726, 87208, 83066, 98408, 109458, 99330, 95672, 89880, 83645, 83443, 85422, 108058, 108555, 104883, 95575, 92797, 95741, 106120, 112699, 107187, 104467, 106315, 100330, 95970, 90712, 89663, 91008, 90411, 94246, 100809, 103695, 101812, 114791, 142576, 117237, 127910], "clicks_baseline": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 3296.2, 3308.8, 3336.2, 3363.4, 3402.7, 3434.7, 3455.2, 3469.4, 3490.1, 3520.7, 3541.5, 3537.7, 3539.5, 3535.1, 3539.5, 3550.1, 3437.4, 3415.9, 3392.0, 3360.4, 3336.0, 3317.2, 3305.5, 3276.9, 3231.3, 3202.6, 3183.2, 3173.2, 3164.9, 3151.0, 3113.8, 3085.8, 3047.2, 3016.9, 2989.8, 2958.0, 2933.8, 2902.8, 2888.7, 2888.9, 2889.6, 2903.7, 2914.4, 2925.5, 2949.1, 2970.5, 2994.8, 2998.7, 3013.6, 3037.2, 3047.3, 3062.3, 3081.4, 3092.0, 3099.7, 3101.0], "impressions_baseline": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 85790.8, 86479.2, 86772.5, 87198.7, 87714.7, 87649.3, 88048.0, 88503.1, 89030.3, 89691.2, 90248.6, 90960.8, 91224.1, 91391.5, 91817.0, 92239.6, 92356.1, 92687.5, 93141.4, 93427.1, 93265.2, 93324.7, 93147.5, 92696.8, 91429.6, 90817.8, 90363.4, 90034.0, 89872.9, 89266.4, 89338.1, 89622.8, 89549.1, 89708.1, 89492.0, 89203.8, 88909.9, 88503.6, 89024.1, 89329.8, 89969.0, 90439.4, 90667.5, 90912.1, 91498.8, 92157.4, 92615.3, 92750.8, 93831.0, 94481.5, 95119.9, 95124.2, 95755.2, 96114.4, 96455.3, 96795.3]}, "thresholds": {"warning_pct": -20, "critical_pct": -35}}]};
+
+const fmt = n => n === null || n === undefined ? "—" : n.toLocaleString("en-ZA");
+const pct = (a, b) => (a === null || b === null || !b) ? null : ((a - b) / b) * 100;
+
+const LABELS = {
+  good: "OK", warning: "Warning", watching: "Watching", serious: "Serious",
+  critical: "Critical", unknown: "No data"
+};
+
+function pill(status) {
+  const state = status.state || "unknown";
+  const el = document.createElement("span");
+  el.className = "pill " + state;
+  el.title = status.note || "";
+  el.innerHTML = `<span class="dot"></span>${LABELS[state] || state}`;
+  return el;
+}
+
+/* ---------- chart ---------------------------------------------------- */
+/* Single series against its own rolling baseline, so no legend box: the
+   title names the series and the baseline is direct-labelled. The shaded
+   region is the warning threshold, drawn from the same config the evaluator
+   uses, so the picture and the alerting agree by construction. */
+function lineChart(container, opts) {
+  const { dates, values, baseline, warningPct, label } = opts;
+  const W = 640, H = 220, P = { t: 12, r: 12, b: 26, l: 46 };
+  const iw = W - P.l - P.r, ih = H - P.t - P.b;
+
+  const all = values.concat(baseline.filter(v => v !== null));
+  const min = 0;
+  const ticks = 4;
+  // Pick a clean tick step first, then set the top of the scale from it, so
+  // the axis reads 0 / 2k / 4k / 6k / 8k rather than 0 / 1.8k / 3.5k / 5.3k.
+  const rough = (Math.max(...all) * 1.08) / ticks;
+  const mag = Math.pow(10, Math.floor(Math.log10(rough)));
+  const step = [1, 2, 2.5, 5, 10].find(m => m * mag >= rough) * mag;
+  const max = step * ticks;
+  const x = i => P.l + (i / Math.max(1, dates.length - 1)) * iw;
+  const y = v => P.t + ih - ((v - min) / (max - min)) * ih;
+
+  const path = (arr) => {
+    let d = "", pen = false;
+    arr.forEach((v, i) => {
+      if (v === null) { pen = false; return; }
+      d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1) + " ";
+      pen = true;
+    });
+    return d.trim();
+  };
+
+  // Warning band: the area between the baseline and the warning threshold.
+  let band = "";
+  const lower = baseline.map(v => v === null ? null : v * (1 + warningPct / 100));
+  const top = [], bottom = [];
+  baseline.forEach((v, i) => {
+    if (v === null || lower[i] === null) return;
+    top.push(`${x(i).toFixed(1)} ${y(v).toFixed(1)}`);
+    bottom.unshift(`${x(i).toFixed(1)} ${y(lower[i]).toFixed(1)}`);
+  });
+  if (top.length) band = "M" + top.join(" L ") + " L " + bottom.join(" L ") + " Z";
+
+  let gridlines = "", ylabels = "";
+  for (let i = 0; i <= ticks; i++) {
+    const v = min + (max - min) * (i / ticks);
+    const yy = y(v).toFixed(1);
+    gridlines += `<line x1="${P.l}" y1="${yy}" x2="${W - P.r}" y2="${yy}" stroke="var(--grid)" stroke-width="1"/>`;
+    const tick = v >= 1000
+      ? (v % 1000 === 0 ? v / 1000 : (v / 1000).toFixed(1)) + "k"
+      : String(Math.round(v));
+    ylabels += `<text x="${P.l - 8}" y="${yy}" text-anchor="end" dominant-baseline="middle" font-size="11" fill="var(--muted)">${tick}</text>`;
+  }
+
+  let xlabels = "";
+  [0, Math.floor(dates.length / 2), dates.length - 1].forEach(i => {
+    if (i < 0 || i >= dates.length) return;
+    const d = new Date(dates[i]);
+    const anchor = i === 0 ? "start" : (i === dates.length - 1 ? "end" : "middle");
+    xlabels += `<text x="${x(i).toFixed(1)}" y="${H - 6}" text-anchor="${anchor}" font-size="11" fill="var(--muted)">${d.toLocaleDateString("en-ZA", { day: "numeric", month: "short" })}</text>`;
+  });
+
+  container.innerHTML = `
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${label} over ${dates.length} days against its rolling baseline">
+      ${gridlines}${ylabels}${xlabels}
+      <path d="${band}" fill="var(--critical-soft)"/>
+      <path d="${path(baseline)}" fill="none" stroke="var(--axis)" stroke-width="2" stroke-dasharray="4 4"/>
+      <path d="${path(values)}" fill="none" stroke="var(--series)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <line class="crosshair" y1="${P.t}" y2="${P.t + ih}" stroke="var(--muted)" stroke-width="1" opacity="0"/>
+      <circle class="focus" r="4.5" fill="var(--series)" stroke="var(--surface)" stroke-width="2" opacity="0"/>
+      <rect class="hit" x="${P.l}" y="${P.t}" width="${iw}" height="${ih}" fill="transparent"/>
+    </svg>`;
+
+  const svg = container.querySelector("svg");
+  const tip = document.createElement("div");
+  tip.className = "tooltip";
+  container.appendChild(tip);
+
+  const crosshair = svg.querySelector(".crosshair");
+  const focus = svg.querySelector(".focus");
+
+  svg.addEventListener("mousemove", ev => {
+    const box = svg.getBoundingClientRect();
+    const px = ((ev.clientX - box.left) / box.width) * W;
+    if (px < P.l || px > W - P.r) return;
+    const i = Math.round(((px - P.l) / iw) * (dates.length - 1));
+    if (i < 0 || i >= dates.length) return;
+
+    crosshair.setAttribute("x1", x(i)); crosshair.setAttribute("x2", x(i));
+    crosshair.setAttribute("opacity", "0.5");
+    focus.setAttribute("cx", x(i)); focus.setAttribute("cy", y(values[i]));
+    focus.setAttribute("opacity", "1");
+
+    const base = baseline[i];
+    const change = base ? pct(values[i], base) : null;
+    tip.innerHTML =
+      `<div class="t-date">${new Date(dates[i]).toLocaleDateString("en-ZA", { weekday: "short", day: "numeric", month: "short" })}</div>` +
+      `<div class="t-row"><span>${label}</span><strong>${fmt(values[i])}</strong></div>` +
+      (base ? `<div class="t-row"><span>Baseline</span><span>${fmt(Math.round(base))}</span></div>
+               <div class="t-row"><span>Change</span><span>${change >= 0 ? "+" : ""}${change.toFixed(1)}%</span></div>` : "");
+    tip.style.opacity = "1";
+    const left = (x(i) / W) * box.width;
+    tip.style.left = Math.min(Math.max(left - 70, 0), box.width - 160) + "px";
+    tip.style.top = "8px";
+  });
+
+  svg.addEventListener("mouseleave", () => {
+    tip.style.opacity = "0";
+    crosshair.setAttribute("opacity", "0");
+    focus.setAttribute("opacity", "0");
+  });
+}
+
+/* ---------- page ----------------------------------------------------- */
+function render() {
+  const app = document.getElementById("app");
+  const gen = new Date(DATA.generated_at);
+  document.getElementById("generated").textContent =
+    "Last run " + gen.toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" });
+
+  // Overview
+  const overview = document.createElement("div");
+  overview.className = "card";
+  overview.innerHTML = "<h2>Overview</h2><h3>One row per client, one light per signal</h3>";
+  const scroll = document.createElement("div");
+  scroll.className = "scroll";
+  const table = document.createElement("table");
+
+  const thead = document.createElement("tr");
+  thead.innerHTML = "<th>Client</th>" + DATA.signals.map(s => `<th>${s.label}</th>`).join("") + "<th>Open</th><th>As of</th>";
+  table.appendChild(thead);
+
+  DATA.clients.forEach(c => {
+    const tr = document.createElement("tr");
+    const name = document.createElement("td");
+    name.innerHTML = `<a href="#${c.slug}" style="color:var(--ink);text-decoration:none;font-weight:600">${c.name}</a>`;
+    tr.appendChild(name);
+    DATA.signals.forEach(s => {
+      const td = document.createElement("td");
+      td.appendChild(pill(c.statuses[s.key] || { state: "unknown" }));
+      tr.appendChild(td);
+    });
+    const open = document.createElement("td");
+    open.textContent = c.open_alerts.length || "0";
+    tr.appendChild(open);
+    const asOf = document.createElement("td");
+    asOf.style.color = "var(--muted)";
+    asOf.textContent = c.as_of || "—";
+    tr.appendChild(asOf);
+    table.appendChild(tr);
+  });
+
+  scroll.appendChild(table);
+  overview.appendChild(scroll);
+  app.appendChild(overview);
+
+  // Per client
+  DATA.clients.forEach(c => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.id = c.slug;
+    card.innerHTML = `<h2>${c.name}</h2><p class="client-domain">${c.domain}</p>`;
+
+    // KPIs
+    const kpis = document.createElement("div");
+    kpis.className = "kpis";
+    const rows = [
+      ["Clicks, 7 days", c.kpis.clicks.current, c.kpis.clicks.baseline],
+      ["Impressions, 7 days", c.kpis.impressions.current, c.kpis.impressions.baseline],
+    ];
+    rows.forEach(([label, current, base]) => {
+      const change = pct(current, base);
+      const glyph = change === null ? "" : (change < 0 ? "▼ " : "▲ ");
+      kpis.innerHTML += `<div class="kpi"><div class="label">${label}</div>
+        <div class="value">${fmt(current)}</div>
+        <div class="delta">${change === null ? "no baseline yet" : glyph + (change >= 0 ? "+" : "") + change.toFixed(1) + "% vs baseline"}</div></div>`;
+    });
+    kpis.innerHTML += `<div class="kpi"><div class="label">Avg position</div>
+      <div class="value">${c.kpis.position ?? "—"}</div><div class="delta">7-day mean</div></div>`;
+    kpis.innerHTML += `<div class="kpi"><div class="label">Priority indexed</div>
+      <div class="value">${c.kpis.indexed_rate !== null && c.kpis.indexed_rate !== undefined ? c.kpis.indexed_rate + "%" : "—"}</div>
+      <div class="delta">of sampled URLs</div></div>`;
+    card.appendChild(kpis);
+
+    // Alerts
+    if (c.open_alerts.length) {
+      const box = document.createElement("div");
+      box.innerHTML = "<h3>Open alerts</h3>";
+      c.open_alerts.forEach(a => {
+        const el = document.createElement("div");
+        el.className = "alert " + a.severity;
+        el.innerHTML =
+          `<div class="a-head">${a.summary}</div>` +
+          `<div class="a-meta">${a.severity === "critical" ? "Critical" : "Warning"} · seen ${a.occurrences || 1}× · since ${a.as_of}</div>` +
+          (a.detail && a.detail.length ? "<ul>" + a.detail.map(d => `<li>${d}</li>`).join("") + "</ul>" : "") +
+          (a.hint ? `<div class="a-hint">${a.hint}</div>` : "") +
+          (a.link ? `<div style="margin-top:8px"><a href="${a.link}" target="_blank" rel="noopener">Open in Search Console</a></div>` : "");
+        box.appendChild(el);
+      });
+      card.appendChild(box);
+    }
+
+    // Charts
+    const charts = document.createElement("div");
+    charts.className = "charts";
+    [
+      ["clicks", "clicks_baseline", "Clicks"],
+      ["impressions", "impressions_baseline", "Impressions"],
+    ].forEach(([key, baseKey, label]) => {
+      const wrap = document.createElement("div");
+      wrap.innerHTML = `<div class="chart-title">${label}, last ${c.series.dates.length} days</div>
+        <div class="chart-note">Dashed line is the 28-day weekday-aligned baseline. Shaded band is the warning threshold.</div>`;
+      const plot = document.createElement("div");
+      plot.className = "chart-wrap";
+      wrap.appendChild(plot);
+      charts.appendChild(wrap);
+      lineChart(plot, {
+        dates: c.series.dates,
+        values: c.series[key],
+        baseline: c.series[baseKey],
+        warningPct: c.thresholds.warning_pct,
+        label
+      });
+    });
+    card.appendChild(charts);
+
+    // Table view, so nothing is color-only or hover-only.
+    const details = document.createElement("details");
+    details.innerHTML = "<summary>View the underlying numbers</summary>";
+    const dt = document.createElement("div");
+    dt.className = "scroll datatable";
+    let rowsHtml = "<table><tr><th>Date</th><th>Clicks</th><th>Baseline</th><th>Impressions</th></tr>";
+    for (let i = c.series.dates.length - 1; i >= Math.max(0, c.series.dates.length - 30); i--) {
+      rowsHtml += `<tr><td>${c.series.dates[i]}</td><td>${fmt(c.series.clicks[i])}</td>` +
+        `<td>${c.series.clicks_baseline[i] ? fmt(Math.round(c.series.clicks_baseline[i])) : "—"}</td>` +
+        `<td>${fmt(c.series.impressions[i])}</td></tr>`;
+    }
+    dt.innerHTML = rowsHtml + "</table>";
+    details.appendChild(dt);
+    card.appendChild(details);
+
+    // Source health, so a failed collector is never read as all-green.
+    const sources = Object.entries(c.source_status || {});
+    if (sources.length) {
+      const line = sources.map(([k, v]) => `${k}: ${v.ok ? "ok" : "FAILED"}`).join(" · ");
+      const p = document.createElement("p");
+      p.style.cssText = "font-size:12.5px;color:var(--muted);margin:16px 0 0";
+      p.textContent = "Collectors — " + line;
+      card.appendChild(p);
+    }
+
+    app.appendChild(card);
+  });
+
+  document.getElementById("foot").textContent =
+    "Thresholds are configured per client. A signal shows No data until it has a full 35 days of history.";
+}
+
+render();
+</script>
+</body>
+</html>

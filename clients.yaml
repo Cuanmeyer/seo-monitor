@@ -1,0 +1,91 @@
+# Client configuration. Thresholds live here, not in code, so they can be
+# tuned per client without a redeploy. Add a new client by adding a block.
+
+defaults:
+  # GSC finalises data 2-3 days behind. Never evaluate inside this window.
+  gsc_lag_days: 3
+
+  # Rolling baseline. 28 days is exactly 4 of each weekday, so a 7-day window
+  # compared against (28-day sum / 4) is weekday-aligned by construction.
+  current_window_days: 7
+  baseline_window_days: 28
+
+  # Volume floors. Below these, movement is noise and no alert is raised.
+  min_baseline_clicks_per_week: 100
+  min_page_impressions: 50
+
+  thresholds:
+    organic_clicks:
+      warning_pct: -20
+      critical_pct: -35
+      persist_runs: 3
+    organic_impressions:
+      warning_pct: -20
+      critical_pct: -35
+      persist_runs: 3
+    ctr_divergence:
+      # Fires when CTR falls while impressions hold up: clicks are being lost
+      # at the SERP rather than through lost visibility. A clicks-only
+      # threshold sleeps through this because clicks can look almost flat
+      # while impressions inflate underneath them.
+      warning_ctr_drop_pct: -20
+      impressions_holding_above_pct: -5
+      persist_runs: 2
+    indexation_priority:
+      # Any priority URL losing indexed status is critical immediately.
+      persist_runs: 1
+    indexation_rate:
+      warning_drop_points: 5
+      persist_runs: 2
+    core_web_vitals:
+      warning_good_drop_points: 10
+      warning_poor_rise_points: 5
+      persist_runs: 1
+    llm_referrals:
+      warning_pct: -25
+      persist_runs: 1
+
+clients:
+  arcstore:
+    name: ArcStore
+    domain: www.arcstore.co.za
+    gsc_property: "https://www.arcstore.co.za/"
+    ga4_property_id: "268088963"
+    ecommerce: true
+    seasonality: false
+    alert_recipients: []
+
+    # Sampled for the daily URL Inspection check. Keep well inside the
+    # 2000 calls/day/property quota.
+    priority_urls:
+      - "https://www.arcstore.co.za/"
+      - "https://www.arcstore.co.za/brands/kayali"
+      - "https://www.arcstore.co.za/brands/medicube"
+      - "https://www.arcstore.co.za/fragrance"
+      - "https://www.arcstore.co.za/brands/sol-de-janeiro"
+      - "https://www.arcstore.co.za/makeup"
+      - "https://www.arcstore.co.za/offers"
+      - "https://www.arcstore.co.za/brands"
+      - "https://www.arcstore.co.za/our-stores"
+      - "https://www.arcstore.co.za/brands/huda-beauty"
+      - "https://www.arcstore.co.za/brands/laneige"
+      - "https://www.arcstore.co.za/brands/fenty-beauty"
+      - "https://www.arcstore.co.za/brands/the-ordinary"
+      - "https://www.arcstore.co.za/skincare"
+      - "https://www.arcstore.co.za/k-beauty-at-arc"
+
+    # One representative URL per template, for CWV and rich result checks.
+    template_samples:
+      home: "https://www.arcstore.co.za/"
+      category: "https://www.arcstore.co.za/fragrance"
+      brand: "https://www.arcstore.co.za/brands/kayali"
+      product: "https://www.arcstore.co.za/products/brand/kayali/vanilla-28-edp"
+
+    # Known events. Alerts inside these windows are logged, never sent.
+    suppression_windows: []
+      # - start: "2026-10-01"
+      #   end: "2026-10-07"
+      #   reason: "Black Friday sale page launch"
+
+    # Per-client threshold overrides, same shape as defaults.thresholds
+    threshold_overrides: {}
