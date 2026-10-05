@@ -1643,7 +1643,7 @@
       "ga4": {
         "conversions": 761.0,
         "llm_sessions": 30,
-        "revenue": 80586.79999399997,
+        "revenue": 80586.799994,
         "sessions": 3431
       },
       "gsc": {
@@ -1657,7 +1657,7 @@
       "ga4": {
         "conversions": 846.0,
         "llm_sessions": 16,
-        "revenue": 66180.599988,
+        "revenue": 66180.59998799999,
         "sessions": 3683
       },
       "gsc": {
@@ -1729,6 +1729,12 @@
         "llm_sessions": 37,
         "revenue": 82346.00005199999,
         "sessions": 3604
+      },
+      "gsc": {
+        "clicks": 3030,
+        "ctr": 0.03914526381065578,
+        "impressions": 77404,
+        "position": 6.5773086662188005
       }
     },
     "2026-10-01": {
@@ -1737,18 +1743,38 @@
         "llm_sessions": 27,
         "revenue": 57377.700014999995,
         "sessions": 3208
+      },
+      "gsc": {
+        "clicks": 2784,
+        "ctr": 0.035324569862457494,
+        "impressions": 78812,
+        "position": 6.683411155661575
+      }
+    },
+    "2026-10-02": {
+      "ga4": {
+        "conversions": 690.0,
+        "llm_sessions": 29,
+        "revenue": 42781.200024000005,
+        "sessions": 3261
+      },
+      "gsc": {
+        "clicks": 3079,
+        "ctr": 0.04070597567424643,
+        "impressions": 75640,
+        "position": 5.9335404547858275
       }
     }
   },
   "state": {
     "last_indexed_rate": 100.0,
     "streak_dates": {
-      "ctr_divergence": "2026-09-29",
-      "indexation_priority": "2026-10-01",
-      "indexation_rate": "2026-10-01",
-      "llm_referrals": "2026-10-01",
-      "organic_clicks": "2026-09-29",
-      "organic_impressions": "2026-09-29"
+      "ctr_divergence": "2026-10-02",
+      "indexation_priority": "2026-10-02",
+      "indexation_rate": "2026-10-02",
+      "llm_referrals": "2026-10-02",
+      "organic_clicks": "2026-10-02",
+      "organic_impressions": "2026-10-02"
     },
     "streaks": {
       "ctr_divergence": 0,
@@ -1756,8 +1782,8 @@
       "indexation_rate": 0,
       "llm_referrals": 0,
       "organic_clicks": 0,
-      "organic_impressions": 2
+      "organic_impressions": 3
     }
   },
-  "updated_at": "2026-10-04T10:53:54.406011+00:00"
+  "updated_at": "2026-10-05T12:03:31.616335+00:00"
 }
