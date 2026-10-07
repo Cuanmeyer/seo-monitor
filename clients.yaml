@@ -25,14 +25,11 @@ defaults:
       persist_runs: 3
     ctr_divergence:
       # Fires when CTR falls while impressions hold up: clicks are being lost
-      # at the SERP rather than through lost visibility. A clicks-only
-      # threshold sleeps through this because clicks can look almost flat
-      # while impressions inflate underneath them.
+      # at the SERP rather than through lost visibility.
       warning_ctr_drop_pct: -20
       impressions_holding_above_pct: -5
       persist_runs: 2
     indexation_priority:
-      # Any priority URL losing indexed status is critical immediately.
       persist_runs: 1
     indexation_rate:
       warning_drop_points: 5
@@ -46,6 +43,7 @@ defaults:
       persist_runs: 1
 
 clients:
+
   arcstore:
     name: ArcStore
     domain: www.arcstore.co.za
@@ -53,10 +51,6 @@ clients:
     ga4_property_id: "268088963"
     ecommerce: true
     seasonality: false
-    alert_recipients: []
-
-    # Sampled for the daily URL Inspection check. Keep well inside the
-    # 2000 calls/day/property quota.
     priority_urls:
       - "https://www.arcstore.co.za/"
       - "https://www.arcstore.co.za/brands/kayali"
@@ -67,25 +61,250 @@ clients:
       - "https://www.arcstore.co.za/offers"
       - "https://www.arcstore.co.za/brands"
       - "https://www.arcstore.co.za/our-stores"
-      - "https://www.arcstore.co.za/brands/huda-beauty"
-      - "https://www.arcstore.co.za/brands/laneige"
-      - "https://www.arcstore.co.za/brands/fenty-beauty"
-      - "https://www.arcstore.co.za/brands/the-ordinary"
       - "https://www.arcstore.co.za/skincare"
-      - "https://www.arcstore.co.za/k-beauty-at-arc"
-
-    # One representative URL per template, for CWV and rich result checks.
     template_samples:
       home: "https://www.arcstore.co.za/"
       category: "https://www.arcstore.co.za/fragrance"
       brand: "https://www.arcstore.co.za/brands/kayali"
       product: "https://www.arcstore.co.za/products/brand/kayali/vanilla-28-edp"
-
-    # Known events. Alerts inside these windows are logged, never sent.
     suppression_windows: []
-      # - start: "2026-10-01"
-      #   end: "2026-10-07"
-      #   reason: "Black Friday sale page launch"
-
-    # Per-client threshold overrides, same shape as defaults.thresholds
     threshold_overrides: {}
+
+  greyhound:
+    name: Greyhound
+    domain: greyhound.co.za
+    gsc_property: "https://greyhound.co.za/"
+    ga4_property_id: "469364695"
+    ecommerce: false
+    seasonality: true
+    priority_urls:
+      - "https://greyhound.co.za/"
+      - "https://greyhound.co.za/book-tickets/"
+      - "https://greyhound.co.za/routes/"
+      - "https://greyhound.co.za/premium-double-decker/"
+      - "https://greyhound.co.za/contact-us/"
+      - "https://greyhound.co.za/bus-tickets/johannesburg-to-durban/"
+      - "https://greyhound.co.za/bus-tickets/durban-to-johannesburg/"
+      - "https://greyhound.co.za/bus-tickets/johannesburg-to-cape-town/"
+      - "https://greyhound.co.za/bus-tickets/cape-town-to-johannesburg/"
+      - "https://greyhound.co.za/bus-tickets/pretoria-to-durban/"
+      - "https://greyhound.co.za/bus-tickets/johannesburg-to-eastern-cape/"
+      - "https://greyhound.co.za/bus-tickets/johannesburg-to-pietermaritzburg/"
+    template_samples:
+      home: "https://greyhound.co.za/"
+      booking: "https://greyhound.co.za/book-tickets/"
+      route: "https://greyhound.co.za/bus-tickets/johannesburg-to-durban/"
+      hub: "https://greyhound.co.za/routes/"
+    suppression_windows: []
+    threshold_overrides: {}
+
+  "77diamonds":
+    name: 77 Diamonds
+    domain: www.77diamonds.com
+    gsc_property: "https://www.77diamonds.com/"
+    ga4_property_id: "320894892"
+    ecommerce: true
+    seasonality: true
+    priority_urls:
+      - "https://www.77diamonds.com/"
+      - "https://www.77diamonds.com/engagement-rings"
+      - "https://www.77diamonds.com/loose-lab-grown-diamonds"
+      - "https://www.77diamonds.com/diamonds"
+      - "https://www.77diamonds.com/showroom/mayfair"
+      - "https://www.77diamonds.com/de"
+      - "https://www.77diamonds.com/fr"
+      - "https://www.77diamonds.com/it"
+      - "https://www.77diamonds.com/es"
+      - "https://www.77diamonds.com/pl"
+    template_samples:
+      home: "https://www.77diamonds.com/"
+      category: "https://www.77diamonds.com/engagement-rings"
+      market: "https://www.77diamonds.com/de"
+      showroom: "https://www.77diamonds.com/showroom/mayfair"
+    suppression_windows: []
+    threshold_overrides: {}
+
+  nfc:
+    name: NFC
+    domain: nfc.co.za
+    gsc_property: "https://nfc.co.za/"
+    ga4_property_id: "295205863"
+    ecommerce: false
+    seasonality: false
+    priority_urls:
+      - "https://nfc.co.za/"
+      - "https://nfc.co.za/vehicles/"
+      - "https://nfc.co.za/vehicles/pre-owned-vehicles/"
+      - "https://nfc.co.za/contact/"
+      - "https://nfc.co.za/how-it-works/"
+      - "https://nfc.co.za/rent-to-own-cars/boksburg/"
+      - "https://nfc.co.za/rent-to-own-cars/pretoria/"
+      - "https://nfc.co.za/rent-to-own-cars/durban/"
+      - "https://nfc.co.za/rent-to-own-cars/cape-town/"
+      - "https://nfc.co.za/rent-to-own-cars/pietermaritzburg/"
+      - "https://nfc.co.za/rent-to-own-cars/springs/"
+    template_samples:
+      home: "https://nfc.co.za/"
+      listing: "https://nfc.co.za/vehicles/"
+      location: "https://nfc.co.za/rent-to-own-cars/boksburg/"
+    suppression_windows: []
+    threshold_overrides: {}
+
+  travelstar:
+    name: Travelstar Motorhomes
+    domain: travelstar.co.za
+    gsc_property: "https://travelstar.co.za/"
+    ga4_property_id: "321849377"
+    ecommerce: false
+    seasonality: true
+    priority_urls:
+      - "https://travelstar.co.za/"
+      - "https://travelstar.co.za/used-motorhomes/motorhomes/"
+      - "https://travelstar.co.za/new-motorhomes/"
+      - "https://travelstar.co.za/all-motorhomes/"
+      - "https://travelstar.co.za/used-motorhomes/toyota/"
+      - "https://travelstar.co.za/used-motorhomes/iveco/"
+      - "https://travelstar.co.za/used-motorhomes/mercedes-benz/"
+      - "https://travelstar.co.za/used-motorhomes/equipped-vehicles/"
+      - "https://travelstar.co.za/contact-lifestyle-motorhomes-boksburg/"
+      - "https://travelstar.co.za/contact-lifestyle-motorhomes-cape-town/"
+    template_samples:
+      home: "https://travelstar.co.za/"
+      listing: "https://travelstar.co.za/used-motorhomes/motorhomes/"
+      brand: "https://travelstar.co.za/used-motorhomes/toyota/"
+      branch: "https://travelstar.co.za/contact-lifestyle-motorhomes-boksburg/"
+    suppression_windows: []
+    threshold_overrides: {}
+
+  britz:
+    name: Britz 4x4
+    domain: www.britz.co.za
+    gsc_property: "https://www.britz.co.za/"
+    ga4_property_id: "398959413"
+    ecommerce: false
+    seasonality: true
+    priority_urls:
+      - "https://www.britz.co.za/"
+      - "https://www.britz.co.za/4x4-vehicle-rental/"
+      - "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny/"
+      - "https://www.britz.co.za/4x4-vehicle-rental/toyota-navi/"
+      - "https://www.britz.co.za/4x4-vehicle-rental/toyota-single-cab/"
+      - "https://www.britz.co.za/4x4-vehicle-rental/toyota-fortuner-suv/"
+      - "https://www.britz.co.za/self-driving-travel-info/namibia/"
+      - "https://www.britz.co.za/self-driving-travel-info/zimbabwe/"
+      - "https://www.britz.co.za/4x4-rental-pick-up-locations-maun-botswana/"
+      - "https://www.britz.co.za/4x4-rental-pick-up-locations-windhoek-airport/"
+      - "https://www.britz.co.za/4x4-rental-pick-up-locations-kasane-botswana/"
+    template_samples:
+      home: "https://www.britz.co.za/"
+      fleet: "https://www.britz.co.za/4x4-vehicle-rental/"
+      vehicle: "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny/"
+      location: "https://www.britz.co.za/4x4-rental-pick-up-locations-windhoek-airport/"
+    suppression_windows: []
+    threshold_overrides: {}
+
+  maui:
+    name: Maui Motorhomes
+    domain: www.maui.co.za
+    gsc_property: "https://www.maui.co.za/"
+    ga4_property_id: "439468143"
+    ecommerce: false
+    seasonality: true
+    priority_urls:
+      - "https://www.maui.co.za/"
+      - "https://www.maui.co.za/vehicles/"
+      - "https://www.maui.co.za/branches/"
+      - "https://www.maui.co.za/faqs/"
+      - "https://www.maui.co.za/contact-us/"
+      - "https://www.maui.co.za/6-sleeper-motorhome/"
+      - "https://www.maui.co.za/4-sleeper-motorhome/"
+      - "https://www.maui.co.za/2-sleeper-navi/"
+      - "https://www.maui.co.za/motorhome-hire-nelspruit/"
+      - "https://www.maui.co.za/travel-info/kruger-national-park/"
+    template_samples:
+      home: "https://www.maui.co.za/"
+      fleet: "https://www.maui.co.za/vehicles/"
+      vehicle: "https://www.maui.co.za/6-sleeper-motorhome/"
+      destination: "https://www.maui.co.za/travel-info/kruger-national-park/"
+    suppression_windows: []
+    # Maui sits near the volume floor at roughly 140 clicks a week, so the
+    # default 100 would silence it on any soft week. Lowered so it is watched.
+    threshold_overrides:
+      min_baseline_clicks_per_week: 60
+
+  m5armour:
+    name: M5 Armour
+    domain: m5armour.co.za
+    gsc_property: "https://m5armour.co.za/"
+    ga4_property_id: "326966583"
+    ecommerce: false
+    seasonality: false
+    priority_urls:
+      - "https://m5armour.co.za/"
+      - "https://m5armour.co.za/buy-vehicles/"
+      - "https://m5armour.co.za/b6-armoured-vehicles/"
+      - "https://m5armour.co.za/b4-armoured-vehicles/"
+      - "https://m5armour.co.za/toyota-armoured-cars/"
+      - "https://m5armour.co.za/armoured-toyota-hilux-guide/"
+      - "https://m5armour.co.za/contact-us/"
+    template_samples:
+      home: "https://m5armour.co.za/"
+      collection: "https://m5armour.co.za/b6-armoured-vehicles/"
+      listing: "https://m5armour.co.za/buy-vehicles/"
+    suppression_windows: []
+    # Roughly 100 clicks a week, right on the default floor.
+    threshold_overrides:
+      min_baseline_clicks_per_week: 40
+
+  sani:
+    name: SANI
+    domain: sani.co.za
+    gsc_property: "sc-domain:sani.co.za"
+    ga4_property_id: "290466089"
+    ecommerce: true
+    seasonality: true
+    priority_urls:
+      - "https://sani.co.za/"
+      - "https://sani.co.za/car-rental/cape-town-int-airport/"
+      - "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/"
+      - "https://sani.co.za/car-rental/durban-airport-int-king-shaka/"
+      - "https://sani.co.za/car-rental/port-elizabeth-gqeberha-dawid-stuurman-airport/"
+      - "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/"
+      - "https://sani.co.za/car-rental/centurion/"
+      - "https://sani.co.za/car-rental/sandton-city-radisson-blue-gautrain/"
+      - "https://sani.co.za/locations/cape-town-city/"
+      - "https://sani.co.za/monthly-mobility/"
+      - "https://sani.co.za/sani-premium/"
+    template_samples:
+      home: "https://sani.co.za/"
+      airport: "https://sani.co.za/car-rental/cape-town-int-airport/"
+      location: "https://sani.co.za/locations/cape-town-city/"
+      product: "https://sani.co.za/monthly-mobility/"
+    suppression_windows: []
+    threshold_overrides: {}
+
+  sanivanrental:
+    name: SANI Van Rental
+    domain: sanivanrental.co.za
+    gsc_property: "https://sanivanrental.co.za/"
+    ga4_property_id: "361658206"
+    ecommerce: false
+    seasonality: true
+    priority_urls:
+      - "https://sanivanrental.co.za/"
+      - "https://sanivanrental.co.za/our-vehicles/"
+      - "https://sanivanrental.co.za/branches/"
+      - "https://sanivanrental.co.za/contact/"
+      - "https://sanivanrental.co.za/monthly-rentals/"
+      - "https://sanivanrental.co.za/toyota-hilux-hire/"
+      - "https://sanivanrental.co.za/double-cab-bakkie-hire/"
+      - "https://sanivanrental.co.za/about-sani-van-rental/"
+    template_samples:
+      home: "https://sanivanrental.co.za/"
+      fleet: "https://sanivanrental.co.za/our-vehicles/"
+      vehicle: "https://sanivanrental.co.za/toyota-hilux-hire/"
+    suppression_windows: []
+    # Around 48 clicks a week, well under the default floor, so without this
+    # the traffic signals would never evaluate at all.
+    threshold_overrides:
+      min_baseline_clicks_per_week: 20
