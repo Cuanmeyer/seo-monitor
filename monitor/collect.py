@@ -56,9 +56,6 @@ def collect_client(client_cfg, history: dict, as_of: dt.date, backfill_days: int
             api, client_cfg.gsc_property, baseline_start, baseline_end
         )
         snapshot["baseline_scale"] = baseline_days / current_days
-        snapshot["queries_current"] = gsc.query_window(
-            api, client_cfg.gsc_property, current_start, as_of, limit=50
-        )
 
         if client_cfg.priority_urls:
             inspections = gsc.inspect_urls(
