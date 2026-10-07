@@ -16,132 +16,136 @@
     --axis: #c3c2b7;
     --border: rgba(11, 11, 11, 0.10);
     --series: #2a78d6;
-    --series-soft: rgba(42, 120, 214, 0.12);
     --good: #0ca30c;
     --warning: #fab219;
     --serious: #ec835a;
     --critical: #d03b3b;
     --critical-soft: rgba(208, 59, 59, 0.10);
+    --row-hot: rgba(208, 59, 59, 0.05);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       color-scheme: dark;
-      --plane: #0d0d0d;
-      --surface: #1a1a19;
-      --ink: #ffffff;
-      --ink-2: #c3c2b7;
-      --muted: #898781;
-      --grid: #2c2c2a;
-      --axis: #383835;
-      --border: rgba(255, 255, 255, 0.10);
-      --series: #3987e5;
-      --series-soft: rgba(57, 135, 229, 0.16);
-      --critical-soft: rgba(208, 59, 59, 0.16);
+      --plane: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --axis: #383835;
+      --border: rgba(255,255,255,0.10); --series: #3987e5;
+      --critical-soft: rgba(208,59,59,0.16); --row-hot: rgba(208,59,59,0.09);
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --plane: #0d0d0d;
-    --surface: #1a1a19;
-    --ink: #ffffff;
-    --ink-2: #c3c2b7;
-    --muted: #898781;
-    --grid: #2c2c2a;
-    --axis: #383835;
-    --border: rgba(255, 255, 255, 0.10);
-    --series: #3987e5;
-    --series-soft: rgba(57, 135, 229, 0.16);
-    --critical-soft: rgba(208, 59, 59, 0.16);
+    --plane: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --axis: #383835;
+    --border: rgba(255,255,255,0.10); --series: #3987e5;
+    --critical-soft: rgba(208,59,59,0.16); --row-hot: rgba(208,59,59,0.09);
   }
 
   * { box-sizing: border-box; }
   body {
-    margin: 0;
-    padding: 0 16px 64px;
-    background: var(--plane);
-    color: var(--ink);
+    margin: 0; padding: 0 16px 64px;
+    background: var(--plane); color: var(--ink);
     font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
   }
-  .wrap { max-width: 1180px; margin: 0 auto; }
-
-  header { padding: 40px 0 24px; }
+  .wrap { max-width: 1240px; margin: 0 auto; }
+  header { padding: 40px 0 20px; }
   h1 { font-size: 26px; font-weight: 650; margin: 0 0 6px; letter-spacing: -0.01em; }
   .sub { color: var(--ink-2); font-size: 14px; margin: 0; }
 
   .card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px; margin-bottom: 16px;
   }
   h2 { font-size: 17px; font-weight: 620; margin: 0 0 4px; }
-  h3 { font-size: 14px; font-weight: 600; margin: 0 0 12px; color: var(--ink-2); }
-  .client-domain { color: var(--muted); font-size: 13px; margin: 0 0 18px; }
+  h3 { font-size: 13px; font-weight: 600; margin: 0 0 14px; color: var(--ink-2); }
+
+  /* Headline band */
+  .band { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .band .cell { border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; background: var(--surface); }
+  .band .n { font-size: 24px; font-weight: 650; letter-spacing: -0.02em; }
+  .band .l { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 2px; }
+  .band .cell.alarm .n { color: var(--critical); }
 
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th {
     text-align: left; font-weight: 600; color: var(--ink-2);
-    padding: 8px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap;
+    padding: 9px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; font-size: 13px;
   }
-  td { padding: 10px; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+  td { padding: 11px 10px; border-bottom: 1px solid var(--grid); vertical-align: middle; white-space: nowrap; }
   tr:last-child td { border-bottom: none; }
+  tr.hot td { background: var(--row-hot); }
+  .num { font-variant-numeric: tabular-nums; }
   .scroll { overflow-x: auto; margin: 0 -4px; }
+  .client-cell { font-weight: 600; }
+  .client-cell .dom { display: block; font-weight: 400; font-size: 12px; color: var(--muted); }
+  .delta { font-variant-numeric: tabular-nums; }
+  .delta.bad { color: var(--critical); font-weight: 600; }
 
   .pill {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-size: 12.5px; font-weight: 560; white-space: nowrap;
-    padding: 3px 9px 3px 7px; border-radius: 99px;
-    border: 1px solid var(--border);
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; font-weight: 560; white-space: nowrap;
+    padding: 2px 8px 2px 6px; border-radius: 99px; border: 1px solid var(--border);
   }
-  .dot { width: 8px; height: 8px; border-radius: 99px; flex: none; }
+  .dot { width: 7px; height: 7px; border-radius: 99px; flex: none; }
   .pill.good .dot { background: var(--good); }
   .pill.warning .dot { background: var(--warning); }
   .pill.watching .dot { background: var(--serious); }
-  .pill.serious .dot { background: var(--serious); }
   .pill.critical .dot { background: var(--critical); }
   .pill.unknown .dot { background: var(--muted); }
   .pill.critical { color: var(--critical); border-color: var(--critical); }
 
-  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px; }
-  .kpi { border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
-  .kpi .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-  .kpi .value { font-size: 26px; font-weight: 640; margin-top: 4px; letter-spacing: -0.02em; }
-  /* Deltas stay in text ink. Colour here would assert a verdict the number
-     does not carry: impressions rising while CTR collapses is not "good". */
-  .kpi .delta { font-size: 13px; margin-top: 2px; color: var(--ink-2); }
+  .lights { display: inline-flex; gap: 4px; }
+  .light { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
+  .light.good { background: var(--good); }
+  .light.warning { background: var(--warning); }
+  .light.watching { background: var(--serious); }
+  .light.critical { background: var(--critical); }
+  .light.unknown { background: var(--grid); }
 
-  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
+  .alert {
+    border: 1px solid var(--border); border-left: 3px solid var(--warning);
+    border-radius: 8px; padding: 13px; margin-bottom: 10px;
+  }
+  .alert.critical { border-left-color: var(--critical); }
+  .alert .a-head { font-weight: 600; margin-bottom: 4px; }
+  .alert .a-meta { font-size: 12.5px; color: var(--ink-2); }
+  .alert ul { margin: 7px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .alert .a-hint { font-size: 13px; color: var(--ink-2); margin-top: 7px; font-style: italic; }
+  .alert a { color: var(--series); }
+
+  details.client { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--surface); }
+  details.client > summary {
+    cursor: pointer; padding: 13px 16px; font-weight: 600; font-size: 14.5px;
+    display: flex; align-items: center; gap: 10px; list-style: none;
+  }
+  details.client > summary::-webkit-details-marker { display: none; }
+  details.client > summary::before { content: "▸"; color: var(--muted); font-size: 12px; }
+  details.client[open] > summary::before { content: "▾"; }
+  details.client > summary .s-meta { margin-left: auto; font-weight: 400; font-size: 12.5px; color: var(--muted); }
+  .client-body { padding: 0 16px 18px; }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 18px; }
+  .kpi { border: 1px solid var(--border); border-radius: 9px; padding: 12px; }
+  .kpi .label { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .kpi .value { font-size: 22px; font-weight: 640; margin-top: 3px; letter-spacing: -0.02em; }
+  .kpi .d { font-size: 12.5px; margin-top: 2px; color: var(--ink-2); }
+
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 22px; }
   .chart-wrap { position: relative; }
   .chart-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
-  .chart-note { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .chart-note { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
   svg { display: block; width: 100%; height: auto; overflow: visible; }
   .tooltip {
     position: absolute; pointer-events: none; opacity: 0;
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 8px; padding: 8px 10px; font-size: 12.5px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12); transition: opacity .1s; z-index: 5;
-    min-width: 140px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12); transition: opacity .1s; z-index: 5; min-width: 140px;
   }
   .tooltip .t-date { color: var(--muted); font-size: 11.5px; margin-bottom: 4px; }
   .tooltip .t-row { display: flex; justify-content: space-between; gap: 14px; font-variant-numeric: tabular-nums; }
 
-  .alert {
-    border: 1px solid var(--border); border-left: 3px solid var(--warning);
-    border-radius: 8px; padding: 14px; margin-bottom: 10px;
-  }
-  .alert.critical { border-left-color: var(--critical); }
-  .alert .a-head { font-weight: 600; margin-bottom: 6px; }
-  .alert .a-meta { font-size: 13px; color: var(--ink-2); }
-  .alert ul { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-  .alert .a-hint { font-size: 13px; color: var(--ink-2); margin-top: 8px; font-style: italic; }
-  .alert a { color: var(--series); }
-
-  details { margin-top: 18px; }
-  summary { cursor: pointer; font-size: 13px; color: var(--ink-2); }
-  .datatable { margin-top: 12px; font-size: 13px; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); font-size: 14px; }
-  footer { color: var(--muted); font-size: 12.5px; padding-top: 8px; }
+  footer { color: var(--muted); font-size: 12.5px; padding-top: 10px; }
+  .legend { font-size: 12px; color: var(--muted); margin-top: 10px; }
 </style>
 </head>
 <body>
@@ -157,46 +161,45 @@
 <script>
 const DATA = /*__DATA__*/null;
 
-const fmt = n => n === null || n === undefined ? "—" : n.toLocaleString("en-ZA");
-const pct = (a, b) => (a === null || b === null || !b) ? null : ((a - b) / b) * 100;
+const fmt = n => (n === null || n === undefined) ? "—" : n.toLocaleString("en-ZA");
+const pct = (a, b) => (a === null || a === undefined || !b) ? null : ((a - b) / b) * 100;
+const signed = v => v === null ? "—" : (v >= 0 ? "+" : "") + v.toFixed(1) + "%";
 
-const LABELS = {
-  good: "OK", warning: "Warning", watching: "Watching", serious: "Serious",
-  critical: "Critical", unknown: "No data"
-};
+const LABELS = { good:"OK", warning:"Warning", watching:"Watching", critical:"Critical", unknown:"No data" };
+const RANK   = { critical:0, warning:1, watching:2, unknown:3, good:4 };
 
-function pill(status) {
-  const state = status.state || "unknown";
+function worstStatus(c) {
+  let worst = "good";
+  Object.values(c.statuses || {}).forEach(s => {
+    if (RANK[s.state] < RANK[worst]) worst = s.state;
+  });
+  return worst;
+}
+
+function pill(state, label) {
   const el = document.createElement("span");
   el.className = "pill " + state;
-  el.title = status.note || "";
-  el.innerHTML = `<span class="dot"></span>${LABELS[state] || state}`;
+  el.innerHTML = `<span class="dot"></span>${label || LABELS[state] || state}`;
   return el;
 }
 
-/* ---------- chart ---------------------------------------------------- */
-/* Single series against its own rolling baseline, so no legend box: the
-   title names the series and the baseline is direct-labelled. The shaded
-   region is the warning threshold, drawn from the same config the evaluator
-   uses, so the picture and the alerting agree by construction. */
+/* ---------- chart (built lazily, only when a client is expanded) ------ */
 function lineChart(container, opts) {
   const { dates, values, baseline, warningPct, label } = opts;
-  const W = 640, H = 220, P = { t: 12, r: 12, b: 26, l: 46 };
+  const W = 640, H = 200, P = { t: 12, r: 12, b: 24, l: 46 };
   const iw = W - P.l - P.r, ih = H - P.t - P.b;
 
   const all = values.concat(baseline.filter(v => v !== null));
-  const min = 0;
-  const ticks = 4;
-  // Pick a clean tick step first, then set the top of the scale from it, so
-  // the axis reads 0 / 2k / 4k / 6k / 8k rather than 0 / 1.8k / 3.5k / 5.3k.
+  const min = 0, ticks = 4;
   const rough = (Math.max(...all) * 1.08) / ticks;
-  const mag = Math.pow(10, Math.floor(Math.log10(rough)));
-  const step = [1, 2, 2.5, 5, 10].find(m => m * mag >= rough) * mag;
+  const mag = Math.pow(10, Math.floor(Math.log10(rough || 1)));
+  const step = ([1,2,2.5,5,10].find(m => m * mag >= rough) || 10) * mag;
   const max = step * ticks;
+
   const x = i => P.l + (i / Math.max(1, dates.length - 1)) * iw;
   const y = v => P.t + ih - ((v - min) / (max - min)) * ih;
 
-  const path = (arr) => {
+  const path = arr => {
     let d = "", pen = false;
     arr.forEach((v, i) => {
       if (v === null) { pen = false; return; }
@@ -206,8 +209,6 @@ function lineChart(container, opts) {
     return d.trim();
   };
 
-  // Warning band: the area between the baseline and the warning threshold.
-  let band = "";
   const lower = baseline.map(v => v === null ? null : v * (1 + warningPct / 100));
   const top = [], bottom = [];
   baseline.forEach((v, i) => {
@@ -215,25 +216,21 @@ function lineChart(container, opts) {
     top.push(`${x(i).toFixed(1)} ${y(v).toFixed(1)}`);
     bottom.unshift(`${x(i).toFixed(1)} ${y(lower[i]).toFixed(1)}`);
   });
-  if (top.length) band = "M" + top.join(" L ") + " L " + bottom.join(" L ") + " Z";
+  const band = top.length ? "M" + top.join(" L ") + " L " + bottom.join(" L ") + " Z" : "";
 
   let gridlines = "", ylabels = "";
   for (let i = 0; i <= ticks; i++) {
-    const v = min + (max - min) * (i / ticks);
-    const yy = y(v).toFixed(1);
-    gridlines += `<line x1="${P.l}" y1="${yy}" x2="${W - P.r}" y2="${yy}" stroke="var(--grid)" stroke-width="1"/>`;
-    const tick = v >= 1000
-      ? (v % 1000 === 0 ? v / 1000 : (v / 1000).toFixed(1)) + "k"
-      : String(Math.round(v));
-    ylabels += `<text x="${P.l - 8}" y="${yy}" text-anchor="end" dominant-baseline="middle" font-size="11" fill="var(--muted)">${tick}</text>`;
+    const v = min + (max - min) * (i / ticks), yy = y(v).toFixed(1);
+    const tick = v >= 1000 ? (v % 1000 === 0 ? v/1000 : (v/1000).toFixed(1)) + "k" : String(Math.round(v));
+    gridlines += `<line x1="${P.l}" y1="${yy}" x2="${W-P.r}" y2="${yy}" stroke="var(--grid)" stroke-width="1"/>`;
+    ylabels += `<text x="${P.l-8}" y="${yy}" text-anchor="end" dominant-baseline="middle" font-size="11" fill="var(--muted)">${tick}</text>`;
   }
-
   let xlabels = "";
-  [0, Math.floor(dates.length / 2), dates.length - 1].forEach(i => {
+  [0, Math.floor(dates.length/2), dates.length-1].forEach(i => {
     if (i < 0 || i >= dates.length) return;
     const d = new Date(dates[i]);
-    const anchor = i === 0 ? "start" : (i === dates.length - 1 ? "end" : "middle");
-    xlabels += `<text x="${x(i).toFixed(1)}" y="${H - 6}" text-anchor="${anchor}" font-size="11" fill="var(--muted)">${d.toLocaleDateString("en-ZA", { day: "numeric", month: "short" })}</text>`;
+    const anchor = i === 0 ? "start" : (i === dates.length-1 ? "end" : "middle");
+    xlabels += `<text x="${x(i).toFixed(1)}" y="${H-5}" text-anchor="${anchor}" font-size="11" fill="var(--muted)">${d.toLocaleDateString("en-ZA",{day:"numeric",month:"short"})}</text>`;
   });
 
   container.innerHTML = `
@@ -242,18 +239,15 @@ function lineChart(container, opts) {
       <path d="${band}" fill="var(--critical-soft)"/>
       <path d="${path(baseline)}" fill="none" stroke="var(--axis)" stroke-width="2" stroke-dasharray="4 4"/>
       <path d="${path(values)}" fill="none" stroke="var(--series)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-      <line class="crosshair" y1="${P.t}" y2="${P.t + ih}" stroke="var(--muted)" stroke-width="1" opacity="0"/>
+      <line class="crosshair" y1="${P.t}" y2="${P.t+ih}" stroke="var(--muted)" stroke-width="1" opacity="0"/>
       <circle class="focus" r="4.5" fill="var(--series)" stroke="var(--surface)" stroke-width="2" opacity="0"/>
-      <rect class="hit" x="${P.l}" y="${P.t}" width="${iw}" height="${ih}" fill="transparent"/>
     </svg>`;
 
   const svg = container.querySelector("svg");
   const tip = document.createElement("div");
   tip.className = "tooltip";
   container.appendChild(tip);
-
-  const crosshair = svg.querySelector(".crosshair");
-  const focus = svg.querySelector(".focus");
+  const crosshair = svg.querySelector(".crosshair"), focus = svg.querySelector(".focus");
 
   svg.addEventListener("mousemove", ev => {
     const box = svg.getBoundingClientRect();
@@ -261,171 +255,215 @@ function lineChart(container, opts) {
     if (px < P.l || px > W - P.r) return;
     const i = Math.round(((px - P.l) / iw) * (dates.length - 1));
     if (i < 0 || i >= dates.length) return;
-
     crosshair.setAttribute("x1", x(i)); crosshair.setAttribute("x2", x(i));
     crosshair.setAttribute("opacity", "0.5");
     focus.setAttribute("cx", x(i)); focus.setAttribute("cy", y(values[i]));
     focus.setAttribute("opacity", "1");
-
-    const base = baseline[i];
-    const change = base ? pct(values[i], base) : null;
+    const base = baseline[i], change = base ? pct(values[i], base) : null;
     tip.innerHTML =
-      `<div class="t-date">${new Date(dates[i]).toLocaleDateString("en-ZA", { weekday: "short", day: "numeric", month: "short" })}</div>` +
+      `<div class="t-date">${new Date(dates[i]).toLocaleDateString("en-ZA",{weekday:"short",day:"numeric",month:"short"})}</div>` +
       `<div class="t-row"><span>${label}</span><strong>${fmt(values[i])}</strong></div>` +
       (base ? `<div class="t-row"><span>Baseline</span><span>${fmt(Math.round(base))}</span></div>
-               <div class="t-row"><span>Change</span><span>${change >= 0 ? "+" : ""}${change.toFixed(1)}%</span></div>` : "");
+               <div class="t-row"><span>Change</span><span>${signed(change)}</span></div>` : "");
     tip.style.opacity = "1";
-    const left = (x(i) / W) * box.width;
-    tip.style.left = Math.min(Math.max(left - 70, 0), box.width - 160) + "px";
-    tip.style.top = "8px";
+    tip.style.left = Math.min(Math.max((x(i)/W)*box.width - 70, 0), box.width - 160) + "px";
+    tip.style.top = "6px";
   });
-
   svg.addEventListener("mouseleave", () => {
     tip.style.opacity = "0";
-    crosshair.setAttribute("opacity", "0");
-    focus.setAttribute("opacity", "0");
+    crosshair.setAttribute("opacity","0"); focus.setAttribute("opacity","0");
   });
 }
 
-/* ---------- page ----------------------------------------------------- */
+/* ---------- page ------------------------------------------------------ */
 function render() {
   const app = document.getElementById("app");
-  const gen = new Date(DATA.generated_at);
   document.getElementById("generated").textContent =
-    "Last run " + gen.toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" });
+    "Last run " + new Date(DATA.generated_at).toLocaleString("en-ZA", { dateStyle:"medium", timeStyle:"short" });
 
-  // Overview
+  const clients = DATA.clients.slice().sort((a, b) => {
+    const d = RANK[worstStatus(a)] - RANK[worstStatus(b)];
+    if (d !== 0) return d;
+    return (b.open_alerts.length - a.open_alerts.length) || a.name.localeCompare(b.name);
+  });
+
+  // Headline band
+  const openAlerts = clients.reduce((n, c) => n + c.open_alerts.length, 0);
+  const criticals = clients.reduce((n, c) => n + c.open_alerts.filter(a => a.severity === "critical").length, 0);
+  const needLook = clients.filter(c => RANK[worstStatus(c)] <= 2).length;
+  const broken = clients.filter(c =>
+    Object.values(c.source_status || {}).some(s => !s.ok)).length;
+
+  const band = document.createElement("div");
+  band.className = "band";
+  [
+    ["Clients", clients.length, false],
+    ["Need a look", needLook, needLook > 0],
+    ["Open alerts", openAlerts, openAlerts > 0],
+    ["Critical", criticals, criticals > 0],
+    ["Collector failures", broken, broken > 0],
+  ].forEach(([label, n, alarm]) => {
+    band.innerHTML += `<div class="cell${alarm ? " alarm" : ""}"><div class="n">${n}</div><div class="l">${label}</div></div>`;
+  });
+  app.appendChild(band);
+
+  // Overview: the top line per client
   const overview = document.createElement("div");
   overview.className = "card";
-  overview.innerHTML = "<h2>Overview</h2><h3>One row per client, one light per signal</h3>";
+  overview.innerHTML = "<h2>Overview</h2><h3>One row per client, worst first</h3>";
   const scroll = document.createElement("div");
   scroll.className = "scroll";
   const table = document.createElement("table");
 
-  const thead = document.createElement("tr");
-  thead.innerHTML = "<th>Client</th>" + DATA.signals.map(s => `<th>${s.label}</th>`).join("") + "<th>Open</th><th>As of</th>";
-  table.appendChild(thead);
+  const head = document.createElement("tr");
+  head.innerHTML = "<th>Client</th><th>Status</th><th>Clicks 7d</th><th>vs base</th>"
+    + "<th>Impr 7d</th><th>vs base</th><th>Pos</th><th>Indexed</th><th>Signals</th><th>Open</th>";
+  table.appendChild(head);
 
-  DATA.clients.forEach(c => {
+  clients.forEach(c => {
+    const st = worstStatus(c);
+    const ck = pct(c.kpis.clicks.current, c.kpis.clicks.baseline);
+    const im = pct(c.kpis.impressions.current, c.kpis.impressions.baseline);
     const tr = document.createElement("tr");
+    if (RANK[st] <= 1) tr.className = "hot";
+
     const name = document.createElement("td");
-    name.innerHTML = `<a href="#${c.slug}" style="color:var(--ink);text-decoration:none;font-weight:600">${c.name}</a>`;
+    name.className = "client-cell";
+    name.innerHTML = `${c.name}<span class="dom">${c.domain}</span>`;
     tr.appendChild(name);
-    DATA.signals.forEach(s => {
+
+    const stTd = document.createElement("td");
+    stTd.appendChild(pill(st));
+    tr.appendChild(stTd);
+
+    const cells = [
+      [fmt(c.kpis.clicks.current), "num"],
+      [signed(ck), "delta" + (ck !== null && ck <= -20 ? " bad" : "")],
+      [fmt(c.kpis.impressions.current), "num"],
+      [signed(im), "delta" + (im !== null && im <= -20 ? " bad" : "")],
+      [c.kpis.position ?? "—", "num"],
+      [c.kpis.indexed_rate != null ? c.kpis.indexed_rate + "%" : "—", "num"],
+    ];
+    cells.forEach(([txt, cls]) => {
       const td = document.createElement("td");
-      td.appendChild(pill(c.statuses[s.key] || { state: "unknown" }));
-      tr.appendChild(td);
+      td.className = cls; td.textContent = txt; tr.appendChild(td);
     });
+
+    const lights = document.createElement("td");
+    const row = document.createElement("span");
+    row.className = "lights";
+    DATA.signals.forEach(s => {
+      const state = (c.statuses[s.key] || {}).state || "unknown";
+      const sp = document.createElement("span");
+      sp.className = "light " + state;
+      sp.title = s.label + ": " + (LABELS[state] || state);
+      row.appendChild(sp);
+    });
+    lights.appendChild(row);
+    tr.appendChild(lights);
+
     const open = document.createElement("td");
-    open.textContent = c.open_alerts.length || "0";
+    open.className = "num";
+    open.textContent = c.open_alerts.length || "";
     tr.appendChild(open);
-    const asOf = document.createElement("td");
-    asOf.style.color = "var(--muted)";
-    asOf.textContent = c.as_of || "—";
-    tr.appendChild(asOf);
+
     table.appendChild(tr);
   });
 
   scroll.appendChild(table);
   overview.appendChild(scroll);
+  const legend = document.createElement("p");
+  legend.className = "legend";
+  legend.textContent = "Signal squares, left to right: " + DATA.signals.map(s => s.label).join(", ");
+  overview.appendChild(legend);
   app.appendChild(overview);
 
-  // Per client
-  DATA.clients.forEach(c => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.id = c.slug;
-    card.innerHTML = `<h2>${c.name}</h2><p class="client-domain">${c.domain}</p>`;
-
-    // KPIs
-    const kpis = document.createElement("div");
-    kpis.className = "kpis";
-    const rows = [
-      ["Clicks, 7 days", c.kpis.clicks.current, c.kpis.clicks.baseline],
-      ["Impressions, 7 days", c.kpis.impressions.current, c.kpis.impressions.baseline],
-    ];
-    rows.forEach(([label, current, base]) => {
-      const change = pct(current, base);
-      const glyph = change === null ? "" : (change < 0 ? "▼ " : "▲ ");
-      kpis.innerHTML += `<div class="kpi"><div class="label">${label}</div>
-        <div class="value">${fmt(current)}</div>
-        <div class="delta">${change === null ? "no baseline yet" : glyph + (change >= 0 ? "+" : "") + change.toFixed(1) + "% vs baseline"}</div></div>`;
-    });
-    kpis.innerHTML += `<div class="kpi"><div class="label">Avg position</div>
-      <div class="value">${c.kpis.position ?? "—"}</div><div class="delta">7-day mean</div></div>`;
-    kpis.innerHTML += `<div class="kpi"><div class="label">Priority indexed</div>
-      <div class="value">${c.kpis.indexed_rate !== null && c.kpis.indexed_rate !== undefined ? c.kpis.indexed_rate + "%" : "—"}</div>
-      <div class="delta">of sampled URLs</div></div>`;
-    card.appendChild(kpis);
-
-    // Alerts
-    if (c.open_alerts.length) {
-      const box = document.createElement("div");
-      box.innerHTML = "<h3>Open alerts</h3>";
-      c.open_alerts.forEach(a => {
+  // Open alerts across the book
+  const everyAlert = clients.flatMap(c => c.open_alerts);
+  if (everyAlert.length) {
+    const box = document.createElement("div");
+    box.className = "card";
+    box.innerHTML = "<h2>Open alerts</h2><h3>Most severe first</h3>";
+    everyAlert
+      .sort((a, b) => (a.severity === "critical" ? 0 : 1) - (b.severity === "critical" ? 0 : 1))
+      .forEach(a => {
         const el = document.createElement("div");
         el.className = "alert " + a.severity;
         el.innerHTML =
-          `<div class="a-head">${a.summary}</div>` +
+          `<div class="a-head">${a.client_name}: ${a.summary}</div>` +
           `<div class="a-meta">${a.severity === "critical" ? "Critical" : "Warning"} · seen ${a.occurrences || 1}× · since ${a.as_of}</div>` +
           (a.detail && a.detail.length ? "<ul>" + a.detail.map(d => `<li>${d}</li>`).join("") + "</ul>" : "") +
           (a.hint ? `<div class="a-hint">${a.hint}</div>` : "") +
-          (a.link ? `<div style="margin-top:8px"><a href="${a.link}" target="_blank" rel="noopener">Open in Search Console</a></div>` : "");
+          (a.link ? `<div style="margin-top:7px"><a href="${a.link}" target="_blank" rel="noopener">Open in Search Console</a></div>` : "");
         box.appendChild(el);
       });
-      card.appendChild(box);
-    }
+    app.appendChild(box);
+  }
 
-    // Charts
-    const charts = document.createElement("div");
-    charts.className = "charts";
-    [
-      ["clicks", "clicks_baseline", "Clicks"],
-      ["impressions", "impressions_baseline", "Impressions"],
-    ].forEach(([key, baseKey, label]) => {
-      const wrap = document.createElement("div");
-      wrap.innerHTML = `<div class="chart-title">${label}, last ${c.series.dates.length} days</div>
-        <div class="chart-note">Dashed line is the 28-day weekday-aligned baseline. Shaded band is the warning threshold.</div>`;
-      const plot = document.createElement("div");
-      plot.className = "chart-wrap";
-      wrap.appendChild(plot);
-      charts.appendChild(wrap);
-      lineChart(plot, {
-        dates: c.series.dates,
-        values: c.series[key],
-        baseline: c.series[baseKey],
-        warningPct: c.thresholds.warning_pct,
-        label
+  // Per-client detail, collapsed. Charts build on first expand.
+  const detailHead = document.createElement("h2");
+  detailHead.style.cssText = "margin:26px 0 10px;font-size:15px";
+  detailHead.textContent = "Client detail";
+  app.appendChild(detailHead);
+
+  clients.forEach(c => {
+    const d = document.createElement("details");
+    d.className = "client";
+    d.id = c.slug;
+    const st = worstStatus(c);
+    d.innerHTML = `<summary>${c.name}
+      <span class="pill ${st}" style="font-weight:560"><span class="dot"></span>${LABELS[st]}</span>
+      <span class="s-meta">${c.as_of || ""}</span></summary>`;
+
+    const body = document.createElement("div");
+    body.className = "client-body";
+    d.appendChild(body);
+
+    let built = false;
+    d.addEventListener("toggle", () => {
+      if (!d.open || built) return;
+      built = true;
+
+      const kpis = document.createElement("div");
+      kpis.className = "kpis";
+      const ck = pct(c.kpis.clicks.current, c.kpis.clicks.baseline);
+      const im = pct(c.kpis.impressions.current, c.kpis.impressions.baseline);
+      kpis.innerHTML =
+        `<div class="kpi"><div class="label">Clicks, 7 days</div><div class="value">${fmt(c.kpis.clicks.current)}</div><div class="d">${ck===null?"no baseline yet":(ck<0?"▼ ":"▲ ")+signed(ck)+" vs baseline"}</div></div>` +
+        `<div class="kpi"><div class="label">Impressions, 7 days</div><div class="value">${fmt(c.kpis.impressions.current)}</div><div class="d">${im===null?"no baseline yet":(im<0?"▼ ":"▲ ")+signed(im)+" vs baseline"}</div></div>` +
+        `<div class="kpi"><div class="label">Avg position</div><div class="value">${c.kpis.position ?? "—"}</div><div class="d">7-day mean</div></div>` +
+        `<div class="kpi"><div class="label">Priority indexed</div><div class="value">${c.kpis.indexed_rate != null ? c.kpis.indexed_rate + "%" : "—"}</div><div class="d">of sampled URLs</div></div>`;
+      body.appendChild(kpis);
+
+      const charts = document.createElement("div");
+      charts.className = "charts";
+      [["clicks","clicks_baseline","Clicks"],["impressions","impressions_baseline","Impressions"]].forEach(([k, bk, label]) => {
+        const wrap = document.createElement("div");
+        wrap.innerHTML = `<div class="chart-title">${label}, last ${c.series.dates.length} days</div>
+          <div class="chart-note">Dashed line is the 28-day weekday-aligned baseline. Shaded band is the warning threshold.</div>`;
+        const plot = document.createElement("div");
+        plot.className = "chart-wrap";
+        wrap.appendChild(plot);
+        charts.appendChild(wrap);
+        if (c.series.dates.length) {
+          lineChart(plot, { dates:c.series.dates, values:c.series[k], baseline:c.series[bk],
+                            warningPct:c.thresholds.warning_pct, label });
+        } else {
+          plot.innerHTML = '<p class="empty">No history yet.</p>';
+        }
       });
+      body.appendChild(charts);
+
+      const sources = Object.entries(c.source_status || {});
+      if (sources.length) {
+        const p = document.createElement("p");
+        p.style.cssText = "font-size:12.5px;color:var(--muted);margin:16px 0 0";
+        p.textContent = "Collectors — " + sources.map(([k,v]) => `${k}: ${v.ok ? "ok" : "FAILED"}`).join(" · ");
+        body.appendChild(p);
+      }
     });
-    card.appendChild(charts);
 
-    // Table view, so nothing is color-only or hover-only.
-    const details = document.createElement("details");
-    details.innerHTML = "<summary>View the underlying numbers</summary>";
-    const dt = document.createElement("div");
-    dt.className = "scroll datatable";
-    let rowsHtml = "<table><tr><th>Date</th><th>Clicks</th><th>Baseline</th><th>Impressions</th></tr>";
-    for (let i = c.series.dates.length - 1; i >= Math.max(0, c.series.dates.length - 30); i--) {
-      rowsHtml += `<tr><td>${c.series.dates[i]}</td><td>${fmt(c.series.clicks[i])}</td>` +
-        `<td>${c.series.clicks_baseline[i] ? fmt(Math.round(c.series.clicks_baseline[i])) : "—"}</td>` +
-        `<td>${fmt(c.series.impressions[i])}</td></tr>`;
-    }
-    dt.innerHTML = rowsHtml + "</table>";
-    details.appendChild(dt);
-    card.appendChild(details);
-
-    // Source health, so a failed collector is never read as all-green.
-    const sources = Object.entries(c.source_status || {});
-    if (sources.length) {
-      const line = sources.map(([k, v]) => `${k}: ${v.ok ? "ok" : "FAILED"}`).join(" · ");
-      const p = document.createElement("p");
-      p.style.cssText = "font-size:12.5px;color:var(--muted);margin:16px 0 0";
-      p.textContent = "Collectors — " + line;
-      card.appendChild(p);
-    }
-
-    app.appendChild(card);
+    app.appendChild(d);
   });
 
   document.getElementById("foot").textContent =
