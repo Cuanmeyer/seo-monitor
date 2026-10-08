@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-04",
+  "as_of": "2026-10-05",
   "baseline_scale": 4.0,
   "domain": "travelstar.co.za",
   "indexed_rate": 100.0,
@@ -8,7 +8,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://travelstar.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-07T01:58:17Z",
+      "last_crawl": "2026-10-08T08:36:11Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://travelstar.co.za/",
@@ -88,7 +88,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://travelstar.co.za/used-motorhomes/motorhomes/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-05T20:03:24Z",
+      "last_crawl": "2026-10-07T14:35:06Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://travelstar.co.za/used-motorhomes/motorhomes/",
@@ -106,59 +106,74 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 49,
+    "chatgpt.com": 48,
     "gemini.google.com": 1
   },
   "pages_baseline": {
     "https://travelstar.co.za/": {
-      "clicks": 1553,
-      "impressions": 34025,
-      "position": 8.612020573108008
+      "clicks": 1557,
+      "impressions": 34885,
+      "position": 8.518474989250393
     },
     "https://travelstar.co.za/about-us/": {
       "clicks": 2,
-      "impressions": 245,
-      "position": 6.383673469387755
+      "impressions": 241,
+      "position": 6.381742738589212
     },
     "https://travelstar.co.za/all-motorhomes/": {
       "clicks": 43,
-      "impressions": 4355,
-      "position": 37.74902411021814
+      "impressions": 4171,
+      "position": 37.115559817789496
+    },
+    "https://travelstar.co.za/blog/bakkie-campers-vs-motorhomes/": {
+      "clicks": 0,
+      "impressions": 3,
+      "position": 6
+    },
+    "https://travelstar.co.za/blog/best-motorhome-campsites-western-cape/": {
+      "clicks": 1,
+      "impressions": 7,
+      "position": 10.571428571428571
+    },
+    "https://travelstar.co.za/blog/cape-town-garden-route-motorhome-itinerary/": {
+      "clicks": 0,
+      "impressions": 4,
+      "position": 6
     },
     "https://travelstar.co.za/contact-lifestyle-motorhomes-boksburg/": {
-      "clicks": 173,
-      "impressions": 3686,
-      "position": 6.855398806294086
+      "clicks": 170,
+      "impressions": 3655,
+      "position": 6.889466484268126
     },
     "https://travelstar.co.za/contact-lifestyle-motorhomes-cape-town/": {
-      "clicks": 13,
-      "impressions": 850,
-      "position": 6.632941176470588
+      "clicks": 12,
+      "impressions": 839,
+      "position": 6.530393325387366
     },
     "https://travelstar.co.za/contact-us/": {
       "clicks": 0,
-      "impressions": 269,
-      "position": 7.754646840148699
+      "impressions": 270,
+      "position": 7.340740740740741
     },
     "https://travelstar.co.za/disclaimer/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 17.875
+      "impressions": 25,
+      "position": 17.24
     },
     "https://travelstar.co.za/new-motorhomes/": {
-      "clicks": 107,
-      "impressions": 3321,
-      "position": 16.24390243902439
+      "clicks": 110,
+      "impressions": 3270,
+      "position": 15.758715596330275
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-1214179/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 3.5833333333333335
+      "impressions": 26,
+      "position": 4
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-924993/": {
       "clicks": 2,
-      "impressions": 89,
-      "position": 5.112359550561798
+      "impressions": 90,
+      "position": 4.977777777777778
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-924995/": {
       "clicks": 1,
@@ -167,8 +182,8 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-925018/": {
       "clicks": 3,
-      "impressions": 62,
-      "position": 3.4516129032258065
+      "impressions": 58,
+      "position": 3.6724137931034484
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-935492/": {
       "clicks": 0,
@@ -182,28 +197,28 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-925010/": {
       "clicks": 0,
-      "impressions": 157,
-      "position": 26.993630573248407
+      "impressions": 152,
+      "position": 25.61842105263158
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-925013/": {
       "clicks": 0,
       "impressions": 9,
-      "position": 18.11111111111111
+      "position": 17.11111111111111
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-935487/": {
       "clicks": 2,
-      "impressions": 149,
-      "position": 9.691275167785236
+      "impressions": 154,
+      "position": 9.902597402597403
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-935489/": {
       "clicks": 0,
-      "impressions": 17,
-      "position": 10.705882352941176
+      "impressions": 19,
+      "position": 10.578947368421053
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-6-berth-motorhome-white-1493832/": {
       "clicks": 0,
-      "impressions": 86,
-      "position": 30.825581395348838
+      "impressions": 85,
+      "position": 29.658823529411766
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-mercedes-benz-x250d-4x4-progressive-a-t-equipped-white-924983/": {
       "clicks": 1,
@@ -212,13 +227,13 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-924873/": {
       "clicks": 0,
-      "impressions": 20,
-      "position": 4.05
+      "impressions": 18,
+      "position": 4.388888888888889
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-924943/": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 4.6875
+      "impressions": 14,
+      "position": 4.928571428571429
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-toyota-land-cruiser-orion-79-4-2d-p-u-s-c-white-1082726/": {
       "clicks": 0,
@@ -232,8 +247,8 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-iveco-daily-6-berth-motorhome-white-1374949/": {
       "clicks": 1,
-      "impressions": 34,
-      "position": 41.85294117647059
+      "impressions": 32,
+      "position": 39.375
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-hilux-2-4-gd-6-srx-44-p-u-s-c-mt-navi-white-1339359/": {
       "clicks": 1,
@@ -242,13 +257,13 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-1309065-2/": {
       "clicks": 0,
-      "impressions": 10,
-      "position": 9.3
+      "impressions": 11,
+      "position": 8.545454545454547
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-1339359/": {
-      "clicks": 6,
-      "impressions": 72,
-      "position": 5.208333333333333
+      "clicks": 7,
+      "impressions": 74,
+      "position": 4.918918918918919
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-land-cruiser-orion-79-4-2d-p-u-s-c-white-1082725/": {
       "clicks": 0,
@@ -263,12 +278,12 @@
     "https://travelstar.co.za/pre-owned-motorhomes/2021-iveco-daily-6-berth-motorhome-white-1493480/": {
       "clicks": 2,
       "impressions": 30,
-      "position": 4.466666666666667
+      "position": 4.166666666666666
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2023-toyota-hilux-dc-2-4-4x4-raider-navi-white-1527089/": {
       "clicks": 1,
-      "impressions": 79,
-      "position": 35.59493670886076
+      "impressions": 82,
+      "position": 32.829268292682926
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2023-toyota-hilux-dc-2-4-4x4-raider-white-1527119/": {
       "clicks": 0,
@@ -277,8 +292,8 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2026-mercedes-benz-317-cid-sprinter-lwb-white-1398100/": {
       "clicks": 3,
-      "impressions": 58,
-      "position": 4.431034482758621
+      "impressions": 59,
+      "position": 4.372881355932203
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2026-mercedes-benz-319-cdi-sprinter-lwb-4x4-white-1527125/": {
       "clicks": 0,
@@ -287,43 +302,43 @@
     },
     "https://travelstar.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 10.166666666666666
+      "impressions": 13,
+      "position": 9.923076923076923
     },
     "https://travelstar.co.za/terms-of-use/": {
       "clicks": 0,
-      "impressions": 14,
-      "position": 2.7142857142857144
+      "impressions": 13,
+      "position": 3.230769230769231
     },
     "https://travelstar.co.za/used-motorhomes/caravans/": {
       "clicks": 1,
-      "impressions": 265,
-      "position": 8.739622641509435
+      "impressions": 262,
+      "position": 8.541984732824428
     },
     "https://travelstar.co.za/used-motorhomes/equipped-vehicles/": {
-      "clicks": 125,
-      "impressions": 1520,
-      "position": 13.980263157894736
+      "clicks": 117,
+      "impressions": 1471,
+      "position": 13.630863358259687
     },
     "https://travelstar.co.za/used-motorhomes/iveco/": {
-      "clicks": 144,
-      "impressions": 4606,
-      "position": 7.288970907511941
+      "clicks": 145,
+      "impressions": 4585,
+      "position": 7.159214830970556
     },
     "https://travelstar.co.za/used-motorhomes/mercedes-benz/": {
-      "clicks": 57,
-      "impressions": 1469,
-      "position": 11.527569775357385
+      "clicks": 58,
+      "impressions": 1470,
+      "position": 11.296598639455782
     },
     "https://travelstar.co.za/used-motorhomes/motorhomes/": {
-      "clicks": 2157,
-      "impressions": 21230,
-      "position": 6.998492699010834
+      "clicks": 2166,
+      "impressions": 21309,
+      "position": 6.943075695715425
     },
     "https://travelstar.co.za/used-motorhomes/nissan/": {
       "clicks": 7,
-      "impressions": 80,
-      "position": 5.7625
+      "impressions": 78,
+      "position": 5.576923076923077
     },
     "https://travelstar.co.za/used-motorhomes/specialty/": {
       "clicks": 0,
@@ -331,81 +346,86 @@
       "position": 4.5
     },
     "https://travelstar.co.za/used-motorhomes/toyota/": {
-      "clicks": 160,
-      "impressions": 2259,
-      "position": 7.050464807436919
+      "clicks": 159,
+      "impressions": 2243,
+      "position": 6.855550601872492
     }
   },
   "pages_current": {
     "https://travelstar.co.za/": {
-      "clicks": 406,
-      "impressions": 8273,
-      "position": 7.77843587574036
+      "clicks": 381,
+      "impressions": 7129,
+      "position": 7.706129891990462
     },
     "https://travelstar.co.za/about-us/": {
       "clicks": 2,
-      "impressions": 57,
-      "position": 3.9649122807017543
+      "impressions": 61,
+      "position": 3.9508196721311477
     },
     "https://travelstar.co.za/all-motorhomes/": {
-      "clicks": 13,
-      "impressions": 636,
-      "position": 27.71383647798742
+      "clicks": 12,
+      "impressions": 704,
+      "position": 30.475852272727273
     },
     "https://travelstar.co.za/blog/bakkie-campers-vs-motorhomes/": {
-      "clicks": 3,
-      "impressions": 86,
-      "position": 6.848837209302325
+      "clicks": 4,
+      "impressions": 94,
+      "position": 6.829787234042553
     },
     "https://travelstar.co.za/blog/best-motorhome-campsites-western-cape/": {
-      "clicks": 1,
-      "impressions": 165,
-      "position": 8.715151515151515
+      "clicks": 0,
+      "impressions": 176,
+      "position": 8.84659090909091
     },
     "https://travelstar.co.za/blog/buying-motorhome-privately-vs-dealer/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 12.5
+      "impressions": 13,
+      "position": 13.307692307692308
     },
     "https://travelstar.co.za/blog/cape-town-garden-route-motorhome-itinerary/": {
       "clicks": 0,
-      "impressions": 27,
-      "position": 5.555555555555555
+      "impressions": 25,
+      "position": 5.48
     },
     "https://travelstar.co.za/contact-lifestyle-motorhomes-boksburg/": {
-      "clicks": 34,
-      "impressions": 723,
-      "position": 7.431535269709544
+      "clicks": 31,
+      "impressions": 727,
+      "position": 7.40302613480055
     },
     "https://travelstar.co.za/contact-lifestyle-motorhomes-cape-town/": {
       "clicks": 2,
-      "impressions": 131,
-      "position": 5.5038167938931295
+      "impressions": 125,
+      "position": 5.584
     },
     "https://travelstar.co.za/contact-us/": {
       "clicks": 1,
-      "impressions": 72,
-      "position": 4.763888888888889
+      "impressions": 68,
+      "position": 5.294117647058823
     },
     "https://travelstar.co.za/disclaimer/": {
       "clicks": 0,
-      "impressions": 15,
-      "position": 8.266666666666666
+      "impressions": 14,
+      "position": 8.714285714285715
     },
     "https://travelstar.co.za/new-motorhomes/": {
-      "clicks": 28,
-      "impressions": 754,
-      "position": 11.982758620689655
+      "clicks": 23,
+      "impressions": 788,
+      "position": 13.72715736040609
+    },
+    "https://travelstar.co.za/pre-owned-motorhomes/": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-1214179/": {
       "clicks": 0,
-      "impressions": 9,
-      "position": 6.888888888888889
+      "impressions": 7,
+      "position": 13.428571428571429
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-924993/": {
       "clicks": 1,
-      "impressions": 15,
-      "position": 4.533333333333333
+      "impressions": 14,
+      "position": 4.428571428571429
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-924995/": {
       "clicks": 0,
@@ -414,38 +434,38 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-925018/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 7.25
+      "impressions": 6,
+      "position": 7.666666666666667
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2018-iveco-daily-4-berth-motorhome-white-935492/": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "position": 1
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-925010/": {
       "clicks": 0,
-      "impressions": 36,
-      "position": 15.86111111111111
+      "impressions": 44,
+      "position": 17.90909090909091
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-925013/": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 13.285714285714286
+      "impressions": 6,
+      "position": 15.333333333333334
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-935487/": {
       "clicks": 0,
-      "impressions": 55,
-      "position": 13.818181818181818
+      "impressions": 57,
+      "position": 13.508771929824562
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-4-berth-motorhome-white-935489/": {
       "clicks": 1,
-      "impressions": 24,
-      "position": 7.375
+      "impressions": 21,
+      "position": 7.476190476190476
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-6-berth-motorhome-white-1493832/": {
       "clicks": 0,
-      "impressions": 43,
-      "position": 9.604651162790697
+      "impressions": 45,
+      "position": 14.155555555555555
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-iveco-daily-6-berth-motorhome-white-1525400/": {
       "clicks": 0,
@@ -469,13 +489,13 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-924873/": {
       "clicks": 1,
-      "impressions": 5,
-      "position": 16.2
+      "impressions": 4,
+      "position": 20
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2019-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-924943/": {
       "clicks": 0,
       "impressions": 3,
-      "position": 10.666666666666666
+      "position": 9
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-iveco-daily-4-berth-motorhome-white-1221728/": {
       "clicks": 0,
@@ -484,18 +504,18 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-iveco-daily-6-berth-motorhome-white-1374949/": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 37.57142857142857
+      "impressions": 6,
+      "position": 42.333333333333336
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-1309065-2/": {
       "clicks": 0,
-      "impressions": 2,
-      "position": 4.5
+      "impressions": 1,
+      "position": 8
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-hilux-2-4-gd-6-srx-4x4-p-u-s-c-mt-navi-white-1339359/": {
-      "clicks": 1,
-      "impressions": 19,
-      "position": 5.052631578947368
+      "clicks": 0,
+      "impressions": 15,
+      "position": 6.266666666666667
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2020-toyota-land-cruiser-orion-79-4-2d-p-u-s-c-white-1082725/": {
       "clicks": 0,
@@ -514,13 +534,13 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2023-toyota-hilux-dc-2-4-4x4-raider-navi-white-1527089/": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 8.5625
+      "impressions": 11,
+      "position": 21.818181818181817
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2023-toyota-hilux-dc-2-4-4x4-raider-white-1527119/": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 8.454545454545453
+      "impressions": 12,
+      "position": 7.833333333333333
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2026-mercedes-benz-317-cid-sprinter-lwb-white-1398100/": {
       "clicks": 0,
@@ -529,53 +549,53 @@
     },
     "https://travelstar.co.za/pre-owned-motorhomes/2026-mercedes-benz-319-cdi-sprinter-lwb-4x4-white-1527125/": {
       "clicks": 0,
-      "impressions": 14,
-      "position": 6.357142857142857
+      "impressions": 15,
+      "position": 6.4
     },
     "https://travelstar.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 4,
-      "position": 5
+      "impressions": 3,
+      "position": 4.333333333333334
     },
     "https://travelstar.co.za/terms-of-use/": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "position": 8
     },
     "https://travelstar.co.za/used-motorhomes/caravans/": {
       "clicks": 1,
-      "impressions": 72,
-      "position": 4.347222222222222
+      "impressions": 77,
+      "position": 4.818181818181818
     },
     "https://travelstar.co.za/used-motorhomes/equipped-vehicles/": {
-      "clicks": 13,
-      "impressions": 257,
-      "position": 10.66147859922179
+      "clicks": 15,
+      "impressions": 281,
+      "position": 11.818505338078293
     },
     "https://travelstar.co.za/used-motorhomes/iveco/": {
-      "clicks": 35,
-      "impressions": 1035,
-      "position": 6.354589371980676
+      "clicks": 37,
+      "impressions": 1032,
+      "position": 6.479651162790698
     },
     "https://travelstar.co.za/used-motorhomes/mercedes-benz/": {
-      "clicks": 15,
-      "impressions": 346,
-      "position": 9.101156069364162
+      "clicks": 11,
+      "impressions": 356,
+      "position": 9.960674157303371
     },
     "https://travelstar.co.za/used-motorhomes/motorhomes/": {
-      "clicks": 531,
-      "impressions": 4942,
-      "position": 6.3332658842573855
+      "clicks": 480,
+      "impressions": 4844,
+      "position": 6.752683732452518
     },
     "https://travelstar.co.za/used-motorhomes/nissan/": {
-      "clicks": 3,
-      "impressions": 11,
-      "position": 3.909090909090909
+      "clicks": 4,
+      "impressions": 14,
+      "position": 3.5714285714285716
     },
     "https://travelstar.co.za/used-motorhomes/toyota/": {
-      "clicks": 40,
-      "impressions": 528,
-      "position": 5.5018939393939394
+      "clicks": 38,
+      "impressions": 547,
+      "position": 6.202925045703839
     }
   },
   "source_status": {
