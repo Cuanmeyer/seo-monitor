@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-06",
   "baseline_scale": 4.0,
   "domain": "sani.co.za",
-  "indexed_rate": 81.82,
+  "indexed_rate": 63.64,
   "inspections": {
     "https://sani.co.za/": {
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sani.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-08T09:16:35Z",
+      "last_crawl": "2026-10-09T11:44:23Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sani.co.za/",
@@ -18,47 +18,47 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sani.co.za/car-rental/cape-town-int-airport/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-08T03:38:09Z",
+      "last_crawl": "2026-10-09T03:35:33Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sani.co.za/car-rental/cape-town-int-airport/",
       "verdict": "PASS"
     },
     "https://sani.co.za/car-rental/centurion/": {
-      "coverage_state": "Submitted and indexed",
+      "coverage_state": "Excluded by ‘noindex’ tag",
       "google_canonical": "https://sani.co.za/car-rental/centurion/",
-      "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-06T06:15:49Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "last_crawl": "2026-10-09T09:17:05Z",
       "ok": true,
       "robots_state": "ALLOWED",
-      "user_canonical": "https://sani.co.za/car-rental/centurion/",
-      "verdict": "PASS"
+      "user_canonical": null,
+      "verdict": "NEUTRAL"
     },
     "https://sani.co.za/car-rental/durban-airport-int-king-shaka/": {
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sani.co.za/car-rental/durban-airport-int-king-shaka/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-08T03:11:11Z",
+      "last_crawl": "2026-10-09T08:36:38Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sani.co.za/car-rental/durban-airport-int-king-shaka/",
       "verdict": "PASS"
     },
     "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/": {
-      "coverage_state": "Submitted and indexed",
+      "coverage_state": "Excluded by ‘noindex’ tag",
       "google_canonical": "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/",
-      "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-05T00:07:29Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "last_crawl": "2026-10-09T04:21:24Z",
       "ok": true,
       "robots_state": "ALLOWED",
-      "user_canonical": "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/",
-      "verdict": "PASS"
+      "user_canonical": null,
+      "verdict": "NEUTRAL"
     },
     "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/": {
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-07T22:31:14Z",
+      "last_crawl": "2026-10-09T09:47:28Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/",
@@ -68,7 +68,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sani.co.za/car-rental/port-elizabeth-gqeberha-dawid-stuurman-airport/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-08T02:38:06Z",
+      "last_crawl": "2026-10-09T11:13:16Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sani.co.za/car-rental/port-elizabeth-gqeberha-dawid-stuurman-airport/",
@@ -117,14 +117,14 @@
   },
   "llm_by_source": {
     "chatgpt.com": 1841,
-    "gemini.google.com": 14,
+    "gemini.google.com": 15,
     "perplexity.ai": 2
   },
   "pages_baseline": {
     "http://sani.co.za/": {
-      "clicks": 2,
-      "impressions": 330,
-      "position": 5.012121212121212
+      "clicks": 0,
+      "impressions": 23,
+      "position": 1.434782608695652
     },
     "https://helpdesk.sani.co.za/": {
       "clicks": 2,
@@ -137,9 +137,9 @@
       "position": 41
     },
     "https://helpdesk.sani.co.za/support/search/solutions": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "clicks": 1,
+      "impressions": 2,
+      "position": 3
     },
     "https://helpdesk.sani.co.za/support/search/topics": {
       "clicks": 0,
@@ -148,8 +148,8 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046300-can-i-cancel-my-reservation-": {
       "clicks": 4,
-      "impressions": 126,
-      "position": 5.968253968253968
+      "impressions": 125,
+      "position": 5.984
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046300-can-i-cancel-your-reservation-": {
       "clicks": 0,
@@ -158,18 +158,18 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046301-how-old-do-i-need-to-be-in-order-to-rent-a-car-from-sani-car-rental-": {
       "clicks": 1,
-      "impressions": 246,
-      "position": 7.028455284552845
+      "impressions": 262,
+      "position": 7.034351145038168
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046303-what-are-the-additional-rental-costs-": {
       "clicks": 3,
-      "impressions": 140,
-      "position": 5.55
+      "impressions": 141,
+      "position": 5.50354609929078
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046304-what-deposit-do-i-need-to-pay-in-order-to-secure-my-car-rental-": {
       "clicks": 4,
-      "impressions": 338,
-      "position": 7.627218934911243
+      "impressions": 344,
+      "position": 7.622093023255814
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046305-what-payment-methods-do-type-accept-": {
       "clicks": 0,
@@ -182,24 +182,24 @@
       "position": 1
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046305-what-payment-methods-do-you-accept-": {
-      "clicks": 16,
-      "impressions": 254,
-      "position": 4.464566929133858
+      "clicks": 18,
+      "impressions": 263,
+      "position": 4.5399239543726235
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046306-what-procedure-must-i-follow-if-i-have-an-accident-with-my-sani-rental-vehicle-": {
       "clicks": 4,
-      "impressions": 123,
-      "position": 10.585365853658537
+      "impressions": 119,
+      "position": 10.504201680672269
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046307-what-type-of-driver-s-licence-do-i-need-": {
-      "clicks": 4,
-      "impressions": 5737,
-      "position": 7.040090639707164
+      "clicks": 3,
+      "impressions": 5688,
+      "position": 7.060654008438819
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046308-where-can-i-rent-a-sani-car-": {
       "clicks": 0,
-      "impressions": 53,
-      "position": 36
+      "impressions": 54,
+      "position": 34.574074074074076
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046309-why-ask-my-flight-information-when-making-a-car-rental-booking-": {
       "clicks": 0,
@@ -208,23 +208,23 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046310-what-is-a-sponsored-rental-": {
       "clicks": 18,
-      "impressions": 157,
-      "position": 5.67515923566879
+      "impressions": 156,
+      "position": 5.782051282051282
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046311-how-long-does-it-take-to-receive-my-deposit-after-returning-the-rental-vehicle-": {
       "clicks": 9,
-      "impressions": 559,
-      "position": 6.261180679785331
+      "impressions": 576,
+      "position": 6.241319444444445
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046312-how-do-i-return-the-rental-after-business-hours-": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 4.363636363636363
+      "impressions": 10,
+      "position": 4.4
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046314-how-do-i-extend-my-rental-": {
       "clicks": 1,
-      "impressions": 86,
-      "position": 10.546511627906977
+      "impressions": 85,
+      "position": 10.305882352941177
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046315-why-do-i-have-to-pay-for-an-airport-surcharge-fee-": {
       "clicks": 1,
@@ -238,13 +238,13 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046317-what-is-your-refuelling-policy-": {
       "clicks": 3,
-      "impressions": 169,
-      "position": 5.568047337278107
+      "impressions": 177,
+      "position": 5.604519774011299
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046318-why-do-i-need-to-return-the-vehicle-full-of-fuel-": {
-      "clicks": 2,
-      "impressions": 155,
-      "position": 7.406451612903226
+      "clicks": 1,
+      "impressions": 151,
+      "position": 7.470198675496689
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046319-what-is-a-contract-fee-": {
       "clicks": 0,
@@ -253,8 +253,8 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046320-when-would-i-pay-a-valet-charge-": {
       "clicks": 1,
-      "impressions": 25,
-      "position": 4.2
+      "impressions": 23,
+      "position": 4.478260869565217
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046321-what-do-i-do-if-my-vehicle-breaks-down-": {
       "clicks": 0,
@@ -268,38 +268,38 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046323-i-ve-completed-my-reservation-what-else-is-required-before-collecting-my-vehicle-": {
       "clicks": 1,
-      "impressions": 19,
-      "position": 6.157894736842105
+      "impressions": 18,
+      "position": 6.111111111111111
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046324-what-will-i-need-when-collecting-my-vehicle-": {
       "clicks": 3,
-      "impressions": 182,
-      "position": 6.532967032967033
+      "impressions": 184,
+      "position": 6.434782608695652
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000182220-why-do-i-need-to-return-the-vehicle-full-of-fuel-": {
       "clicks": 3,
-      "impressions": 72,
-      "position": 6.597222222222222
+      "impressions": 73,
+      "position": 6.602739726027397
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000182221-what-is-a-bank-authorisation-": {
       "clicks": 0,
-      "impressions": 125,
-      "position": 5.616
+      "impressions": 130,
+      "position": 5.538461538461538
     },
     "https://helpdesk.sani.co.za/support/solutions/folders/151000285234": {
       "clicks": 0,
-      "impressions": 39,
-      "position": 9.76923076923077
+      "impressions": 40,
+      "position": 9.75
     },
     "https://helpdesk.sani.co.za/support/tickets/new": {
       "clicks": 0,
-      "impressions": 1,
-      "position": 5
+      "impressions": 2,
+      "position": 3
     },
     "https://sani.co.za/": {
-      "clicks": 2468,
-      "impressions": 89416,
-      "position": 6.986143419522233
+      "clicks": 2486,
+      "impressions": 89278,
+      "position": 6.994231501601738
     },
     "https://sani.co.za/about-sani-sixt-%E0%AA%B5%E0%AA%BE%E0%AA%A8-%E0%AA%95%E0%AA%BE%E0%AA%B0/": {
       "clicks": 0,
@@ -313,8 +313,8 @@
     },
     "https://sani.co.za/about-sani-sixt-rent-a-car/": {
       "clicks": 39,
-      "impressions": 2702,
-      "position": 10.602886750555145
+      "impressions": 2757,
+      "position": 10.389191149800508
     },
     "https://sani.co.za/about-sani-sixt-rent-car/": {
       "clicks": 0,
@@ -323,8 +323,8 @@
     },
     "https://sani.co.za/black-economic-empowerment/": {
       "clicks": 6,
-      "impressions": 445,
-      "position": 8.878651685393258
+      "impressions": 450,
+      "position": 8.86888888888889
     },
     "https://sani.co.za/bloemfontein-airport-bram-fisher/": {
       "clicks": 0,
@@ -333,343 +333,343 @@
     },
     "https://sani.co.za/blog-category/eastern-cape/": {
       "clicks": 0,
-      "impressions": 270,
-      "position": 15.044444444444444
+      "impressions": 268,
+      "position": 14.611940298507463
     },
     "https://sani.co.za/blog-category/free-state/": {
       "clicks": 0,
       "impressions": 92,
-      "position": 17.108695652173914
+      "position": 17.184782608695652
     },
     "https://sani.co.za/blog-category/gauteng/": {
       "clicks": 0,
-      "impressions": 399,
-      "position": 11.601503759398497
+      "impressions": 412,
+      "position": 11.58252427184466
     },
     "https://sani.co.za/blog-category/kwazulu-natal/": {
       "clicks": 0,
-      "impressions": 59,
-      "position": 16.474576271186443
+      "impressions": 60,
+      "position": 16.3
     },
     "https://sani.co.za/blog-category/mpumalanga/": {
       "clicks": 0,
-      "impressions": 49,
-      "position": 12.326530612244898
+      "impressions": 52,
+      "position": 12
     },
     "https://sani.co.za/blog-category/western-cape/": {
       "clicks": 0,
-      "impressions": 119,
-      "position": 14.504201680672269
+      "impressions": 120,
+      "position": 14.266666666666667
     },
     "https://sani.co.za/blog/": {
       "clicks": 0,
-      "impressions": 561,
-      "position": 13.322638146167558
+      "impressions": 519,
+      "position": 13.520231213872833
     },
     "https://sani.co.za/blog/a-first-timers-guide-to-kruger-national-park-by-self-drive/": {
       "clicks": 2,
-      "impressions": 190,
-      "position": 10.363157894736842
+      "impressions": 184,
+      "position": 10.255434782608695
     },
     "https://sani.co.za/blog/a-guide-to-addo-elephant-national-park/": {
-      "clicks": 1,
-      "impressions": 88,
-      "position": 15.840909090909092
+      "clicks": 2,
+      "impressions": 77,
+      "position": 12.545454545454545
     },
     "https://sani.co.za/blog/a-guide-to-exploring-the-midlands-meander-route-with-sani-car-rental/": {
       "clicks": 5,
-      "impressions": 278,
-      "position": 10.280575539568344
+      "impressions": 274,
+      "position": 10.167883211678832
     },
     "https://sani.co.za/blog/a-guide-to-the-cape-point-nature-reserve/": {
       "clicks": 0,
-      "impressions": 125,
-      "position": 12.984
+      "impressions": 122,
+      "position": 13.311475409836065
     },
     "https://sani.co.za/blog/a-guide-to-the-cradle-of-humankind-world-heritage-site/": {
-      "clicks": 2,
-      "impressions": 258,
-      "position": 11.593023255813954
+      "clicks": 3,
+      "impressions": 249,
+      "position": 11.967871485943775
     },
     "https://sani.co.za/blog/a-guide-to-the-durban-beachfront/": {
       "clicks": 1,
-      "impressions": 436,
-      "position": 8.642201834862385
+      "impressions": 420,
+      "position": 8.619047619047619
     },
     "https://sani.co.za/blog/a-guide-to-the-golden-gate-highlands-national-park-in-the-free-state/": {
       "clicks": 0,
-      "impressions": 660,
-      "position": 9.001515151515152
+      "impressions": 652,
+      "position": 8.996932515337424
     },
     "https://sani.co.za/blog/a-guide-to-the-maboneng-precinct-in-johannesburg/": {
       "clicks": 0,
-      "impressions": 68,
-      "position": 17.602941176470587
+      "impressions": 67,
+      "position": 18.208955223880597
     },
     "https://sani.co.za/blog/a-guide-to-the-soweto-township": {
       "clicks": 0,
       "impressions": 12,
       "position": 1.8333333333333335
     },
+    "https://sani.co.za/blog/a-guide-to-the-soweto-township-": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
     "https://sani.co.za/blog/a-guide-to-the-soweto-township/": {
       "clicks": 6,
-      "impressions": 4385,
-      "position": 9.389965792474344
+      "impressions": 4137,
+      "position": 9.36113125453227
     },
     "https://sani.co.za/blog/a-recommended-road-trip-exploring-the-drakensberg-mountains/": {
       "clicks": 10,
-      "impressions": 903,
-      "position": 7.750830564784053
+      "impressions": 904,
+      "position": 7.779867256637168
     },
     "https://sani.co.za/blog/a-road-trip-to-baviaanskloof-nature-reserve/": {
       "clicks": 3,
-      "impressions": 267,
-      "position": 9.04868913857678
+      "impressions": 277,
+      "position": 9.007220216606498
     },
     "https://sani.co.za/blog/a-self-drive-city-safari-exploring-johannesburg-with-a-rental-car/": {
-      "clicks": 2,
-      "impressions": 629,
-      "position": 9
+      "clicks": 1,
+      "impressions": 635,
+      "position": 8.925984251968504
     },
     "https://sani.co.za/blog/a-weekend-in-paternoster-coastal-charm-and-self-drive-freedom-with-sani-sixt/": {
       "clicks": 1,
-      "impressions": 133,
-      "position": 7.819548872180451
+      "impressions": 127,
+      "position": 7.7637795275590555
     },
     "https://sani.co.za/blog/adventures-on-the-tugela-river-white-water-rafting-and-canoeing-expeditions/": {
-      "clicks": 3,
-      "impressions": 441,
-      "position": 10.249433106575964
+      "clicks": 4,
+      "impressions": 428,
+      "position": 10.19392523364486
     },
     "https://sani.co.za/blog/african-market-shopping-craft-markets-flea-markets-and-artisanal-goods/": {
       "clicks": 7,
-      "impressions": 1062,
-      "position": 25.91713747645951
+      "impressions": 1067,
+      "position": 25.690721649484537
     },
     "https://sani.co.za/blog/art-in-motion-a-self-drive-tour-of-gautengs-street-murals-and-public-art-spaces/": {
       "clicks": 1,
-      "impressions": 188,
-      "position": 13.191489361702128
+      "impressions": 182,
+      "position": 13.785714285714286
     },
     "https://sani.co.za/blog/beyond-the-winelands-a-self-drive-to-the-cederbergs-secret-swimming-spots/": {
       "clicks": 10,
-      "impressions": 155,
-      "position": 9.296774193548387
+      "impressions": 158,
+      "position": 9.284810126582279
     },
     "https://sani.co.za/blog/bird-watching-at-west-coast-national-park-exposing-the-birding-hotspots-and-seasonal-migrations/": {
       "clicks": 2,
-      "impressions": 27,
-      "position": 11.814814814814815
+      "impressions": 28,
+      "position": 11.75
     },
     "https://sani.co.za/blog/business-travel-made-simple-sani-sixts-smart-mobility-solutions-for-south-african-professionals/": {
-      "clicks": 5,
-      "impressions": 409,
-      "position": 8.158924205378973
+      "clicks": 7,
+      "impressions": 417,
+      "position": 7.971223021582734
     },
     "https://sani.co.za/blog/cape-towns-best-sunsets-top-spots-for-evening-views/": {
       "clicks": 1,
-      "impressions": 40,
-      "position": 30.375
+      "impressions": 41,
+      "position": 29.682926829268293
     },
     "https://sani.co.za/blog/combine-wine-tasting-with-art-appreciation-in-the-scenic-magaliesberg-region/": {
       "clicks": 1,
-      "impressions": 15,
-      "position": 9.933333333333334
+      "impressions": 18,
+      "position": 9.88888888888889
     },
     "https://sani.co.za/blog/comparing-vehicle-types-choosing-the-perfect-rental-car-for-your-south-african-adventure/": {
-      "clicks": 8,
-      "impressions": 279,
-      "position": 7.089605734767025
+      "clicks": 7,
+      "impressions": 274,
+      "position": 7.025547445255475
     },
     "https://sani.co.za/blog/cruising-the-midlands-meander-a-self-drive-through-kzns-countryside-charms/": {
       "clicks": 2,
-      "impressions": 210,
-      "position": 10.195238095238095
-    },
-    "https://sani.co.za/blog/discovering-vilakazi-street-a-journey-through-sowetos-heart/": {
-      "clicks": 1,
-      "impressions": 790,
-      "position": 10.046835443037974
+      "impressions": 212,
+      "position": 10.028301886792454
     },
     "https://sani.co.za/blog/dive-into-durbans-marine-world-aquariums-seal-shows-and-shark-encounters/": {
       "clicks": 1,
-      "impressions": 1597,
-      "position": 6.099561678146525
+      "impressions": 1616,
+      "position": 6.099009900990099
     },
     "https://sani.co.za/blog/driving-etiquette-in-south-africa-tips-for-a-polite-and-smooth-ride/": {
       "clicks": 2,
-      "impressions": 1368,
-      "position": 8.50438596491228
+      "impressions": 1369,
+      "position": 8.485025566106646
     },
     "https://sani.co.za/blog/executive-car-rentals-choosing-the-perfect-vehicle-to-impress-and-perform/": {
       "clicks": 2,
-      "impressions": 299,
-      "position": 26.39799331103679
+      "impressions": 312,
+      "position": 26.240384615384617
     },
     "https://sani.co.za/blog/explore-south-africas-top-mountain-biking-trails-from-single-tracks-to-scenic-forest-routes/": {
       "clicks": 2,
-      "impressions": 1244,
-      "position": 11.67282958199357
+      "impressions": 1248,
+      "position": 11.76602564102564
     },
     "https://sani.co.za/blog/exploring-johannesburgs-wildlife-zoos-animal-sanctuaries-and-nature-reserves/": {
       "clicks": 1,
-      "impressions": 967,
-      "position": 9.33712512926577
+      "impressions": 950,
+      "position": 9.189473684210526
     },
     "https://sani.co.za/blog/exploring-pretorias-heritage-sites-by-car-a-self-guided-history-tour/": {
       "clicks": 2,
-      "impressions": 204,
-      "position": 7.848039215686274
+      "impressions": 202,
+      "position": 7.811881188118812
     },
     "https://sani.co.za/blog/exploring-pretorias-historical-landmarks/": {
       "clicks": 2,
-      "impressions": 827,
-      "position": 5.30471584038694
+      "impressions": 746,
+      "position": 5.549597855227882
     },
     "https://sani.co.za/blog/exploring-south-africas-cities-parking-tips-and-tricks-for-stress-free-urban-travel/": {
       "clicks": 2,
-      "impressions": 317,
-      "position": 8.813880126182966
+      "impressions": 293,
+      "position": 8.897610921501705
     },
     "https://sani.co.za/blog/exploring-the-art-route-of-the-western-cape-galleries-studios-and-public-art/": {
       "clicks": 2,
-      "impressions": 119,
-      "position": 18.386554621848738
+      "impressions": 121,
+      "position": 18.272727272727273
     },
     "https://sani.co.za/blog/exploring-the-best-curry-spots-in-durban/": {
       "clicks": 4,
-      "impressions": 263,
-      "position": 9.376425855513308
+      "impressions": 285,
+      "position": 9.491228070175438
     },
     "https://sani.co.za/blog/exploring-the-forgotten-ghost-towns-of-the-karoo-a-road-trip-adventure/": {
       "clicks": 10,
-      "impressions": 355,
-      "position": 8.960563380281691
+      "impressions": 362,
+      "position": 8.895027624309392
     },
     "https://sani.co.za/blog/exploring-the-little-karoo-route-62-road-trip-adventures/": {
       "clicks": 2,
-      "impressions": 271,
-      "position": 6.955719557195572
+      "impressions": 276,
+      "position": 6.6521739130434785
     },
     "https://sani.co.za/blog/exploring-the-swartland-a-self-drive-through-the-western-capes-dryland-wine-route/": {
       "clicks": 1,
-      "impressions": 78,
-      "position": 9.512820512820513
+      "impressions": 82,
+      "position": 9.634146341463415
     },
     "https://sani.co.za/blog/exploring-the-vibrant-street-food-scene-in-johannesburg/": {
       "clicks": 2,
-      "impressions": 227,
-      "position": 11.361233480176212
+      "impressions": 221,
+      "position": 11.285067873303168
     },
     "https://sani.co.za/blog/exploring-the-wild-coast-in-the-eastern-cape-a-road-trip-itinerary/": {
-      "clicks": 3,
-      "impressions": 409,
-      "position": 8.948655256723717
+      "clicks": 4,
+      "impressions": 404,
+      "position": 8.834158415841584
     },
     "https://sani.co.za/blog/exploring-the-wonders-of-the-western-cape-with-a-rental-car/": {
       "clicks": 2,
-      "impressions": 1188,
-      "position": 10.714646464646465
+      "impressions": 1180,
+      "position": 10.770338983050847
     },
     "https://sani.co.za/blog/family-road-trips-in-south-africa-what-you-need-to-know-before-you-go/": {
       "clicks": 3,
-      "impressions": 594,
-      "position": 6.356902356902357
+      "impressions": 593,
+      "position": 6.556492411467116
     },
     "https://sani.co.za/blog/first-time-in-cape-town-your-self-drive-arrival-guide/": {
-      "clicks": 4,
-      "impressions": 1361,
-      "position": 8.705363703159442
+      "clicks": 5,
+      "impressions": 1347,
+      "position": 8.734224201930214
     },
     "https://sani.co.za/blog/first-time-in-durban-your-self-drive-arrival-guide/": {
       "clicks": 3,
-      "impressions": 488,
-      "position": 9.258196721311476
+      "impressions": 492,
+      "position": 9.252032520325203
     },
     "https://sani.co.za/blog/flower-season-in-namaqualand-planning-your-self-drive-from-cape-town/": {
       "clicks": 2,
-      "impressions": 1133,
-      "position": 8.389232127096204
+      "impressions": 1082,
+      "position": 8.461182994454713
     },
     "https://sani.co.za/blog/from-durban-to-the-dolphin-coast-a-self-drive-escape-along-kwazulu-natals-north-shore/": {
       "clicks": 1,
-      "impressions": 342,
-      "position": 8.771929824561404
+      "impressions": 340,
+      "position": 8.876470588235295
     },
     "https://sani.co.za/blog/gautengs-natural-hot-springs-relaxing-spots-for-thermal-baths-and-spa-days/": {
-      "clicks": 51,
-      "impressions": 3727,
-      "position": 10.08934800107325
+      "clicks": 48,
+      "impressions": 3316,
+      "position": 10.095898673100121
     },
     "https://sani.co.za/blog/groot-constantia-south-africas-oldest-wine-estate/": {
       "clicks": 1,
       "impressions": 49,
-      "position": 13.63265306122449
+      "position": 13.693877551020408
     },
     "https://sani.co.za/blog/hartbeespoort-dam-a-guide-to-water-activities-and-attractions-around-hartbeespoort-dam/": {
-      "clicks": 8,
-      "impressions": 1612,
-      "position": 8.828163771712159
+      "clicks": 9,
+      "impressions": 1604,
+      "position": 8.79925187032419
     },
     "https://sani.co.za/blog/hidden-escapes-near-johannesburg-self-drive-day-trips-for-nature-lovers/": {
-      "clicks": 10,
-      "impressions": 10876,
-      "position": 8.780617874218462
+      "clicks": 11,
+      "impressions": 10433,
+      "position": 8.915652257260614
     },
     "https://sani.co.za/blog/hidden-gems-of-the-dinokeng-game-reserve-discovering-wildlife-in-gautengs-secret-spots/": {
       "clicks": 3,
       "impressions": 175,
-      "position": 9.891428571428571
+      "position": 9.685714285714285
     },
     "https://sani.co.za/blog/into-the-drakensberg-a-self-drive-road-trip-through-kwazulu-natals-mountain-country/": {
       "clicks": 5,
-      "impressions": 957,
-      "position": 6.475444096133751
+      "impressions": 946,
+      "position": 6.45137420718816
     },
     "https://sani.co.za/blog/johannesburgs-street-art-scene-murals-graffiti-and-public-art-installations/": {
       "clicks": 1,
-      "impressions": 358,
-      "position": 15.111731843575418
+      "impressions": 342,
+      "position": 15.923976608187134
     },
     "https://sani.co.za/blog/kogelberg-biosphere-the-real-life-garden-of-eden/": {
       "clicks": 1,
-      "impressions": 173,
-      "position": 5.566473988439307
+      "impressions": 163,
+      "position": 5.822085889570552
     },
     "https://sani.co.za/blog/kwazulu-natals-battlefields-route-a-self-drive-through-south-african-history/": {
       "clicks": 2,
-      "impressions": 83,
-      "position": 7.879518072289157
+      "impressions": 77,
+      "position": 7.896103896103896
     },
     "https://sani.co.za/blog/long-weekend-road-trip-ideas-making-the-most-of-south-africas-public-holidays/": {
       "clicks": 1,
-      "impressions": 136,
-      "position": 12.801470588235293
+      "impressions": 143,
+      "position": 12.454545454545455
     },
     "https://sani.co.za/blog/monthly-mobility-flexible-long-term-car-rentals/": {
-      "clicks": 12,
-      "impressions": 826,
-      "position": 8.634382566585955
+      "clicks": 13,
+      "impressions": 819,
+      "position": 8.676434676434678
     },
     "https://sani.co.za/blog/navigating-south-african-road-signs-a-handy-guide-for-international-travelers/": {
       "clicks": 4,
-      "impressions": 951,
-      "position": 6.798107255520505
+      "impressions": 966,
+      "position": 6.979296066252588
     },
     "https://sani.co.za/blog/off-road-adventures-expert-tips-for-driving-a-rental-car-on-south-africas-unpaved-roads/": {
       "clicks": 6,
-      "impressions": 237,
-      "position": 7.265822784810126
+      "impressions": 236,
+      "position": 7.372881355932203
     },
     "https://sani.co.za/blog/one-way-car-rentals-in-south-africa-your-guide-to-seamless-drop-offs/": {
-      "clicks": 3,
-      "impressions": 597,
-      "position": 11.917922948073702
+      "clicks": 2,
+      "impressions": 591,
+      "position": 12.065989847715736
     },
     "https://sani.co.za/blog/our-vehicles-discover-the-perfect-car-for-every-journey/": {
       "clicks": 4,
-      "impressions": 163,
-      "position": 11.809815950920246
+      "impressions": 165,
+      "position": 11.751515151515152
     },
     "https://sani.co.za/blog/padstal-culture-the-best-farm-stalls-to-stop-at-along-south-africas-major-routes/": {
       "clicks": 13,
@@ -678,58 +678,58 @@
     },
     "https://sani.co.za/blog/pilanesberg-national-park-self-drive-safari/": {
       "clicks": 3,
-      "impressions": 529,
-      "position": 8.100189035916824
+      "impressions": 536,
+      "position": 8.156716417910449
     },
     "https://sani.co.za/blog/pretorias-best-coffee-shops-local-brews-and-cosy-corners/": {
       "clicks": 1,
-      "impressions": 555,
-      "position": 13.809009009009008
+      "impressions": 517,
+      "position": 14.001934235976789
     },
     "https://sani.co.za/blog/reliable-corporate-car-rentals-in-south-africa-travel-like-a-pro-with-sani-sixt/": {
-      "clicks": 9,
-      "impressions": 1712,
-      "position": 9.339953271028037
+      "clicks": 10,
+      "impressions": 1683,
+      "position": 9.364824717765893
     },
     "https://sani.co.za/blog/renting-a-car-for-business-in-south-africa-essential-tips-for-a-productive-and-painless-experience/": {
       "clicks": 1,
-      "impressions": 534,
-      "position": 10.42134831460674
+      "impressions": 521,
+      "position": 10.44721689059501
     },
     "https://sani.co.za/blog/road-to-rooibos-a-self-drive-journey-through-the-cederbergs-tea-country/": {
       "clicks": 1,
-      "impressions": 52,
-      "position": 7.75
+      "impressions": 53,
+      "position": 7.9245283018867925
     },
     "https://sani.co.za/blog/road-trip-apps-and-gadgets-must-have-tech-for-safe-and-fun-travel/": {
       "clicks": 1,
-      "impressions": 55,
-      "position": 11.218181818181819
+      "impressions": 53,
+      "position": 11.18867924528302
     },
     "https://sani.co.za/blog/safety-tips-for-renting-and-driving-a-car-in-south-africa/": {
       "clicks": 9,
-      "impressions": 655,
-      "position": 6.638167938931297
+      "impressions": 659,
+      "position": 6.610015174506828
     },
     "https://sani.co.za/blog/sani-premium-a-premium-fleet-for-exceptional-journeys/": {
       "clicks": 2,
-      "impressions": 265,
-      "position": 8.00377358490566
+      "impressions": 253,
+      "position": 7.984189723320158
     },
     "https://sani.co.za/blog/scenic-routes-for-photography-enthusiasts-sunrise-and-sunset-spots-in-kzn/": {
       "clicks": 5,
-      "impressions": 3786,
-      "position": 5.649762282091918
+      "impressions": 3650,
+      "position": 5.653972602739726
     },
     "https://sani.co.za/blog/suikerbosrand-nature-reserve-gautengs-hidden-gem/": {
       "clicks": 8,
-      "impressions": 1494,
-      "position": 9.449799196787149
+      "impressions": 1489,
+      "position": 9.445936870382807
     },
     "https://sani.co.za/blog/sunday-drives-and-markets-a-gauteng-self-drive-food-and-craft-trail/": {
       "clicks": 4,
-      "impressions": 142,
-      "position": 9.45774647887324
+      "impressions": 139,
+      "position": 9.309352517985612
     },
     "https://sani.co.za/blog/sunshine-capes-coastal-towns-from-gqeberha-to-kenton/": {
       "clicks": 1,
@@ -738,218 +738,218 @@
     },
     "https://sani.co.za/blog/sunshine-coast-self-drive-exploring-the-eastern-capes-coastal-towns-from-gqeberha-to-kenton/": {
       "clicks": 2,
-      "impressions": 1090,
-      "position": 5.688990825688073
+      "impressions": 1068,
+      "position": 5.703183520599251
     },
     "https://sani.co.za/blog/the-best-craft-beer-breweries-in-kwazulu-natal-a-car-rental-guide/": {
       "clicks": 1,
-      "impressions": 498,
-      "position": 11.640562248995984
+      "impressions": 501,
+      "position": 11.634730538922156
     },
     "https://sani.co.za/blog/the-best-road-trip-destinations-in-gauteng/": {
       "clicks": 2,
-      "impressions": 354,
-      "position": 10.319209039548022
+      "impressions": 341,
+      "position": 10.395894428152493
     },
     "https://sani.co.za/blog/the-free-state-highlands-self-drive-road-trip/": {
       "clicks": 3,
-      "impressions": 864,
-      "position": 7.001157407407407
+      "impressions": 860,
+      "position": 6.916279069767442
     },
     "https://sani.co.za/blog/the-karoo-experience-exploring-the-desert-landscapes-and-small-town-charm/": {
       "clicks": 2,
-      "impressions": 63,
-      "position": 17.317460317460316
+      "impressions": 64,
+      "position": 17.453125
     },
     "https://sani.co.za/blog/the-most-beautiful-waterfalls-to-see-in-mpumalanga-a-road-trip-adventure/": {
-      "clicks": 19,
-      "impressions": 2275,
-      "position": 8.22945054945055
+      "clicks": 18,
+      "impressions": 2257,
+      "position": 8.249446167478954
     },
     "https://sani.co.za/blog/the-overberg-self-drive-hermanus-stanford-and-gansbaai-in-a-weekend/": {
-      "clicks": 10,
-      "impressions": 2285,
-      "position": 7.586433260393873
+      "clicks": 9,
+      "impressions": 2265,
+      "position": 7.547019867549669
     },
     "https://sani.co.za/blog/the-panorama-route-a-self-drive-journey-through-mpumalanga/": {
       "clicks": 17,
-      "impressions": 1715,
-      "position": 6.3428571428571425
+      "impressions": 1720,
+      "position": 6.366860465116279
     },
     "https://sani.co.za/blog/the-top-7-beaches-in-kwa-zulu-natal/": {
       "clicks": 1,
-      "impressions": 275,
-      "position": 10.42909090909091
+      "impressions": 247,
+      "position": 10.218623481781377
     },
     "https://sani.co.za/blog/the-top-8-game-reserves-to-visit-in-mpumalanga/": {
       "clicks": 2,
-      "impressions": 643,
-      "position": 27.92068429237947
+      "impressions": 637,
+      "position": 27.53061224489796
     },
     "https://sani.co.za/blog/the-ultimate-road-trip-packing-list-for-south-africa/": {
       "clicks": 2,
-      "impressions": 123,
-      "position": 6.008130081300813
+      "impressions": 126,
+      "position": 5.857142857142857
     },
     "https://sani.co.za/blog/the-ultimate-road-trip-through-the-cederberg-nature-rock-art-and-remote-beauty/": {
       "clicks": 2,
-      "impressions": 143,
-      "position": 7.006993006993007
+      "impressions": 138,
+      "position": 7.282608695652174
     },
     "https://sani.co.za/blog/the-ultimate-south-african-road-trip-playlist-songs-for-every-kind-of-drive/": {
       "clicks": 3,
-      "impressions": 223,
-      "position": 6.0358744394618835
+      "impressions": 239,
+      "position": 5.878661087866109
     },
     "https://sani.co.za/blog/the-wonder-cave-one-of-the-largest-caves-in-the-southern-hemisphere/": {
       "clicks": 1,
-      "impressions": 575,
-      "position": 8.088695652173913
+      "impressions": 569,
+      "position": 8.056239015817223
     },
     "https://sani.co.za/blog/the-zulu-kingdom-cultural-tours-and-traditional-experiences/": {
       "clicks": 3,
-      "impressions": 614,
-      "position": 7.351791530944626
+      "impressions": 587,
+      "position": 7.349233390119251
     },
     "https://sani.co.za/blog/wellness-retreats-in-the-drakensberg-yoga-spa-treatments-and-mountain-views/": {
       "clicks": 1,
-      "impressions": 78,
-      "position": 13.794871794871796
+      "impressions": 85,
+      "position": 14.811764705882354
     },
     "https://sani.co.za/blog/what-payment-methods-are-accepted-at-tollgates-in-south-africa/": {
-      "clicks": 142,
-      "impressions": 6168,
-      "position": 4.221303501945526
+      "clicks": 141,
+      "impressions": 6175,
+      "position": 4.195465587044534
     },
     "https://sani.co.za/blog/where-two-oceans-meet-explore-the-southernmost-tip-of-africa-at-cape-agulhas/": {
-      "clicks": 4,
-      "impressions": 338,
-      "position": 10.775147928994082
+      "clicks": 3,
+      "impressions": 317,
+      "position": 10.949526813880126
     },
     "https://sani.co.za/blog/wild-coast-wanderings-a-self-drive-escape-through-the-eastern-capes-untamed-beauty/": {
       "clicks": 1,
-      "impressions": 186,
-      "position": 8.5752688172043
+      "impressions": 184,
+      "position": 8.315217391304348
     },
     "https://sani.co.za/cancel-reservation/": {
       "clicks": 4,
-      "impressions": 163,
-      "position": 6.024539877300613
+      "impressions": 174,
+      "position": 6.109195402298851
     },
     "https://sani.co.za/car-hire-south-africa/": {
       "clicks": 2,
-      "impressions": 1352,
-      "position": 14.301775147928995
+      "impressions": 1363,
+      "position": 14.008070432868672
     },
     "https://sani.co.za/car-rental-locations/": {
-      "clicks": 21,
-      "impressions": 12830,
-      "position": 7.859236165237724
+      "clicks": 19,
+      "impressions": 12958,
+      "position": 7.868266707825281
     },
     "https://sani.co.za/car-rental-locations/eastern-cape/": {
-      "clicks": 3,
-      "impressions": 1980,
-      "position": 11.276767676767676
+      "clicks": 2,
+      "impressions": 2011,
+      "position": 10.941819990054698
     },
     "https://sani.co.za/car-rental-locations/free-state/": {
       "clicks": 4,
-      "impressions": 856,
-      "position": 9.476635514018692
+      "impressions": 861,
+      "position": 9.371660859465738
     },
     "https://sani.co.za/car-rental-locations/gauteng/": {
-      "clicks": 49,
-      "impressions": 21764,
-      "position": 5.014289652637383
+      "clicks": 44,
+      "impressions": 21718,
+      "position": 4.958928078091905
     },
     "https://sani.co.za/car-rental-locations/kwazulu-natal/": {
       "clicks": 20,
-      "impressions": 4919,
-      "position": 5.966456596869282
+      "impressions": 4898,
+      "position": 5.895875867701102
     },
     "https://sani.co.za/car-rental-locations/limpopo/": {
       "clicks": 4,
-      "impressions": 916,
-      "position": 12.514192139737991
+      "impressions": 900,
+      "position": 12.155555555555555
     },
     "https://sani.co.za/car-rental-locations/mpumalanga/": {
       "clicks": 12,
-      "impressions": 1103,
-      "position": 14.089755213055303
+      "impressions": 1115,
+      "position": 13.747982062780268
     },
     "https://sani.co.za/car-rental-locations/north-west/": {
       "clicks": 12,
       "impressions": 1311,
-      "position": 10.653699466056445
+      "position": 10.401983218916858
     },
     "https://sani.co.za/car-rental-locations/northern-cape/": {
       "clicks": 3,
-      "impressions": 813,
-      "position": 11.846248462484624
+      "impressions": 846,
+      "position": 11.46808510638298
     },
     "https://sani.co.za/car-rental-locations/western-cape/": {
-      "clicks": 14,
-      "impressions": 6381,
-      "position": 6.732800501488795
+      "clicks": 16,
+      "impressions": 6413,
+      "position": 6.6843910806174955
     },
     "https://sani.co.za/car-rental-vehicles/bakkie-utility/": {
-      "clicks": 76,
-      "impressions": 7020,
-      "position": 11.931908831908832
+      "clicks": 70,
+      "impressions": 6963,
+      "position": 11.928048255062473
     },
     "https://sani.co.za/car-rental-vehicles/compact-hatch/": {
       "clicks": 2,
-      "impressions": 195,
-      "position": 19.666666666666668
+      "impressions": 187,
+      "position": 20.711229946524064
     },
     "https://sani.co.za/car-rental-vehicles/compact-suv-crossover/": {
       "clicks": 5,
-      "impressions": 349,
-      "position": 10.063037249283667
+      "impressions": 351,
+      "position": 10.028490028490028
     },
     "https://sani.co.za/car-rental-vehicles/economy/": {
-      "clicks": 4,
-      "impressions": 721,
-      "position": 14.030513176144245
+      "clicks": 3,
+      "impressions": 726,
+      "position": 14.02754820936639
     },
     "https://sani.co.za/car-rental-vehicles/people-carrier-minivan/": {
-      "clicks": 74,
-      "impressions": 4748,
-      "position": 16.09688289806234
+      "clicks": 69,
+      "impressions": 4670,
+      "position": 16.115203426124197
     },
     "https://sani.co.za/car-rental-vehicles/premium/": {
-      "clicks": 68,
-      "impressions": 2946,
-      "position": 9.427359131025119
+      "clicks": 63,
+      "impressions": 2884,
+      "position": 9.46012482662968
     },
     "https://sani.co.za/car-rental-vehicles/sedan/": {
       "clicks": 3,
-      "impressions": 314,
-      "position": 11.04140127388535
+      "impressions": 304,
+      "position": 11.588815789473685
     },
     "https://sani.co.za/car-rental-vehicles/suv/": {
-      "clicks": 26,
-      "impressions": 1897,
-      "position": 13.337374802319452
+      "clicks": 22,
+      "impressions": 1866,
+      "position": 13.412647374062166
     },
     "https://sani.co.za/car-rental/": {
       "clicks": 1,
-      "impressions": 139,
-      "position": 60.51798561151079
+      "impressions": 145,
+      "position": 57.86206896551724
     },
     "https://sani.co.za/car-rental/bloemfontein-airport-bram-fisher/": {
       "clicks": 38,
-      "impressions": 3494,
-      "position": 9.094161419576416
+      "impressions": 3437,
+      "position": 9.103578702356707
     },
     "https://sani.co.za/car-rental/cape-town-city-centre-green-point/": {
-      "clicks": 85,
-      "impressions": 7638,
-      "position": 8.743650170201622
+      "clicks": 84,
+      "impressions": 7603,
+      "position": 8.588451926870972
     },
     "https://sani.co.za/car-rental/cape-town-industria-off-airport/": {
-      "clicks": 9,
-      "impressions": 4310,
-      "position": 4.245707656612529
+      "clicks": 8,
+      "impressions": 4313,
+      "position": 4.302573614653374
     },
     "https://sani.co.za/car-rental/cape-town-int-airport": {
       "clicks": 1,
@@ -957,239 +957,239 @@
       "position": 1.170731707317073
     },
     "https://sani.co.za/car-rental/cape-town-int-airport/": {
-      "clicks": 1599,
-      "impressions": 157624,
-      "position": 2.580698370806476
+      "clicks": 1581,
+      "impressions": 154569,
+      "position": 2.5988911101191055
     },
     "https://sani.co.za/car-rental/centurion/": {
-      "clicks": 233,
-      "impressions": 15096,
-      "position": 4.102013778484366
+      "clicks": 234,
+      "impressions": 15010,
+      "position": 4.074350433044637
     },
     "https://sani.co.za/car-rental/durban-airport-int-king-shaka/": {
-      "clicks": 484,
-      "impressions": 50580,
-      "position": 3.6547844998022936
+      "clicks": 481,
+      "impressions": 50043,
+      "position": 3.6776172491657175
     },
     "https://sani.co.za/car-rental/durban-city/": {
       "clicks": 15,
-      "impressions": 2222,
-      "position": 10.797929792979298
+      "impressions": 2212,
+      "position": 10.619349005424954
     },
     "https://sani.co.za/car-rental/east-london-airport-king-phalo/": {
-      "clicks": 157,
-      "impressions": 11744,
-      "position": 4.390241825613079
+      "clicks": 155,
+      "impressions": 11769,
+      "position": 4.391876964907809
     },
     "https://sani.co.za/car-rental/east-london-city-centre/": {
-      "clicks": 34,
-      "impressions": 2523,
-      "position": 8.722552516845026
+      "clicks": 33,
+      "impressions": 2501,
+      "position": 8.625349860055977
     },
     "https://sani.co.za/car-rental/eastgate-hoedspruit-airport-meet-greet/": {
       "clicks": 4,
-      "impressions": 61,
-      "position": 8.40983606557377
+      "impressions": 63,
+      "position": 8.603174603174603
     },
     "https://sani.co.za/car-rental/george-airport/": {
-      "clicks": 70,
-      "impressions": 6086,
-      "position": 8.954157081827145
+      "clicks": 68,
+      "impressions": 6069,
+      "position": 9.024056681496129
     },
     "https://sani.co.za/car-rental/hoedspruit-town-centre/": {
       "clicks": 87,
-      "impressions": 2818,
-      "position": 3.3985095812633075
+      "impressions": 2833,
+      "position": 3.358983409812919
     },
     "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/": {
-      "clicks": 1202,
-      "impressions": 122040,
-      "position": 3.9734431333988858
+      "clicks": 1195,
+      "impressions": 120376,
+      "position": 3.9907207416760815
     },
     "https://sani.co.za/car-rental/kathu-town-centre/": {
-      "clicks": 53,
-      "impressions": 2261,
-      "position": 4.449358690844759
+      "clicks": 54,
+      "impressions": 2260,
+      "position": 4.433628318584071
     },
     "https://sani.co.za/car-rental/lanseria-int-airport/": {
-      "clicks": 30,
-      "impressions": 6078,
-      "position": 8.482889108259297
+      "clicks": 31,
+      "impressions": 6064,
+      "position": 8.751813984168866
     },
     "https://sani.co.za/car-rental/mthatha-airport-mthatha-matanzima/": {
       "clicks": 31,
-      "impressions": 2771,
-      "position": 7.2998917358354385
+      "impressions": 2784,
+      "position": 7.264367816091954
     },
     "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/": {
-      "clicks": 201,
-      "impressions": 7689,
-      "position": 5.558850305631421
+      "clicks": 210,
+      "impressions": 7678,
+      "position": 5.525527481114874
     },
     "https://sani.co.za/car-rental/pietermaritzburg-2/": {
-      "clicks": 20,
-      "impressions": 909,
-      "position": 13.141914191419142
+      "clicks": 19,
+      "impressions": 908,
+      "position": 13.018722466960352
     },
     "https://sani.co.za/car-rental/pinetown/": {
-      "clicks": 46,
-      "impressions": 3807,
-      "position": 9.854478592067245
+      "clicks": 47,
+      "impressions": 3797,
+      "position": 9.912562549381091
     },
     "https://sani.co.za/car-rental/polokwane-int-airport/": {
-      "clicks": 136,
-      "impressions": 6885,
-      "position": 4.40319535221496
+      "clicks": 138,
+      "impressions": 6810,
+      "position": 4.419089574155653
     },
     "https://sani.co.za/car-rental/port-elizabeth-gqeberha-dawid-stuurman-airport/": {
-      "clicks": 447,
-      "impressions": 19745,
-      "position": 4.75310205115219
+      "clicks": 453,
+      "impressions": 19637,
+      "position": 4.761521617354993
     },
     "https://sani.co.za/car-rental/port-elizabeth-gqeberha-walmer/": {
       "clicks": 69,
-      "impressions": 5157,
-      "position": 5.210975373279038
+      "impressions": 5195,
+      "position": 5.051973051010587
     },
     "https://sani.co.za/car-rental/pretoria-hatfield/": {
-      "clicks": 112,
-      "impressions": 15993,
-      "position": 10.043268930156943
+      "clicks": 113,
+      "impressions": 15621,
+      "position": 9.978746559119134
     },
     "https://sani.co.za/car-rental/randburg-johannesburg/": {
-      "clicks": 69,
-      "impressions": 13141,
-      "position": 15.199756487329731
+      "clicks": 65,
+      "impressions": 12888,
+      "position": 14.861421477343265
     },
     "https://sani.co.za/car-rental/rustenburg/": {
-      "clicks": 98,
-      "impressions": 4604,
-      "position": 7.244352736750652
+      "clicks": 99,
+      "impressions": 4580,
+      "position": 7.209388646288209
     },
     "https://sani.co.za/car-rental/sandton-city-radisson-blue-gautrain/": {
-      "clicks": 211,
-      "impressions": 23962,
-      "position": 4.532301143477172
+      "clicks": 215,
+      "impressions": 23868,
+      "position": 4.518937489525724
     },
     "https://sani.co.za/car-rental/umhlanga-durban/": {
       "clicks": 30,
-      "impressions": 3283,
-      "position": 7.841608285105087
+      "impressions": 3318,
+      "position": 7.7317661241711875
     },
     "https://sani.co.za/contact/": {
-      "clicks": 105,
-      "impressions": 10459,
-      "position": 3.7586767377378334
+      "clicks": 104,
+      "impressions": 10378,
+      "position": 3.805935633069956
     },
     "https://sani.co.za/faq/": {
-      "clicks": 156,
-      "impressions": 6910,
-      "position": 6.693777134587554
+      "clicks": 159,
+      "impressions": 6883,
+      "position": 6.716838587825077
     },
     "https://sani.co.za/locations/cape-town-city/": {
-      "clicks": 351,
-      "impressions": 29687,
-      "position": 2.5595041600700643
+      "clicks": 356,
+      "impressions": 29321,
+      "position": 2.5442856655639305
     },
     "https://sani.co.za/locations/lanseria-international-airport/": {
-      "clicks": 75,
-      "impressions": 7087,
-      "position": 2.6267814307887685
+      "clicks": 74,
+      "impressions": 7074,
+      "position": 2.616624257845632
     },
     "https://sani.co.za/locations/mthatha-matanzima-airport/": {
-      "clicks": 28,
-      "impressions": 2919,
-      "position": 2.054813292223364
+      "clicks": 29,
+      "impressions": 2964,
+      "position": 2.0813090418353575
     },
     "https://sani.co.za/locations/pinetown/": {
-      "clicks": 53,
-      "impressions": 5209,
-      "position": 3.056056824726435
+      "clicks": 50,
+      "impressions": 5229,
+      "position": 3.064639510422643
     },
     "https://sani.co.za/locations/randburg/": {
-      "clicks": 165,
-      "impressions": 16842,
-      "position": 3.438605866286664
+      "clicks": 167,
+      "impressions": 16627,
+      "position": 3.442112227100499
     },
     "https://sani.co.za/locations/rustenburg/": {
       "clicks": 96,
-      "impressions": 5303,
-      "position": 2.4491797095983405
+      "impressions": 5290,
+      "position": 2.445179584120983
     },
     "https://sani.co.za/monthly-mobility/": {
-      "clicks": 321,
-      "impressions": 18843,
-      "position": 9.415114366077589
+      "clicks": 317,
+      "impressions": 18804,
+      "position": 9.475218038715166
     },
     "https://sani.co.za/our-vehicles/": {
-      "clicks": 132,
-      "impressions": 18681,
-      "position": 5.9971093624538305
+      "clicks": 130,
+      "impressions": 18724,
+      "position": 6.086893826105533
     },
     "https://sani.co.za/our-vehicles/bmw-3-series-or-x1-or-x2-for-rent/": {
-      "clicks": 6,
-      "impressions": 125,
-      "position": 6.44
+      "clicks": 7,
+      "impressions": 133,
+      "position": 6.458646616541353
     },
     "https://sani.co.za/our-vehicles/bmw-m3-competition-awd-for-rent/": {
-      "clicks": 23,
-      "impressions": 339,
-      "position": 5.377581120943953
+      "clicks": 25,
+      "impressions": 364,
+      "position": 5.491758241758242
     },
     "https://sani.co.za/our-vehicles/bmw-m4-competition-convertible-awd-for-rent/": {
       "clicks": 2,
-      "impressions": 177,
-      "position": 7.135593220338983
+      "impressions": 184,
+      "position": 7.114130434782608
     },
     "https://sani.co.za/our-vehicles/bmw-x3-new-2025-for-rent/": {
       "clicks": 2,
-      "impressions": 66,
-      "position": 5.7727272727272725
+      "impressions": 69,
+      "position": 5.782608695652174
     },
     "https://sani.co.za/our-vehicles/bmw-x3-or-similar-for-rent/": {
       "clicks": 5,
-      "impressions": 181,
-      "position": 6.248618784530387
+      "impressions": 195,
+      "position": 6.184615384615385
     },
     "https://sani.co.za/our-vehicles/bmw-x5-xdrive30d-for-rent/": {
       "clicks": 2,
-      "impressions": 115,
-      "position": 7.6
+      "impressions": 118,
+      "position": 7.584745762711864
     },
     "https://sani.co.za/our-vehicles/bmw-x5m-competition-for-rent/": {
       "clicks": 4,
-      "impressions": 61,
-      "position": 5.557377049180328
+      "impressions": 63,
+      "position": 5.412698412698413
     },
     "https://sani.co.za/our-vehicles/citroen-aircross-plus-or-similar-for-rent/": {
-      "clicks": 7,
-      "impressions": 120,
-      "position": 6.65
+      "clicks": 8,
+      "impressions": 137,
+      "position": 6.2773722627737225
     },
     "https://sani.co.za/our-vehicles/gwm-steed-single-cab-4x2-for-rent/": {
       "clicks": 2,
-      "impressions": 56,
-      "position": 6.232142857142857
+      "impressions": 60,
+      "position": 6.35
     },
     "https://sani.co.za/our-vehicles/hyundai-staria-or-similar-for-rent/": {
-      "clicks": 9,
-      "impressions": 575,
-      "position": 7.201739130434783
+      "clicks": 13,
+      "impressions": 632,
+      "position": 7.194620253164557
     },
     "https://sani.co.za/our-vehicles/land-rover-defender-110-d250-for-rent/": {
       "clicks": 8,
-      "impressions": 142,
-      "position": 7.23943661971831
+      "impressions": 155,
+      "position": 7.587096774193548
     },
     "https://sani.co.za/our-vehicles/mercedes-benz-c200-or-similar-for-rent/": {
       "clicks": 1,
-      "impressions": 191,
-      "position": 6.780104712041885
+      "impressions": 206,
+      "position": 6.766990291262136
     },
     "https://sani.co.za/our-vehicles/mercedes-benz-v-class-250d-for-rent/": {
       "clicks": 37,
-      "impressions": 1607,
-      "position": 9.521468574984443
+      "impressions": 1656,
+      "position": 9.523550724637682
     },
     "https://sani.co.za/our-vehicles/mercedes-benz-v-class-v250d-for-rent/": {
       "clicks": 1,
@@ -1198,173 +1198,173 @@
     },
     "https://sani.co.za/our-vehicles/nissan-magnite-or-similar-for-rent/": {
       "clicks": 17,
-      "impressions": 184,
-      "position": 7.086956521739131
+      "impressions": 191,
+      "position": 7.104712041884817
     },
     "https://sani.co.za/our-vehicles/range-rover-sport-awd-3-0d-for-rent/": {
-      "clicks": 4,
-      "impressions": 155,
-      "position": 7.651612903225806
+      "clicks": 5,
+      "impressions": 162,
+      "position": 7.580246913580247
     },
     "https://sani.co.za/our-vehicles/suzuki-ertiga-or-similar-for-rent/": {
-      "clicks": 4,
-      "impressions": 252,
-      "position": 5.853174603174603
+      "clicks": 5,
+      "impressions": 272,
+      "position": 5.672794117647059
     },
     "https://sani.co.za/our-vehicles/toyota-corolla-cross-or-similar-for-rent/": {
       "clicks": 3,
-      "impressions": 287,
-      "position": 5.696864111498257
+      "impressions": 299,
+      "position": 5.682274247491639
     },
     "https://sani.co.za/our-vehicles/toyota-fortuner-4x2-for-rent/": {
       "clicks": 23,
-      "impressions": 486,
-      "position": 8.763374485596707
+      "impressions": 509,
+      "position": 8.854616895874264
     },
     "https://sani.co.za/our-vehicles/toyota-hiace-2-5d-14-seater-for-rent/": {
-      "clicks": 4,
-      "impressions": 144,
-      "position": 6.055555555555555
+      "clicks": 5,
+      "impressions": 152,
+      "position": 5.9144736842105265
     },
     "https://sani.co.za/our-vehicles/toyota-hilux-double-cab-4x4-or-similar-for-rent/": {
       "clicks": 2,
-      "impressions": 319,
-      "position": 9.382445141065832
+      "impressions": 348,
+      "position": 9.798850574712644
     },
     "https://sani.co.za/our-vehicles/toyota-hilux-single-cab-4x4-or-similar-for-rent/": {
       "clicks": 1,
-      "impressions": 66,
-      "position": 12.166666666666666
+      "impressions": 75,
+      "position": 12.466666666666667
     },
     "https://sani.co.za/our-vehicles/toyota-hilux-single-cab-vvti-for-rent/": {
       "clicks": 1,
-      "impressions": 73,
-      "position": 28.273972602739725
+      "impressions": 76,
+      "position": 28.473684210526315
     },
     "https://sani.co.za/our-vehicles/toyota-land-cruiser-300-3-3d-zx-for-rent/": {
-      "clicks": 9,
-      "impressions": 99,
-      "position": 7.595959595959596
+      "clicks": 10,
+      "impressions": 109,
+      "position": 7.5963302752293576
     },
     "https://sani.co.za/our-vehicles/toyota-quantum-11-seater-for-rent/": {
       "clicks": 18,
-      "impressions": 425,
-      "position": 8.04
+      "impressions": 462,
+      "position": 8.062770562770563
     },
     "https://sani.co.za/our-vehicles/toyota-rumion-for-rent/": {
       "clicks": 6,
-      "impressions": 144,
-      "position": 6.597222222222222
+      "impressions": 151,
+      "position": 6.920529801324503
     },
     "https://sani.co.za/our-vehicles/toyota-starlet-or-similar-for-rent/": {
       "clicks": 3,
-      "impressions": 148,
-      "position": 7.202702702702703
+      "impressions": 157,
+      "position": 7.32484076433121
     },
     "https://sani.co.za/our-vehicles/toyota-vitz-or-similar-for-rent/": {
       "clicks": 1,
-      "impressions": 79,
-      "position": 7.9113924050632916
+      "impressions": 87,
+      "position": 7.471264367816092
     },
     "https://sani.co.za/our-vehicles/vw-golf-r-dsg-for-rent/": {
-      "clicks": 9,
-      "impressions": 167,
-      "position": 5.311377245508982
+      "clicks": 10,
+      "impressions": 180,
+      "position": 5.316666666666666
     },
     "https://sani.co.za/our-vehicles/vw-polo-sedan-or-similar-for-rent/": {
       "clicks": 4,
-      "impressions": 144,
-      "position": 7.0625
+      "impressions": 153,
+      "position": 7.006535947712418
     },
     "https://sani.co.za/our-vehicles/vw-polo-tsi-dsg-or-similar-for-rent/": {
       "clicks": 2,
-      "impressions": 261,
-      "position": 6.080459770114943
+      "impressions": 279,
+      "position": 6.025089605734767
     },
     "https://sani.co.za/pre-approval-credit-check/": {
-      "clicks": 20,
-      "impressions": 457,
-      "position": 5.733041575492341
+      "clicks": 18,
+      "impressions": 464,
+      "position": 5.8405172413793105
     },
     "https://sani.co.za/press-release/drive-more-pay-less-why-sani-sixt-monthly-car-rentals-are-the-smartest-way-to-hit-the-road/": {
       "clicks": 6,
-      "impressions": 821,
-      "position": 7.386114494518879
+      "impressions": 810,
+      "position": 7.167901234567902
     },
     "https://sani.co.za/press-release/sani-car-rental-south-africa-partners-with-international-mobility-provider-sixt/": {
-      "clicks": 13,
-      "impressions": 1846,
-      "position": 7.57204767063922
+      "clicks": 14,
+      "impressions": 1809,
+      "position": 7.538419016030956
     },
     "https://sani.co.za/press-release/sani-sixt-rolls-out-premium-fleet-experience-luxury-power-and-style-on-every-drive/": {
       "clicks": 1,
-      "impressions": 682,
-      "position": 8.587976539589443
+      "impressions": 671,
+      "position": 8.758569299552907
     },
     "https://sani.co.za/press-releases/": {
       "clicks": 2,
-      "impressions": 1208,
-      "position": 10.28725165562914
+      "impressions": 1218,
+      "position": 10.19047619047619
     },
     "https://sani.co.za/privacy-policy/": {
       "clicks": 1,
-      "impressions": 232,
-      "position": 10.112068965517242
+      "impressions": 228,
+      "position": 10.578947368421053
     },
     "https://sani.co.za/rental-terms-conditions/": {
-      "clicks": 83,
-      "impressions": 2757,
-      "position": 6.0845121508886475
+      "clicks": 87,
+      "impressions": 2854,
+      "position": 6.071478626489138
     },
     "https://sani.co.za/sani-adventure/": {
-      "clicks": 162,
-      "impressions": 6779,
-      "position": 10.244873875202833
+      "clicks": 159,
+      "impressions": 6652,
+      "position": 10.184155141310884
     },
     "https://sani.co.za/sani-premium/": {
-      "clicks": 277,
-      "impressions": 18826,
-      "position": 8.3558907893339
+      "clicks": 271,
+      "impressions": 18435,
+      "position": 8.324871168972063
     },
     "https://sani.co.za/sani-royalty-customer-services/": {
       "clicks": 6,
-      "impressions": 752,
-      "position": 6.1688829787234045
+      "impressions": 743,
+      "position": 6.236877523553163
     },
     "https://sani.co.za/sani-royalty-redeem-or-make-a-reservation/": {
       "clicks": 2,
-      "impressions": 449,
-      "position": 8.409799554565701
+      "impressions": 451,
+      "position": 8.441241685144124
     },
     "https://sani.co.za/sani-royalty/": {
-      "clicks": 13,
-      "impressions": 24811,
-      "position": 8.57107734472613
+      "clicks": 12,
+      "impressions": 22774,
+      "position": 8.389215772372003
     },
     "https://sani.co.za/speed-up-collecting-your-rental-car/": {
       "clicks": 1,
-      "impressions": 185,
-      "position": 9.394594594594595
+      "impressions": 191,
+      "position": 9.602094240837696
     },
     "https://sani.co.za/terms-of-use/": {
       "clicks": 3,
-      "impressions": 362,
-      "position": 6.3535911602209945
+      "impressions": 347,
+      "position": 6.538904899135447
     },
     "https://sani.co.za/unlimited-kilometres/": {
-      "clicks": 153,
-      "impressions": 7620,
-      "position": 7.572047244094488
+      "clicks": 165,
+      "impressions": 7619,
+      "position": 7.560703504396902
     },
     "https://sani.co.za/zero-holding-deposit/": {
-      "clicks": 57,
-      "impressions": 604,
-      "position": 4.120860927152318
+      "clicks": 66,
+      "impressions": 676,
+      "position": 4.1139053254437865
     },
     "https://www.sani.co.za/": {
-      "clicks": 471,
-      "impressions": 41685,
-      "position": 2.0424133381312224
+      "clicks": 467,
+      "impressions": 41222,
+      "position": 2.056304885740624
     },
     "https://www.sani.co.za/car-rental/durban-airport-int-king-shaka/": {
       "clicks": 1,
@@ -1374,8 +1374,8 @@
   },
   "pages_current": {
     "https://helpdesk.sani.co.za/support/search/solutions": {
-      "clicks": 1,
-      "impressions": 2,
+      "clicks": 0,
+      "impressions": 1,
       "position": 5
     },
     "https://helpdesk.sani.co.za/support/search/tickets": {
@@ -1385,53 +1385,53 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046300-can-i-cancel-my-reservation-": {
       "clicks": 1,
-      "impressions": 31,
-      "position": 6.032258064516129
+      "impressions": 32,
+      "position": 5.90625
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046301-how-old-do-i-need-to-be-in-order-to-rent-a-car-from-sani-car-rental-": {
       "clicks": 0,
-      "impressions": 97,
-      "position": 7.43298969072165
+      "impressions": 86,
+      "position": 7.488372093023256
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046303-what-are-the-additional-rental-costs-": {
       "clicks": 1,
-      "impressions": 33,
-      "position": 5.666666666666667
+      "impressions": 36,
+      "position": 5.444444444444445
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046304-what-deposit-do-i-need-to-pay-in-order-to-secure-my-car-rental-": {
       "clicks": 0,
-      "impressions": 56,
-      "position": 8.232142857142858
+      "impressions": 49,
+      "position": 8.081632653061224
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046305-what-payment-methods-do-you-accept-": {
-      "clicks": 3,
-      "impressions": 45,
-      "position": 5.533333333333333
+      "clicks": 1,
+      "impressions": 36,
+      "position": 5.472222222222222
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046306-what-procedure-must-i-follow-if-i-have-an-accident-with-my-sani-rental-vehicle-": {
       "clicks": 1,
-      "impressions": 30,
-      "position": 11.433333333333334
+      "impressions": 29,
+      "position": 13.655172413793103
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046307-what-type-of-driver-s-licence-do-i-need-": {
       "clicks": 0,
-      "impressions": 1050,
-      "position": 7.300952380952381
+      "impressions": 1168,
+      "position": 7.273972602739726
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046308-where-can-i-rent-a-sani-car-": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 8.727272727272727
+      "impressions": 12,
+      "position": 13.166666666666666
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046310-what-is-a-sponsored-rental-": {
-      "clicks": 4,
-      "impressions": 29,
-      "position": 4.206896551724138
+      "clicks": 3,
+      "impressions": 28,
+      "position": 4.464285714285714
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046311-how-long-does-it-take-to-receive-my-deposit-after-returning-the-rental-vehicle-": {
       "clicks": 3,
-      "impressions": 160,
-      "position": 6.8875
+      "impressions": 153,
+      "position": 7.019607843137255
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046312-how-do-i-return-the-rental-after-business-hours-": {
       "clicks": 0,
@@ -1455,13 +1455,13 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046317-what-is-your-refuelling-policy-": {
       "clicks": 0,
-      "impressions": 45,
-      "position": 6.311111111111111
+      "impressions": 35,
+      "position": 6.828571428571428
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046318-why-do-i-need-to-return-the-vehicle-full-of-fuel-": {
       "clicks": 0,
       "impressions": 25,
-      "position": 7.32
+      "position": 7.16
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046319-what-is-a-contract-fee-": {
       "clicks": 0,
@@ -1470,8 +1470,8 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046320-when-would-i-pay-a-valet-charge-": {
       "clicks": 2,
-      "impressions": 9,
-      "position": 5.333333333333333
+      "impressions": 10,
+      "position": 5.2
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046322-why-do-i-have-to-pay-value-added-tax-": {
       "clicks": 0,
@@ -1480,208 +1480,213 @@
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046323-i-ve-completed-my-reservation-what-else-is-required-before-collecting-my-vehicle-": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 8
+      "impressions": 5,
+      "position": 8.6
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000046324-what-will-i-need-when-collecting-my-vehicle-": {
       "clicks": 0,
-      "impressions": 41,
-      "position": 5.853658536585366
+      "impressions": 40,
+      "position": 6.35
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000182220-why-do-i-need-to-return-the-vehicle-full-of-fuel-": {
       "clicks": 1,
-      "impressions": 29,
-      "position": 7.241379310344827
+      "impressions": 30,
+      "position": 6.866666666666666
     },
     "https://helpdesk.sani.co.za/support/solutions/articles/151000182221-what-is-a-bank-authorisation-": {
       "clicks": 0,
-      "impressions": 30,
-      "position": 5.5
+      "impressions": 26,
+      "position": 5.846153846153846
     },
     "https://helpdesk.sani.co.za/support/solutions/folders/151000285234": {
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 9,
       "position": 9
     },
     "https://helpdesk.sani.co.za/support/tickets/new": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 4.166666666666666
+      "impressions": 5,
+      "position": 4.8
     },
     "https://sani.co.za/": {
       "clicks": 608,
-      "impressions": 19430,
-      "position": 7.7110653628409676
+      "impressions": 19126,
+      "position": 7.558402175049671
+    },
+    "https://sani.co.za/about-sani-sixt-rent-a-car": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     "https://sani.co.za/about-sani-sixt-rent-a-car/": {
-      "clicks": 4,
-      "impressions": 523,
-      "position": 8.816443594646271
+      "clicks": 5,
+      "impressions": 498,
+      "position": 8.981927710843372
     },
     "https://sani.co.za/black-economic-empowerment/": {
       "clicks": 0,
-      "impressions": 101,
-      "position": 9.07920792079208
+      "impressions": 100,
+      "position": 9.12
     },
     "https://sani.co.za/blog-category/eastern-cape/": {
       "clicks": 0,
-      "impressions": 45,
-      "position": 12.933333333333334
+      "impressions": 43,
+      "position": 14.674418604651162
     },
     "https://sani.co.za/blog-category/free-state/": {
       "clicks": 0,
-      "impressions": 53,
-      "position": 10.49056603773585
+      "impressions": 54,
+      "position": 9.222222222222221
     },
     "https://sani.co.za/blog-category/gauteng/": {
       "clicks": 0,
-      "impressions": 136,
-      "position": 11.367647058823529
+      "impressions": 132,
+      "position": 11.5
     },
     "https://sani.co.za/blog-category/kwazulu-natal/": {
       "clicks": 0,
       "impressions": 25,
-      "position": 9.64
+      "position": 11.4
     },
     "https://sani.co.za/blog-category/mpumalanga/": {
       "clicks": 0,
-      "impressions": 25,
-      "position": 8.559999999999999
+      "impressions": 24,
+      "position": 8.5
     },
     "https://sani.co.za/blog-category/western-cape/": {
       "clicks": 0,
-      "impressions": 54,
-      "position": 10.648148148148149
+      "impressions": 53,
+      "position": 11.264150943396226
     },
     "https://sani.co.za/blog/": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 43.875
+      "impressions": 14,
+      "position": 43.5
     },
     "https://sani.co.za/blog/a-first-timers-guide-to-kruger-national-park-by-self-drive/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 7.25
+      "impressions": 13,
+      "position": 7
     },
     "https://sani.co.za/blog/a-guide-to-addo-elephant-national-park/": {
-      "clicks": 1,
-      "impressions": 11,
-      "position": 13.090909090909092
+      "clicks": 0,
+      "impressions": 10,
+      "position": 12.4
     },
     "https://sani.co.za/blog/a-guide-to-exploring-the-midlands-meander-route-with-sani-car-rental/": {
       "clicks": 1,
-      "impressions": 36,
-      "position": 9.055555555555555
+      "impressions": 40,
+      "position": 8.85
     },
     "https://sani.co.za/blog/a-guide-to-the-cape-point-nature-reserve/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 16.041666666666664
+      "impressions": 27,
+      "position": 14.444444444444445
     },
     "https://sani.co.za/blog/a-guide-to-the-cradle-of-humankind-world-heritage-site/": {
-      "clicks": 2,
-      "impressions": 41,
-      "position": 10.390243902439025
+      "clicks": 1,
+      "impressions": 42,
+      "position": 9.142857142857142
     },
     "https://sani.co.za/blog/a-guide-to-the-durban-beachfront/": {
       "clicks": 1,
-      "impressions": 125,
-      "position": 9.184
+      "impressions": 127,
+      "position": 9.125984251968504
     },
     "https://sani.co.za/blog/a-guide-to-the-golden-gate-highlands-national-park-in-the-free-state/": {
       "clicks": 0,
-      "impressions": 137,
-      "position": 10.10948905109489
+      "impressions": 129,
+      "position": 10.89922480620155
     },
     "https://sani.co.za/blog/a-guide-to-the-maboneng-precinct-in-johannesburg/": {
       "clicks": 0,
       "impressions": 10,
-      "position": 17.3
+      "position": 14
     },
     "https://sani.co.za/blog/a-guide-to-the-soweto-township/": {
       "clicks": 0,
-      "impressions": 498,
-      "position": 9.493975903614459
+      "impressions": 513,
+      "position": 9.721247563352826
     },
     "https://sani.co.za/blog/a-recommended-road-trip-exploring-the-drakensberg-mountains/": {
       "clicks": 1,
-      "impressions": 219,
-      "position": 7.936073059360731
+      "impressions": 220,
+      "position": 7.740909090909091
     },
     "https://sani.co.za/blog/a-road-trip-through-the-winelands-of-the-western-cape/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 11.333333333333334
+      "impressions": 13,
+      "position": 10.538461538461538
     },
     "https://sani.co.za/blog/a-road-trip-to-baviaanskloof-nature-reserve/": {
       "clicks": 0,
-      "impressions": 56,
-      "position": 8.517857142857142
+      "impressions": 50,
+      "position": 8.36
     },
     "https://sani.co.za/blog/a-road-trip-to-the-west-coast-national-park-in-the-western-cape/": {
       "clicks": 0,
-      "impressions": 15,
-      "position": 15.266666666666667
+      "impressions": 16,
+      "position": 18.3125
     },
     "https://sani.co.za/blog/a-scenic-drive-through-cape-towns-most-breathtaking-routes-where-to-go-with-a-rental-car/": {
       "clicks": 0,
-      "impressions": 32,
-      "position": 15.625
+      "impressions": 33,
+      "position": 18.03030303030303
     },
     "https://sani.co.za/blog/a-self-drive-city-safari-exploring-johannesburg-with-a-rental-car/": {
       "clicks": 0,
-      "impressions": 101,
-      "position": 8.277227722772277
+      "impressions": 90,
+      "position": 8.211111111111112
     },
     "https://sani.co.za/blog/a-self-drive-guide-to-the-waterberg-limpopos-malaria-free-big-5-safari/": {
       "clicks": 0,
       "impressions": 31,
-      "position": 5.709677419354839
+      "position": 5.903225806451613
     },
     "https://sani.co.za/blog/a-weekend-in-dullstroom-fly-fishing-and-fireside-charm-in-the-mpumalanga-highlands/": {
       "clicks": 0,
       "impressions": 15,
-      "position": 9.4
+      "position": 9.266666666666667
     },
     "https://sani.co.za/blog/a-weekend-in-paternoster-coastal-charm-and-self-drive-freedom-with-sani-sixt/": {
       "clicks": 0,
-      "impressions": 15,
-      "position": 6.666666666666667
+      "impressions": 16,
+      "position": 6.0625
     },
     "https://sani.co.za/blog/adventure-activities-in-ceres-zip-lining-quad-biking-and-more/": {
       "clicks": 0,
-      "impressions": 70,
-      "position": 11.82857142857143
+      "impressions": 74,
+      "position": 11.41891891891892
     },
     "https://sani.co.za/blog/adventures-on-the-tugela-river-white-water-rafting-and-canoeing-expeditions/": {
-      "clicks": 1,
-      "impressions": 30,
-      "position": 7.166666666666667
+      "clicks": 0,
+      "impressions": 35,
+      "position": 7.4
     },
     "https://sani.co.za/blog/african-craft-market-in-rosebank-explore-the-vibrant-african-craft-market-for-unique-souvenirs/": {
       "clicks": 1,
       "impressions": 46,
-      "position": 11.695652173913043
+      "position": 10.065217391304348
     },
     "https://sani.co.za/blog/african-market-shopping-craft-markets-flea-markets-and-artisanal-goods/": {
-      "clicks": 1,
-      "impressions": 243,
-      "position": 21.25925925925926
+      "clicks": 2,
+      "impressions": 247,
+      "position": 22.574898785425102
     },
     "https://sani.co.za/blog/art-and-culture-in-johannesburg-a-self-drive-tour-of-local-galleries/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 14.75
+      "impressions": 29,
+      "position": 14.448275862068966
     },
     "https://sani.co.za/blog/art-in-motion-a-self-drive-tour-of-gautengs-street-murals-and-public-art-spaces/": {
       "clicks": 0,
-      "impressions": 29,
-      "position": 35.206896551724135
+      "impressions": 35,
+      "position": 28.485714285714284
     },
     "https://sani.co.za/blog/best-outdoor-activities-in-the-western-cape/": {
       "clicks": 0,
-      "impressions": 2,
-      "position": 7.5
+      "impressions": 3,
+      "position": 7.333333333333333
     },
     "https://sani.co.za/blog/best-shopping-destinations-in-gauteng/": {
       "clicks": 0,
@@ -1690,88 +1695,88 @@
     },
     "https://sani.co.za/blog/best-surfing-spots-on-the-western-cape-coast/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 88.75
+      "impressions": 10,
+      "position": 80.8
     },
     "https://sani.co.za/blog/beyond-the-prison-walls-discover-the-history-of-the-famous-robben-island/": {
       "clicks": 0,
-      "impressions": 52,
-      "position": 15.038461538461538
+      "impressions": 45,
+      "position": 13.11111111111111
     },
     "https://sani.co.za/blog/beyond-the-winelands-a-self-drive-to-the-cederbergs-secret-swimming-spots/": {
-      "clicks": 0,
-      "impressions": 40,
-      "position": 9.45
+      "clicks": 1,
+      "impressions": 43,
+      "position": 9.023255813953488
     },
     "https://sani.co.za/blog/bird-watching-at-west-coast-national-park-exposing-the-birding-hotspots-and-seasonal-migrations/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 8.333333333333332
+      "impressions": 13,
+      "position": 7.076923076923077
     },
     "https://sani.co.za/blog/bohemian-vibes-in-johannesburg-explore-the-artsy-and-eclectic-neighbourhood-of-melville-in-johannesburg/": {
       "clicks": 0,
-      "impressions": 293,
-      "position": 15.498293515358363
+      "impressions": 291,
+      "position": 15.855670103092784
     },
     "https://sani.co.za/blog/boulders-beach-and-the-cape-peninsula-a-family-day-trip-guide/": {
       "clicks": 0,
-      "impressions": 28,
-      "position": 7.785714285714286
+      "impressions": 24,
+      "position": 7.541666666666667
     },
     "https://sani.co.za/blog/budget-friendly-car-rentals-top-money-saving-strategies-for-travelers-in-south-africa/": {
       "clicks": 0,
-      "impressions": 71,
-      "position": 14.43661971830986
+      "impressions": 73,
+      "position": 14.178082191780822
     },
     "https://sani.co.za/blog/business-travel-made-simple-sani-sixts-smart-mobility-solutions-for-south-african-professionals/": {
-      "clicks": 2,
-      "impressions": 101,
-      "position": 7.445544554455446
+      "clicks": 0,
+      "impressions": 95,
+      "position": 7.894736842105263
     },
     "https://sani.co.za/blog/cape-towns-best-sunsets-top-spots-for-evening-views/": {
       "clicks": 0,
-      "impressions": 9,
-      "position": 66.88888888888889
+      "impressions": 8,
+      "position": 75
     },
     "https://sani.co.za/blog/cape-towns-historic-districts-exploring-bo-kaap-district-six-and-woodstock/": {
       "clicks": 1,
       "impressions": 60,
-      "position": 6.033333333333333
+      "position": 6.35
     },
     "https://sani.co.za/blog/castle-of-good-hope-uncover-the-secrets-and-stories-of-the-oldest-surviving-colonial-building-in-south-africa/": {
-      "clicks": 0,
-      "impressions": 19,
-      "position": 7.368421052631579
+      "clicks": 1,
+      "impressions": 16,
+      "position": 7
     },
     "https://sani.co.za/blog/chapmans-peak-drive-a-drive-through-a-coast-with-a-view/": {
       "clicks": 0,
-      "impressions": 13,
-      "position": 16.923076923076923
+      "impressions": 12,
+      "position": 15.25
     },
     "https://sani.co.za/blog/combine-wine-tasting-with-art-appreciation-in-the-scenic-magaliesberg-region/": {
       "clicks": 0,
-      "impressions": 5,
-      "position": 10.6
+      "impressions": 2,
+      "position": 12
     },
     "https://sani.co.za/blog/comparing-vehicle-types-choosing-the-perfect-rental-car-for-your-south-african-adventure/": {
       "clicks": 0,
-      "impressions": 73,
-      "position": 6.986301369863014
+      "impressions": 79,
+      "position": 7.037974683544304
     },
     "https://sani.co.za/blog/cruising-the-midlands-meander-a-self-drive-through-kzns-countryside-charms/": {
       "clicks": 0,
-      "impressions": 58,
-      "position": 7.258620689655173
+      "impressions": 57,
+      "position": 7.157894736842105
     },
     "https://sani.co.za/blog/day-trips-from-cape-town-wine-tasting-in-constantia-and-historical-stellenbosch/": {
       "clicks": 0,
-      "impressions": 37,
-      "position": 22.89189189189189
+      "impressions": 39,
+      "position": 22.641025641025642
     },
     "https://sani.co.za/blog/discover-the-entertainment-dining-and-gaming-options-at-montecasino/": {
       "clicks": 1,
-      "impressions": 162,
-      "position": 10.160493827160494
+      "impressions": 167,
+      "position": 10.173652694610778
     },
     "https://sani.co.za/blog/discovering-hidden-wine-routes-of-the-western-cape-with-sani-sixt/": {
       "clicks": 0,
@@ -1780,848 +1785,843 @@
     },
     "https://sani.co.za/blog/discovering-the-magic-of-isimangaliso-wetland-park/": {
       "clicks": 0,
-      "impressions": 33,
-      "position": 14.515151515151516
+      "impressions": 30,
+      "position": 15.2
     },
     "https://sani.co.za/blog/discovering-vilakazi-street-a-journey-through-sowetos-heart/": {
       "clicks": 0,
-      "impressions": 164,
-      "position": 9.25
+      "impressions": 151,
+      "position": 9.47682119205298
     },
     "https://sani.co.za/blog/discovering-wine-and-wellness-in-franschhoek/": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 9
+      "impressions": 8,
+      "position": 8.625
     },
     "https://sani.co.za/blog/dive-into-durbans-marine-world-aquariums-seal-shows-and-shark-encounters/": {
       "clicks": 1,
       "impressions": 528,
-      "position": 5.428030303030303
+      "position": 5.5625
     },
     "https://sani.co.za/blog/driving-etiquette-in-south-africa-tips-for-a-polite-and-smooth-ride/": {
       "clicks": 0,
-      "impressions": 102,
-      "position": 11.049019607843137
+      "impressions": 96,
+      "position": 9.34375
     },
     "https://sani.co.za/blog/driving-gautengs-foodie-trail-best-local-eats-you-can-only-find-by-car/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 10
+      "impressions": 10,
+      "position": 9.6
     },
     "https://sani.co.za/blog/eco-friendly-driving-tips-for-conscious-travelers-minimising-environmental-impact/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 28.625
+      "impressions": 9,
+      "position": 16.77777777777778
     },
     "https://sani.co.za/blog/executive-car-rentals-choosing-the-perfect-vehicle-to-impress-and-perform/": {
       "clicks": 1,
-      "impressions": 113,
-      "position": 19.575221238938052
+      "impressions": 103,
+      "position": 18.41747572815534
     },
     "https://sani.co.za/blog/explore-south-africas-top-mountain-biking-trails-from-single-tracks-to-scenic-forest-routes/": {
       "clicks": 0,
-      "impressions": 32,
-      "position": 18.59375
+      "impressions": 26,
+      "position": 12.384615384615385
     },
     "https://sani.co.za/blog/explore-the-cultural-and-historic-side-of-stellenbosch-beyond-its-renowned-wineries/": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 7.428571428571429
+      "impressions": 6,
+      "position": 6.5
     },
     "https://sani.co.za/blog/exploring-johannesburgs-wildlife-zoos-animal-sanctuaries-and-nature-reserves/": {
       "clicks": 0,
-      "impressions": 232,
-      "position": 9.487068965517242
+      "impressions": 227,
+      "position": 9.722466960352422
     },
     "https://sani.co.za/blog/exploring-pretorias-heritage-sites-by-car-a-self-guided-history-tour/": {
       "clicks": 0,
-      "impressions": 25,
-      "position": 8.559999999999999
+      "impressions": 29,
+      "position": 8.827586206896552
     },
     "https://sani.co.za/blog/exploring-pretorias-historical-landmarks/": {
       "clicks": 0,
-      "impressions": 94,
-      "position": 5.861702127659575
+      "impressions": 104,
+      "position": 5.740384615384615
     },
     "https://sani.co.za/blog/exploring-south-africas-cities-parking-tips-and-tricks-for-stress-free-urban-travel/": {
       "clicks": 0,
-      "impressions": 78,
-      "position": 8.820512820512821
+      "impressions": 76,
+      "position": 8.197368421052632
     },
     "https://sani.co.za/blog/exploring-the-art-route-of-the-western-cape-galleries-studios-and-public-art/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 11.625
+      "impressions": 25,
+      "position": 13.44
     },
     "https://sani.co.za/blog/exploring-the-best-curry-spots-in-durban/": {
       "clicks": 0,
-      "impressions": 160,
-      "position": 9.95
+      "impressions": 146,
+      "position": 9.705479452054794
     },
     "https://sani.co.za/blog/exploring-the-cederberg-wilderness-a-guide-to-the-incredible-landscapes-and-rock-formations/": {
       "clicks": 0,
-      "impressions": 20,
-      "position": 12
+      "impressions": 19,
+      "position": 12.947368421052632
     },
     "https://sani.co.za/blog/exploring-the-forgotten-ghost-towns-of-the-karoo-a-road-trip-adventure/": {
       "clicks": 1,
-      "impressions": 108,
-      "position": 8.87962962962963
+      "impressions": 111,
+      "position": 8.90990990990991
     },
     "https://sani.co.za/blog/exploring-the-little-karoo-route-62-road-trip-adventures/": {
       "clicks": 0,
-      "impressions": 85,
-      "position": 5.188235294117647
+      "impressions": 91,
+      "position": 4.978021978021978
     },
     "https://sani.co.za/blog/exploring-the-rich-cultural-experiences-of-kwazulu-natal/": {
       "clicks": 0,
-      "impressions": 23,
-      "position": 5.869565217391305
+      "impressions": 25,
+      "position": 8.24
     },
     "https://sani.co.za/blog/exploring-the-swartland-a-self-drive-through-the-western-capes-dryland-wine-route/": {
       "clicks": 0,
-      "impressions": 34,
-      "position": 9.617647058823529
+      "impressions": 31,
+      "position": 9.419354838709678
     },
     "https://sani.co.za/blog/exploring-the-vibrant-street-food-scene-in-johannesburg/": {
       "clicks": 1,
-      "impressions": 35,
-      "position": 7.8
+      "impressions": 32,
+      "position": 8.15625
     },
     "https://sani.co.za/blog/exploring-the-wild-coast-in-the-eastern-cape-a-road-trip-itinerary/": {
-      "clicks": 4,
-      "impressions": 95,
-      "position": 8.568421052631578
+      "clicks": 3,
+      "impressions": 89,
+      "position": 8.606741573033709
     },
     "https://sani.co.za/blog/exploring-the-wonder-cave-a-guide-to-its-underground-marvels-and-geological-formations/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 8
+      "impressions": 8,
+      "position": 6.25
     },
     "https://sani.co.za/blog/exploring-the-wonders-of-the-western-cape-with-a-rental-car/": {
       "clicks": 0,
-      "impressions": 268,
-      "position": 10.51865671641791
+      "impressions": 231,
+      "position": 10.835497835497835
+    },
+    "https://sani.co.za/blog/family-road-trips-in-south-africa-what-you-need-to-know-before-going": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     "https://sani.co.za/blog/family-road-trips-in-south-africa-what-you-need-to-know-before-you-go/": {
       "clicks": 2,
-      "impressions": 144,
-      "position": 7.145833333333333
+      "impressions": 143,
+      "position": 6.510489510489511
     },
     "https://sani.co.za/blog/first-time-in-cape-town-your-self-drive-arrival-guide/": {
-      "clicks": 1,
-      "impressions": 236,
-      "position": 8.817796610169491
+      "clicks": 0,
+      "impressions": 227,
+      "position": 8.94713656387665
     },
     "https://sani.co.za/blog/first-time-in-durban-your-self-drive-arrival-guide/": {
       "clicks": 0,
-      "impressions": 144,
-      "position": 8.506944444444445
+      "impressions": 130,
+      "position": 8.830769230769231
     },
     "https://sani.co.za/blog/first-time-in-gqeberha-your-self-drive-arrival-guide/": {
       "clicks": 0,
-      "impressions": 30,
-      "position": 7.1
+      "impressions": 31,
+      "position": 7.129032258064516
     },
     "https://sani.co.za/blog/first-time-in-johannesburg-how-to-drive-the-city-without-getting-lost/": {
       "clicks": 1,
-      "impressions": 113,
-      "position": 7.95575221238938
+      "impressions": 110,
+      "position": 7.954545454545454
     },
     "https://sani.co.za/blog/flower-season-in-namaqualand-planning-your-self-drive-from-cape-town/": {
       "clicks": 0,
-      "impressions": 120,
-      "position": 7.666666666666667
+      "impressions": 127,
+      "position": 8.031496062992126
     },
     "https://sani.co.za/blog/from-durban-to-the-dolphin-coast-a-self-drive-escape-along-kwazulu-natals-north-shore/": {
       "clicks": 2,
-      "impressions": 82,
-      "position": 8.439024390243903
+      "impressions": 80,
+      "position": 8.4125
     },
     "https://sani.co.za/blog/gautengs-natural-hot-springs-relaxing-spots-for-thermal-baths-and-spa-days/": {
       "clicks": 9,
       "impressions": 177,
-      "position": 6.468926553672317
+      "position": 6.3841807909604515
     },
     "https://sani.co.za/blog/gautengs-night-safari-discover-the-wildlife-after-dark/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 12
+      "impressions": 17,
+      "position": 25.11764705882353
     },
     "https://sani.co.za/blog/green-city-drives-discovering-gautengs-urban-parks-and-outdoor-spaces-by-car/": {
       "clicks": 0,
-      "impressions": 50,
-      "position": 7.5
+      "impressions": 49,
+      "position": 8.061224489795919
     },
     "https://sani.co.za/blog/groot-constantia-south-africas-oldest-wine-estate/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 7.75
+      "impressions": 7,
+      "position": 7.571428571428571
     },
     "https://sani.co.za/blog/hartbeespoort-dam-a-guide-to-water-activities-and-attractions-around-hartbeespoort-dam/": {
-      "clicks": 5,
-      "impressions": 406,
-      "position": 7.687192118226601
+      "clicks": 4,
+      "impressions": 412,
+      "position": 7.706310679611651
     },
     "https://sani.co.za/blog/hidden-escapes-near-johannesburg-self-drive-day-trips-for-nature-lovers/": {
       "clicks": 3,
-      "impressions": 73,
-      "position": 8.191780821917808
+      "impressions": 80,
+      "position": 7.85
     },
     "https://sani.co.za/blog/hidden-gems-of-the-dinokeng-game-reserve-discovering-wildlife-in-gautengs-secret-spots/": {
       "clicks": 0,
-      "impressions": 42,
-      "position": 9.666666666666666
+      "impressions": 39,
+      "position": 9.128205128205128
     },
     "https://sani.co.za/blog/historic-walks-in-simons-town-maritime-museums-and-naval-heritage/": {
       "clicks": 0,
-      "impressions": 20,
-      "position": 7.05
+      "impressions": 17,
+      "position": 7.176470588235294
     },
     "https://sani.co.za/blog/hot-air-ballooning-over-magaliesberg-a-sky-high-adventure-in-gauteng/": {
       "clicks": 0,
-      "impressions": 14,
-      "position": 39.57142857142857
+      "impressions": 16,
+      "position": 39.375
     },
     "https://sani.co.za/blog/indulge-in-the-western-cape-the-best-restaurants-and-cafes-to-visit-on-your-road-trip/": {
       "clicks": 0,
-      "impressions": 22,
-      "position": 10.409090909090908
+      "impressions": 18,
+      "position": 10.722222222222221
     },
     "https://sani.co.za/blog/into-the-drakensberg-a-self-drive-road-trip-through-kwazulu-natals-mountain-country/": {
       "clicks": 4,
-      "impressions": 216,
-      "position": 6.402777777777778
+      "impressions": 223,
+      "position": 6.291479820627803
     },
     "https://sani.co.za/blog/johannesburgs-street-art-scene-murals-graffiti-and-public-art-installations/": {
       "clicks": 0,
-      "impressions": 49,
-      "position": 16.04081632653061
+      "impressions": 51,
+      "position": 14.823529411764707
     },
     "https://sani.co.za/blog/kalk-bay-south-africas-charming-fishing-village/": {
       "clicks": 0,
-      "impressions": 28,
-      "position": 10.142857142857142
+      "impressions": 22,
+      "position": 9.090909090909092
     },
     "https://sani.co.za/blog/kogelberg-biosphere-the-real-life-garden-of-eden/": {
       "clicks": 0,
-      "impressions": 42,
-      "position": 4.9523809523809526
+      "impressions": 48,
+      "position": 5.395833333333333
     },
     "https://sani.co.za/blog/kwazulu-natals-battlefields-route-a-self-drive-through-south-african-history/": {
       "clicks": 0,
-      "impressions": 4,
-      "position": 10.25
+      "impressions": 3,
+      "position": 11
     },
     "https://sani.co.za/blog/lion-safari-park-an-animal-encounter-in-gauteng/": {
       "clicks": 1,
-      "impressions": 45,
-      "position": 9.155555555555555
+      "impressions": 46,
+      "position": 8.978260869565219
     },
     "https://sani.co.za/blog/long-distance-driving-strategies-for-staying-comfortable-and-alert-on-long-journeys/": {
       "clicks": 0,
-      "impressions": 25,
-      "position": 14.16
+      "impressions": 24,
+      "position": 13.541666666666666
     },
     "https://sani.co.za/blog/long-weekend-road-trip-ideas-making-the-most-of-south-africas-public-holidays/": {
       "clicks": 0,
-      "impressions": 27,
-      "position": 9.037037037037036
+      "impressions": 20,
+      "position": 10.7
     },
     "https://sani.co.za/blog/making-the-most-of-your-arrival-and-departure-a-guide-to-airport-car-rentals-in-south-africa/": {
       "clicks": 0,
-      "impressions": 71,
-      "position": 11.140845070422536
+      "impressions": 73,
+      "position": 11.301369863013699
     },
     "https://sani.co.za/blog/memorable-journeys-made-possible-with-our-rental-cars/": {
       "clicks": 0,
       "impressions": 12,
-      "position": 6.666666666666667
+      "position": 6.833333333333333
     },
     "https://sani.co.za/blog/monthly-mobility-flexible-long-term-car-rentals/": {
-      "clicks": 4,
-      "impressions": 187,
-      "position": 9.417112299465241
+      "clicks": 3,
+      "impressions": 179,
+      "position": 9.681564245810057
     },
     "https://sani.co.za/blog/must-visit-museums-in-gauteng/": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 10.833333333333334
+      "impressions": 5,
+      "position": 10.6
     },
     "https://sani.co.za/blog/navigating-south-african-road-signs-a-handy-guide-for-international-travelers/": {
       "clicks": 0,
-      "impressions": 219,
-      "position": 8.5662100456621
+      "impressions": 203,
+      "position": 7.985221674876847
     },
     "https://sani.co.za/blog/nighttime-driving-safety-essential-tips-for-a-secure-and-pleasant-journey-after-dark-in-south-africa/": {
       "clicks": 3,
-      "impressions": 48,
-      "position": 8.458333333333332
+      "impressions": 49,
+      "position": 8.26530612244898
     },
     "https://sani.co.za/blog/off-road-adventures-expert-tips-for-driving-a-rental-car-on-south-africas-unpaved-roads/": {
-      "clicks": 1,
-      "impressions": 56,
-      "position": 8.089285714285715
+      "clicks": 2,
+      "impressions": 54,
+      "position": 7.685185185185185
     },
     "https://sani.co.za/blog/one-day-getaways-escaping-the-citys-bustle-with-a-convenient-car-rental-in-south-africa/": {
       "clicks": 0,
-      "impressions": 5,
-      "position": 9.2
+      "impressions": 2,
+      "position": 9
     },
     "https://sani.co.za/blog/one-way-car-rentals-in-south-africa-your-guide-to-seamless-drop-offs/": {
-      "clicks": 2,
-      "impressions": 160,
-      "position": 8.18125
+      "clicks": 3,
+      "impressions": 168,
+      "position": 8.976190476190476
     },
     "https://sani.co.za/blog/our-vehicles-discover-the-perfect-car-for-every-journey/": {
       "clicks": 0,
-      "impressions": 46,
-      "position": 10.76086956521739
+      "impressions": 42,
+      "position": 11.571428571428571
     },
     "https://sani.co.za/blog/padstal-culture-the-best-farm-stalls-to-stop-at-along-south-africas-major-routes/": {
-      "clicks": 2,
-      "impressions": 199,
-      "position": 7.889447236180905
+      "clicks": 1,
+      "impressions": 200,
+      "position": 7.825
     },
     "https://sani.co.za/blog/pilanesberg-national-park-self-drive-safari/": {
       "clicks": 1,
-      "impressions": 134,
-      "position": 7.373134328358209
+      "impressions": 119,
+      "position": 7.008403361344538
     },
     "https://sani.co.za/blog/pretorias-best-coffee-shops-local-brews-and-cosy-corners/": {
       "clicks": 0,
-      "impressions": 117,
-      "position": 13.196581196581196
+      "impressions": 122,
+      "position": 13.762295081967213
     },
     "https://sani.co.za/blog/pretorias-war-memorials-a-road-trip-through-south-africas-military-history/": {
       "clicks": 0,
-      "impressions": 15,
-      "position": 8.933333333333334
+      "impressions": 16,
+      "position": 8.5625
     },
     "https://sani.co.za/blog/reliable-corporate-car-rentals-in-south-africa-travel-like-a-pro-with-sani-sixt/": {
       "clicks": 5,
-      "impressions": 343,
-      "position": 10.221574344023324
+      "impressions": 358,
+      "position": 10.114525139664805
     },
     "https://sani.co.za/blog/renting-a-car-for-business-in-south-africa-essential-tips-for-a-productive-and-painless-experience/": {
       "clicks": 0,
-      "impressions": 70,
-      "position": 12.514285714285714
+      "impressions": 66,
+      "position": 13.045454545454545
     },
     "https://sani.co.za/blog/road-to-rooibos-a-self-drive-journey-through-the-cederbergs-tea-country/": {
       "clicks": 0,
-      "impressions": 29,
-      "position": 10.482758620689655
+      "impressions": 38,
+      "position": 10.157894736842104
     },
     "https://sani.co.za/blog/road-trip-apps-and-gadgets-must-have-tech-for-safe-and-fun-travel/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 6.416666666666667
-    },
-    "https://sani.co.za/blog/road-tripping-with-pets-pet-friendly-accommodations-and-travel-tips/": {
-      "clicks": 0,
-      "impressions": 40,
-      "position": 14.4
+      "impressions": 14,
+      "position": 6.071428571428571
     },
     "https://sani.co.za/blog/safety-tips-for-renting-and-driving-a-car-in-south-africa/": {
-      "clicks": 4,
-      "impressions": 159,
-      "position": 6.49685534591195
-    },
-    "https://sani.co.za/blog/sani-premium-a-premium-fleet-for-exceptional-journeys/": {
-      "clicks": 0,
-      "impressions": 80,
-      "position": 7.3375
-    },
-    "https://sani.co.za/blog/savouring-cape-town-a-foodies-guide-to-the-best-restaurants-and-local-flavours/": {
-      "clicks": 0,
-      "impressions": 66,
-      "position": 17.46969696969697
+      "clicks": 3,
+      "impressions": 148,
+      "position": 6.4391891891891895
     },
     "https://sani.co.za/blog/scenic-routes-for-photography-enthusiasts-sunrise-and-sunset-spots-in-kzn/": {
-      "clicks": 0,
-      "impressions": 64,
-      "position": 7.6875
+      "clicks": 1,
+      "impressions": 71,
+      "position": 7.197183098591549
     },
     "https://sani.co.za/blog/suikerbosrand-nature-reserve-gautengs-hidden-gem/": {
       "clicks": 1,
-      "impressions": 333,
-      "position": 9.276276276276276
+      "impressions": 346,
+      "position": 9.283236994219653
     },
     "https://sani.co.za/blog/sunday-drives-and-markets-a-gauteng-self-drive-food-and-craft-trail/": {
       "clicks": 1,
       "impressions": 32,
-      "position": 10.0625
+      "position": 10.09375
     },
     "https://sani.co.za/blog/sunshine-coast-self-drive-exploring-the-eastern-capes-coastal-towns-from-gqeberha-to-kenton/": {
       "clicks": 1,
-      "impressions": 185,
-      "position": 6.178378378378379
+      "impressions": 181,
+      "position": 6.303867403314917
     },
     "https://sani.co.za/blog/the-benefits-of-pre-booking-why-reserving-your-rental-car-in-advance-matters/": {
       "clicks": 1,
-      "impressions": 54,
-      "position": 7.2407407407407405
+      "impressions": 53,
+      "position": 6.962264150943396
     },
     "https://sani.co.za/blog/the-cape-town-street-art-scene-exploring-the-vibrant-culture-in-the-citys-neighbourhoods/": {
       "clicks": 1,
-      "impressions": 72,
-      "position": 18.84722222222222
+      "impressions": 64,
+      "position": 19.6875
     },
     "https://sani.co.za/blog/the-free-state-highlands-self-drive-road-trip/": {
       "clicks": 1,
-      "impressions": 184,
-      "position": 6.239130434782608
+      "impressions": 185,
+      "position": 6.524324324324325
     },
     "https://sani.co.za/blog/the-most-beautiful-waterfalls-to-see-in-mpumalanga-a-road-trip-adventure/": {
-      "clicks": 5,
-      "impressions": 564,
-      "position": 7.851063829787234
+      "clicks": 6,
+      "impressions": 579,
+      "position": 8.179620034542314
     },
     "https://sani.co.za/blog/the-panorama-route-a-self-drive-journey-through-mpumalanga/": {
       "clicks": 3,
-      "impressions": 353,
-      "position": 5.827195467422096
+      "impressions": 337,
+      "position": 6.071216617210682
     },
     "https://sani.co.za/blog/the-top-8-game-reserves-to-visit-in-mpumalanga/": {
       "clicks": 1,
-      "impressions": 174,
-      "position": 23.78735632183908
+      "impressions": 209,
+      "position": 24.928229665071772
     },
     "https://sani.co.za/blog/what-payment-methods-are-accepted-at-tollgates-in-south-africa/": {
       "clicks": 25,
-      "impressions": 1638,
-      "position": 4.0818070818070815
+      "impressions": 1589,
+      "position": 4.120201384518565
     },
     "https://sani.co.za/cancel-reservation/": {
       "clicks": 2,
-      "impressions": 40,
-      "position": 4.925
+      "impressions": 30,
+      "position": 4.166666666666666
     },
     "https://sani.co.za/car-rental-locations/": {
       "clicks": 6,
-      "impressions": 3155,
-      "position": 7.779714738510301
+      "impressions": 3089,
+      "position": 7.714146973130463
     },
     "https://sani.co.za/car-rental-locations/free-state/": {
       "clicks": 1,
-      "impressions": 189,
-      "position": 8.16931216931217
+      "impressions": 181,
+      "position": 8.259668508287293
     },
     "https://sani.co.za/car-rental-locations/gauteng/": {
       "clicks": 11,
-      "impressions": 4973,
-      "position": 4.280112608083652
+      "impressions": 4965,
+      "position": 4.392547834843907
     },
     "https://sani.co.za/car-rental-locations/kwazulu-natal/": {
       "clicks": 8,
-      "impressions": 1147,
-      "position": 6.3417611159546645
+      "impressions": 1124,
+      "position": 6.634341637010676
     },
     "https://sani.co.za/car-rental-locations/mpumalanga/": {
       "clicks": 1,
-      "impressions": 291,
-      "position": 9.216494845360824
+      "impressions": 268,
+      "position": 10.541044776119403
     },
     "https://sani.co.za/car-rental-locations/north-west/": {
-      "clicks": 2,
-      "impressions": 478,
-      "position": 8.926778242677823
+      "clicks": 1,
+      "impressions": 493,
+      "position": 9.32657200811359
     },
     "https://sani.co.za/car-rental-locations/northern-cape/": {
       "clicks": 1,
-      "impressions": 118,
-      "position": 5.067796610169491
+      "impressions": 112,
+      "position": 5.973214285714286
     },
     "https://sani.co.za/car-rental-locations/western-cape/": {
-      "clicks": 4,
-      "impressions": 1496,
-      "position": 6.2727272727272725
+      "clicks": 3,
+      "impressions": 1451,
+      "position": 6.47829083390765
     },
     "https://sani.co.za/car-rental-vehicles/bakkie-utility/": {
-      "clicks": 12,
-      "impressions": 1487,
-      "position": 12.256893073301951
+      "clicks": 14,
+      "impressions": 1440,
+      "position": 12.516666666666667
     },
     "https://sani.co.za/car-rental-vehicles/compact-suv-crossover/": {
       "clicks": 3,
-      "impressions": 57,
-      "position": 9.070175438596491
+      "impressions": 53,
+      "position": 9.754716981132075
     },
     "https://sani.co.za/car-rental-vehicles/economy/": {
       "clicks": 1,
-      "impressions": 213,
-      "position": 11.380281690140846
+      "impressions": 211,
+      "position": 11.27962085308057
     },
     "https://sani.co.za/car-rental-vehicles/people-carrier-minivan/": {
       "clicks": 3,
-      "impressions": 764,
-      "position": 17.730366492146597
+      "impressions": 759,
+      "position": 17.757575757575758
     },
     "https://sani.co.za/car-rental-vehicles/premium/": {
-      "clicks": 9,
-      "impressions": 422,
-      "position": 7.931279620853081
+      "clicks": 8,
+      "impressions": 419,
+      "position": 8.136038186157517
     },
     "https://sani.co.za/car-rental-vehicles/sedan/": {
       "clicks": 1,
-      "impressions": 66,
-      "position": 10.727272727272727
+      "impressions": 61,
+      "position": 9.540983606557377
     },
     "https://sani.co.za/car-rental-vehicles/suv/": {
       "clicks": 2,
-      "impressions": 213,
-      "position": 11.765258215962442
+      "impressions": 235,
+      "position": 11.919148936170213
     },
     "https://sani.co.za/car-rental/bloemfontein-airport-bram-fisher/": {
-      "clicks": 9,
-      "impressions": 630,
-      "position": 9.450793650793651
+      "clicks": 10,
+      "impressions": 625,
+      "position": 9.4224
     },
     "https://sani.co.za/car-rental/cape-town-city-centre-green-point/": {
       "clicks": 22,
-      "impressions": 1754,
-      "position": 7.110034207525656
+      "impressions": 1749,
+      "position": 7.138364779874214
     },
     "https://sani.co.za/car-rental/cape-town-industria-off-airport/": {
-      "clicks": 4,
-      "impressions": 1018,
-      "position": 4.837917485265226
+      "clicks": 8,
+      "impressions": 997,
+      "position": 4.687061183550652
     },
     "https://sani.co.za/car-rental/cape-town-int-airport/": {
-      "clicks": 384,
-      "impressions": 17184,
-      "position": 4.126804003724395
+      "clicks": 382,
+      "impressions": 17345,
+      "position": 4.101700778322283
     },
     "https://sani.co.za/car-rental/centurion/": {
-      "clicks": 69,
-      "impressions": 3166,
-      "position": 3.556538218572331
+      "clicks": 66,
+      "impressions": 3124,
+      "position": 3.6382842509603073
     },
     "https://sani.co.za/car-rental/durban-airport-int-king-shaka/": {
-      "clicks": 107,
-      "impressions": 7103,
-      "position": 5.171336055187949
+      "clicks": 109,
+      "impressions": 7202,
+      "position": 5.02929741738406
     },
     "https://sani.co.za/car-rental/durban-city/": {
       "clicks": 5,
-      "impressions": 599,
-      "position": 12.111853088480801
+      "impressions": 621,
+      "position": 13.030595813204508
     },
     "https://sani.co.za/car-rental/east-london-airport-king-phalo/": {
-      "clicks": 45,
-      "impressions": 2147,
-      "position": 6.196553330228226
+      "clicks": 52,
+      "impressions": 2135,
+      "position": 6.0843091334894615
     },
     "https://sani.co.za/car-rental/east-london-city-centre/": {
-      "clicks": 3,
-      "impressions": 552,
-      "position": 9.389492753623188
+      "clicks": 4,
+      "impressions": 578,
+      "position": 9.245674740484429
     },
     "https://sani.co.za/car-rental/george-airport/": {
-      "clicks": 9,
-      "impressions": 1341,
-      "position": 9.703206562266965
+      "clicks": 11,
+      "impressions": 1349,
+      "position": 9.292068198665678
     },
     "https://sani.co.za/car-rental/hoedspruit-town-centre/": {
-      "clicks": 21,
-      "impressions": 647,
-      "position": 3.499227202472952
+      "clicks": 17,
+      "impressions": 634,
+      "position": 3.578864353312303
     },
     "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/": {
-      "clicks": 274,
-      "impressions": 17027,
-      "position": 5.317906853820403
+      "clicks": 276,
+      "impressions": 17068,
+      "position": 5.237579095383174
     },
     "https://sani.co.za/car-rental/kathu-town-centre/": {
       "clicks": 8,
-      "impressions": 422,
-      "position": 3.9644549763033177
+      "impressions": 404,
+      "position": 4.383663366336634
     },
     "https://sani.co.za/car-rental/lanseria-int-airport/": {
-      "clicks": 6,
-      "impressions": 1309,
-      "position": 12.43773873185638
+      "clicks": 7,
+      "impressions": 1320,
+      "position": 11.175
     },
     "https://sani.co.za/car-rental/mthatha-airport-mthatha-matanzima/": {
       "clicks": 8,
-      "impressions": 578,
-      "position": 7.164359861591696
+      "impressions": 568,
+      "position": 7.23943661971831
     },
     "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/": {
-      "clicks": 60,
-      "impressions": 1826,
-      "position": 5.261774370208105
+      "clicks": 49,
+      "impressions": 1754,
+      "position": 5.210946408209806
     },
     "https://sani.co.za/car-rental/pietermaritzburg-2/": {
       "clicks": 5,
-      "impressions": 120,
-      "position": 9.141666666666667
+      "impressions": 112,
+      "position": 10.035714285714286
     },
     "https://sani.co.za/car-rental/pinetown/": {
-      "clicks": 10,
-      "impressions": 937,
-      "position": 8.663820704375667
+      "clicks": 9,
+      "impressions": 931,
+      "position": 8.245972073039741
     },
     "https://sani.co.za/car-rental/polokwane-int-airport/": {
-      "clicks": 21,
-      "impressions": 1437,
-      "position": 4.458594293667362
+      "clicks": 20,
+      "impressions": 1419,
+      "position": 4.322057787174066
     },
     "https://sani.co.za/car-rental/port-elizabeth-gqeberha-dawid-stuurman-airport/": {
-      "clicks": 115,
-      "impressions": 4168,
-      "position": 4.659548944337812
+      "clicks": 107,
+      "impressions": 4219,
+      "position": 4.585920834320929
     },
     "https://sani.co.za/car-rental/port-elizabeth-gqeberha-walmer/": {
-      "clicks": 14,
-      "impressions": 1192,
-      "position": 4.759228187919463
+      "clicks": 13,
+      "impressions": 1195,
+      "position": 5.051882845188285
     },
     "https://sani.co.za/car-rental/pretoria-hatfield/": {
-      "clicks": 19,
-      "impressions": 2234,
-      "position": 9.025514771709938
+      "clicks": 21,
+      "impressions": 2279,
+      "position": 9.034664326458973
     },
     "https://sani.co.za/car-rental/randburg-johannesburg/": {
-      "clicks": 19,
-      "impressions": 2904,
-      "position": 15.926997245179063
+      "clicks": 18,
+      "impressions": 2972,
+      "position": 16.77321668909825
     },
     "https://sani.co.za/car-rental/rustenburg/": {
-      "clicks": 14,
-      "impressions": 869,
-      "position": 6.864211737629459
+      "clicks": 11,
+      "impressions": 906,
+      "position": 6.756070640176601
     },
     "https://sani.co.za/car-rental/sandton-city-radisson-blue-gautrain/": {
-      "clicks": 42,
-      "impressions": 3570,
-      "position": 3.7061624649859946
+      "clicks": 38,
+      "impressions": 3203,
+      "position": 3.50483921323759
     },
     "https://sani.co.za/car-rental/umhlanga-durban/": {
-      "clicks": 11,
-      "impressions": 778,
-      "position": 6.413881748071979
+      "clicks": 10,
+      "impressions": 753,
+      "position": 6.691899070385126
     },
     "https://sani.co.za/contact/": {
-      "clicks": 39,
-      "impressions": 3025,
-      "position": 4.177190082644628
+      "clicks": 44,
+      "impressions": 2974,
+      "position": 4.101882985877606
     },
     "https://sani.co.za/faq/": {
-      "clicks": 31,
-      "impressions": 1124,
-      "position": 6.095195729537367
+      "clicks": 28,
+      "impressions": 1108,
+      "position": 5.903429602888087
     },
     "https://sani.co.za/locations/cape-town-city/": {
-      "clicks": 104,
-      "impressions": 4663,
-      "position": 2.52991636285653
+      "clicks": 106,
+      "impressions": 4698,
+      "position": 2.55002128565347
     },
     "https://sani.co.za/locations/lanseria-international-airport/": {
-      "clicks": 24,
-      "impressions": 1548,
-      "position": 2.731912144702842
+      "clicks": 26,
+      "impressions": 1563,
+      "position": 2.7959053103007037
     },
     "https://sani.co.za/locations/mthatha-matanzima-airport/": {
-      "clicks": 13,
-      "impressions": 682,
-      "position": 2.1862170087976542
+      "clicks": 12,
+      "impressions": 622,
+      "position": 2.136655948553055
     },
     "https://sani.co.za/locations/pinetown/": {
-      "clicks": 20,
-      "impressions": 1281,
-      "position": 3.347384855581577
+      "clicks": 22,
+      "impressions": 1219,
+      "position": 3.3109105824446265
     },
     "https://sani.co.za/locations/randburg/": {
-      "clicks": 19,
-      "impressions": 3144,
-      "position": 3.2318702290076335
+      "clicks": 18,
+      "impressions": 3107,
+      "position": 3.174444802059865
     },
     "https://sani.co.za/locations/rustenburg/": {
-      "clicks": 21,
-      "impressions": 1038,
-      "position": 2.7196531791907512
+      "clicks": 20,
+      "impressions": 1061,
+      "position": 2.9886899151743638
     },
     "https://sani.co.za/monthly-mobility/": {
-      "clicks": 85,
-      "impressions": 4455,
-      "position": 9.704601571268238
+      "clicks": 86,
+      "impressions": 4466,
+      "position": 9.671518137035378
     },
     "https://sani.co.za/our-vehicles/": {
-      "clicks": 32,
-      "impressions": 4772,
-      "position": 6.192162615255658
-    },
-    "https://sani.co.za/our-vehicles/bmw-3-series-or-x1-or-x2-for-rent/": {
-      "clicks": 1,
-      "impressions": 70,
-      "position": 6.128571428571429
+      "clicks": 29,
+      "impressions": 4723,
+      "position": 6.04933305102689
     },
     "https://sani.co.za/our-vehicles/bmw-m3-competition-awd-for-rent/": {
-      "clicks": 13,
-      "impressions": 156,
-      "position": 4.955128205128205
+      "clicks": 11,
+      "impressions": 142,
+      "position": 4.823943661971831
     },
     "https://sani.co.za/our-vehicles/bmw-m4-competition-convertible-awd-for-rent/": {
       "clicks": 9,
-      "impressions": 117,
-      "position": 6.085470085470085
+      "impressions": 120,
+      "position": 6.1
     },
     "https://sani.co.za/our-vehicles/bmw-x3-new-2025-for-rent/": {
       "clicks": 1,
-      "impressions": 27,
-      "position": 8.703703703703702
+      "impressions": 33,
+      "position": 7.757575757575758
     },
     "https://sani.co.za/our-vehicles/citroen-aircross-max-or-similar-for-rent/": {
-      "clicks": 3,
-      "impressions": 37,
-      "position": 6.1891891891891895
+      "clicks": 4,
+      "impressions": 26,
+      "position": 7.576923076923077
     },
     "https://sani.co.za/our-vehicles/citroen-aircross-plus-or-similar-for-rent/": {
       "clicks": 3,
-      "impressions": 53,
-      "position": 4.886792452830189
+      "impressions": 41,
+      "position": 5.219512195121951
     },
     "https://sani.co.za/our-vehicles/gwm-steed-single-cab-4x2-for-rent/": {
       "clicks": 2,
-      "impressions": 38,
-      "position": 6.684210526315789
+      "impressions": 39,
+      "position": 6.871794871794871
     },
     "https://sani.co.za/our-vehicles/hyundai-staria-or-similar-for-rent/": {
-      "clicks": 10,
-      "impressions": 318,
-      "position": 7.323899371069182
+      "clicks": 6,
+      "impressions": 300,
+      "position": 7.4
     },
     "https://sani.co.za/our-vehicles/land-rover-defender-110-d250-for-rent/": {
-      "clicks": 3,
-      "impressions": 70,
-      "position": 7.4714285714285715
+      "clicks": 5,
+      "impressions": 78,
+      "position": 7.141025641025641
     },
     "https://sani.co.za/our-vehicles/mercedes-benz-c220d-amg-line-for-rent/": {
       "clicks": 2,
-      "impressions": 29,
-      "position": 8.827586206896552
+      "impressions": 26,
+      "position": 8.884615384615385
     },
     "https://sani.co.za/our-vehicles/mercedes-benz-v-class-250d-for-rent/": {
-      "clicks": 5,
-      "impressions": 541,
-      "position": 9.273567467652496
+      "clicks": 8,
+      "impressions": 625,
+      "position": 9.3648
     },
     "https://sani.co.za/our-vehicles/nissan-magnite-or-similar-for-rent/": {
       "clicks": 12,
       "impressions": 72,
-      "position": 16.791666666666664
+      "position": 16.76388888888889
     },
     "https://sani.co.za/our-vehicles/range-rover-sport-awd-3-0d-for-rent/": {
-      "clicks": 2,
-      "impressions": 59,
-      "position": 7.728813559322034
+      "clicks": 1,
+      "impressions": 61,
+      "position": 7.786885245901639
     },
     "https://sani.co.za/our-vehicles/suzuki-ertiga-or-similar-for-rent/": {
-      "clicks": 4,
-      "impressions": 160,
-      "position": 3.2375
+      "clicks": 3,
+      "impressions": 163,
+      "position": 3.4846625766871164
+    },
+    "https://sani.co.za/our-vehicles/toyota-corolla-cross-or-similar-for-rent/": {
+      "clicks": 1,
+      "impressions": 79,
+      "position": 6.367088607594937
     },
     "https://sani.co.za/our-vehicles/toyota-hiace-2-5d-14-seater-for-rent/": {
       "clicks": 1,
-      "impressions": 62,
-      "position": 6.080645161290323
+      "impressions": 63,
+      "position": 7.095238095238095
+    },
+    "https://sani.co.za/our-vehicles/toyota-hilux-double-cab-4x4-or-similar-for-rent/": {
+      "clicks": 1,
+      "impressions": 158,
+      "position": 9.816455696202532
     },
     "https://sani.co.za/our-vehicles/toyota-land-cruiser-300-3-3d-zx-for-rent/": {
-      "clicks": 2,
-      "impressions": 55,
-      "position": 8.363636363636363
+      "clicks": 1,
+      "impressions": 50,
+      "position": 8.86
     },
     "https://sani.co.za/our-vehicles/toyota-quantum-11-seater-for-rent/": {
       "clicks": 2,
-      "impressions": 205,
-      "position": 7.990243902439024
+      "impressions": 185,
+      "position": 7.956756756756757
     },
     "https://sani.co.za/our-vehicles/toyota-starlet-or-similar-for-rent/": {
       "clicks": 1,
-      "impressions": 84,
-      "position": 7.833333333333333
+      "impressions": 89,
+      "position": 7.651685393258427
     },
     "https://sani.co.za/our-vehicles/toyota-vitz-or-similar-for-rent/": {
       "clicks": 1,
-      "impressions": 60,
-      "position": 5.7
+      "impressions": 57,
+      "position": 6.2105263157894735
     },
     "https://sani.co.za/our-vehicles/vw-golf-r-dsg-for-rent/": {
-      "clicks": 5,
-      "impressions": 108,
-      "position": 5.796296296296297
+      "clicks": 6,
+      "impressions": 113,
+      "position": 5.513274336283186
     },
     "https://sani.co.za/our-vehicles/vw-polo-sedan-or-similar-for-rent/": {
       "clicks": 4,
-      "impressions": 86,
-      "position": 6.453488372093023
+      "impressions": 91,
+      "position": 6.956043956043956
     },
     "https://sani.co.za/our-vehicles/vw-polo-tsi-dsg-or-similar-for-rent/": {
       "clicks": 3,
-      "impressions": 133,
-      "position": 6.112781954887218
+      "impressions": 138,
+      "position": 6.260869565217392
     },
     "https://sani.co.za/pre-approval-credit-check/": {
-      "clicks": 5,
-      "impressions": 115,
-      "position": 5.052173913043478
+      "clicks": 6,
+      "impressions": 111,
+      "position": 4.693693693693694
     },
     "https://sani.co.za/press-release/drive-more-pay-less-why-sani-sixt-monthly-car-rentals-are-the-smartest-way-to-hit-the-road/": {
-      "clicks": 3,
-      "impressions": 187,
-      "position": 7.128342245989304
+      "clicks": 2,
+      "impressions": 186,
+      "position": 7.043010752688172
     },
     "https://sani.co.za/press-release/sani-car-rental-south-africa-partners-with-international-mobility-provider-sixt/": {
       "clicks": 7,
-      "impressions": 329,
-      "position": 6.474164133738602
+      "impressions": 322,
+      "position": 6.363354037267081
     },
     "https://sani.co.za/rental-terms-conditions/": {
-      "clicks": 22,
-      "impressions": 572,
-      "position": 5.739510489510489
+      "clicks": 20,
+      "impressions": 552,
+      "position": 5.547101449275362
     },
     "https://sani.co.za/sani-adventure/": {
-      "clicks": 25,
-      "impressions": 1296,
-      "position": 9.932098765432098
+      "clicks": 23,
+      "impressions": 1439,
+      "position": 10.138290479499652
     },
     "https://sani.co.za/sani-premium/": {
-      "clicks": 27,
-      "impressions": 2335,
-      "position": 8.982441113490363
+      "clicks": 26,
+      "impressions": 2372,
+      "position": 9.193086003372681
     },
     "https://sani.co.za/sani-royalty-customer-services/": {
       "clicks": 1,
-      "impressions": 161,
-      "position": 6.409937888198757
+      "impressions": 154,
+      "position": 5.9935064935064934
     },
     "https://sani.co.za/sani-royalty-redeem-or-make-a-reservation/": {
       "clicks": 1,
-      "impressions": 111,
-      "position": 8.702702702702702
+      "impressions": 109,
+      "position": 7.715596330275229
     },
     "https://sani.co.za/sani-royalty/": {
-      "clicks": 9,
-      "impressions": 959,
-      "position": 8.650677789363922
+      "clicks": 8,
+      "impressions": 932,
+      "position": 8.917381974248926
     },
     "https://sani.co.za/unlimited-kilometres/": {
-      "clicks": 43,
-      "impressions": 1509,
-      "position": 6.669980119284294
+      "clicks": 33,
+      "impressions": 1502,
+      "position": 6.768974700399467
     },
     "https://sani.co.za/zero-holding-deposit/": {
-      "clicks": 38,
-      "impressions": 407,
-      "position": 4.164619164619165
+      "clicks": 31,
+      "impressions": 401,
+      "position": 4.192019950124688
     },
     "https://www.sani.co.za/": {
       "clicks": 106,
-      "impressions": 6568,
-      "position": 2.4637637028014616
+      "impressions": 6656,
+      "position": 2.4603365384615383
     }
   },
   "source_status": {
