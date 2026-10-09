@@ -4,6 +4,9 @@
 [build]
   publish = "public"
   command = ""
+  # Decides whether a commit is worth publishing. Exit 0 skips, exit 1 builds.
+  # See tools/should_deploy.sh for the reasoning.
+  ignore = "bash tools/should_deploy.sh"
 
 [[headers]]
   for = "/*"
