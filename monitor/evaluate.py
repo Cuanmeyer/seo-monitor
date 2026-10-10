@@ -290,6 +290,13 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
                 healthy.add("organic_impressions")
             else:
                 watching.add("organic_impressions")
+                if not alerting:
+                    # Nothing in this branch can ever raise an alert, so an
+                    # alert opened while impressions were still alerting has
+                    # no other way to close. Marking it healthy lets the
+                    # resolver retire it; the dashboard still reads Watching
+                    # because watching is checked first.
+                    healthy.add("organic_impressions")
 
         # --- CTR divergence -----------------------------------------------
         # Catches the opposite case: clicks being lost at the SERP while
