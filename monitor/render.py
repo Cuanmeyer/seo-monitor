@@ -3,6 +3,13 @@
 Reads the history store and the alert log and writes a single static
 public/index.html. No build step, no runtime data fetching: whatever Netlify
 serves is exactly what the last run computed.
+
+The daily series for each client is embedded in the page in full, which is
+what lets the dashboard offer a 7 / 14 / 28 day view toggle without any
+further API calls. The alerting window is deliberately not affected by that
+toggle: thresholds and persistence are tuned against 7 days versus the prior
+28, and a viewing control that quietly changed what fires would make the
+alert set depend on whoever last clicked something.
 """
 
 from __future__ import annotations
@@ -58,7 +65,7 @@ def _status_for(signal: str, client_slug: str, summary: dict, open_alerts: list[
     if signal in info.get("watching", []):
         return {
             "state": "watching",
-            "note": "Outside threshold, but not yet for long enough to alert",
+            "note": "Outside threshold, but not raising an alert",
         }
     return {"state": "unknown", "note": "Not enough history yet"}
 
@@ -135,12 +142,19 @@ def build(clients, summary: dict) -> Path:
                     "dates": days,
                     "clicks": clicks,
                     "impressions": impressions,
+                    # Carried so the dashboard's window toggle can recompute
+                    # average position for whatever span the viewer picks.
+                    "position": position,
                     "clicks_baseline": _rolling_baseline(
                         days, clicks, current_days, baseline_days
                     ),
                     "impressions_baseline": _rolling_baseline(
                         days, impressions, current_days, baseline_days
                     ),
+                },
+                "windows": {
+                    "current_days": current_days,
+                    "baseline_days": baseline_days,
                 },
                 "thresholds": {
                     "warning_pct": client_cfg.threshold("organic_clicks", "warning_pct", -20),
