@@ -66,6 +66,29 @@ def main() -> int:
             state = "ok" if status.get("ok") else f"FAILED ({status.get('error')})"
             print(f"  {source}: {state}")
 
+        # Google finalises Search Console data two to three days back, but not
+        # on a timetable. Some mornings the T-3 day has simply not landed yet,
+        # and evaluating it leaves the 7-day window one day short, at which
+        # point every GSC signal correctly refuses to evaluate and the whole
+        # dashboard reads "no data". So evaluate the newest day the data
+        # actually covers instead of the newest day the calendar suggests.
+        #
+        # The step back is bounded. A collector that has been dead for a week
+        # must keep reading as no data rather than quietly evaluating a stale
+        # window, and the collector failure alert is what speaks to that.
+        if not args.as_of:
+            covered = [
+                day
+                for day in store.series(history, "gsc", "clicks")
+                if day <= as_of.isoformat()
+            ]
+            if covered:
+                latest = dt.date.fromisoformat(max(covered))
+                behind = (as_of - latest).days
+                if 0 < behind <= client_cfg.setting("max_extra_lag_days", 4):
+                    print(f"  GSC is final only to {latest}, evaluating that day")
+                    as_of = latest
+
         findings, healthy, watching = evaluate.evaluate_client(
             client_cfg, history, snapshot, as_of, source_status
         )
