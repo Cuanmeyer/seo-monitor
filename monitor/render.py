@@ -60,13 +60,16 @@ def _status_for(signal: str, client_slug: str, summary: dict, open_alerts: list[
             return {"state": alert["severity"], "note": alert["summary"]}
 
     info = summary.get(client_slug, {})
-    if signal in info.get("healthy", []):
-        return {"state": "good", "note": "Inside threshold"}
+    # Watching is checked first. A non-alerting signal is reported as both
+    # watching and healthy, the second so an alert raised under an older
+    # configuration can be retired, and watching is the truer of the two.
     if signal in info.get("watching", []):
         return {
             "state": "watching",
             "note": "Outside threshold, but not raising an alert",
         }
+    if signal in info.get("healthy", []):
+        return {"state": "good", "note": "Inside threshold"}
     return {"state": "unknown", "note": "Not enough history yet"}
 
 
@@ -85,7 +88,16 @@ def build(clients, summary: dict) -> Path:
         snapshot = store.load_snapshot(client_cfg.slug)
         info = summary.get(client_cfg.slug, {})
 
-        days = sorted(history["days"].keys())[-CHART_DAYS:]
+        # Only days Search Console has actually reported. GA4 finalises a day
+        # earlier than GSC, so the newest entry in the history often carries
+        # GA4 figures and no GSC ones. Charting it as a zero drew a cliff to
+        # the floor on the right hand edge of every graph, and pulled the
+        # 7-day headline down with it.
+        days = [
+            day
+            for day in sorted(history["days"].keys())
+            if (history["days"][day].get("gsc") or {}).get("clicks") is not None
+        ][-CHART_DAYS:]
         clicks = [history["days"][d].get("gsc", {}).get("clicks", 0) for d in days]
         impressions = [
             history["days"][d].get("gsc", {}).get("impressions", 0) for d in days
