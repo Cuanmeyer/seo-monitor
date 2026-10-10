@@ -20,6 +20,12 @@ defaults:
       critical_pct: -35
       persist_runs: 3
     organic_impressions:
+      # Context only. Impressions are a leading indicator, not an outcome:
+      # a fall with clicks holding steady means CTR went up. These thresholds
+      # still drive the dashboard status so a slide is visible early, but they
+      # do not raise an alert. Set alert: true to put a client back on the
+      # old behaviour.
+      alert: false
       warning_pct: -20
       critical_pct: -35
       persist_runs: 3
@@ -39,8 +45,11 @@ defaults:
       warning_poor_rise_points: 5
       persist_runs: 1
     llm_referrals:
-      warning_pct: -25
-      persist_runs: 1
+      # Small numbers swing hard in percentage terms, so this needs a real
+      # volume floor and two consecutive runs before it is worth saying.
+      min_baseline_sessions: 100
+      warning_pct: -30
+      persist_runs: 2
 
 clients:
 
@@ -271,14 +280,15 @@ clients:
       - "https://sani.co.za/car-rental/port-elizabeth-gqeberha-dawid-stuurman-airport/"
       - "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/"
       - "https://sani.co.za/car-rental/centurion/"
-      - "https://sani.co.za/car-rental/sandton-city-radisson-blue-gautrain/"
-      - "https://sani.co.za/locations/cape-town-city/"
       - "https://sani.co.za/monthly-mobility/"
       - "https://sani.co.za/sani-premium/"
+      - "https://sani.co.za/car-rental/east-london-airport-king-phalo/"
+      - "https://sani.co.za/locations/randburg/"
+      - "https://sani.co.za/our-vehicles/"
     template_samples:
       home: "https://sani.co.za/"
       airport: "https://sani.co.za/car-rental/cape-town-int-airport/"
-      location: "https://sani.co.za/locations/cape-town-city/"
+      location: "https://sani.co.za/locations/randburg/"
       product: "https://sani.co.za/monthly-mobility/"
     suppression_windows: []
     threshold_overrides: {}
