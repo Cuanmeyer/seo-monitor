@@ -2,7 +2,7 @@
   "as_of": "2026-10-07",
   "baseline_scale": 4.0,
   "domain": "sani.co.za",
-  "indexed_rate": 83.33,
+  "indexed_rate": 91.67,
   "inspections": {
     "https://sani.co.za/": {
       "coverage_state": "Submitted and indexed",
@@ -55,14 +55,14 @@
       "verdict": "PASS"
     },
     "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/": {
-      "coverage_state": "Excluded by ‘noindex’ tag",
+      "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/",
-      "indexing_state": "BLOCKED_BY_META_TAG",
-      "last_crawl": "2026-10-09T04:21:24Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "last_crawl": "2026-10-10T04:15:13Z",
       "ok": true,
       "robots_state": "ALLOWED",
-      "user_canonical": null,
-      "verdict": "NEUTRAL"
+      "user_canonical": "https://sani.co.za/car-rental/johannesburg-int-airport-or-tambo/",
+      "verdict": "PASS"
     },
     "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/": {
       "coverage_state": "Submitted and indexed",
