@@ -18,9 +18,10 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.arcstore.co.za%2F",
     "occurrences": 6,
     "pct_change": -21.3,
+    "resolved_at": "2026-10-06",
     "severity": "warning",
     "signal": "organic_impressions",
-    "status": "open",
+    "status": "resolved",
     "summary": "Organic impressions -22.4% against a 28-day baseline"
   },
   {
@@ -35,9 +36,9 @@
     ],
     "detected_at": "2026-10-07T08:51:40+00:00",
     "hint": "Indexation changed in the same run. Check coverage before looking anywhere else.",
-    "last_seen": "2026-10-10T07:32:46+00:00",
+    "last_seen": "2026-10-10T08:27:41+00:00",
     "link": "https://search.google.com/search-console/index?resource_id=sc-domain%3Asani.co.za",
-    "occurrences": 5,
+    "occurrences": 6,
     "pct_change": null,
     "severity": "critical",
     "signal": "indexation_priority",
@@ -85,9 +86,10 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.britz.co.za%2F",
     "occurrences": 1,
     "pct_change": -44.4,
+    "resolved_at": "2026-10-06",
     "severity": "critical",
     "signal": "organic_impressions",
-    "status": "open",
+    "status": "resolved",
     "summary": "Organic impressions -44.4% against a 28-day baseline"
   },
   {
@@ -109,9 +111,10 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.maui.co.za%2F",
     "occurrences": 1,
     "pct_change": -61.8,
+    "resolved_at": "2026-10-06",
     "severity": "critical",
     "signal": "organic_impressions",
-    "status": "open",
+    "status": "resolved",
     "summary": "Organic impressions -61.8% against a 28-day baseline"
   },
   {
@@ -133,9 +136,10 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain%3Asani.co.za",
     "occurrences": 1,
     "pct_change": -37.9,
+    "resolved_at": "2026-10-06",
     "severity": "critical",
     "signal": "organic_impressions",
-    "status": "open",
+    "status": "resolved",
     "summary": "Organic impressions -37.9% against a 28-day baseline"
   }
 ]
