@@ -7,145 +7,129 @@
 <style>
   :root {
     color-scheme: light;
-    --plane: #f9f9f7;
-    --surface: #fcfcfb;
-    --ink: #0b0b0b;
-    --ink-2: #52514e;
-    --muted: #898781;
-    --grid: #e1e0d9;
-    --axis: #c3c2b7;
-    --border: rgba(11, 11, 11, 0.10);
-    --series: #2a78d6;
-    --good: #0ca30c;
-    --warning: #fab219;
-    --serious: #ec835a;
-    --critical: #d03b3b;
-    --critical-soft: rgba(208, 59, 59, 0.10);
-    --row-hot: rgba(208, 59, 59, 0.05);
+    --plane:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink-2:#52514e;
+    --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7;
+    --border:rgba(11,11,11,0.10); --series:#2a78d6;
+    --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+    --critical-soft:rgba(208,59,59,0.10); --row-hot:rgba(208,59,59,0.05);
+    --chip:rgba(11,11,11,0.04);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       color-scheme: dark;
-      --plane: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
-      --muted: #898781; --grid: #2c2c2a; --axis: #383835;
-      --border: rgba(255,255,255,0.10); --series: #3987e5;
-      --critical-soft: rgba(208,59,59,0.16); --row-hot: rgba(208,59,59,0.09);
+      --plane:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink-2:#c3c2b7;
+      --muted:#898781; --grid:#2c2c2a; --axis:#383835;
+      --border:rgba(255,255,255,0.10); --series:#3987e5;
+      --critical-soft:rgba(208,59,59,0.16); --row-hot:rgba(208,59,59,0.09);
+      --chip:rgba(255,255,255,0.06);
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --plane: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
-    --muted: #898781; --grid: #2c2c2a; --axis: #383835;
-    --border: rgba(255,255,255,0.10); --series: #3987e5;
-    --critical-soft: rgba(208,59,59,0.16); --row-hot: rgba(208,59,59,0.09);
+    --plane:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink-2:#c3c2b7;
+    --muted:#898781; --grid:#2c2c2a; --axis:#383835;
+    --border:rgba(255,255,255,0.10); --series:#3987e5;
+    --critical-soft:rgba(208,59,59,0.16); --row-hot:rgba(208,59,59,0.09);
+    --chip:rgba(255,255,255,0.06);
   }
 
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; padding: 0 16px 64px;
-    background: var(--plane); color: var(--ink);
-    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  * { box-sizing:border-box; }
+  body { margin:0; padding:0 16px 64px; background:var(--plane); color:var(--ink);
+         font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  .wrap { max-width:1240px; margin:0 auto; }
+  header { padding:40px 0 20px; }
+  h1 { font-size:26px; font-weight:650; margin:0 0 6px; letter-spacing:-0.01em; }
+  .sub { color:var(--ink-2); font-size:14px; margin:0; }
+
+  .card { background:var(--surface); border:1px solid var(--border);
+          border-radius:12px; padding:20px; margin-bottom:16px; }
+  h2 { font-size:17px; font-weight:620; margin:0 0 4px; }
+  h3 { font-size:13px; font-weight:600; margin:0 0 14px; color:var(--ink-2); }
+
+  .band { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:12px; margin-bottom:16px; }
+  .band .cell { border:1px solid var(--border); border-radius:10px; padding:12px 14px; background:var(--surface); }
+  .band .n { font-size:24px; font-weight:650; letter-spacing:-0.02em; }
+  .band .l { font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; margin-top:2px; }
+  .band .cell.alarm .n { color:var(--critical); }
+
+  /* window selector */
+  .winbar { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin:0 0 14px; }
+  .winbar .lab { font-size:13px; color:var(--ink-2); font-weight:600; }
+  .seg { display:inline-flex; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+  .seg button {
+    font:inherit; font-size:13px; padding:5px 13px; border:0; cursor:pointer;
+    background:transparent; color:var(--ink-2); border-right:1px solid var(--border);
   }
-  .wrap { max-width: 1240px; margin: 0 auto; }
-  header { padding: 40px 0 20px; }
-  h1 { font-size: 26px; font-weight: 650; margin: 0 0 6px; letter-spacing: -0.01em; }
-  .sub { color: var(--ink-2); font-size: 14px; margin: 0; }
+  .seg button:last-child { border-right:0; }
+  .seg button[aria-pressed="true"] { background:var(--chip); color:var(--ink); font-weight:620; }
+  .seg button:hover:not([aria-pressed="true"]) { background:var(--chip); }
+  .winnote { font-size:12.5px; color:var(--muted); }
 
-  .card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 12px; padding: 20px; margin-bottom: 16px;
-  }
-  h2 { font-size: 17px; font-weight: 620; margin: 0 0 4px; }
-  h3 { font-size: 13px; font-weight: 600; margin: 0 0 14px; color: var(--ink-2); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th { text-align:left; font-weight:600; color:var(--ink-2); padding:9px 10px;
+       border-bottom:1px solid var(--grid); white-space:nowrap; font-size:13px; }
+  td { padding:11px 10px; border-bottom:1px solid var(--grid); vertical-align:middle; white-space:nowrap; }
+  tr:last-child td { border-bottom:none; }
+  tr.hot td { background:var(--row-hot); }
+  .num { font-variant-numeric:tabular-nums; }
+  .scroll { overflow-x:auto; margin:0 -4px; }
+  .client-cell { font-weight:600; }
+  .client-cell .dom { display:block; font-weight:400; font-size:12px; color:var(--muted); }
+  .delta { font-variant-numeric:tabular-nums; }
+  .delta.bad { color:var(--critical); font-weight:600; }
 
-  /* Headline band */
-  .band { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 16px; }
-  .band .cell { border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; background: var(--surface); }
-  .band .n { font-size: 24px; font-weight: 650; letter-spacing: -0.02em; }
-  .band .l { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 2px; }
-  .band .cell.alarm .n { color: var(--critical); }
+  .pill { display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:560;
+          white-space:nowrap; padding:2px 8px 2px 6px; border-radius:99px; border:1px solid var(--border); }
+  .dot { width:7px; height:7px; border-radius:99px; flex:none; }
+  .pill.good .dot{background:var(--good)} .pill.warning .dot{background:var(--warning)}
+  .pill.watching .dot{background:var(--serious)} .pill.critical .dot{background:var(--critical)}
+  .pill.unknown .dot{background:var(--muted)}
+  .pill.critical { color:var(--critical); border-color:var(--critical); }
 
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  th {
-    text-align: left; font-weight: 600; color: var(--ink-2);
-    padding: 9px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; font-size: 13px;
-  }
-  td { padding: 11px 10px; border-bottom: 1px solid var(--grid); vertical-align: middle; white-space: nowrap; }
-  tr:last-child td { border-bottom: none; }
-  tr.hot td { background: var(--row-hot); }
-  .num { font-variant-numeric: tabular-nums; }
-  .scroll { overflow-x: auto; margin: 0 -4px; }
-  .client-cell { font-weight: 600; }
-  .client-cell .dom { display: block; font-weight: 400; font-size: 12px; color: var(--muted); }
-  .delta { font-variant-numeric: tabular-nums; }
-  .delta.bad { color: var(--critical); font-weight: 600; }
+  .lights { display:inline-flex; gap:4px; }
+  .light { width:9px; height:9px; border-radius:2px; display:inline-block; }
+  .light.good{background:var(--good)} .light.warning{background:var(--warning)}
+  .light.watching{background:var(--serious)} .light.critical{background:var(--critical)}
+  .light.unknown{background:var(--grid)}
 
-  .pill {
-    display: inline-flex; align-items: center; gap: 5px;
-    font-size: 12px; font-weight: 560; white-space: nowrap;
-    padding: 2px 8px 2px 6px; border-radius: 99px; border: 1px solid var(--border);
-  }
-  .dot { width: 7px; height: 7px; border-radius: 99px; flex: none; }
-  .pill.good .dot { background: var(--good); }
-  .pill.warning .dot { background: var(--warning); }
-  .pill.watching .dot { background: var(--serious); }
-  .pill.critical .dot { background: var(--critical); }
-  .pill.unknown .dot { background: var(--muted); }
-  .pill.critical { color: var(--critical); border-color: var(--critical); }
+  .alert { border:1px solid var(--border); border-left:3px solid var(--warning);
+           border-radius:8px; padding:13px; margin-bottom:10px; }
+  .alert.critical { border-left-color:var(--critical); }
+  .alert .a-head { font-weight:600; margin-bottom:4px; }
+  .alert .a-meta { font-size:12.5px; color:var(--ink-2); }
+  .alert ul { margin:7px 0 0; padding-left:18px; font-size:13px; color:var(--ink-2); font-variant-numeric:tabular-nums; }
+  .alert .a-hint { font-size:13px; color:var(--ink-2); margin-top:7px; font-style:italic; }
+  .alert a { color:var(--series); }
 
-  .lights { display: inline-flex; gap: 4px; }
-  .light { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
-  .light.good { background: var(--good); }
-  .light.warning { background: var(--warning); }
-  .light.watching { background: var(--serious); }
-  .light.critical { background: var(--critical); }
-  .light.unknown { background: var(--grid); }
+  details.client { border:1px solid var(--border); border-radius:10px; margin-bottom:8px; background:var(--surface); }
+  details.client > summary { cursor:pointer; padding:13px 16px; font-weight:600; font-size:14.5px;
+                             display:flex; align-items:center; gap:10px; list-style:none; }
+  details.client > summary::-webkit-details-marker { display:none; }
+  details.client > summary::before { content:"▸"; color:var(--muted); font-size:12px; }
+  details.client[open] > summary::before { content:"▾"; }
+  details.client > summary .s-meta { margin-left:auto; font-weight:400; font-size:12.5px; color:var(--muted); }
+  .client-body { padding:0 16px 18px; }
 
-  .alert {
-    border: 1px solid var(--border); border-left: 3px solid var(--warning);
-    border-radius: 8px; padding: 13px; margin-bottom: 10px;
-  }
-  .alert.critical { border-left-color: var(--critical); }
-  .alert .a-head { font-weight: 600; margin-bottom: 4px; }
-  .alert .a-meta { font-size: 12.5px; color: var(--ink-2); }
-  .alert ul { margin: 7px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-  .alert .a-hint { font-size: 13px; color: var(--ink-2); margin-top: 7px; font-style: italic; }
-  .alert a { color: var(--series); }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-bottom:18px; }
+  .kpi { border:1px solid var(--border); border-radius:9px; padding:12px; }
+  .kpi .label { font-size:11.5px; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; }
+  .kpi .value { font-size:22px; font-weight:640; margin-top:3px; letter-spacing:-0.02em; }
+  .kpi .d { font-size:12.5px; margin-top:2px; color:var(--ink-2); }
 
-  details.client { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--surface); }
-  details.client > summary {
-    cursor: pointer; padding: 13px 16px; font-weight: 600; font-size: 14.5px;
-    display: flex; align-items: center; gap: 10px; list-style: none;
-  }
-  details.client > summary::-webkit-details-marker { display: none; }
-  details.client > summary::before { content: "▸"; color: var(--muted); font-size: 12px; }
-  details.client[open] > summary::before { content: "▾"; }
-  details.client > summary .s-meta { margin-left: auto; font-weight: 400; font-size: 12.5px; color: var(--muted); }
-  .client-body { padding: 0 16px 18px; }
+  .charts { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:22px; }
+  .chart-wrap { position:relative; }
+  .chart-title { font-size:13px; font-weight:600; margin-bottom:2px; }
+  .chart-note { font-size:12px; color:var(--muted); margin-bottom:8px; }
+  svg { display:block; width:100%; height:auto; overflow:visible; }
+  .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--surface);
+             border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:12.5px;
+             box-shadow:0 4px 16px rgba(0,0,0,0.12); transition:opacity .1s; z-index:5; min-width:140px; }
+  .tooltip .t-date { color:var(--muted); font-size:11.5px; margin-bottom:4px; }
+  .tooltip .t-row { display:flex; justify-content:space-between; gap:14px; font-variant-numeric:tabular-nums; }
 
-  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 18px; }
-  .kpi { border: 1px solid var(--border); border-radius: 9px; padding: 12px; }
-  .kpi .label { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-  .kpi .value { font-size: 22px; font-weight: 640; margin-top: 3px; letter-spacing: -0.02em; }
-  .kpi .d { font-size: 12.5px; margin-top: 2px; color: var(--ink-2); }
-
-  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 22px; }
-  .chart-wrap { position: relative; }
-  .chart-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
-  .chart-note { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-  svg { display: block; width: 100%; height: auto; overflow: visible; }
-  .tooltip {
-    position: absolute; pointer-events: none; opacity: 0;
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 8px; padding: 8px 10px; font-size: 12.5px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12); transition: opacity .1s; z-index: 5; min-width: 140px;
-  }
-  .tooltip .t-date { color: var(--muted); font-size: 11.5px; margin-bottom: 4px; }
-  .tooltip .t-row { display: flex; justify-content: space-between; gap: 14px; font-variant-numeric: tabular-nums; }
-
-  .empty { color: var(--muted); font-size: 14px; }
-  footer { color: var(--muted); font-size: 12.5px; padding-top: 10px; }
-  .legend { font-size: 12px; color: var(--muted); margin-top: 10px; }
+  .empty { color:var(--muted); font-size:14px; }
+  footer { color:var(--muted); font-size:12.5px; padding-top:10px; }
+  .legend { font-size:12px; color:var(--muted); margin-top:10px; }
 </style>
 </head>
 <body>
@@ -161,21 +145,50 @@
 <script>
 const DATA = /*__DATA__*/null;
 
-const fmt = n => (n === null || n === undefined) ? "—" : n.toLocaleString("en-ZA");
+const BASELINE_DAYS = 28;          // what every window is compared against
+const WINDOWS = [7, 14, 28];
+let WIN = 7;
+
+const fmt = n => (n === null || n === undefined) ? "—" : Math.round(n).toLocaleString("en-ZA");
 const pct = (a, b) => (a === null || a === undefined || !b) ? null : ((a - b) / b) * 100;
 const signed = v => v === null ? "—" : (v >= 0 ? "+" : "") + v.toFixed(1) + "%";
 
 const LABELS = { good:"OK", warning:"Warning", watching:"Watching", critical:"Critical", unknown:"No data" };
 const RANK   = { critical:0, warning:1, watching:2, unknown:3, good:4 };
 
-function worstStatus(c) {
-  let worst = "good";
-  Object.values(c.statuses || {}).forEach(s => {
-    if (RANK[s.state] < RANK[worst]) worst = s.state;
-  });
-  return worst;
+/* Last `n` days against the prior 28, scaled to the same length. Same method
+   the evaluator uses, so the 7-day view reproduces the alert figures exactly
+   instead of drifting from them. */
+function windowStats(c, n) {
+  const s = c.series || {}, len = (s.dates || []).length;
+  if (len < n + BASELINE_DAYS) return null;
+  const sum = (arr, a, b) => (arr || []).slice(a, b).reduce((t, v) => t + (v || 0), 0);
+  const cur  = arr => sum(arr, len - n, len);
+  const base = arr => sum(arr, len - n - BASELINE_DAYS, len - n) / BASELINE_DAYS * n;
+  const pos = (s.position || []).slice(len - n).filter(v => v !== null && v !== undefined && v !== 0);
+  return {
+    clicks: cur(s.clicks),      clicksBase: base(s.clicks),
+    impr:   cur(s.impressions), imprBase:   base(s.impressions),
+    position: pos.length ? Math.round(pos.reduce((a, b) => a + b, 0) / pos.length * 10) / 10 : null,
+    from: s.dates[len - n], to: s.dates[len - 1],
+  };
 }
 
+/* Falls back to the figures the monitor computed when there is not yet
+   enough history for the chosen window. */
+function statsFor(c, n) {
+  return windowStats(c, n) || {
+    clicks: c.kpis.clicks.current, clicksBase: c.kpis.clicks.baseline,
+    impr: c.kpis.impressions.current, imprBase: c.kpis.impressions.baseline,
+    position: c.kpis.position, from: null, to: null, fallback: true,
+  };
+}
+
+function worstStatus(c) {
+  let worst = "good";
+  Object.values(c.statuses || {}).forEach(s => { if (RANK[s.state] < RANK[worst]) worst = s.state; });
+  return worst;
+}
 function pill(state, label) {
   const el = document.createElement("span");
   el.className = "pill " + state;
@@ -183,32 +196,27 @@ function pill(state, label) {
   return el;
 }
 
-/* ---------- chart (built lazily, only when a client is expanded) ------ */
+/* ---------- chart ----------------------------------------------------- */
 function lineChart(container, opts) {
   const { dates, values, baseline, warningPct, label } = opts;
-  const W = 640, H = 200, P = { t: 12, r: 12, b: 24, l: 46 };
+  const W = 640, H = 200, P = { t:12, r:12, b:24, l:46 };
   const iw = W - P.l - P.r, ih = H - P.t - P.b;
-
   const all = values.concat(baseline.filter(v => v !== null));
   const min = 0, ticks = 4;
   const rough = (Math.max(...all) * 1.08) / ticks;
   const mag = Math.pow(10, Math.floor(Math.log10(rough || 1)));
   const step = ([1,2,2.5,5,10].find(m => m * mag >= rough) || 10) * mag;
   const max = step * ticks;
-
   const x = i => P.l + (i / Math.max(1, dates.length - 1)) * iw;
   const y = v => P.t + ih - ((v - min) / (max - min)) * ih;
-
   const path = arr => {
     let d = "", pen = false;
     arr.forEach((v, i) => {
       if (v === null) { pen = false; return; }
-      d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1) + " ";
-      pen = true;
+      d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1) + " "; pen = true;
     });
     return d.trim();
   };
-
   const lower = baseline.map(v => v === null ? null : v * (1 + warningPct / 100));
   const top = [], bottom = [];
   baseline.forEach((v, i) => {
@@ -217,7 +225,6 @@ function lineChart(container, opts) {
     bottom.unshift(`${x(i).toFixed(1)} ${y(lower[i]).toFixed(1)}`);
   });
   const band = top.length ? "M" + top.join(" L ") + " L " + bottom.join(" L ") + " Z" : "";
-
   let gridlines = "", ylabels = "";
   for (let i = 0; i <= ticks; i++) {
     const v = min + (max - min) * (i / ticks), yy = y(v).toFixed(1);
@@ -232,7 +239,6 @@ function lineChart(container, opts) {
     const anchor = i === 0 ? "start" : (i === dates.length-1 ? "end" : "middle");
     xlabels += `<text x="${x(i).toFixed(1)}" y="${H-5}" text-anchor="${anchor}" font-size="11" fill="var(--muted)">${d.toLocaleDateString("en-ZA",{day:"numeric",month:"short"})}</text>`;
   });
-
   container.innerHTML = `
     <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${label} over ${dates.length} days against its rolling baseline">
       ${gridlines}${ylabels}${xlabels}
@@ -242,42 +248,36 @@ function lineChart(container, opts) {
       <line class="crosshair" y1="${P.t}" y2="${P.t+ih}" stroke="var(--muted)" stroke-width="1" opacity="0"/>
       <circle class="focus" r="4.5" fill="var(--series)" stroke="var(--surface)" stroke-width="2" opacity="0"/>
     </svg>`;
-
   const svg = container.querySelector("svg");
-  const tip = document.createElement("div");
-  tip.className = "tooltip";
-  container.appendChild(tip);
+  const tip = document.createElement("div"); tip.className = "tooltip"; container.appendChild(tip);
   const crosshair = svg.querySelector(".crosshair"), focus = svg.querySelector(".focus");
-
   svg.addEventListener("mousemove", ev => {
     const box = svg.getBoundingClientRect();
     const px = ((ev.clientX - box.left) / box.width) * W;
     if (px < P.l || px > W - P.r) return;
     const i = Math.round(((px - P.l) / iw) * (dates.length - 1));
     if (i < 0 || i >= dates.length) return;
-    crosshair.setAttribute("x1", x(i)); crosshair.setAttribute("x2", x(i));
-    crosshair.setAttribute("opacity", "0.5");
-    focus.setAttribute("cx", x(i)); focus.setAttribute("cy", y(values[i]));
-    focus.setAttribute("opacity", "1");
+    crosshair.setAttribute("x1", x(i)); crosshair.setAttribute("x2", x(i)); crosshair.setAttribute("opacity","0.5");
+    focus.setAttribute("cx", x(i)); focus.setAttribute("cy", y(values[i])); focus.setAttribute("opacity","1");
     const base = baseline[i], change = base ? pct(values[i], base) : null;
     tip.innerHTML =
       `<div class="t-date">${new Date(dates[i]).toLocaleDateString("en-ZA",{weekday:"short",day:"numeric",month:"short"})}</div>` +
       `<div class="t-row"><span>${label}</span><strong>${fmt(values[i])}</strong></div>` +
-      (base ? `<div class="t-row"><span>Baseline</span><span>${fmt(Math.round(base))}</span></div>
+      (base ? `<div class="t-row"><span>Baseline</span><span>${fmt(base)}</span></div>
                <div class="t-row"><span>Change</span><span>${signed(change)}</span></div>` : "");
     tip.style.opacity = "1";
     tip.style.left = Math.min(Math.max((x(i)/W)*box.width - 70, 0), box.width - 160) + "px";
     tip.style.top = "6px";
   });
   svg.addEventListener("mouseleave", () => {
-    tip.style.opacity = "0";
-    crosshair.setAttribute("opacity","0"); focus.setAttribute("opacity","0");
+    tip.style.opacity = "0"; crosshair.setAttribute("opacity","0"); focus.setAttribute("opacity","0");
   });
 }
 
 /* ---------- page ------------------------------------------------------ */
 function render() {
   const app = document.getElementById("app");
+  app.innerHTML = "";
   document.getElementById("generated").textContent =
     "Last run " + new Date(DATA.generated_at).toLocaleString("en-ZA", { dateStyle:"medium", timeStyle:"short" });
 
@@ -287,43 +287,68 @@ function render() {
     return (b.open_alerts.length - a.open_alerts.length) || a.name.localeCompare(b.name);
   });
 
-  // Headline band
   const openAlerts = clients.reduce((n, c) => n + c.open_alerts.length, 0);
   const criticals = clients.reduce((n, c) => n + c.open_alerts.filter(a => a.severity === "critical").length, 0);
   const needLook = clients.filter(c => RANK[worstStatus(c)] <= 2).length;
-  const broken = clients.filter(c =>
-    Object.values(c.source_status || {}).some(s => !s.ok)).length;
+  const broken = clients.filter(c => Object.values(c.source_status || {}).some(s => !s.ok)).length;
 
   const band = document.createElement("div");
   band.className = "band";
-  [
-    ["Clients", clients.length, false],
-    ["Need a look", needLook, needLook > 0],
-    ["Open alerts", openAlerts, openAlerts > 0],
-    ["Critical", criticals, criticals > 0],
-    ["Collector failures", broken, broken > 0],
-  ].forEach(([label, n, alarm]) => {
-    band.innerHTML += `<div class="cell${alarm ? " alarm" : ""}"><div class="n">${n}</div><div class="l">${label}</div></div>`;
+  [["Clients", clients.length, false], ["Need a look", needLook, needLook>0],
+   ["Open alerts", openAlerts, openAlerts>0], ["Critical", criticals, criticals>0],
+   ["Collector failures", broken, broken>0]].forEach(([label, n, alarm]) => {
+    band.innerHTML += `<div class="cell${alarm?" alarm":""}"><div class="n">${n}</div><div class="l">${label}</div></div>`;
   });
   app.appendChild(band);
 
-  // Overview: the top line per client
   const overview = document.createElement("div");
   overview.className = "card";
   overview.innerHTML = "<h2>Overview</h2><h3>One row per client, worst first</h3>";
+
+  // Window selector
+  const winbar = document.createElement("div");
+  winbar.className = "winbar";
+  const lab = document.createElement("span");
+  lab.className = "lab"; lab.textContent = "Compare";
+  winbar.appendChild(lab);
+  const seg = document.createElement("div");
+  seg.className = "seg";
+  seg.setAttribute("role", "group");
+  seg.setAttribute("aria-label", "Comparison window");
+  WINDOWS.forEach(n => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = n + " days";
+    b.setAttribute("aria-pressed", String(n === WIN));
+    b.addEventListener("click", () => {
+      WIN = n;
+      try { localStorage.setItem("seomonitor.window", String(n)); } catch (e) {}
+      render();
+    });
+    seg.appendChild(b);
+  });
+  winbar.appendChild(seg);
+  const note = document.createElement("span");
+  note.className = "winnote";
+  note.textContent = `last ${WIN} days vs the prior 28, scaled. Alerting always uses 7 days and is not affected by this.`;
+  winbar.appendChild(note);
+  overview.appendChild(winbar);
+
   const scroll = document.createElement("div");
   scroll.className = "scroll";
   const table = document.createElement("table");
-
   const head = document.createElement("tr");
-  head.innerHTML = "<th>Client</th><th>Status</th><th>Clicks 7d</th><th>vs base</th>"
-    + "<th>Impr 7d</th><th>vs base</th><th>Pos</th><th>Indexed</th><th>Signals</th><th>Open</th>";
+  head.innerHTML = `<th>Client</th><th>Status</th><th>Clicks ${WIN}d</th><th>vs base</th>`
+    + `<th>Impr ${WIN}d</th><th>vs base</th><th>Pos</th><th>Indexed</th><th>Signals</th><th>Open</th>`;
   table.appendChild(head);
 
+  let anyFallback = false;
   clients.forEach(c => {
     const st = worstStatus(c);
-    const ck = pct(c.kpis.clicks.current, c.kpis.clicks.baseline);
-    const im = pct(c.kpis.impressions.current, c.kpis.impressions.baseline);
+    const s = statsFor(c, WIN);
+    if (s.fallback) anyFallback = true;
+    const ck = pct(s.clicks, s.clicksBase);
+    const im = pct(s.impr, s.imprBase);
     const tr = document.createElement("tr");
     if (RANK[st] <= 1) tr.className = "hot";
 
@@ -333,40 +358,32 @@ function render() {
     tr.appendChild(name);
 
     const stTd = document.createElement("td");
-    stTd.appendChild(pill(st));
-    tr.appendChild(stTd);
+    stTd.appendChild(pill(st)); tr.appendChild(stTd);
 
-    const cells = [
-      [fmt(c.kpis.clicks.current), "num"],
-      [signed(ck), "delta" + (ck !== null && ck <= -20 ? " bad" : "")],
-      [fmt(c.kpis.impressions.current), "num"],
-      [signed(im), "delta" + (im !== null && im <= -20 ? " bad" : "")],
-      [c.kpis.position ?? "—", "num"],
-      [c.kpis.indexed_rate != null ? c.kpis.indexed_rate + "%" : "—", "num"],
-    ];
-    cells.forEach(([txt, cls]) => {
-      const td = document.createElement("td");
-      td.className = cls; td.textContent = txt; tr.appendChild(td);
+    [[fmt(s.clicks), "num"],
+     [signed(ck), "delta" + (ck !== null && ck <= -20 ? " bad" : "")],
+     [fmt(s.impr), "num"],
+     [signed(im), "delta" + (im !== null && im <= -20 ? " bad" : "")],
+     [s.position ?? "—", "num"],
+     [c.kpis.indexed_rate != null ? c.kpis.indexed_rate + "%" : "—", "num"]
+    ].forEach(([txt, cls]) => {
+      const td = document.createElement("td"); td.className = cls; td.textContent = txt; tr.appendChild(td);
     });
 
     const lights = document.createElement("td");
-    const row = document.createElement("span");
-    row.className = "lights";
-    DATA.signals.forEach(s => {
-      const state = (c.statuses[s.key] || {}).state || "unknown";
+    const row = document.createElement("span"); row.className = "lights";
+    DATA.signals.forEach(sg => {
+      const state = (c.statuses[sg.key] || {}).state || "unknown";
       const sp = document.createElement("span");
       sp.className = "light " + state;
-      sp.title = s.label + ": " + (LABELS[state] || state);
+      sp.title = sg.label + ": " + (LABELS[state] || state);
       row.appendChild(sp);
     });
-    lights.appendChild(row);
-    tr.appendChild(lights);
+    lights.appendChild(row); tr.appendChild(lights);
 
     const open = document.createElement("td");
-    open.className = "num";
-    open.textContent = c.open_alerts.length || "";
+    open.className = "num"; open.textContent = c.open_alerts.length || "";
     tr.appendChild(open);
-
     table.appendChild(tr);
   });
 
@@ -374,18 +391,17 @@ function render() {
   overview.appendChild(scroll);
   const legend = document.createElement("p");
   legend.className = "legend";
-  legend.textContent = "Signal squares, left to right: " + DATA.signals.map(s => s.label).join(", ");
+  legend.textContent = "Signal squares, left to right: " + DATA.signals.map(s => s.label).join(", ")
+    + (anyFallback ? ". Some clients lack enough history for this window and show their 7-day figures." : "");
   overview.appendChild(legend);
   app.appendChild(overview);
 
-  // Open alerts across the book
   const everyAlert = clients.flatMap(c => c.open_alerts);
   if (everyAlert.length) {
     const box = document.createElement("div");
     box.className = "card";
     box.innerHTML = "<h2>Open alerts</h2><h3>Most severe first</h3>";
-    everyAlert
-      .sort((a, b) => (a.severity === "critical" ? 0 : 1) - (b.severity === "critical" ? 0 : 1))
+    everyAlert.sort((a, b) => (a.severity === "critical" ? 0 : 1) - (b.severity === "critical" ? 0 : 1))
       .forEach(a => {
         const el = document.createElement("div");
         el.className = "alert " + a.severity;
@@ -400,7 +416,6 @@ function render() {
     app.appendChild(box);
   }
 
-  // Per-client detail, collapsed. Charts build on first expand.
   const detailHead = document.createElement("h2");
   detailHead.style.cssText = "margin:26px 0 10px;font-size:15px";
   detailHead.textContent = "Client detail";
@@ -408,13 +423,11 @@ function render() {
 
   clients.forEach(c => {
     const d = document.createElement("details");
-    d.className = "client";
-    d.id = c.slug;
+    d.className = "client"; d.id = c.slug;
     const st = worstStatus(c);
     d.innerHTML = `<summary>${c.name}
       <span class="pill ${st}" style="font-weight:560"><span class="dot"></span>${LABELS[st]}</span>
       <span class="s-meta">${c.as_of || ""}</span></summary>`;
-
     const body = document.createElement("div");
     body.className = "client-body";
     d.appendChild(body);
@@ -423,15 +436,14 @@ function render() {
     d.addEventListener("toggle", () => {
       if (!d.open || built) return;
       built = true;
-
+      const s = statsFor(c, WIN);
+      const ck = pct(s.clicks, s.clicksBase), im = pct(s.impr, s.imprBase);
       const kpis = document.createElement("div");
       kpis.className = "kpis";
-      const ck = pct(c.kpis.clicks.current, c.kpis.clicks.baseline);
-      const im = pct(c.kpis.impressions.current, c.kpis.impressions.baseline);
       kpis.innerHTML =
-        `<div class="kpi"><div class="label">Clicks, 7 days</div><div class="value">${fmt(c.kpis.clicks.current)}</div><div class="d">${ck===null?"no baseline yet":(ck<0?"▼ ":"▲ ")+signed(ck)+" vs baseline"}</div></div>` +
-        `<div class="kpi"><div class="label">Impressions, 7 days</div><div class="value">${fmt(c.kpis.impressions.current)}</div><div class="d">${im===null?"no baseline yet":(im<0?"▼ ":"▲ ")+signed(im)+" vs baseline"}</div></div>` +
-        `<div class="kpi"><div class="label">Avg position</div><div class="value">${c.kpis.position ?? "—"}</div><div class="d">7-day mean</div></div>` +
+        `<div class="kpi"><div class="label">Clicks, ${WIN} days</div><div class="value">${fmt(s.clicks)}</div><div class="d">${ck===null?"no baseline yet":(ck<0?"▼ ":"▲ ")+signed(ck)+" vs baseline"}</div></div>` +
+        `<div class="kpi"><div class="label">Impressions, ${WIN} days</div><div class="value">${fmt(s.impr)}</div><div class="d">${im===null?"no baseline yet":(im<0?"▼ ":"▲ ")+signed(im)+" vs baseline"}</div></div>` +
+        `<div class="kpi"><div class="label">Avg position</div><div class="value">${s.position ?? "—"}</div><div class="d">${WIN}-day mean</div></div>` +
         `<div class="kpi"><div class="label">Priority indexed</div><div class="value">${c.kpis.indexed_rate != null ? c.kpis.indexed_rate + "%" : "—"}</div><div class="d">of sampled URLs</div></div>`;
       body.appendChild(kpis);
 
@@ -441,16 +453,12 @@ function render() {
         const wrap = document.createElement("div");
         wrap.innerHTML = `<div class="chart-title">${label}, last ${c.series.dates.length} days</div>
           <div class="chart-note">Dashed line is the 28-day weekday-aligned baseline. Shaded band is the warning threshold.</div>`;
-        const plot = document.createElement("div");
-        plot.className = "chart-wrap";
-        wrap.appendChild(plot);
-        charts.appendChild(wrap);
+        const plot = document.createElement("div"); plot.className = "chart-wrap";
+        wrap.appendChild(plot); charts.appendChild(wrap);
         if (c.series.dates.length) {
           lineChart(plot, { dates:c.series.dates, values:c.series[k], baseline:c.series[bk],
                             warningPct:c.thresholds.warning_pct, label });
-        } else {
-          plot.innerHTML = '<p class="empty">No history yet.</p>';
-        }
+        } else { plot.innerHTML = '<p class="empty">No history yet.</p>'; }
       });
       body.appendChild(charts);
 
@@ -462,14 +470,17 @@ function render() {
         body.appendChild(p);
       }
     });
-
     app.appendChild(d);
   });
 
   document.getElementById("foot").textContent =
-    "Thresholds are configured per client. A signal shows No data until it has a full 35 days of history.";
+    "Thresholds are configured per client. Alerting compares 7 days against the prior 28 regardless of the view above.";
 }
 
+try {
+  const saved = parseInt(localStorage.getItem("seomonitor.window"), 10);
+  if (WINDOWS.includes(saved)) WIN = saved;
+} catch (e) {}
 render();
 </script>
 </body>
