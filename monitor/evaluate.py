@@ -9,6 +9,17 @@ their false alarms.
 Nothing alerts on its first breach. A signal has to stay outside threshold for
 a configured number of consecutive runs before it leaves the building, and the
 streak counter lives in the history file so it survives between runs.
+
+On impressions: the original brief asked for impressions to alert on its own
+thresholds, the same as clicks. Run against real client data that produces
+mostly false alarms, because impressions are not an outcome. A fall in
+impressions with clicks holding steady means CTR went up: Google is showing
+the site for fewer, better-matched queries. On 2026-10-06 four unrelated
+clients all dropped 21-62% of impressions while losing 6-14% of clicks, which
+is a SERP-side change, not four simultaneous client problems. So impressions
+is a context signal by default. It shows on the dashboard when it moves, and
+it never wakes anyone. Set `alert: true` under organic_impressions in
+clients.yaml to put a client back on the old behaviour.
 """
 
 from __future__ import annotations
@@ -204,7 +215,8 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
     clicks_pct = impressions_pct = None
     position_delta = None
 
-    # --- Organic clicks and impressions -----------------------------------
+    # --- Organic clicks ---------------------------------------------------
+    # The outcome metric, and the only traffic signal that raises an alert.
     if source_status.get("gsc", {}).get("ok"):
         clicks = _windows(client_cfg, history, "gsc", "clicks", as_of)
         impressions = _windows(client_cfg, history, "gsc", "impressions", as_of)
@@ -241,12 +253,17 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
             else:
                 watching.add("organic_clicks")
 
+        # --- Organic impressions -----------------------------------------
+        # Context, not an alert. See the module docstring. A fall here with
+        # clicks holding means CTR improved, which is not an incident. It is
+        # still surfaced on the dashboard so a slide is visible early.
         if impressions and impressions[1] >= min_clicks:
             current, baseline = impressions
             impressions_pct = pct_change(current, baseline)
             warn = client_cfg.threshold("organic_impressions", "warning_pct", -20)
             crit = client_cfg.threshold("organic_impressions", "critical_pct", -35)
             persist = client_cfg.threshold("organic_impressions", "persist_runs", 3)
+            alerting = bool(client_cfg.threshold("organic_impressions", "alert", False))
 
             severity = None
             if impressions_pct is not None and impressions_pct <= crit:
@@ -255,7 +272,8 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
                 severity = "warning"
 
             streak = _bump_streak(history, "organic_impressions", severity is not None, as_of)
-            if severity and streak >= persist:
+
+            if severity and alerting and streak >= persist:
                 findings.append(
                     Finding(
                         signal="organic_impressions",
@@ -274,11 +292,9 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
                 watching.add("organic_impressions")
 
         # --- CTR divergence -----------------------------------------------
-        # Not in the original brief. Added because a clicks-only threshold
-        # sleeps through the case where impressions climb sharply, clicks stay
-        # flat and average position degrades. That pattern is real and worth
-        # knowing about: it is what an AI Overview or a broad category
-        # expansion looks like from the outside.
+        # Catches the opposite case: clicks being lost at the SERP while
+        # impressions hold up. A clicks-only threshold sleeps through that
+        # because clicks can look almost flat while impressions inflate.
         position_data = store.series(history, "gsc", "position")
         current_days = client_cfg.setting("current_window_days", 7)
         pos_now, n1 = store.window_sum(position_data, as_of, current_days)
@@ -289,10 +305,6 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
             position_delta = round((pos_now / n1) - (pos_before / n2), 2)
 
         if clicks_pct is not None and impressions_pct is not None:
-            # Test CTR directly rather than inferring it from a pair of
-            # separate conditions on clicks and impressions. Two thresholds
-            # joined by AND let a real divergence slip through on a
-            # technicality when one leg misses its cut by a point or two.
             ctr_change = pct_change(1 + clicks_pct / 100, 1 + impressions_pct / 100)
             ctr_limit = client_cfg.threshold("ctr_divergence", "warning_ctr_drop_pct", -20)
             holding = client_cfg.threshold(
@@ -300,9 +312,6 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
             )
             persist = client_cfg.threshold("ctr_divergence", "persist_runs", 2)
 
-            # Only meaningful while impressions hold up. If impressions are
-            # falling too, this is a visibility problem and the clicks and
-            # impressions signals already own it.
             breached = (
                 ctr_change is not None
                 and ctr_change <= ctr_limit
@@ -441,13 +450,16 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
         history["state"]["last_cwv"] = cwv_now
 
     # --- LLM referrals ----------------------------------------------------
+    # Small numbers move a lot in percentage terms, so this needs a real
+    # volume floor and two consecutive runs before it is worth saying.
     if source_status.get("ga4", {}).get("ok"):
         llm = _windows(client_cfg, history, "ga4", "llm_sessions", as_of)
-        if llm and llm[1] >= 20:
+        floor = client_cfg.threshold("llm_referrals", "min_baseline_sessions", 100)
+        if llm and llm[1] >= floor:
             current, baseline = llm
             change = pct_change(current, baseline)
-            limit = client_cfg.threshold("llm_referrals", "warning_pct", -25)
-            persist = client_cfg.threshold("llm_referrals", "persist_runs", 1)
+            limit = client_cfg.threshold("llm_referrals", "warning_pct", -30)
+            persist = client_cfg.threshold("llm_referrals", "persist_runs", 2)
             breached = change is not None and change <= limit
             streak = _bump_streak(history, "llm_referrals", breached, as_of)
             if breached and streak >= persist:
