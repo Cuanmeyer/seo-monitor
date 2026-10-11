@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-08",
   "baseline_scale": 4.0,
   "domain": "greyhound.co.za",
   "indexed_rate": 100.0,
@@ -8,7 +8,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-10T08:17:03Z",
+      "last_crawl": "2026-10-11T09:31:08Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/",
@@ -18,7 +18,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/book-tickets/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-10T09:21:16Z",
+      "last_crawl": "2026-10-11T09:39:11Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/book-tickets/",
@@ -48,7 +48,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/bus-tickets/johannesburg-to-cape-town/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-10T03:01:16Z",
+      "last_crawl": "2026-10-11T08:51:38Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/bus-tickets/johannesburg-to-cape-town/",
@@ -58,7 +58,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/bus-tickets/johannesburg-to-durban/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-09T06:07:21Z",
+      "last_crawl": "2026-10-10T07:09:40Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/bus-tickets/johannesburg-to-durban/",
@@ -98,7 +98,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/contact-us/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-10T01:43:30Z",
+      "last_crawl": "2026-10-11T07:46:26Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/contact-us/",
@@ -108,7 +108,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/premium-double-decker/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-09T11:17:56Z",
+      "last_crawl": "2026-10-11T06:34:48Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/premium-double-decker/",
@@ -118,7 +118,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://greyhound.co.za/routes/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-09T03:37:34Z",
+      "last_crawl": "2026-10-10T15:03:08Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://greyhound.co.za/routes/",
@@ -126,25 +126,25 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 840,
+    "chatgpt.com": 849,
     "gemini.google.com": 10,
     "perplexity.ai": 1
   },
   "pages_baseline": {
     "https://greyhound.co.za/": {
-      "clicks": 12552,
-      "impressions": 695611,
-      "position": 6.206085010156539
+      "clicks": 12592,
+      "impressions": 692944,
+      "position": 6.197349280749959
     },
     "https://greyhound.co.za/?utm_campaign%3Dgtfs%26utm_medium%3Dagency-url%26utm_source%3Dgooglemaps": {
       "clicks": 16,
-      "impressions": 517,
-      "position": 2.1721470019342357
+      "impressions": 555,
+      "position": 2.1585585585585587
     },
     "https://greyhound.co.za/?utm_campaign=gtfs&utm_medium=agency-url&utm_source=googlemaps": {
-      "clicks": 28,
-      "impressions": 1108,
-      "position": 2.161552346570397
+      "clicks": 29,
+      "impressions": 1104,
+      "position": 2.1567028985507246
     },
     "https://greyhound.co.za/about-us": {
       "clicks": 0,
@@ -152,14 +152,14 @@
       "position": 1
     },
     "https://greyhound.co.za/about-us/": {
-      "clicks": 22,
-      "impressions": 2224,
-      "position": 6.497302158273381
+      "clicks": 23,
+      "impressions": 2283,
+      "position": 6.489706526500219
     },
     "https://greyhound.co.za/app/": {
-      "clicks": 186,
-      "impressions": 35086,
-      "position": 6.6095308670124835
+      "clicks": 195,
+      "impressions": 34940,
+      "position": 6.6480251860332
     },
     "https://greyhound.co.za/book-bus-tickets": {
       "clicks": 0,
@@ -172,9 +172,9 @@
       "position": 1.3333333333333333
     },
     "https://greyhound.co.za/book-tickets/": {
-      "clicks": 3459,
-      "impressions": 116591,
-      "position": 3.7431448396531466
+      "clicks": 3503,
+      "impressions": 117274,
+      "position": 3.719161962583352
     },
     "https://greyhound.co.za/booking-of-offices/": {
       "clicks": 0,
@@ -182,9 +182,9 @@
       "position": 1
     },
     "https://greyhound.co.za/booking-offices/": {
-      "clicks": 225,
-      "impressions": 14084,
-      "position": 6.072990627662596
+      "clicks": 232,
+      "impressions": 14038,
+      "position": 5.98454195754381
     },
     "https://greyhound.co.za/booking-onffices/": {
       "clicks": 0,
@@ -273,8 +273,8 @@
     },
     "https://greyhound.co.za/bus-tickets/": {
       "clicks": 2,
-      "impressions": 47,
-      "position": 1.2553191489361701
+      "impressions": 46,
+      "position": 1.2608695652173914
     },
     "https://greyhound.co.za/bus-tickets/Cape-Town-to-Knysna/": {
       "clicks": 0,
@@ -292,9 +292,9 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-durban/": {
-      "clicks": 16,
-      "impressions": 1020,
-      "position": 8.242156862745098
+      "clicks": 15,
+      "impressions": 1008,
+      "position": 8.356150793650794
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-johamburg/": {
       "clicks": 0,
@@ -307,14 +307,14 @@
       "position": 2.090909090909091
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-johannesburg/": {
-      "clicks": 16,
-      "impressions": 3254,
-      "position": 9.817762753534112
+      "clicks": 17,
+      "impressions": 3217,
+      "position": 9.836804476220081
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-pretoria/": {
-      "clicks": 28,
-      "impressions": 1739,
-      "position": 14.165037377803335
+      "clicks": 25,
+      "impressions": 1747,
+      "position": 14.26903262736119
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-durban/": {
       "clicks": 0,
@@ -357,9 +357,9 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-cape-town/": {
-      "clicks": 79,
-      "impressions": 3974,
-      "position": 5.828384499245093
+      "clicks": 82,
+      "impressions": 3970,
+      "position": 5.74911838790932
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-durban": {
       "clicks": 0,
@@ -367,9 +367,9 @@
       "position": 2
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-durban/": {
-      "clicks": 149,
-      "impressions": 6633,
-      "position": 5.381727725011307
+      "clicks": 152,
+      "impressions": 6698,
+      "position": 5.316960286652733
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-johamburg/": {
       "clicks": 0,
@@ -397,9 +397,9 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-johannesburg/": {
-      "clicks": 205,
-      "impressions": 16726,
-      "position": 5.147136195145283
+      "clicks": 203,
+      "impressions": 16790,
+      "position": 5.152352590827873
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-johannessburg/": {
       "clicks": 0,
@@ -417,9 +417,9 @@
       "position": 2
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-mossel-bay/": {
-      "clicks": 15,
-      "impressions": 1143,
-      "position": 12.040244969378827
+      "clicks": 17,
+      "impressions": 1153,
+      "position": 12.457068516912402
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-mossel-bay/r/kdfdkd-k3ztxc": {
       "clicks": 0,
@@ -433,8 +433,8 @@
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-port-elizabeth/": {
       "clicks": 68,
-      "impressions": 2996,
-      "position": 5.519692923898531
+      "impressions": 3017,
+      "position": 5.50679482930063
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-pretoria": {
       "clicks": 0,
@@ -442,9 +442,9 @@
       "position": 2.7058823529411766
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-pretoria/": {
-      "clicks": 97,
-      "impressions": 6612,
-      "position": 4.989866908650938
+      "clicks": 98,
+      "impressions": 6641,
+      "position": 4.959192892636651
     },
     "https://greyhound.co.za/bus-tickets/bus-cape-town-to-mthatha/": {
       "clicks": 0,
@@ -487,9 +487,9 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/butterworth-to-cape-town/": {
-      "clicks": 47,
-      "impressions": 4286,
-      "position": 6.912739150723285
+      "clicks": 51,
+      "impressions": 4318,
+      "position": 6.899490504863363
     },
     "https://greyhound.co.za/bus-tickets/cape-town-durban/": {
       "clicks": 0,
@@ -568,8 +568,8 @@
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-albertina/": {
       "clicks": 1,
-      "impressions": 386,
-      "position": 7.839378238341969
+      "impressions": 393,
+      "position": 7.811704834605598
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-albertina/%7Cgreyhound.co.za": {
       "clicks": 0,
@@ -582,14 +582,14 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-bloemfontein/": {
-      "clicks": 91,
-      "impressions": 4269,
-      "position": 7.234949636917311
+      "clicks": 92,
+      "impressions": 4250,
+      "position": 7.138117647058824
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-caledon/": {
       "clicks": 13,
-      "impressions": 2112,
-      "position": 7.233901515151516
+      "impressions": 2082,
+      "position": 7.252641690682037
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-durban": {
       "clicks": 0,
@@ -602,44 +602,44 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-durban/": {
-      "clicks": 302,
-      "impressions": 11960,
-      "position": 6.869063545150501
+      "clicks": 306,
+      "impressions": 12140,
+      "position": 6.895551894563427
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-east-london/": {
-      "clicks": 110,
-      "impressions": 7062,
-      "position": 8.24114981591617
+      "clicks": 115,
+      "impressions": 7136,
+      "position": 8.085762331838566
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-george/": {
-      "clicks": 108,
-      "impressions": 5932,
-      "position": 8.907788267026298
+      "clicks": 106,
+      "impressions": 6040,
+      "position": 8.996523178807948
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-grahamstown/": {
-      "clicks": 19,
-      "impressions": 3086,
-      "position": 7.87751134154245
+      "clicks": 18,
+      "impressions": 3115,
+      "position": 7.929373996789727
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-heidelberg-wc/": {
-      "clicks": 4,
-      "impressions": 1016,
-      "position": 6.315944881889764
+      "clicks": 5,
+      "impressions": 1030,
+      "position": 6.295145631067961
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-humansdorp/": {
       "clicks": 12,
-      "impressions": 703,
-      "position": 6.630156472261735
+      "impressions": 707,
+      "position": 6.4002828854314
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-idutywa/": {
-      "clicks": 25,
-      "impressions": 3238,
-      "position": 6.7257566399011735
+      "clicks": 26,
+      "impressions": 3220,
+      "position": 6.674844720496894
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-jeffreys-bay/": {
-      "clicks": 14,
-      "impressions": 1434,
-      "position": 5.603905160390516
+      "clicks": 16,
+      "impressions": 1448,
+      "position": 5.6180939226519335
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-johannesburg": {
       "clicks": 1,
@@ -647,114 +647,114 @@
       "position": 4.413793103448276
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-johannesburg/": {
-      "clicks": 672,
-      "impressions": 57136,
-      "position": 5.395932511901428
+      "clicks": 681,
+      "impressions": 57741,
+      "position": 5.314421295093608
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-kimberly/": {
-      "clicks": 57,
-      "impressions": 2826,
-      "position": 6.852795470629865
+      "clicks": 59,
+      "impressions": 2837,
+      "position": 6.8724004229820235
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-king-williams-town/": {
       "clicks": 76,
-      "impressions": 3484,
-      "position": 7.115097588978186
+      "impressions": 3479,
+      "position": 6.984478298361598
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-knysna/": {
-      "clicks": 71,
-      "impressions": 5055,
-      "position": 6.645103857566766
+      "clicks": 70,
+      "impressions": 5032,
+      "position": 6.512321144674086
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-mthatha/": {
-      "clicks": 178,
-      "impressions": 10976,
-      "position": 5.387937317784257
+      "clicks": 183,
+      "impressions": 10973,
+      "position": 5.298004192107901
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-peddie/": {
       "clicks": 11,
-      "impressions": 789,
-      "position": 6.101394169835235
+      "impressions": 807,
+      "position": 6.360594795539034
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-phalaborwa/": {
       "clicks": 2,
-      "impressions": 219,
-      "position": 12.232876712328768
+      "impressions": 217,
+      "position": 12.050691244239632
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-plettenberg-bay/": {
-      "clicks": 35,
-      "impressions": 2651,
-      "position": 9.33572236891739
+      "clicks": 32,
+      "impressions": 2612,
+      "position": 9.479709035222053
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-port-elizabeth/": {
-      "clicks": 131,
-      "impressions": 6908,
-      "position": 7.163433700057904
+      "clicks": 129,
+      "impressions": 6890,
+      "position": 7.066037735849057
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-pretoria/": {
-      "clicks": 139,
-      "impressions": 13253,
-      "position": 9.109484644986042
+      "clicks": 141,
+      "impressions": 13292,
+      "position": 8.955010532651219
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-queenstown/": {
-      "clicks": 76,
-      "impressions": 9428,
-      "position": 7.501166737378023
+      "clicks": 81,
+      "impressions": 9524,
+      "position": 7.446871062578748
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-riversdale/": {
-      "clicks": 14,
-      "impressions": 1303,
-      "position": 6.799693016116654
+      "clicks": 15,
+      "impressions": 1311,
+      "position": 6.758199847444699
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-riviersonderend/": {
       "clicks": 4,
-      "impressions": 1238,
-      "position": 6.6978998384491115
+      "impressions": 1233,
+      "position": 6.6772100567721
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-sedgefield/": {
       "clicks": 7,
-      "impressions": 544,
-      "position": 7.626838235294118
+      "impressions": 546,
+      "position": 7.787545787545787
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-storms-river/": {
-      "clicks": 6,
-      "impressions": 653,
-      "position": 8.287901990811639
+      "clicks": 7,
+      "impressions": 658,
+      "position": 8.246200607902736
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-swellendam/": {
-      "clicks": 16,
-      "impressions": 2429,
-      "position": 5.53808151502676
+      "clicks": 15,
+      "impressions": 2451,
+      "position": 5.579355365157078
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-wilderness/": {
       "clicks": 2,
-      "impressions": 500,
-      "position": 6.806
+      "impressions": 501,
+      "position": 6.7844311377245505
     },
     "https://greyhound.co.za/bus-tickets/cradock-to-johannesburg/": {
       "clicks": 8,
-      "impressions": 490,
-      "position": 8.428571428571429
+      "impressions": 476,
+      "position": 9.021008403361344
     },
     "https://greyhound.co.za/bus-tickets/cradock-to-pretoria/": {
       "clicks": 8,
-      "impressions": 549,
-      "position": 10.360655737704919
+      "impressions": 579,
+      "position": 10.309153713298791
     },
     "https://greyhound.co.za/bus-tickets/durban-to-bloemfontein/": {
-      "clicks": 95,
-      "impressions": 5652,
-      "position": 6.800424628450106
+      "clicks": 100,
+      "impressions": 5695,
+      "position": 6.815452151009658
     },
     "https://greyhound.co.za/bus-tickets/durban-to-cape-town/": {
       "clicks": 355,
-      "impressions": 13886,
-      "position": 6.691919919343223
+      "impressions": 14062,
+      "position": 6.514578296117195
     },
     "https://greyhound.co.za/bus-tickets/durban-to-east-london/": {
       "clicks": 53,
-      "impressions": 3445,
-      "position": 9.53642960812772
+      "impressions": 3447,
+      "position": 9.425297360023208
     },
     "https://greyhound.co.za/bus-tickets/durban-to-johanesulfurg/": {
       "clicks": 2,
@@ -767,104 +767,104 @@
       "position": 1.541095890410959
     },
     "https://greyhound.co.za/bus-tickets/durban-to-johannesburg/": {
-      "clicks": 1123,
-      "impressions": 52893,
-      "position": 4.58002004045904
+      "clicks": 1118,
+      "impressions": 53142,
+      "position": 4.5357908998532235
     },
     "https://greyhound.co.za/bus-tickets/durban-to-mthatha/": {
-      "clicks": 102,
-      "impressions": 4863,
-      "position": 6.517787374048941
+      "clicks": 98,
+      "impressions": 4880,
+      "position": 6.497950819672131
     },
     "https://greyhound.co.za/bus-tickets/durban-to-phalaborwa/": {
       "clicks": 6,
-      "impressions": 478,
-      "position": 10.43305439330544
+      "impressions": 473,
+      "position": 10.976744186046512
     },
     "https://greyhound.co.za/bus-tickets/durban-to-port-elizabeth/": {
-      "clicks": 102,
-      "impressions": 5180,
-      "position": 8.590540540540541
+      "clicks": 103,
+      "impressions": 5211,
+      "position": 8.34465553636538
     },
     "https://greyhound.co.za/bus-tickets/durban-to-pretoria/": {
-      "clicks": 223,
-      "impressions": 15506,
-      "position": 6.430929962595124
+      "clicks": 224,
+      "impressions": 15468,
+      "position": 6.399922420480993
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-bellville/": {
       "clicks": 9,
-      "impressions": 583,
-      "position": 16.11492281303602
+      "impressions": 597,
+      "position": 16.42211055276382
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-caledon/": {
-      "clicks": 1,
-      "impressions": 121,
-      "position": 8.289256198347108
+      "clicks": 3,
+      "impressions": 123,
+      "position": 8.487804878048781
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-cape-town/": {
-      "clicks": 94,
-      "impressions": 7214,
-      "position": 5.780565566953147
+      "clicks": 93,
+      "impressions": 7249,
+      "position": 5.7944544075044835
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-durban/": {
-      "clicks": 89,
-      "impressions": 4254,
-      "position": 8.274330042313117
+      "clicks": 92,
+      "impressions": 4301,
+      "position": 8.049290862590095
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-george/": {
       "clicks": 23,
-      "impressions": 1386,
-      "position": 9.183982683982684
+      "impressions": 1395,
+      "position": 9.241577060931899
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-johannesburg/": {
-      "clicks": 135,
-      "impressions": 8908,
-      "position": 4.85237988325101
+      "clicks": 132,
+      "impressions": 8821,
+      "position": 4.808978573857839
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-knysna/": {
       "clicks": 6,
-      "impressions": 556,
-      "position": 3.881294964028777
+      "impressions": 565,
+      "position": 3.8194690265486724
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-mossel-bay/": {
-      "clicks": 13,
-      "impressions": 812,
-      "position": 8.892857142857142
+      "clicks": 14,
+      "impressions": 800,
+      "position": 8.835
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-plettenberg-bay/": {
-      "clicks": 7,
-      "impressions": 597,
-      "position": 8.440536013400335
+      "clicks": 8,
+      "impressions": 590,
+      "position": 8.583050847457628
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-port-elizabeth/": {
-      "clicks": 88,
-      "impressions": 5021,
-      "position": 5.473013343955388
+      "clicks": 91,
+      "impressions": 4956,
+      "position": 5.435230024213075
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-pretoria/": {
-      "clicks": 36,
-      "impressions": 1928,
-      "position": 7.568464730290456
+      "clicks": 39,
+      "impressions": 1921,
+      "position": 7.516397709526289
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-riversdale/": {
       "clicks": 2,
-      "impressions": 365,
-      "position": 9.745205479452055
+      "impressions": 380,
+      "position": 9.705263157894738
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-somerset-west/": {
       "clicks": 2,
       "impressions": 266,
-      "position": 12.436090225563909
+      "position": 11.87593984962406
     },
     "https://greyhound.co.za/bus-tickets/eastern-cape-to-johannesburg/": {
-      "clicks": 67,
-      "impressions": 4101,
-      "position": 9.394294074615948
+      "clicks": 65,
+      "impressions": 4027,
+      "position": 9.242364042711696
     },
     "https://greyhound.co.za/bus-tickets/george-to-johannesburg/": {
-      "clicks": 105,
-      "impressions": 10800,
-      "position": 6.349259259259259
+      "clicks": 111,
+      "impressions": 11001,
+      "position": 6.365330424506863
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-pietermaritzburg/": {
       "clicks": 1,
@@ -872,14 +872,14 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-bloemfontein/": {
-      "clicks": 181,
-      "impressions": 12620,
-      "position": 5.586450079239302
+      "clicks": 185,
+      "impressions": 12611,
+      "position": 5.5749742288478314
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-butterworth/": {
-      "clicks": 51,
-      "impressions": 2403,
-      "position": 6.705784436121514
+      "clicks": 49,
+      "impressions": 2374,
+      "position": 6.604886267902275
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-capacitor/": {
       "clicks": 1,
@@ -887,64 +887,64 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-cape-town/": {
-      "clicks": 1067,
-      "impressions": 61191,
-      "position": 5.391528165906751
+      "clicks": 1075,
+      "impressions": 61110,
+      "position": 5.339829815087547
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-cradock/": {
       "clicks": 19,
-      "impressions": 5605,
-      "position": 8.969491525423729
+      "impressions": 5583,
+      "position": 8.909367723446177
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-durban/": {
-      "clicks": 1957,
-      "impressions": 97176,
-      "position": 4.101166954803656
+      "clicks": 1960,
+      "impressions": 97533,
+      "position": 4.063383675268883
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-east-london/": {
-      "clicks": 119,
-      "impressions": 7735,
-      "position": 7.102391725921137
+      "clicks": 121,
+      "impressions": 7825,
+      "position": 7.243961661341853
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-eastern-cape/": {
-      "clicks": 424,
-      "impressions": 27520,
-      "position": 7.242151162790698
+      "clicks": 425,
+      "impressions": 27504,
+      "position": 7.228403141361256
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-george/": {
-      "clicks": 169,
-      "impressions": 27393,
-      "position": 5.875442631329172
+      "clicks": 172,
+      "impressions": 27321,
+      "position": 5.894513377987629
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-kimberly/": {
-      "clicks": 129,
-      "impressions": 6487,
-      "position": 6.755202713118544
+      "clicks": 133,
+      "impressions": 6414,
+      "position": 6.6582475834112875
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-kokstad/": {
-      "clicks": 26,
-      "impressions": 1648,
-      "position": 8.994538834951456
+      "clicks": 24,
+      "impressions": 1634,
+      "position": 8.797429620563037
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-matatiele/": {
-      "clicks": 82,
-      "impressions": 3830,
-      "position": 5.497911227154047
+      "clicks": 81,
+      "impressions": 3878,
+      "position": 5.4883960804538425
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mossel-bay/": {
       "clicks": 43,
-      "impressions": 1966,
-      "position": 6.075279755849441
+      "impressions": 1954,
+      "position": 5.993346980552713
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mount-ayliff/": {
-      "clicks": 15,
-      "impressions": 1562,
-      "position": 6.138924455825864
+      "clicks": 14,
+      "impressions": 1563,
+      "position": 6.136276391554702
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mount-frere/": {
       "clicks": 32,
-      "impressions": 2840,
-      "position": 4.913732394366197
+      "impressions": 2856,
+      "position": 4.826330532212886
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mthatha": {
       "clicks": 1,
@@ -952,29 +952,29 @@
       "position": 1.0476190476190477
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mthatha/": {
-      "clicks": 131,
-      "impressions": 7914,
-      "position": 5.642026787970685
+      "clicks": 141,
+      "impressions": 7960,
+      "position": 5.539949748743719
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-nelspruit/": {
-      "clicks": 196,
-      "impressions": 11284,
-      "position": 7.120790499822758
+      "clicks": 199,
+      "impressions": 11172,
+      "position": 7.094880057286073
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-phalaborwa/": {
       "clicks": 32,
-      "impressions": 1381,
-      "position": 9.4243301955105
+      "impressions": 1392,
+      "position": 9.48419540229885
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-pietermaritzburg/": {
-      "clicks": 392,
-      "impressions": 33196,
-      "position": 4.634895770574769
+      "clicks": 395,
+      "impressions": 32854,
+      "position": 4.603944725147622
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-polokwane/": {
-      "clicks": 190,
-      "impressions": 12019,
-      "position": 6.146850819535735
+      "clicks": 189,
+      "impressions": 11925,
+      "position": 6.134088050314466
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-port-elizabeth": {
       "clicks": 1,
@@ -982,139 +982,139 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-port-elizabeth/": {
-      "clicks": 205,
-      "impressions": 13240,
-      "position": 5.490181268882175
+      "clicks": 204,
+      "impressions": 13157,
+      "position": 5.39682298396291
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-port-shepstone/": {
-      "clicks": 57,
-      "impressions": 2976,
-      "position": 8.737903225806452
+      "clicks": 59,
+      "impressions": 2942,
+      "position": 8.601291638341264
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-queenstown/": {
-      "clicks": 132,
-      "impressions": 7191,
-      "position": 6.091781393408427
+      "clicks": 126,
+      "impressions": 7232,
+      "position": 6.100387168141593
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-richards-bay/": {
-      "clicks": 133,
-      "impressions": 3325,
-      "position": 8.824962406015038
+      "clicks": 131,
+      "impressions": 3297,
+      "position": 8.648468304519259
     },
     "https://greyhound.co.za/bus-tickets/kimberley-to-cape-town/": {
-      "clicks": 66,
-      "impressions": 2789,
-      "position": 5.676228038723557
+      "clicks": 65,
+      "impressions": 2805,
+      "position": 5.63065953654189
     },
     "https://greyhound.co.za/bus-tickets/kimberley-to-johannesburg/": {
-      "clicks": 85,
-      "impressions": 4023,
-      "position": 4.8130748197862285
+      "clicks": 86,
+      "impressions": 4025,
+      "position": 4.795527950310559
     },
     "https://greyhound.co.za/bus-tickets/kimberley-to-pretoria/": {
-      "clicks": 53,
-      "impressions": 2126,
-      "position": 4.024459078080904
+      "clicks": 52,
+      "impressions": 2122,
+      "position": 4.063619227144203
     },
     "https://greyhound.co.za/bus-tickets/king-williams-town-to-cape-town/": {
-      "clicks": 55,
-      "impressions": 2760,
-      "position": 6.856521739130435
+      "clicks": 54,
+      "impressions": 2762,
+      "position": 6.806661839246923
     },
     "https://greyhound.co.za/bus-tickets/kokstad-to-johannesburg/": {
-      "clicks": 30,
+      "clicks": 26,
       "impressions": 1461,
-      "position": 5.568104038329911
+      "position": 5.5188227241615335
     },
     "https://greyhound.co.za/bus-tickets/matatiele-to-johannesburg/": {
-      "clicks": 29,
-      "impressions": 2351,
-      "position": 5.555082943428328
+      "clicks": 32,
+      "impressions": 2321,
+      "position": 5.437311503662214
     },
     "https://greyhound.co.za/bus-tickets/mossel-bay-to-bloemfontein/": {
       "clicks": 20,
       "impressions": 970,
-      "position": 5.479381443298969
+      "position": 5.4628865979381445
     },
     "https://greyhound.co.za/bus-tickets/mossel-bay-to-johannesburg/": {
-      "clicks": 39,
-      "impressions": 2889,
-      "position": 5.8926964347525095
+      "clicks": 41,
+      "impressions": 2865,
+      "position": 5.800698080279232
     },
     "https://greyhound.co.za/bus-tickets/mossel-bay-to-pretoria/": {
-      "clicks": 20,
-      "impressions": 774,
-      "position": 9.96640826873385
+      "clicks": 18,
+      "impressions": 772,
+      "position": 9.970207253886011
     },
     "https://greyhound.co.za/bus-tickets/mount-frere-to-johannesburg/": {
-      "clicks": 25,
-      "impressions": 2189,
-      "position": 5.55459113750571
+      "clicks": 24,
+      "impressions": 2204,
+      "position": 5.5462794918330305
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-cape-town/": {
-      "clicks": 82,
-      "impressions": 8735,
-      "position": 6.315397824842587
+      "clicks": 79,
+      "impressions": 8723,
+      "position": 6.239940387481371
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-durban/": {
-      "clicks": 74,
-      "impressions": 4029,
-      "position": 6.080168776371308
+      "clicks": 75,
+      "impressions": 4004,
+      "position": 5.925824175824176
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-johannesburg/": {
-      "clicks": 158,
-      "impressions": 8460,
-      "position": 5.200354609929078
+      "clicks": 155,
+      "impressions": 8507,
+      "position": 5.173151522275773
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-pretoria/": {
       "clicks": 25,
-      "impressions": 2276,
-      "position": 6.921353251318102
+      "impressions": 2270,
+      "position": 6.708370044052863
     },
     "https://greyhound.co.za/bus-tickets/nelspruit-to-johannesburg/": {
-      "clicks": 122,
-      "impressions": 4132,
-      "position": 5.863262342691191
+      "clicks": 118,
+      "impressions": 4080,
+      "position": 5.8
     },
     "https://greyhound.co.za/bus-tickets/nothern-cape-to-pretoria/": {
-      "clicks": 3,
-      "impressions": 374,
-      "position": 9.296791443850267
+      "clicks": 4,
+      "impressions": 370,
+      "position": 9.262162162162163
     },
     "https://greyhound.co.za/bus-tickets/phalaborwa-to-cape-town/": {
-      "clicks": 6,
-      "impressions": 136,
-      "position": 5.205882352941177
+      "clicks": 8,
+      "impressions": 140,
+      "position": 5.2
     },
     "https://greyhound.co.za/bus-tickets/phalaborwa-to-durban/": {
       "clicks": 8,
-      "impressions": 472,
-      "position": 9.88135593220339
+      "impressions": 466,
+      "position": 9.935622317596566
     },
     "https://greyhound.co.za/bus-tickets/phalaborwa-to-johannesburg/": {
-      "clicks": 22,
-      "impressions": 1016,
-      "position": 5.650590551181103
+      "clicks": 23,
+      "impressions": 1020,
+      "position": 5.62156862745098
     },
     "https://greyhound.co.za/bus-tickets/pietermaritzburg-to-cape-town/": {
-      "clicks": 68,
-      "impressions": 2124,
-      "position": 7.189736346516008
+      "clicks": 70,
+      "impressions": 2145,
+      "position": 7.02983682983683
     },
     "https://greyhound.co.za/bus-tickets/pietermaritzburg-to-johannesburg/": {
-      "clicks": 211,
-      "impressions": 10514,
-      "position": 5.113657979836408
+      "clicks": 215,
+      "impressions": 10427,
+      "position": 5.079888750359643
     },
     "https://greyhound.co.za/bus-tickets/polokwane-to-johannesburg/": {
-      "clicks": 127,
-      "impressions": 12164,
-      "position": 5.7625780993094375
+      "clicks": 135,
+      "impressions": 12045,
+      "position": 5.747364051473641
     },
     "https://greyhound.co.za/bus-tickets/polokwane-to-pretoria/": {
-      "clicks": 112,
-      "impressions": 5675,
-      "position": 5.0227312775330395
+      "clicks": 115,
+      "impressions": 5646,
+      "position": 4.998405951115834
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-johannesburg/": {
       "clicks": 1,
@@ -1122,39 +1122,39 @@
       "position": 2.3181818181818183
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-bloemfontein/": {
-      "clicks": 50,
-      "impressions": 2590,
-      "position": 5.2980694980694985
+      "clicks": 46,
+      "impressions": 2587,
+      "position": 5.310784692694241
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-cape-town/": {
-      "clicks": 85,
-      "impressions": 7257,
-      "position": 7.462174452252997
+      "clicks": 86,
+      "impressions": 7286,
+      "position": 7.40406258578095
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-durban/": {
-      "clicks": 97,
-      "impressions": 4672,
-      "position": 6.606378424657534
+      "clicks": 96,
+      "impressions": 4677,
+      "position": 6.566388710711995
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-johannesburg/": {
       "clicks": 205,
-      "impressions": 11903,
-      "position": 5.022767369570697
+      "impressions": 11915,
+      "position": 5.00167855644146
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-pretoria/": {
-      "clicks": 105,
-      "impressions": 8714,
-      "position": 6.29148496672022
+      "clicks": 109,
+      "impressions": 8769,
+      "position": 6.225681377580112
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-bloemfontein/": {
-      "clicks": 101,
-      "impressions": 6446,
-      "position": 6.609525286999689
+      "clicks": 103,
+      "impressions": 6370,
+      "position": 6.502511773940346
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-cape-town/": {
-      "clicks": 265,
-      "impressions": 10738,
-      "position": 5.8418699944123675
+      "clicks": 262,
+      "impressions": 10743,
+      "position": 5.763101554500605
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-capetown/": {
       "clicks": 1,
@@ -1162,69 +1162,69 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-cradock/": {
-      "clicks": 3,
-      "impressions": 442,
-      "position": 10.549773755656108
+      "clicks": 5,
+      "impressions": 441,
+      "position": 10.16326530612245
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-durban/": {
-      "clicks": 778,
-      "impressions": 36771,
-      "position": 5.164695004215278
+      "clicks": 775,
+      "impressions": 36677,
+      "position": 5.135152820568749
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-east-london/": {
-      "clicks": 26,
-      "impressions": 2222,
-      "position": 9.347884788478847
+      "clicks": 28,
+      "impressions": 2226,
+      "position": 9.115453728661276
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-kimberley/": {
-      "clicks": 66,
-      "impressions": 3112,
-      "position": 4.448586118251928
+      "clicks": 69,
+      "impressions": 3125,
+      "position": 4.46272
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-mossel-bay/": {
-      "clicks": 25,
-      "impressions": 1354,
-      "position": 11.49261447562777
+      "clicks": 26,
+      "impressions": 1358,
+      "position": 11.436671575846834
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-mthatha/": {
-      "clicks": 84,
-      "impressions": 4907,
-      "position": 8.093132260036683
+      "clicks": 89,
+      "impressions": 5019,
+      "position": 7.906754333532576
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-northern-cape/": {
-      "clicks": 57,
-      "impressions": 8190,
-      "position": 9.412698412698413
+      "clicks": 55,
+      "impressions": 8327,
+      "position": 9.355109883511469
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-port-elizabeth/": {
       "clicks": 65,
-      "impressions": 3164,
-      "position": 8.933312262958282
+      "impressions": 3140,
+      "position": 8.60764331210191
     },
     "https://greyhound.co.za/bus-tickets/queenstown-to-cape-town/": {
-      "clicks": 49,
-      "impressions": 3299,
-      "position": 5.957866020006063
+      "clicks": 46,
+      "impressions": 3267,
+      "position": 5.955004591368228
     },
     "https://greyhound.co.za/bus-tickets/queenstown-to-johannesburg/": {
       "clicks": 52,
-      "impressions": 3527,
-      "position": 4.770343067762971
+      "impressions": 3548,
+      "position": 4.739289740698986
     },
     "https://greyhound.co.za/bus-tickets/richards-bay-to-johannesburg/": {
-      "clicks": 106,
-      "impressions": 3947,
-      "position": 5.633392449961996
+      "clicks": 108,
+      "impressions": 3924,
+      "position": 5.60881753312946
     },
     "https://greyhound.co.za/bus-tickets/vereeniging-to-durban/": {
-      "clicks": 119,
-      "impressions": 4994,
-      "position": 5.0861033239887865
+      "clicks": 121,
+      "impressions": 5023,
+      "position": 5.126020306589687
     },
     "https://greyhound.co.za/cancel-reservation/": {
-      "clicks": 328,
-      "impressions": 8468,
-      "position": 5.369744922059518
+      "clicks": 336,
+      "impressions": 8437,
+      "position": 5.356169254474339
     },
     "https://greyhound.co.za/capitec-pay-customers-get-5-off-every-trip": {
       "clicks": 1,
@@ -1232,59 +1232,59 @@
       "position": 1
     },
     "https://greyhound.co.za/capitec-pay-customers-get-5-off-every-trip/": {
-      "clicks": 42,
-      "impressions": 3645,
-      "position": 24.689986282578875
+      "clicks": 37,
+      "impressions": 3885,
+      "position": 25.463320463320464
     },
     "https://greyhound.co.za/charters/": {
-      "clicks": 118,
-      "impressions": 7905,
-      "position": 7.868058191018343
+      "clicks": 139,
+      "impressions": 7687,
+      "position": 7.740210745414336
     },
     "https://greyhound.co.za/contact-us/": {
-      "clicks": 591,
-      "impressions": 39020,
-      "position": 2.566914402870323
+      "clicks": 602,
+      "impressions": 39270,
+      "position": 2.5466259230965114
     },
     "https://greyhound.co.za/get-onboard/": {
       "clicks": 12,
-      "impressions": 3907,
-      "position": 8.913488610186844
+      "impressions": 3889,
+      "position": 8.886346104397017
     },
     "https://greyhound.co.za/greyhound-grows-fleet-with-volvo-irizar-i6s-coaches/": {
       "clicks": 10,
-      "impressions": 1456,
-      "position": 6.3798076923076925
+      "impressions": 1453,
+      "position": 6.341362697866483
     },
     "https://greyhound.co.za/greyhound-launches-durban-to-east-london-route/": {
       "clicks": 2,
-      "impressions": 727,
-      "position": 7.683631361760661
+      "impressions": 735,
+      "position": 7.6
     },
     "https://greyhound.co.za/greyhound-makes-a-hockey-stop/": {
       "clicks": 1,
       "impressions": 30,
-      "position": 8.5
+      "position": 8.466666666666667
     },
     "https://greyhound.co.za/greyhound-south-africa-launches-mobile-app-for-seamless-travel-bookings/": {
       "clicks": 23,
-      "impressions": 2744,
-      "position": 9.037536443148689
+      "impressions": 2755,
+      "position": 9.0010889292196
     },
     "https://greyhound.co.za/greyhound-south-africa-relaunches-cape-town-to-east-london-route/": {
       "clicks": 6,
-      "impressions": 1923,
-      "position": 8.3733749349974
+      "impressions": 1948,
+      "position": 8.373203285420946
     },
     "https://greyhound.co.za/inter-city-bus-company-greyhound-is-back/": {
-      "clicks": 24,
-      "impressions": 923,
-      "position": 5.956663055254604
+      "clicks": 23,
+      "impressions": 935,
+      "position": 5.954010695187166
     },
     "https://greyhound.co.za/introducing-the-new-greyhound-luxury-single-decker-coaches/": {
-      "clicks": 11,
-      "impressions": 1552,
-      "position": 7.941365979381444
+      "clicks": 10,
+      "impressions": 1584,
+      "position": 7.799242424242424
     },
     "https://greyhound.co.za/p-double-decker/": {
       "clicks": 1,
@@ -1302,121 +1302,121 @@
       "position": 1
     },
     "https://greyhound.co.za/premium-double-decker/": {
-      "clicks": 870,
-      "impressions": 26987,
-      "position": 3.804276132952903
+      "clicks": 889,
+      "impressions": 26808,
+      "position": 3.7727917039689647
     },
     "https://greyhound.co.za/press-media/": {
       "clicks": 3,
-      "impressions": 1540,
-      "position": 8.496103896103897
+      "impressions": 1528,
+      "position": 8.456806282722514
     },
     "https://greyhound.co.za/provinces/eastern-cape/": {
       "clicks": 2,
-      "impressions": 827,
-      "position": 9.67714631197098
+      "impressions": 799,
+      "position": 9.600750938673341
     },
     "https://greyhound.co.za/provinces/kwazulu-natal/": {
       "clicks": 4,
-      "impressions": 1113,
-      "position": 9.337825696316262
+      "impressions": 1140,
+      "position": 9.328947368421053
     },
     "https://greyhound.co.za/provinces/limpopo/": {
-      "clicks": 1,
-      "impressions": 222,
-      "position": 9.905405405405405
+      "clicks": 2,
+      "impressions": 220,
+      "position": 9.809090909090909
     },
     "https://greyhound.co.za/provinces/mpumalanga/": {
-      "clicks": 11,
-      "impressions": 1351,
-      "position": 7.077720207253886
+      "clicks": 10,
+      "impressions": 1324,
+      "position": 7.104984894259819
     },
     "https://greyhound.co.za/provinces/western-cape/": {
       "clicks": 1,
-      "impressions": 146,
-      "position": 13.904109589041095
+      "impressions": 136,
+      "position": 12.544117647058824
     },
     "https://greyhound.co.za/route-sitemap/": {
       "clicks": 69,
-      "impressions": 6944,
-      "position": 8.181739631336406
+      "impressions": 6923,
+      "position": 8.177379748663874
     },
     "https://greyhound.co.za/routes/": {
-      "clicks": 704,
-      "impressions": 92687,
-      "position": 5.7171016431646295
+      "clicks": 713,
+      "impressions": 95972,
+      "position": 5.740570166298504
     },
     "https://greyhound.co.za/shop/": {
       "clicks": 8,
-      "impressions": 506,
-      "position": 7.448616600790514
+      "impressions": 433,
+      "position": 7.0046189376443415
     },
     "https://greyhound.co.za/single-decker/": {
       "clicks": 43,
-      "impressions": 6458,
-      "position": 6.397181790027872
+      "impressions": 6541,
+      "position": 6.318758599602507
     },
     "https://greyhound.co.za/student-registration/": {
-      "clicks": 135,
-      "impressions": 3113,
-      "position": 6.877610022486348
+      "clicks": 140,
+      "impressions": 3084,
+      "position": 6.877756160830091
     },
     "https://greyhound.co.za/ticket-details/": {
       "clicks": 175,
-      "impressions": 20497,
-      "position": 2.4378689564326486
+      "impressions": 19998,
+      "position": 2.2670267026702673
     },
     "https://greyhound.co.za/travel-terms-conditions/": {
-      "clicks": 279,
-      "impressions": 14833,
-      "position": 6.766871165644171
+      "clicks": 271,
+      "impressions": 14756,
+      "position": 6.703103822174031
     },
     "https://greyhound.co.za/wp-admin/*": {
-      "clicks": 18,
-      "impressions": 350,
-      "position": 5.8
+      "clicks": 19,
+      "impressions": 372,
+      "position": 5.744623655913978
     },
     "https://greyhound.co.za/wp-content/uploads/2022/06/Greyhound-Terms-and-Conditions-1.pdf": {
       "clicks": 8,
-      "impressions": 594,
-      "position": 6.023569023569023
+      "impressions": 681,
+      "position": 6.014684287812041
     }
   },
   "pages_current": {
     "https://greyhound.co.za/": {
-      "clicks": 2433,
-      "impressions": 139620,
-      "position": 6.162648617676551
+      "clicks": 2740,
+      "impressions": 159929,
+      "position": 6.2041280818363145
     },
     "https://greyhound.co.za/?utm_campaign%3Dgtfs%26utm_medium%3Dagency-url%26utm_source%3Dgooglemaps": {
       "clicks": 4,
-      "impressions": 203,
-      "position": 1.9458128078817734
+      "impressions": 230,
+      "position": 1.7130434782608694
     },
     "https://greyhound.co.za/?utm_campaign=gtfs&utm_medium=agency-url&utm_source=googlemaps": {
-      "clicks": 6,
-      "impressions": 230,
-      "position": 1.873913043478261
+      "clicks": 7,
+      "impressions": 293,
+      "position": 1.8907849829351537
     },
     "https://greyhound.co.za/about-us/": {
-      "clicks": 6,
-      "impressions": 622,
-      "position": 6.340836012861736
+      "clicks": 15,
+      "impressions": 695,
+      "position": 6.539568345323741
     },
     "https://greyhound.co.za/app/": {
-      "clicks": 46,
-      "impressions": 7163,
-      "position": 6.760575177998046
+      "clicks": 52,
+      "impressions": 8423,
+      "position": 6.6452570343108155
     },
     "https://greyhound.co.za/book-tickets/": {
-      "clicks": 809,
-      "impressions": 25966,
-      "position": 3.51001309404606
+      "clicks": 901,
+      "impressions": 29238,
+      "position": 3.5224023531021276
     },
     "https://greyhound.co.za/booking-offices/": {
-      "clicks": 62,
-      "impressions": 3126,
-      "position": 4.681381957773512
+      "clicks": 66,
+      "impressions": 3578,
+      "position": 4.875908328675237
     },
     "https://greyhound.co.za/bus-tickets/": {
       "clicks": 0,
@@ -1425,108 +1425,113 @@
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-durban/": {
       "clicks": 2,
-      "impressions": 240,
-      "position": 8.420833333333334
+      "impressions": 305,
+      "position": 7.786885245901639
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-johannesburg/": {
-      "clicks": 7,
-      "impressions": 603,
-      "position": 8.76285240464345
+      "clicks": 9,
+      "impressions": 675,
+      "position": 8.647407407407407
     },
     "https://greyhound.co.za/bus-tickets/bellville-to-pretoria/": {
-      "clicks": 4,
-      "impressions": 427,
-      "position": 9.981264637002342
+      "clicks": 6,
+      "impressions": 475,
+      "position": 10.886315789473684
+    },
+    "https://greyhound.co.za/bus-tickets/bloemfontein-to-cape-town": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-cape-town/": {
       "clicks": 21,
-      "impressions": 775,
-      "position": 5.926451612903226
+      "impressions": 900,
+      "position": 6.173333333333333
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-durban/": {
       "clicks": 28,
-      "impressions": 1269,
-      "position": 5.080378250591017
+      "impressions": 1443,
+      "position": 5.363825363825364
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-johannesburg/": {
-      "clicks": 27,
-      "impressions": 3062,
-      "position": 5.532331809274984
+      "clicks": 42,
+      "impressions": 3511,
+      "position": 5.432640273426374
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-mossel-bay/": {
-      "clicks": 6,
-      "impressions": 233,
-      "position": 11.88412017167382
+      "clicks": 4,
+      "impressions": 299,
+      "position": 11.247491638795987
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-port-elizabeth/": {
-      "clicks": 10,
-      "impressions": 596,
-      "position": 5.397651006711409
+      "clicks": 11,
+      "impressions": 677,
+      "position": 5.579025110782865
     },
     "https://greyhound.co.za/bus-tickets/bloemfontein-to-pretoria/": {
-      "clicks": 18,
-      "impressions": 1289,
-      "position": 5.169123351435221
+      "clicks": 16,
+      "impressions": 1447,
+      "position": 5.507256392536282
     },
     "https://greyhound.co.za/bus-tickets/butterworth-to-cape-town/": {
-      "clicks": 12,
-      "impressions": 1129,
-      "position": 6.803365810451727
+      "clicks": 8,
+      "impressions": 1222,
+      "position": 6.981178396072013
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-albertina/": {
       "clicks": 0,
-      "impressions": 68,
-      "position": 6.838235294117647
+      "impressions": 79,
+      "position": 7.2025316455696204
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-bloemfontein/": {
-      "clicks": 13,
-      "impressions": 763,
-      "position": 7.961992136304063
+      "clicks": 17,
+      "impressions": 986,
+      "position": 8.321501014198784
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-caledon/": {
-      "clicks": 5,
-      "impressions": 442,
-      "position": 5.726244343891403
+      "clicks": 7,
+      "impressions": 517,
+      "position": 5.748549323017408
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-durban/": {
-      "clicks": 51,
-      "impressions": 3348,
-      "position": 8.115591397849462
+      "clicks": 56,
+      "impressions": 3758,
+      "position": 8.125598722724853
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-east-london/": {
-      "clicks": 33,
-      "impressions": 1514,
-      "position": 8.67107001321004
+      "clicks": 30,
+      "impressions": 1591,
+      "position": 9.016970458830924
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-george/": {
-      "clicks": 31,
-      "impressions": 1948,
-      "position": 7.348562628336755
+      "clicks": 30,
+      "impressions": 2103,
+      "position": 7.038516405135521
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-grahamstown/": {
-      "clicks": 1,
-      "impressions": 729,
-      "position": 9.209876543209877
+      "clicks": 2,
+      "impressions": 893,
+      "position": 8.940649496080628
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-heidelberg-wc/": {
-      "clicks": 2,
-      "impressions": 199,
-      "position": 5.944723618090452
+      "clicks": 1,
+      "impressions": 217,
+      "position": 5.857142857142857
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-humansdorp/": {
-      "clicks": 2,
-      "impressions": 148,
-      "position": 5.716216216216216
+      "clicks": 4,
+      "impressions": 162,
+      "position": 6.290123456790123
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-idutywa/": {
-      "clicks": 5,
-      "impressions": 645,
-      "position": 7.0418604651162795
+      "clicks": 3,
+      "impressions": 814,
+      "position": 7.412776412776413
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-jeffreys-bay/": {
-      "clicks": 3,
-      "impressions": 314,
-      "position": 5.996815286624204
+      "clicks": 6,
+      "impressions": 354,
+      "position": 5.977401129943503
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-johannesburg": {
       "clicks": 0,
@@ -1534,514 +1539,519 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-johannesburg/": {
-      "clicks": 137,
-      "impressions": 13284,
-      "position": 4.698434206564288
+      "clicks": 142,
+      "impressions": 14779,
+      "position": 4.836863116584343
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-kimberly/": {
       "clicks": 11,
-      "impressions": 564,
-      "position": 7.558510638297872
+      "impressions": 666,
+      "position": 7.818318318318318
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-king-williams-town/": {
-      "clicks": 16,
-      "impressions": 742,
-      "position": 7.3059299191374665
+      "clicks": 15,
+      "impressions": 808,
+      "position": 7.9566831683168315
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-knysna/": {
-      "clicks": 10,
-      "impressions": 1011,
-      "position": 6.079129574678536
+      "clicks": 14,
+      "impressions": 1148,
+      "position": 6.234320557491289
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-mthatha/": {
-      "clicks": 43,
-      "impressions": 2185,
-      "position": 5.491990846681922
+      "clicks": 45,
+      "impressions": 2609,
+      "position": 5.878497508623994
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-peddie/": {
-      "clicks": 3,
-      "impressions": 202,
-      "position": 7.727722772277228
+      "clicks": 5,
+      "impressions": 212,
+      "position": 7.25
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-phalaborwa/": {
-      "clicks": 3,
-      "impressions": 38,
-      "position": 9.263157894736842
+      "clicks": 5,
+      "impressions": 48,
+      "position": 10.166666666666666
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-plettenberg-bay/": {
-      "clicks": 10,
-      "impressions": 515,
-      "position": 7.302912621359224
+      "clicks": 20,
+      "impressions": 628,
+      "position": 7.267515923566879
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-port-elizabeth/": {
-      "clicks": 15,
-      "impressions": 1605,
-      "position": 7.384423676012461
+      "clicks": 16,
+      "impressions": 1831,
+      "position": 7.659748771163299
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-pretoria/": {
-      "clicks": 30,
-      "impressions": 2784,
-      "position": 9.09662356321839
+      "clicks": 33,
+      "impressions": 3121,
+      "position": 9.238385132970201
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-queenstown/": {
-      "clicks": 17,
-      "impressions": 2050,
-      "position": 7.934146341463415
+      "clicks": 14,
+      "impressions": 2331,
+      "position": 8.304590304590304
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-riversdale/": {
-      "clicks": 3,
-      "impressions": 281,
-      "position": 5.451957295373665
+      "clicks": 2,
+      "impressions": 309,
+      "position": 5.4789644012944985
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-riviersonderend/": {
-      "clicks": 0,
-      "impressions": 278,
-      "position": 6.4352517985611515
+      "clicks": 1,
+      "impressions": 312,
+      "position": 6.403846153846154
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-sedgefield/": {
-      "clicks": 0,
-      "impressions": 101,
-      "position": 6.762376237623762
+      "clicks": 1,
+      "impressions": 112,
+      "position": 5.616071428571429
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-storms-river/": {
       "clicks": 4,
-      "impressions": 176,
-      "position": 6.653409090909091
+      "impressions": 194,
+      "position": 6.706185567010309
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-swellendam/": {
-      "clicks": 4,
-      "impressions": 539,
-      "position": 6.105751391465677
+      "clicks": 8,
+      "impressions": 585,
+      "position": 5.752136752136752
     },
     "https://greyhound.co.za/bus-tickets/cape-town-to-wilderness/": {
       "clicks": 0,
-      "impressions": 108,
-      "position": 6.425925925925926
+      "impressions": 119,
+      "position": 7.1344537815126055
     },
     "https://greyhound.co.za/bus-tickets/cradock-to-johannesburg/": {
       "clicks": 4,
-      "impressions": 123,
-      "position": 8.21951219512195
+      "impressions": 146,
+      "position": 7.294520547945205
     },
     "https://greyhound.co.za/bus-tickets/cradock-to-pretoria/": {
-      "clicks": 1,
-      "impressions": 169,
-      "position": 10.698224852071005
+      "clicks": 3,
+      "impressions": 157,
+      "position": 10.97452229299363
     },
     "https://greyhound.co.za/bus-tickets/durban-to-bloemfontein/": {
-      "clicks": 26,
-      "impressions": 1382,
-      "position": 6.766280752532562
+      "clicks": 19,
+      "impressions": 1518,
+      "position": 6.769433465085639
     },
     "https://greyhound.co.za/bus-tickets/durban-to-cape-town/": {
-      "clicks": 55,
-      "impressions": 2788,
-      "position": 5.237804878048781
+      "clicks": 72,
+      "impressions": 3136,
+      "position": 5.466517857142857
     },
     "https://greyhound.co.za/bus-tickets/durban-to-east-london/": {
-      "clicks": 9,
-      "impressions": 743,
-      "position": 10.904441453566621
+      "clicks": 12,
+      "impressions": 824,
+      "position": 11.115291262135923
     },
     "https://greyhound.co.za/bus-tickets/durban-to-johannesburg/": {
-      "clicks": 235,
-      "impressions": 11583,
-      "position": 3.9450919450919453
+      "clicks": 262,
+      "impressions": 12889,
+      "position": 4.034758321048956
     },
     "https://greyhound.co.za/bus-tickets/durban-to-mthatha/": {
-      "clicks": 21,
-      "impressions": 1027,
-      "position": 6.728334956183057
+      "clicks": 22,
+      "impressions": 1222,
+      "position": 6.912438625204583
     },
     "https://greyhound.co.za/bus-tickets/durban-to-phalaborwa/": {
-      "clicks": 1,
-      "impressions": 91,
-      "position": 17.021978021978022
+      "clicks": 2,
+      "impressions": 113,
+      "position": 14.938053097345133
     },
     "https://greyhound.co.za/bus-tickets/durban-to-port-elizabeth/": {
-      "clicks": 13,
-      "impressions": 1238,
-      "position": 7.719709208400646
+      "clicks": 15,
+      "impressions": 1462,
+      "position": 8.108071135430917
     },
     "https://greyhound.co.za/bus-tickets/durban-to-pretoria/": {
-      "clicks": 39,
-      "impressions": 3479,
-      "position": 6.690428283989652
+      "clicks": 43,
+      "impressions": 3941,
+      "position": 6.724689165186501
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-albertina/": {
       "clicks": 0,
-      "impressions": 47,
-      "position": 22.76595744680851
+      "impressions": 63,
+      "position": 24.904761904761905
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-bellville/": {
-      "clicks": 4,
-      "impressions": 234,
-      "position": 20.055555555555557
+      "clicks": 5,
+      "impressions": 267,
+      "position": 20.205992509363295
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-caledon/": {
-      "clicks": 2,
-      "impressions": 22,
-      "position": 13.363636363636363
+      "clicks": 0,
+      "impressions": 20,
+      "position": 13.7
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-cape-town/": {
-      "clicks": 15,
-      "impressions": 1683,
-      "position": 5.8116458704694
+      "clicks": 16,
+      "impressions": 1839,
+      "position": 5.805872756933116
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-durban/": {
-      "clicks": 21,
-      "impressions": 1064,
-      "position": 8.074248120300751
+      "clicks": 24,
+      "impressions": 1165,
+      "position": 8.550214592274678
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-george/": {
-      "clicks": 3,
-      "impressions": 289,
-      "position": 9.065743944636678
+      "clicks": 5,
+      "impressions": 341,
+      "position": 8.436950146627566
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-johannesburg/": {
-      "clicks": 23,
-      "impressions": 1763,
-      "position": 5.374361883153715
+      "clicks": 25,
+      "impressions": 1936,
+      "position": 5.4860537190082646
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-knysna/": {
       "clicks": 1,
-      "impressions": 110,
-      "position": 3.4272727272727272
+      "impressions": 101,
+      "position": 3.742574257425743
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-mossel-bay/": {
-      "clicks": 1,
-      "impressions": 167,
-      "position": 8.538922155688622
+      "clicks": 0,
+      "impressions": 192,
+      "position": 8.354166666666668
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-plettenberg-bay/": {
-      "clicks": 1,
-      "impressions": 104,
-      "position": 6.923076923076923
+      "clicks": 0,
+      "impressions": 142,
+      "position": 6.352112676056338
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-port-elizabeth/": {
-      "clicks": 15,
-      "impressions": 995,
-      "position": 5.516582914572864
+      "clicks": 18,
+      "impressions": 1191,
+      "position": 5.53568429890848
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-pretoria/": {
-      "clicks": 8,
-      "impressions": 347,
-      "position": 7.780979827089337
+      "clicks": 7,
+      "impressions": 378,
+      "position": 8.756613756613756
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-riversdale/": {
       "clicks": 0,
-      "impressions": 62,
-      "position": 8.693548387096774
+      "impressions": 61,
+      "position": 8.934426229508198
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-riviersonderend/": {
       "clicks": 0,
-      "impressions": 38,
-      "position": 15.18421052631579
+      "impressions": 43,
+      "position": 14.953488372093023
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-somerset-west/": {
       "clicks": 0,
-      "impressions": 66,
-      "position": 8.954545454545453
+      "impressions": 73,
+      "position": 10.273972602739725
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-swellendam/": {
       "clicks": 0,
-      "impressions": 39,
-      "position": 9.820512820512821
+      "impressions": 37,
+      "position": 10.108108108108109
     },
     "https://greyhound.co.za/bus-tickets/east-london-to-wilderness/": {
       "clicks": 0,
-      "impressions": 54,
-      "position": 12.962962962962964
+      "impressions": 64,
+      "position": 13.78125
     },
     "https://greyhound.co.za/bus-tickets/eastern-cape-to-johannesburg/": {
-      "clicks": 11,
-      "impressions": 755,
-      "position": 8.034437086092716
+      "clicks": 13,
+      "impressions": 888,
+      "position": 8.147522522522522
     },
     "https://greyhound.co.za/bus-tickets/george-to-johannesburg/": {
-      "clicks": 18,
-      "impressions": 3073,
-      "position": 6.775789131142206
+      "clicks": 22,
+      "impressions": 3473,
+      "position": 6.906420961704578
+    },
+    "https://greyhound.co.za/bus-tickets/johamburg-to-cape-town/": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-bloemfontein/": {
-      "clicks": 57,
-      "impressions": 2532,
-      "position": 5.288309636650869
+      "clicks": 52,
+      "impressions": 2941,
+      "position": 5.434546072764366
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-butterworth/": {
-      "clicks": 6,
-      "impressions": 526,
-      "position": 7.376425855513308
+      "clicks": 9,
+      "impressions": 587,
+      "position": 7.75298126064736
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-cape-town/": {
-      "clicks": 202,
-      "impressions": 12225,
-      "position": 5.438936605316973
+      "clicks": 232,
+      "impressions": 14042,
+      "position": 5.463039453069364
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-cradock/": {
-      "clicks": 1,
-      "impressions": 1437,
-      "position": 8.414057063326375
+      "clicks": 3,
+      "impressions": 1665,
+      "position": 8.446846846846846
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-durban/": {
-      "clicks": 405,
-      "impressions": 20993,
-      "position": 3.846424998809127
+      "clicks": 472,
+      "impressions": 24488,
+      "position": 3.880635413263639
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-east-london/": {
-      "clicks": 32,
-      "impressions": 1788,
-      "position": 7.753355704697986
+      "clicks": 31,
+      "impressions": 1931,
+      "position": 7.391506991196271
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-eastern-cape/": {
-      "clicks": 85,
-      "impressions": 5186,
-      "position": 7.160431932124951
+      "clicks": 92,
+      "impressions": 5926,
+      "position": 7.279615254809315
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-george/": {
-      "clicks": 23,
-      "impressions": 5870,
-      "position": 6.278364565587734
+      "clicks": 28,
+      "impressions": 6826,
+      "position": 6.222531497216525
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-kimberly/": {
-      "clicks": 34,
-      "impressions": 1212,
-      "position": 6.1905940594059405
+      "clicks": 35,
+      "impressions": 1458,
+      "position": 6.3491083676268865
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-kokstad/": {
-      "clicks": 2,
-      "impressions": 290,
-      "position": 9.827586206896552
+      "clicks": 3,
+      "impressions": 341,
+      "position": 10.06158357771261
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-matatiele/": {
-      "clicks": 17,
-      "impressions": 897,
-      "position": 5.399108138238573
+      "clicks": 20,
+      "impressions": 982,
+      "position": 5.455193482688391
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mossel-bay/": {
-      "clicks": 7,
-      "impressions": 420,
-      "position": 6.55
+      "clicks": 9,
+      "impressions": 543,
+      "position": 6.889502762430939
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mount-ayliff/": {
-      "clicks": 1,
-      "impressions": 344,
-      "position": 5.962209302325581
+      "clicks": 4,
+      "impressions": 370,
+      "position": 5.9972972972972975
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mount-frere/": {
-      "clicks": 9,
-      "impressions": 541,
-      "position": 4.186691312384474
+      "clicks": 11,
+      "impressions": 622,
+      "position": 4.218649517684888
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-mthatha/": {
-      "clicks": 40,
-      "impressions": 1663,
-      "position": 5.562236921226699
+      "clicks": 35,
+      "impressions": 1868,
+      "position": 5.802462526766595
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-nelspruit/": {
-      "clicks": 45,
-      "impressions": 2033,
-      "position": 7.685686178061977
+      "clicks": 53,
+      "impressions": 2374,
+      "position": 7.860151642796967
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-phalaborwa/": {
-      "clicks": 5,
-      "impressions": 243,
-      "position": 10.777777777777779
+      "clicks": 4,
+      "impressions": 307,
+      "position": 9.42671009771987
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-pietermaritzburg/": {
-      "clicks": 86,
-      "impressions": 6510,
-      "position": 4.6248847926267285
+      "clicks": 95,
+      "impressions": 7596,
+      "position": 4.768035808320168
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-polokwane/": {
-      "clicks": 32,
-      "impressions": 2305,
-      "position": 6.63297180043384
+      "clicks": 37,
+      "impressions": 2604,
+      "position": 6.671658986175115
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-port-elizabeth/": {
-      "clicks": 47,
-      "impressions": 2321,
-      "position": 6.315381301163292
+      "clicks": 56,
+      "impressions": 2708,
+      "position": 6.485598227474151
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-port-shepstone/": {
-      "clicks": 13,
-      "impressions": 609,
-      "position": 9.0935960591133
+      "clicks": 14,
+      "impressions": 688,
+      "position": 9.45203488372093
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-queenstown/": {
-      "clicks": 18,
-      "impressions": 1708,
-      "position": 6.8009367681498825
+      "clicks": 21,
+      "impressions": 1975,
+      "position": 6.868860759493671
     },
     "https://greyhound.co.za/bus-tickets/johannesburg-to-richards-bay/": {
       "clicks": 21,
-      "impressions": 663,
-      "position": 8.248868778280542
+      "impressions": 811,
+      "position": 8.52774352651048
     },
     "https://greyhound.co.za/bus-tickets/kimberley-to-cape-town/": {
-      "clicks": 9,
-      "impressions": 469,
-      "position": 5.360341151385928
+      "clicks": 11,
+      "impressions": 510,
+      "position": 5.241176470588235
     },
     "https://greyhound.co.za/bus-tickets/kimberley-to-johannesburg/": {
-      "clicks": 10,
-      "impressions": 720,
-      "position": 5.2625
+      "clicks": 11,
+      "impressions": 795,
+      "position": 5.213836477987422
     },
     "https://greyhound.co.za/bus-tickets/kimberley-to-pretoria/": {
-      "clicks": 4,
-      "impressions": 348,
-      "position": 4.74712643678161
+      "clicks": 5,
+      "impressions": 412,
+      "position": 4.5461165048543695
     },
     "https://greyhound.co.za/bus-tickets/king-williams-town-to-cape-town/": {
-      "clicks": 8,
-      "impressions": 562,
-      "position": 7.411032028469751
+      "clicks": 9,
+      "impressions": 601,
+      "position": 7.545757071547421
     },
     "https://greyhound.co.za/bus-tickets/kokstad-to-johannesburg/": {
       "clicks": 5,
-      "impressions": 332,
-      "position": 6.283132530120482
+      "impressions": 355,
+      "position": 6.864788732394366
     },
     "https://greyhound.co.za/bus-tickets/matatiele-to-johannesburg/": {
-      "clicks": 9,
-      "impressions": 578,
-      "position": 5.060553633217993
+      "clicks": 7,
+      "impressions": 657,
+      "position": 5.123287671232877
     },
     "https://greyhound.co.za/bus-tickets/mossel-bay-to-bloemfontein/": {
-      "clicks": 3,
-      "impressions": 217,
-      "position": 5.594470046082949
+      "clicks": 6,
+      "impressions": 250,
+      "position": 5.368
     },
     "https://greyhound.co.za/bus-tickets/mossel-bay-to-johannesburg/": {
-      "clicks": 9,
-      "impressions": 566,
-      "position": 5.57773851590106
+      "clicks": 8,
+      "impressions": 708,
+      "position": 5.956214689265536
     },
     "https://greyhound.co.za/bus-tickets/mossel-bay-to-pretoria/": {
-      "clicks": 2,
-      "impressions": 187,
-      "position": 6.786096256684492
+      "clicks": 6,
+      "impressions": 229,
+      "position": 6.698689956331878
     },
     "https://greyhound.co.za/bus-tickets/mount-frere-to-johannesburg/": {
       "clicks": 4,
-      "impressions": 464,
-      "position": 4.877155172413794
+      "impressions": 510,
+      "position": 5.092156862745098
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-cape-town/": {
-      "clicks": 26,
-      "impressions": 2388,
-      "position": 6.914572864321608
+      "clicks": 34,
+      "impressions": 2665,
+      "position": 7.004502814258911
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-durban/": {
-      "clicks": 15,
-      "impressions": 633,
-      "position": 5.360189573459715
+      "clicks": 19,
+      "impressions": 769,
+      "position": 5.668400520156047
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-johannesburg/": {
-      "clicks": 21,
-      "impressions": 1924,
-      "position": 4.80977130977131
+      "clicks": 33,
+      "impressions": 2139,
+      "position": 4.779336138382422
     },
     "https://greyhound.co.za/bus-tickets/mthatha-to-pretoria/": {
-      "clicks": 8,
-      "impressions": 490,
-      "position": 6.281632653061225
+      "clicks": 7,
+      "impressions": 630,
+      "position": 6.180952380952381
     },
     "https://greyhound.co.za/bus-tickets/nelspruit-to-johannesburg/": {
-      "clicks": 27,
-      "impressions": 842,
-      "position": 5.692399049881235
+      "clicks": 32,
+      "impressions": 1010,
+      "position": 5.784158415841584
     },
     "https://greyhound.co.za/bus-tickets/nothern-cape-to-pretoria/": {
-      "clicks": 1,
-      "impressions": 60,
-      "position": 6.916666666666667
+      "clicks": 0,
+      "impressions": 78,
+      "position": 8.371794871794872
     },
     "https://greyhound.co.za/bus-tickets/phalaborwa-to-cape-town/": {
-      "clicks": 5,
-      "impressions": 28,
-      "position": 6.035714285714286
+      "clicks": 3,
+      "impressions": 32,
+      "position": 5.125
     },
     "https://greyhound.co.za/bus-tickets/phalaborwa-to-durban/": {
       "clicks": 2,
-      "impressions": 101,
-      "position": 9.722772277227723
+      "impressions": 127,
+      "position": 8.472440944881889
     },
     "https://greyhound.co.za/bus-tickets/phalaborwa-to-johannesburg/": {
       "clicks": 4,
-      "impressions": 176,
-      "position": 5.590909090909091
+      "impressions": 225,
+      "position": 5.337777777777778
     },
     "https://greyhound.co.za/bus-tickets/pietermaritzburg-to-cape-town/": {
-      "clicks": 10,
-      "impressions": 439,
-      "position": 6.931662870159453
+      "clicks": 11,
+      "impressions": 504,
+      "position": 8.325396825396826
     },
     "https://greyhound.co.za/bus-tickets/pietermaritzburg-to-johannesburg/": {
-      "clicks": 45,
-      "impressions": 2101,
-      "position": 4.68586387434555
+      "clicks": 41,
+      "impressions": 2433,
+      "position": 4.749280723386765
     },
     "https://greyhound.co.za/bus-tickets/polokwane-to-johannesburg/": {
-      "clicks": 38,
-      "impressions": 2382,
-      "position": 5.529387069689337
+      "clicks": 35,
+      "impressions": 2679,
+      "position": 5.412094064949608
     },
     "https://greyhound.co.za/bus-tickets/polokwane-to-pretoria/": {
       "clicks": 11,
-      "impressions": 1071,
-      "position": 4.908496732026144
+      "impressions": 1230,
+      "position": 4.911382113821139
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-bloemfontein/": {
-      "clicks": 8,
-      "impressions": 569,
-      "position": 6.145869947275923
+      "clicks": 11,
+      "impressions": 689,
+      "position": 6.4412191582002905
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-cape-town/": {
-      "clicks": 37,
-      "impressions": 1591,
-      "position": 7.216844751728472
+      "clicks": 41,
+      "impressions": 1829,
+      "position": 7.392017495899399
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-durban/": {
-      "clicks": 16,
-      "impressions": 1117,
-      "position": 7.179946284691137
+      "clicks": 18,
+      "impressions": 1243,
+      "position": 7.181818181818182
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-johannesburg/": {
-      "clicks": 37,
-      "impressions": 2822,
-      "position": 4.871722182849043
+      "clicks": 51,
+      "impressions": 3288,
+      "position": 4.957420924574209
     },
     "https://greyhound.co.za/bus-tickets/port-elizabeth-to-pretoria/": {
       "clicks": 30,
-      "impressions": 2187,
-      "position": 6.173754000914495
+      "impressions": 2403,
+      "position": 6.250104036620891
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-bloemfontein/": {
-      "clicks": 21,
-      "impressions": 1327,
-      "position": 5.947249434815373
+      "clicks": 23,
+      "impressions": 1600,
+      "position": 6.28125
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-cape-town/": {
-      "clicks": 41,
-      "impressions": 2317,
-      "position": 6.031074665515753
+      "clicks": 57,
+      "impressions": 2738,
+      "position": 6.181154127100073
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-cradock/": {
-      "clicks": 2,
-      "impressions": 100,
-      "position": 8.809999999999999
+      "clicks": 0,
+      "impressions": 110,
+      "position": 9.690909090909091
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-durban/": {
-      "clicks": 142,
-      "impressions": 7317,
-      "position": 5.111521115211152
+      "clicks": 179,
+      "impressions": 8666,
+      "position": 5.123932610200785
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-east-london/": {
-      "clicks": 5,
-      "impressions": 509,
-      "position": 9.597249508840864
+      "clicks": 7,
+      "impressions": 602,
+      "position": 9.850498338870432
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-kimberley-online/": {
       "clicks": 0,
@@ -2049,84 +2059,84 @@
       "position": 1
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-kimberley/": {
-      "clicks": 21,
-      "impressions": 588,
-      "position": 3.9744897959183674
+      "clicks": 16,
+      "impressions": 677,
+      "position": 3.775480059084195
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-mossel-bay/": {
-      "clicks": 6,
-      "impressions": 268,
-      "position": 8.395522388059701
+      "clicks": 7,
+      "impressions": 283,
+      "position": 7.989399293286219
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-mthatha/": {
-      "clicks": 25,
-      "impressions": 1229,
-      "position": 7.716842961757527
+      "clicks": 24,
+      "impressions": 1342,
+      "position": 8.315201192250374
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-northern-cape/": {
-      "clicks": 10,
-      "impressions": 1812,
-      "position": 9.724061810154526
+      "clicks": 12,
+      "impressions": 1865,
+      "position": 9.857372654155496
     },
     "https://greyhound.co.za/bus-tickets/pretoria-to-port-elizabeth/": {
-      "clicks": 13,
-      "impressions": 711,
-      "position": 8.371308016877638
+      "clicks": 12,
+      "impressions": 831,
+      "position": 8.522262334536702
     },
     "https://greyhound.co.za/bus-tickets/queenstown-to-cape-town/": {
-      "clicks": 5,
-      "impressions": 724,
-      "position": 6.321823204419889
+      "clicks": 6,
+      "impressions": 812,
+      "position": 6.4088669950738915
     },
     "https://greyhound.co.za/bus-tickets/queenstown-to-johannesburg/": {
       "clicks": 7,
-      "impressions": 728,
-      "position": 5.406593406593407
+      "impressions": 782,
+      "position": 5.273657289002558
     },
     "https://greyhound.co.za/bus-tickets/richards-bay-to-johannesburg/": {
-      "clicks": 14,
-      "impressions": 773,
-      "position": 5.93143596377749
+      "clicks": 16,
+      "impressions": 966,
+      "position": 5.929606625258799
     },
     "https://greyhound.co.za/bus-tickets/vereeniging-to-durban/": {
-      "clicks": 31,
-      "impressions": 1137,
-      "position": 5.621811785400176
+      "clicks": 32,
+      "impressions": 1375,
+      "position": 5.440727272727273
     },
     "https://greyhound.co.za/cancel-reservation/": {
-      "clicks": 70,
-      "impressions": 1832,
-      "position": 5.283842794759825
+      "clicks": 80,
+      "impressions": 2185,
+      "position": 5.209153318077803
     },
     "https://greyhound.co.za/capitec-pay-customers-get-5-off-every-trip/": {
       "clicks": 6,
-      "impressions": 1936,
-      "position": 29.043904958677686
+      "impressions": 2111,
+      "position": 28.67171956418759
     },
     "https://greyhound.co.za/charters/": {
-      "clicks": 53,
-      "impressions": 1726,
-      "position": 7.875434530706837
+      "clicks": 40,
+      "impressions": 1967,
+      "position": 7.896288764616167
     },
     "https://greyhound.co.za/contact-us/": {
-      "clicks": 168,
-      "impressions": 8251,
-      "position": 2.1661616773724397
+      "clicks": 176,
+      "impressions": 9305,
+      "position": 2.173455131649651
     },
     "https://greyhound.co.za/get-onboard/": {
-      "clicks": 0,
-      "impressions": 450,
-      "position": 8.531111111111112
+      "clicks": 1,
+      "impressions": 625,
+      "position": 8.6416
     },
     "https://greyhound.co.za/greyhound-grows-fleet-with-volvo-irizar-i6s-coaches/": {
       "clicks": 3,
-      "impressions": 321,
-      "position": 6.348909657320872
+      "impressions": 319,
+      "position": 6.667711598746082
     },
     "https://greyhound.co.za/greyhound-launches-durban-to-east-london-route/": {
       "clicks": 0,
-      "impressions": 188,
-      "position": 7.212765957446808
+      "impressions": 216,
+      "position": 7.518518518518518
     },
     "https://greyhound.co.za/greyhound-makes-a-hockey-stop/": {
       "clicks": 0,
@@ -2134,39 +2144,39 @@
       "position": 3.3333333333333335
     },
     "https://greyhound.co.za/greyhound-south-africa-launches-mobile-app-for-seamless-travel-bookings/": {
-      "clicks": 3,
-      "impressions": 612,
-      "position": 8.692810457516341
+      "clicks": 5,
+      "impressions": 700,
+      "position": 8.474285714285713
     },
     "https://greyhound.co.za/greyhound-south-africa-relaunches-cape-town-to-east-london-route/": {
       "clicks": 0,
-      "impressions": 526,
-      "position": 8.408745247148289
+      "impressions": 584,
+      "position": 8.357876712328768
     },
     "https://greyhound.co.za/inter-city-bus-company-greyhound-is-back/": {
-      "clicks": 7,
-      "impressions": 268,
-      "position": 5.723880597014926
+      "clicks": 8,
+      "impressions": 314,
+      "position": 5.6369426751592355
     },
     "https://greyhound.co.za/introducing-the-new-greyhound-luxury-single-decker-coaches/": {
       "clicks": 3,
-      "impressions": 321,
-      "position": 7.280373831775701
+      "impressions": 361,
+      "position": 7.2631578947368425
     },
     "https://greyhound.co.za/premium-double-decker/": {
-      "clicks": 191,
-      "impressions": 4790,
-      "position": 4.503549060542797
+      "clicks": 217,
+      "impressions": 5492,
+      "position": 4.50455207574654
     },
     "https://greyhound.co.za/press-media/": {
-      "clicks": 1,
-      "impressions": 320,
-      "position": 8.63125
+      "clicks": 3,
+      "impressions": 343,
+      "position": 8.59475218658892
     },
     "https://greyhound.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 76,
-      "position": 11.552631578947368
+      "impressions": 84,
+      "position": 10.297619047619047
     },
     "https://greyhound.co.za/product-category/uncategorised/": {
       "clicks": 0,
@@ -2175,93 +2185,93 @@
     },
     "https://greyhound.co.za/provinces/eastern-cape/": {
       "clicks": 0,
-      "impressions": 111,
-      "position": 9.765765765765765
+      "impressions": 115,
+      "position": 9.730434782608695
     },
     "https://greyhound.co.za/provinces/free-state/": {
       "clicks": 1,
-      "impressions": 45,
-      "position": 8.266666666666666
+      "impressions": 56,
+      "position": 8.035714285714285
     },
     "https://greyhound.co.za/provinces/gauteng/": {
       "clicks": 0,
-      "impressions": 53,
-      "position": 9.415094339622641
+      "impressions": 74,
+      "position": 8.621621621621621
     },
     "https://greyhound.co.za/provinces/kwazulu-natal/": {
       "clicks": 0,
-      "impressions": 305,
-      "position": 9.340983606557376
+      "impressions": 332,
+      "position": 9.256024096385541
     },
     "https://greyhound.co.za/provinces/kwazulu-natal/page/2/": {
       "clicks": 0,
-      "impressions": 10,
-      "position": 8.2
+      "impressions": 11,
+      "position": 7.636363636363637
     },
     "https://greyhound.co.za/provinces/limpopo/": {
-      "clicks": 1,
-      "impressions": 28,
-      "position": 7.178571428571429
+      "clicks": 0,
+      "impressions": 27,
+      "position": 7.407407407407407
     },
     "https://greyhound.co.za/provinces/mpumalanga/": {
-      "clicks": 6,
-      "impressions": 240,
-      "position": 7.0125
+      "clicks": 5,
+      "impressions": 288,
+      "position": 6.885416666666667
     },
     "https://greyhound.co.za/provinces/northern-cape/": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 6.818181818181818
+      "impressions": 17,
+      "position": 6.705882352941177
     },
     "https://greyhound.co.za/provinces/western-cape/": {
       "clicks": 0,
-      "impressions": 32,
-      "position": 9.96875
+      "impressions": 47,
+      "position": 9.702127659574469
     },
     "https://greyhound.co.za/route-sitemap/": {
-      "clicks": 15,
-      "impressions": 1349,
-      "position": 7.864343958487769
+      "clicks": 21,
+      "impressions": 1644,
+      "position": 7.852189781021898
     },
     "https://greyhound.co.za/routes/": {
-      "clicks": 148,
-      "impressions": 22893,
-      "position": 5.801249290176036
+      "clicks": 168,
+      "impressions": 23029,
+      "position": 5.674149984801772
     },
     "https://greyhound.co.za/shop/": {
       "clicks": 2,
-      "impressions": 69,
-      "position": 8.26086956521739
+      "impressions": 71,
+      "position": 8.197183098591548
     },
     "https://greyhound.co.za/single-decker/": {
-      "clicks": 4,
-      "impressions": 1563,
-      "position": 5.27063339731286
+      "clicks": 6,
+      "impressions": 1798,
+      "position": 5.532258064516129
     },
     "https://greyhound.co.za/student-registration/": {
-      "clicks": 32,
-      "impressions": 481,
-      "position": 6.596673596673597
+      "clicks": 30,
+      "impressions": 581,
+      "position": 6.857142857142857
     },
     "https://greyhound.co.za/ticket-details/": {
-      "clicks": 36,
-      "impressions": 4668,
-      "position": 2.097043701799486
+      "clicks": 39,
+      "impressions": 5260,
+      "position": 2.0513307984790874
     },
     "https://greyhound.co.za/travel-terms-conditions/": {
-      "clicks": 43,
-      "impressions": 2510,
-      "position": 6.022310756972112
+      "clicks": 50,
+      "impressions": 3019,
+      "position": 5.827757535607817
     },
     "https://greyhound.co.za/wp-admin/*": {
-      "clicks": 17,
-      "impressions": 239,
-      "position": 5.430962343096234
+      "clicks": 21,
+      "impressions": 326,
+      "position": 5.50920245398773
     },
     "https://greyhound.co.za/wp-content/uploads/2022/06/Greyhound-Terms-and-Conditions-1.pdf": {
-      "clicks": 3,
-      "impressions": 523,
-      "position": 6.198852772466539
+      "clicks": 7,
+      "impressions": 688,
+      "position": 6.258720930232558
     }
   },
   "source_status": {
@@ -2274,7 +2284,7 @@
       "ok": true
     },
     "gsc": {
-      "days_pulled": 42,
+      "days_pulled": 43,
       "ok": true
     }
   }

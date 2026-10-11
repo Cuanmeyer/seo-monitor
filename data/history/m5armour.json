@@ -1723,17 +1723,37 @@
         "llm_sessions": 0,
         "revenue": 0.0,
         "sessions": 20
+      },
+      "gsc": {
+        "clicks": 18,
+        "ctr": 0.02608695652173913,
+        "impressions": 690,
+        "position": 8.365217391304348
+      }
+    },
+    "2026-10-08": {
+      "ga4": {
+        "conversions": 0.0,
+        "llm_sessions": 0,
+        "revenue": 0.0,
+        "sessions": 23
+      },
+      "gsc": {
+        "clicks": 15,
+        "ctr": 0.029182879377431907,
+        "impressions": 514,
+        "position": 6.023346303501945
       }
     }
   },
   "state": {
     "last_indexed_rate": 100.0,
     "streak_dates": {
-      "ctr_divergence": "2026-10-06",
-      "indexation_priority": "2026-10-06",
-      "indexation_rate": "2026-10-06",
-      "organic_clicks": "2026-10-06",
-      "organic_impressions": "2026-10-06"
+      "ctr_divergence": "2026-10-08",
+      "indexation_priority": "2026-10-08",
+      "indexation_rate": "2026-10-08",
+      "organic_clicks": "2026-10-08",
+      "organic_impressions": "2026-10-08"
     },
     "streaks": {
       "ctr_divergence": 0,
@@ -1743,5 +1763,5 @@
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-10-10T11:03:49.052904+00:00"
+  "updated_at": "2026-10-11T11:18:23.253788+00:00"
 }
