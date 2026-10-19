@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "baseline_scale": 4.0,
   "domain": "sanivanrental.co.za",
   "indexed_rate": 100.0,
@@ -8,7 +8,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sanivanrental.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-17T20:25:06Z",
+      "last_crawl": "2026-10-19T02:13:30Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sanivanrental.co.za/",
@@ -38,7 +38,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://sanivanrental.co.za/contact/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-17T23:54:33Z",
+      "last_crawl": "2026-10-19T09:44:26Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://sanivanrental.co.za/contact/",
@@ -86,28 +86,29 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 42
+    "chatgpt.com": 42,
+    "gemini.google.com": 2
   },
   "pages_baseline": {
     "https://sanivanrental.co.za/": {
-      "clicks": 165,
-      "impressions": 17808,
-      "position": 8.667115902964959
+      "clicks": 162,
+      "impressions": 17557,
+      "position": 8.731844848208691
     },
     "https://sanivanrental.co.za/4x4-hire/": {
       "clicks": 0,
-      "impressions": 25,
-      "position": 10.72
+      "impressions": 26,
+      "position": 10.346153846153847
     },
     "https://sanivanrental.co.za/4x4-vehicle-hire/": {
       "clicks": 2,
-      "impressions": 17,
-      "position": 6.176470588235294
+      "impressions": 18,
+      "position": 6.111111111111111
     },
     "https://sanivanrental.co.za/about-sani-van-rental/": {
       "clicks": 3,
-      "impressions": 451,
-      "position": 5.7560975609756095
+      "impressions": 444,
+      "position": 5.777027027027027
     },
     "https://sanivanrental.co.za/bakkie-hire/": {
       "clicks": 1,
@@ -115,19 +116,19 @@
       "position": 14.923076923076923
     },
     "https://sanivanrental.co.za/branches/": {
-      "clicks": 5,
-      "impressions": 1132,
-      "position": 5.455830388692579
+      "clicks": 6,
+      "impressions": 1128,
+      "position": 5.476950354609929
     },
     "https://sanivanrental.co.za/contact/": {
       "clicks": 6,
-      "impressions": 1766,
-      "position": 6.185164212910532
+      "impressions": 1793,
+      "position": 6.290574456218628
     },
     "https://sanivanrental.co.za/cross-border-form/": {
       "clicks": 6,
       "impressions": 91,
-      "position": 6.824175824175824
+      "position": 7.5054945054945055
     },
     "https://sanivanrental.co.za/cross-border-vehicle-rental/": {
       "clicks": 1,
@@ -136,8 +137,8 @@
     },
     "https://sanivanrental.co.za/double-cab-bakkie-hire/": {
       "clicks": 3,
-      "impressions": 105,
-      "position": 8.057142857142857
+      "impressions": 102,
+      "position": 8.098039215686274
     },
     "https://sanivanrental.co.za/double-cab-hire/": {
       "clicks": 0,
@@ -146,13 +147,13 @@
     },
     "https://sanivanrental.co.za/east-london/": {
       "clicks": 1,
-      "impressions": 84,
-      "position": 7.785714285714286
+      "impressions": 89,
+      "position": 7.775280898876405
     },
     "https://sanivanrental.co.za/frequently-asked-questions/": {
       "clicks": 0,
-      "impressions": 36,
-      "position": 7.25
+      "impressions": 37,
+      "position": 7.162162162162162
     },
     "https://sanivanrental.co.za/johannesburg/": {
       "clicks": 0,
@@ -161,28 +162,23 @@
     },
     "https://sanivanrental.co.za/long-term-commercial-vehicle-rental/": {
       "clicks": 0,
-      "impressions": 18,
-      "position": 12.222222222222221
+      "impressions": 17,
+      "position": 12.470588235294118
     },
     "https://sanivanrental.co.za/monthly-rentals/": {
       "clicks": 5,
-      "impressions": 654,
-      "position": 7.252293577981652
+      "impressions": 661,
+      "position": 7.059001512859304
     },
     "https://sanivanrental.co.za/monthly-rentals/?gad_source=1&gad_campaignid=23988594951&gbraid=0AAAAACl2SPanfBuSbMYrhBWoQ_AKCqWBj&gclid=Cj0KCQjwkt_UBhDMARIsALpnOAx2b3SaqOcMfnXmKXdAy6Ic0hJVVMJyQNU4wBxXKDHOe2OVTJCQGQUaApMREALw_wcB": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 5.5625
-    },
-    "https://sanivanrental.co.za/monthly-rentals/?gad_source=1&gad_campaignid=23988594951&gbraid=0AAAAACl2SPanfBuSbMYrhBWoQ_AKCqWBj&gclid=Cj0KCQjwkt_UBhDMARIsALpnOAx2b3SaqOcMfnXmKXdIy6Ic0hJVVMJyQNU4wBxXKDHOe2OVTJCQGQUaApMREALw_wcB": {
-      "clicks": 0,
       "impressions": 1,
-      "position": 3
+      "position": 1
     },
     "https://sanivanrental.co.za/our-vehicles/": {
       "clicks": 9,
-      "impressions": 1551,
-      "position": 9.667311411992262
+      "impressions": 1518,
+      "position": 9.77733860342556
     },
     "https://sanivanrental.co.za/our-vehicles/fiat-doblo-lwb-for-rent/": {
       "clicks": 0,
@@ -191,13 +187,13 @@
     },
     "https://sanivanrental.co.za/our-vehicles/fiat-doblo-lwb/": {
       "clicks": 0,
-      "impressions": 15,
-      "position": 4.133333333333333
+      "impressions": 17,
+      "position": 4.235294117647059
     },
     "https://sanivanrental.co.za/our-vehicles/gwm-steed-diesel-or-similar-for-rent/": {
       "clicks": 0,
-      "impressions": 10,
-      "position": 7.4
+      "impressions": 11,
+      "position": 7.545454545454546
     },
     "https://sanivanrental.co.za/our-vehicles/gwm-steed-diesel-or-similar/": {
       "clicks": 0,
@@ -211,8 +207,8 @@
     },
     "https://sanivanrental.co.za/our-vehicles/isuzu-d-max-single-cab-4x4-or-similar/": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 11.363636363636363
+      "impressions": 12,
+      "position": 11.083333333333334
     },
     "https://sanivanrental.co.za/our-vehicles/mahindra-pikup-double-cab-4x4-for-rent/": {
       "clicks": 1,
@@ -236,18 +232,18 @@
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-double-cab-a-t-4x4-or-similar-for-rent/": {
       "clicks": 0,
-      "impressions": 78,
-      "position": 11.76923076923077
+      "impressions": 80,
+      "position": 11.65
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-double-cab-a-t-4x4-or-similar/": {
       "clicks": 0,
-      "impressions": 17,
-      "position": 25.41176470588235
+      "impressions": 19,
+      "position": 26.526315789473685
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-double-cab-m-t-4x4-or-similar-for-rent/": {
       "clicks": 0,
-      "impressions": 3,
-      "position": 10
+      "impressions": 5,
+      "position": 17
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-single-cab-vvti-for-rent/": {
       "clicks": 0,
@@ -256,13 +252,13 @@
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-single-cab-vvti/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 32.08333333333333
+      "impressions": 26,
+      "position": 30.26923076923077
     },
     "https://sanivanrental.co.za/pinetown/": {
       "clicks": 0,
-      "impressions": 27,
-      "position": 6.444444444444445
+      "impressions": 25,
+      "position": 6.44
     },
     "https://sanivanrental.co.za/privacy-policy/": {
       "clicks": 0,
@@ -272,84 +268,84 @@
     "https://sanivanrental.co.za/request-a-quote/": {
       "clicks": 0,
       "impressions": 191,
-      "position": 7.450261780104712
+      "position": 7.424083769633508
     },
     "https://sanivanrental.co.za/search-results/": {
       "clicks": 0,
-      "impressions": 191,
-      "position": 3.701570680628272
+      "impressions": 189,
+      "position": 3.687830687830688
     },
     "https://sanivanrental.co.za/single-cab-bakkie-hire/": {
       "clicks": 2,
-      "impressions": 68,
-      "position": 8.338235294117647
+      "impressions": 66,
+      "position": 8.363636363636363
     },
     "https://sanivanrental.co.za/toyota-hilux-hire-johannesburg/": {
       "clicks": 5,
-      "impressions": 363,
-      "position": 8.176308539944904
+      "impressions": 372,
+      "position": 8.274193548387096
     },
     "https://sanivanrental.co.za/toyota-hilux-hire/": {
-      "clicks": 5,
-      "impressions": 213,
-      "position": 6.849765258215962
+      "clicks": 6,
+      "impressions": 218,
+      "position": 6.839449541284404
     },
     "https://sanivanrental.co.za/wp-content/uploads/2025/10/SANI-Van-Rental-Standard-Ts-Cs-02_10_2025.pdf": {
       "clicks": 4,
-      "impressions": 294,
-      "position": 6.3979591836734695
+      "impressions": 303,
+      "position": 6.432343234323432
     }
   },
   "pages_current": {
     "https://sanivanrental.co.za/": {
       "clicks": 43,
-      "impressions": 3573,
-      "position": 9.270920794850266
+      "impressions": 3584,
+      "position": 9.290178571428571
     },
     "https://sanivanrental.co.za/4x4-hire/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 4.375
+      "impressions": 10,
+      "position": 5.7
     },
     "https://sanivanrental.co.za/4x4-vehicle-hire/": {
-      "clicks": 0,
-      "impressions": 23,
-      "position": 7.565217391304348
+      "clicks": 1,
+      "impressions": 24,
+      "position": 7.416666666666667
     },
     "https://sanivanrental.co.za/about-sani-van-rental/": {
       "clicks": 0,
-      "impressions": 95,
-      "position": 3.5894736842105264
+      "impressions": 100,
+      "position": 3.55
     },
     "https://sanivanrental.co.za/bakkie-hire/": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 7.857142857142857
+      "impressions": 8,
+      "position": 7.625
     },
     "https://sanivanrental.co.za/branches/": {
-      "clicks": 3,
-      "impressions": 274,
-      "position": 5.102189781021898
+      "clicks": 2,
+      "impressions": 286,
+      "position": 5.216783216783217
     },
     "https://sanivanrental.co.za/contact/": {
       "clicks": 1,
-      "impressions": 515,
-      "position": 6.378640776699029
+      "impressions": 503,
+      "position": 6.033797216699801
     },
     "https://sanivanrental.co.za/cross-border-form/": {
       "clicks": 2,
-      "impressions": 20,
-      "position": 9.05
+      "impressions": 21,
+      "position": 10
     },
     "https://sanivanrental.co.za/cross-border-vehicle-rental/": {
       "clicks": 0,
-      "impressions": 1,
-      "position": 7
+      "impressions": 2,
+      "position": 8
     },
     "https://sanivanrental.co.za/double-cab-bakkie-hire/": {
       "clicks": 0,
-      "impressions": 27,
-      "position": 9.185185185185185
+      "impressions": 36,
+      "position": 8.5
     },
     "https://sanivanrental.co.za/double-cab-hire/": {
       "clicks": 0,
@@ -357,19 +353,19 @@
       "position": 5
     },
     "https://sanivanrental.co.za/east-london/": {
-      "clicks": 0,
-      "impressions": 27,
-      "position": 7.111111111111111
+      "clicks": 1,
+      "impressions": 28,
+      "position": 7.357142857142857
     },
     "https://sanivanrental.co.za/frequently-asked-questions/": {
       "clicks": 0,
-      "impressions": 2,
-      "position": 3
+      "impressions": 3,
+      "position": 4.333333333333334
     },
     "https://sanivanrental.co.za/johannesburg/": {
       "clicks": 0,
-      "impressions": 4,
-      "position": 8.5
+      "impressions": 5,
+      "position": 7.8
     },
     "https://sanivanrental.co.za/long-term-commercial-vehicle-rental/": {
       "clicks": 0,
@@ -378,38 +374,43 @@
     },
     "https://sanivanrental.co.za/monthly-rentals/": {
       "clicks": 0,
-      "impressions": 183,
-      "position": 4.956284153005464
+      "impressions": 187,
+      "position": 4.935828877005347
     },
     "https://sanivanrental.co.za/our-vehicles/": {
       "clicks": 2,
-      "impressions": 338,
-      "position": 10
+      "impressions": 351,
+      "position": 10.148148148148149
     },
     "https://sanivanrental.co.za/our-vehicles/fiat-doblo-lwb-for-rent/": {
-      "clicks": 0,
-      "impressions": 6,
-      "position": 5.333333333333333
+      "clicks": 1,
+      "impressions": 9,
+      "position": 4.555555555555555
     },
     "https://sanivanrental.co.za/our-vehicles/fiat-doblo-lwb/": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 5
+      "impressions": 14,
+      "position": 4.071428571428571
     },
     "https://sanivanrental.co.za/our-vehicles/gwm-steed-diesel-or-similar-for-rent/": {
       "clicks": 0,
       "impressions": 4,
-      "position": 6.25
+      "position": 5.75
+    },
+    "https://sanivanrental.co.za/our-vehicles/gwm-steed-diesel-or-similar/": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
     },
     "https://sanivanrental.co.za/our-vehicles/isuzu-d-max-single-cab-4x4-or-similar/": {
       "clicks": 0,
       "impressions": 21,
-      "position": 7.238095238095238
+      "position": 6.9523809523809526
     },
     "https://sanivanrental.co.za/our-vehicles/mahindra-pikup-double-cab-4x4-for-rent/": {
       "clicks": 2,
-      "impressions": 13,
-      "position": 3.8461538461538463
+      "impressions": 17,
+      "position": 3.9411764705882355
     },
     "https://sanivanrental.co.za/our-vehicles/mahindra-pikup-double-cab-4x4/": {
       "clicks": 0,
@@ -418,33 +419,33 @@
     },
     "https://sanivanrental.co.za/our-vehicles/mahindra-pikup-single-cab-4x2-plain-for-rent/": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 5.454545454545454
+      "impressions": 13,
+      "position": 5.3076923076923075
     },
     "https://sanivanrental.co.za/our-vehicles/mahindra-pikup-single-cab-4x4-for-rent/": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 3.3333333333333335
+      "impressions": 9,
+      "position": 2.888888888888889
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-double-cab-a-t-4x4-or-similar-for-rent/": {
       "clicks": 0,
-      "impressions": 9,
-      "position": 38.111111111111114
+      "impressions": 7,
+      "position": 47
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-double-cab-a-t-4x4-or-similar/": {
       "clicks": 0,
-      "impressions": 20,
-      "position": 32
+      "impressions": 21,
+      "position": 34.142857142857146
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-double-cab-m-t-4x4-or-similar-for-rent/": {
       "clicks": 2,
-      "impressions": 31,
-      "position": 24.93548387096774
+      "impressions": 32,
+      "position": 25.625
     },
     "https://sanivanrental.co.za/our-vehicles/toyota-hilux-single-cab-vvti/": {
       "clicks": 1,
-      "impressions": 29,
-      "position": 36.37931034482759
+      "impressions": 32,
+      "position": 37.8125
     },
     "https://sanivanrental.co.za/pinetown/": {
       "clicks": 0,
@@ -453,38 +454,38 @@
     },
     "https://sanivanrental.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 2,
-      "position": 1
+      "impressions": 3,
+      "position": 2.333333333333333
     },
     "https://sanivanrental.co.za/request-a-quote/": {
       "clicks": 0,
-      "impressions": 45,
-      "position": 6.4222222222222225
+      "impressions": 46,
+      "position": 8.043478260869566
     },
     "https://sanivanrental.co.za/search-results/": {
       "clicks": 0,
-      "impressions": 56,
-      "position": 3.4107142857142856
+      "impressions": 58,
+      "position": 3.3793103448275863
     },
     "https://sanivanrental.co.za/single-cab-bakkie-hire/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 7.75
+      "impressions": 15,
+      "position": 7.266666666666667
     },
     "https://sanivanrental.co.za/toyota-hilux-hire-johannesburg/": {
       "clicks": 0,
-      "impressions": 69,
-      "position": 8.115942028985508
+      "impressions": 76,
+      "position": 7.302631578947368
     },
     "https://sanivanrental.co.za/toyota-hilux-hire/": {
-      "clicks": 1,
-      "impressions": 69,
-      "position": 6.753623188405797
+      "clicks": 0,
+      "impressions": 70,
+      "position": 6.814285714285714
     },
     "https://sanivanrental.co.za/wp-content/uploads/2025/10/SANI-Van-Rental-Standard-Ts-Cs-02_10_2025.pdf": {
-      "clicks": 2,
-      "impressions": 69,
-      "position": 6.739130434782608
+      "clicks": 4,
+      "impressions": 74,
+      "position": 6.702702702702703
     }
   },
   "source_status": {

@@ -36,9 +36,9 @@
     ],
     "detected_at": "2026-10-07T08:51:40+00:00",
     "hint": "Indexation changed in the same run. Check coverage before looking anywhere else.",
-    "last_seen": "2026-10-18T09:27:02+00:00",
+    "last_seen": "2026-10-19T10:37:24+00:00",
     "link": "https://search.google.com/search-console/index?resource_id=sc-domain%3Asani.co.za",
-    "occurrences": 15,
+    "occurrences": 16,
     "pct_change": null,
     "severity": "critical",
     "signal": "indexation_priority",
@@ -159,9 +159,10 @@
     "link": null,
     "occurrences": 2,
     "pct_change": -39.6,
+    "resolved_at": "2026-10-16",
     "severity": "warning",
     "signal": "llm_referrals",
-    "status": "open",
+    "status": "resolved",
     "summary": "Sessions from LLM surfaces -40.3% against baseline"
   },
   {
@@ -181,9 +182,10 @@
     "link": null,
     "occurrences": 1,
     "pct_change": -37.9,
+    "resolved_at": "2026-10-16",
     "severity": "warning",
     "signal": "llm_referrals",
-    "status": "open",
+    "status": "resolved",
     "summary": "Sessions from LLM surfaces -37.9% against baseline"
   },
   {
@@ -191,7 +193,7 @@
     "baseline_value": 1578,
     "client": "77diamonds",
     "client_name": "77 Diamonds",
-    "current_value": 918,
+    "current_value": 909,
     "detail": [
       "chatgpt.com: 8940",
       "gemini.google.com: 148",
@@ -200,13 +202,37 @@
     ],
     "detected_at": "2026-10-18T09:20:20+00:00",
     "hint": "No single cause stands out. Open the GSC performance view and segment by page and query.",
-    "last_seen": "2026-10-18T09:20:20+00:00",
+    "last_seen": "2026-10-19T10:30:28+00:00",
     "link": null,
-    "occurrences": 1,
-    "pct_change": -41.8,
+    "occurrences": 2,
+    "pct_change": -41.5,
     "severity": "warning",
     "signal": "llm_referrals",
     "status": "open",
     "summary": "Sessions from LLM surfaces -41.8% against baseline"
+  },
+  {
+    "as_of": "2026-10-16",
+    "baseline_value": 8788,
+    "client": "greyhound",
+    "client_name": "Greyhound",
+    "current_value": 6888,
+    "detail": [
+      "/: 3151 -> 2310 (-27%)",
+      "/book-tickets/: 962 -> 683 (-29%)",
+      "/bus-tickets/johannesburg-to-durban/: 519 -> 414 (-20%)",
+      "/bus-tickets/durban-to-johannesburg/: 285 -> 213 (-25%)",
+      "/bus-tickets/johannesburg-to-cape-town/: 276 -> 214 (-22%)"
+    ],
+    "detected_at": "2026-10-19T10:29:21+00:00",
+    "hint": "Impressions held while clicks fell, so ranking is probably intact. Look at SERP appearance, title rewrites or a new feature taking the click.",
+    "last_seen": "2026-10-19T10:29:21+00:00",
+    "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fgreyhound.co.za%2F",
+    "occurrences": 1,
+    "pct_change": -21.6,
+    "severity": "warning",
+    "signal": "organic_clicks",
+    "status": "open",
+    "summary": "Organic clicks -21.6% against a 28-day baseline"
   }
 ]
