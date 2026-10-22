@@ -36,9 +36,9 @@
     ],
     "detected_at": "2026-10-07T08:51:40+00:00",
     "hint": "Indexation changed in the same run. Check coverage before looking anywhere else.",
-    "last_seen": "2026-10-21T09:57:26+00:00",
+    "last_seen": "2026-10-22T09:57:44+00:00",
     "link": "https://search.google.com/search-console/index?resource_id=sc-domain%3Asani.co.za",
-    "occurrences": 18,
+    "occurrences": 19,
     "pct_change": null,
     "severity": "critical",
     "signal": "indexation_priority",
@@ -231,9 +231,10 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fgreyhound.co.za%2F",
     "occurrences": 3,
     "pct_change": -20.0,
+    "resolved_at": "2026-10-19",
     "severity": "warning",
     "signal": "organic_clicks",
-    "status": "open",
+    "status": "resolved",
     "summary": "Organic clicks -21.6% against a 28-day baseline"
   }
 ]
