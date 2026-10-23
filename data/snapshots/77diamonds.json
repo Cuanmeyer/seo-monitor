@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-20",
   "baseline_scale": 4.0,
   "domain": "www.77diamonds.com",
   "indexed_rate": 100.0,
@@ -8,7 +8,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-22T08:10:30Z",
+      "last_crawl": "2026-10-23T09:09:32Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/",
@@ -18,7 +18,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/de",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-21T03:36:28Z",
+      "last_crawl": "2026-10-22T04:12:06Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/de",
@@ -28,7 +28,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/diamonds",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-20T05:24:00Z",
+      "last_crawl": "2026-10-22T06:33:56Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/diamonds",
@@ -38,7 +38,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/engagement-rings",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-21T21:17:17Z",
+      "last_crawl": "2026-10-22T21:03:05Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/engagement-rings",
@@ -58,27 +58,21 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/fr",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-21T09:59:30Z",
+      "last_crawl": "2026-10-22T07:36:56Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/fr",
       "verdict": "PASS"
     },
     "https://www.77diamonds.com/it": {
-      "coverage_state": "Submitted and indexed",
-      "google_canonical": "https://www.77diamonds.com/it",
-      "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-21T02:22:14Z",
-      "ok": true,
-      "robots_state": "ALLOWED",
-      "user_canonical": "https://www.77diamonds.com/it",
-      "verdict": "PASS"
+      "error": "The read operation timed out",
+      "ok": false
     },
     "https://www.77diamonds.com/loose-lab-grown-diamonds": {
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/loose-lab-grown-diamonds",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-21T22:22:39Z",
+      "last_crawl": "2026-10-23T06:09:54Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/loose-lab-grown-diamonds",
@@ -88,7 +82,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.77diamonds.com/pl",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-21T14:55:25Z",
+      "last_crawl": "2026-10-22T19:58:54Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.77diamonds.com/pl",
@@ -106,2513 +100,2513 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 8741,
+    "chatgpt.com": 8736,
     "claude.ai": 30,
-    "gemini.google.com": 155,
-    "perplexity.ai": 64
+    "gemini.google.com": 160,
+    "perplexity.ai": 66
   },
   "pages_baseline": {
     "https://www.77diamonds.com/": {
-      "clicks": 4282,
-      "impressions": 115104,
-      "position": 8.759017931609675
+      "clicks": 4283,
+      "impressions": 115311,
+      "position": 8.896098377431468
     },
     "https://www.77diamonds.com/ar": {
-      "clicks": 77,
-      "impressions": 12923,
-      "position": 8.51327091232686
+      "clicks": 78,
+      "impressions": 13229,
+      "position": 8.442966210597929
     },
     "https://www.77diamonds.com/ar/-kayf-tabia-almask-aw-mujawharatik": {
-      "clicks": 79,
-      "impressions": 3700,
-      "position": 5.870270270270271
+      "clicks": 77,
+      "impressions": 3696,
+      "position": 5.8812229437229435
     },
     "https://www.77diamonds.com/ar/alahgar-alkarima/alyaqout": {
-      "clicks": 68,
-      "impressions": 16668,
-      "position": 8.35415166786657
+      "clicks": 67,
+      "impressions": 16772,
+      "position": 8.352730741712378
+    },
+    "https://www.77diamonds.com/ar/alahgar-alkarima/alyaqout/dalil": {
+      "clicks": 48,
+      "impressions": 12895,
+      "position": 7.569212873206669
     },
     "https://www.77diamonds.com/ar/alahgar-alkarima/alzfir/dalil": {
-      "clicks": 73,
-      "impressions": 12043,
-      "position": 6.045586647845221
+      "clicks": 69,
+      "impressions": 12070,
+      "position": 6.024772162386081
     },
     "https://www.77diamonds.com/ar/alahgar-alkarima/alzomrod/dalil": {
-      "clicks": 48,
-      "impressions": 21911,
-      "position": 8.05075076445621
+      "clicks": 51,
+      "impressions": 22028,
+      "position": 8.029961866715091
     },
     "https://www.77diamonds.com/ar/khawaatm-zafaaf/blatin": {
       "clicks": 53,
-      "impressions": 2494,
-      "position": 8.866479550922215
+      "impressions": 2497,
+      "position": 8.79094913896676
     },
     "https://www.77diamonds.com/ar/khawaatm-zafaaf/zhahb-abid": {
-      "clicks": 51,
-      "impressions": 2115,
-      "position": 7.6529550827423165
+      "clicks": 49,
+      "impressions": 2127,
+      "position": 7.588152327221438
     },
     "https://www.77diamonds.com/ar/khwaatm-alkhotba/jadoul_-maqaas-alkhaatm": {
-      "clicks": 85,
-      "impressions": 16096,
-      "position": 6.74397365805169
+      "clicks": 86,
+      "impressions": 16154,
+      "position": 6.726878791630556
     },
     "https://www.77diamonds.com/ar/khwaatm-alkhotbah/souleeteer/baydaawee": {
-      "clicks": 93,
-      "impressions": 6932,
-      "position": 8.282746682054242
+      "clicks": 94,
+      "impressions": 6898,
+      "position": 8.295737895042041
     },
     "https://www.77diamonds.com/ar/mokhtbraat-tsneef-almaas.html": {
-      "clicks": 73,
-      "impressions": 3405,
-      "position": 6.654919236417034
+      "clicks": 72,
+      "impressions": 3414,
+      "position": 6.6496777973052135
     },
     "https://www.77diamonds.com/ar/naqaa-almaasa.html": {
-      "clicks": 86,
-      "impressions": 11548,
-      "position": 7.132577069622445
+      "clicks": 88,
+      "impressions": 11625,
+      "position": 7.132301075268817
     },
     "https://www.77diamonds.com/ar/wazn-almaasa-belqeeraat.html": {
-      "clicks": 202,
-      "impressions": 39126,
-      "position": 6.753463170270408
+      "clicks": 200,
+      "impressions": 39404,
+      "position": 6.746827733225054
     },
     "https://www.77diamonds.com/bg": {
-      "clicks": 63,
-      "impressions": 1535,
-      "position": 6.058631921824104
+      "clicks": 64,
+      "impressions": 1578,
+      "position": 6.093789607097592
     },
     "https://www.77diamonds.com/bg/-godezhni-pr-steni": {
       "clicks": 335,
-      "impressions": 9326,
-      "position": 5.934055329187219
+      "impressions": 9409,
+      "position": 5.98799022212775
     },
     "https://www.77diamonds.com/bg/-obeci-s-diamanti": {
-      "clicks": 118,
-      "impressions": 1388,
-      "position": 4.489913544668588
+      "clicks": 115,
+      "impressions": 1410,
+      "position": 4.45886524822695
     },
     "https://www.77diamonds.com/bg/bizhuta-s-diamanti/bradvichki/byalo-zlato": {
-      "clicks": 56,
-      "impressions": 591,
-      "position": 4.60575296108291
+      "clicks": 66,
+      "impressions": 604,
+      "position": 4.675496688741722
     },
     "https://www.77diamonds.com/bg/brachni-khalki/markiz": {
-      "clicks": 95,
-      "impressions": 1093,
-      "position": 13.430924062214089
+      "clicks": 97,
+      "impressions": 1132,
+      "position": 13.284452296819788
     },
     "https://www.77diamonds.com/bg/cost": {
-      "clicks": 52,
-      "impressions": 1413,
-      "position": 5.899504600141543
+      "clicks": 55,
+      "impressions": 1419,
+      "position": 5.883016208597604
     },
     "https://www.77diamonds.com/bg/diamanteni-og-rlici/byalo-zlato": {
-      "clicks": 53,
-      "impressions": 1245,
-      "position": 9.12289156626506
+      "clicks": 54,
+      "impressions": 1271,
+      "position": 9.236821400472069
     },
     "https://www.77diamonds.com/bg/diamanti": {
-      "clicks": 203,
-      "impressions": 3774,
-      "position": 4.568892421833598
+      "clicks": 202,
+      "impressions": 3780,
+      "position": 4.498677248677248
     },
     "https://www.77diamonds.com/bg/kak-da-prodadete-vashiya-diamant-ili-jewellery-kak-da-prodadete-vashiya-diamant-ili-jewellery": {
-      "clicks": 147,
-      "impressions": 1053,
-      "position": 6.381766381766382
+      "clicks": 143,
+      "impressions": 1156,
+      "position": 12.127162629757786
     },
     "https://www.77diamonds.com/bg/karatovo-teglo-na-diamanta": {
-      "clicks": 51,
-      "impressions": 1488,
-      "position": 5.055779569892473
+      "clicks": 53,
+      "impressions": 1502,
+      "position": 5.044607190412783
     },
     "https://www.77diamonds.com/bg/otgledani-v-laboratoriya-diamanti": {
-      "clicks": 49,
-      "impressions": 708,
-      "position": 5.117231638418079
+      "clicks": 47,
+      "impressions": 697,
+      "position": 4.913916786226686
     },
     "https://www.77diamonds.com/bg/sk-pocenni-kam-ni/emerald": {
       "clicks": 70,
-      "impressions": 1367,
-      "position": 5.689100219458669
+      "impressions": 1371,
+      "position": 5.746170678336981
     },
     "https://www.77diamonds.com/bg/sk-pocenni-kam-ni/rubi": {
-      "clicks": 68,
-      "impressions": 1033,
-      "position": 6.864472410454986
+      "clicks": 71,
+      "impressions": 1055,
+      "position": 7.2
     },
     "https://www.77diamonds.com/bg/sk-pocenni-kam-ni/sapfir": {
-      "clicks": 97,
-      "impressions": 1287,
-      "position": 8.6993006993007
+      "clicks": 90,
+      "impressions": 1220,
+      "position": 9.111475409836066
+    },
+    "https://www.77diamonds.com/bg/yasnota-na-diamanta": {
+      "clicks": 48,
+      "impressions": 1450,
+      "position": 5.331724137931034
     },
     "https://www.77diamonds.com/blog?p=9k-vs-18k-gold-whats-the-difference-and-which-should-you-choose": {
-      "clicks": 76,
-      "impressions": 14248,
-      "position": 6.556639528354856
+      "clicks": 73,
+      "impressions": 14348,
+      "position": 6.559729579035405
+    },
+    "https://www.77diamonds.com/contact": {
+      "clicks": 47,
+      "impressions": 1011,
+      "position": 7.091988130563799
     },
     "https://www.77diamonds.com/cs": {
-      "clicks": 51,
-      "impressions": 821,
-      "position": 10.38611449451888
+      "clicks": 53,
+      "impressions": 830,
+      "position": 10.279518072289157
     },
     "https://www.77diamonds.com/de": {
-      "clicks": 1418,
-      "impressions": 24407,
-      "position": 6.3453517433523166
+      "clicks": 1416,
+      "impressions": 24453,
+      "position": 6.406289616815933
     },
     "https://www.77diamonds.com/de/Verlobungsringe/Laborgez%C3%BCchtete-Diamanten": {
-      "clicks": 80,
-      "impressions": 10462,
-      "position": 17.20082202255783
+      "clicks": 84,
+      "impressions": 10566,
+      "position": 17.333144046943026
     },
     "https://www.77diamonds.com/de/ausstellungsraum/berlin": {
-      "clicks": 50,
-      "impressions": 1722,
-      "position": 8.245063879210221
+      "clicks": 49,
+      "impressions": 1699,
+      "position": 8.260153031194822
     },
     "https://www.77diamonds.com/de/ausstellungsraum/frankfurt": {
-      "clicks": 100,
-      "impressions": 9031,
-      "position": 4.698593732698483
+      "clicks": 104,
+      "impressions": 9080,
+      "position": 4.711674008810572
     },
     "https://www.77diamonds.com/de/ausstellungsraum/munchen": {
-      "clicks": 101,
-      "impressions": 5013,
-      "position": 7.196888090963495
+      "clicks": 99,
+      "impressions": 5049,
+      "position": 7.157654981184393
     },
     "https://www.77diamonds.com/de/ausstellungsraum/zurich": {
-      "clicks": 131,
-      "impressions": 10989,
-      "position": 3.4877604877604877
+      "clicks": 130,
+      "impressions": 10968,
+      "position": 3.463347921225383
     },
     "https://www.77diamonds.com/de/delivery-and-returns": {
       "clicks": 48,
-      "impressions": 2176,
-      "position": 5.516544117647059
+      "impressions": 2078,
+      "position": 5.4254090471607315
     },
     "https://www.77diamonds.com/de/diamant-karat-gewicht.html": {
-      "clicks": 60,
-      "impressions": 13973,
-      "position": 9.932942102626495
+      "clicks": 64,
+      "impressions": 13938,
+      "position": 10.049361457884919
     },
     "https://www.77diamonds.com/de/diamanten": {
-      "clicks": 114,
-      "impressions": 12289,
-      "position": 15.201155504923102
+      "clicks": 118,
+      "impressions": 11178,
+      "position": 13.58811952048667
     },
     "https://www.77diamonds.com/de/diamond-collections/toi-et-moi": {
-      "clicks": 72,
-      "impressions": 4897,
-      "position": 8.07821114968348
+      "clicks": 77,
+      "impressions": 4931,
+      "position": 8.091664976678159
     },
     "https://www.77diamonds.com/de/edelsteine/ruby": {
-      "clicks": 165,
-      "impressions": 18287,
-      "position": 7.873188603926287
+      "clicks": 169,
+      "impressions": 18328,
+      "position": 7.901844172850284
     },
     "https://www.77diamonds.com/de/edelsteine/sapphire": {
-      "clicks": 242,
-      "impressions": 15045,
-      "position": 6.919242273180458
+      "clicks": 234,
+      "impressions": 14931,
+      "position": 6.9022838389927
     },
     "https://www.77diamonds.com/de/edelsteine/smaragd": {
-      "clicks": 164,
-      "impressions": 26119,
-      "position": 7.659060454075577
+      "clicks": 161,
+      "impressions": 26550,
+      "position": 7.624256120527307
     },
     "https://www.77diamonds.com/de/eheringe": {
-      "clicks": 76,
-      "impressions": 12730,
-      "position": 8.176276512175964
-    },
-    "https://www.77diamonds.com/de/im-labor-gez%C3%BCchtete-diamanten": {
-      "clicks": 49,
-      "impressions": 6429,
-      "position": 20.454503033131125
+      "clicks": 78,
+      "impressions": 12859,
+      "position": 8.217357492806595
     },
     "https://www.77diamonds.com/de/lose-im-labor-gezuchtete-diamanten": {
-      "clicks": 253,
-      "impressions": 14514,
-      "position": 9.568692297092463
+      "clicks": 251,
+      "impressions": 14526,
+      "position": 9.563403552251136
     },
     "https://www.77diamonds.com/de/old-cut-diamonds": {
-      "clicks": 53,
-      "impressions": 4016,
-      "position": 15.059262948207172
+      "clicks": 50,
+      "impressions": 4054,
+      "position": 15.192402565367539
     },
     "https://www.77diamonds.com/de/verlobungsring/ringgrobe": {
       "clicks": 52,
-      "impressions": 11152,
-      "position": 10.240584648493543
+      "impressions": 11177,
+      "position": 10.372013957233605
     },
     "https://www.77diamonds.com/de/verlobungsringe": {
-      "clicks": 94,
-      "impressions": 12280,
-      "position": 5.7689739413680785
+      "clicks": 95,
+      "impressions": 12384,
+      "position": 5.813953488372093
     },
     "https://www.77diamonds.com/de/verlobungsringe/1-5-karat": {
-      "clicks": 106,
-      "impressions": 3962,
-      "position": 6.108783442705704
+      "clicks": 104,
+      "impressions": 3913,
+      "position": 6.119856887298748
     },
     "https://www.77diamonds.com/de/verlobungsringe/2-5-karat": {
-      "clicks": 68,
-      "impressions": 1623,
-      "position": 5.224276032039433
+      "clicks": 73,
+      "impressions": 1546,
+      "position": 5.29366106080207
     },
     "https://www.77diamonds.com/de/verlobungsringe/2-karat": {
-      "clicks": 102,
-      "impressions": 6191,
-      "position": 6.1096753351639475
-    },
-    "https://www.77diamonds.com/de/verlobungsringe/3-5-karat": {
-      "clicks": 48,
-      "impressions": 2471,
-      "position": 8.506272764063132
+      "clicks": 99,
+      "impressions": 6163,
+      "position": 6.185786143112121
     },
     "https://www.77diamonds.com/de/verlobungsringe/4-karat": {
-      "clicks": 152,
-      "impressions": 4458,
-      "position": 4.524899057873486
+      "clicks": 158,
+      "impressions": 4452,
+      "position": 4.500898472596585
     },
     "https://www.77diamonds.com/de/verlobungsringe/marquise": {
-      "clicks": 85,
-      "impressions": 8442,
-      "position": 6.91542288557214
+      "clicks": 86,
+      "impressions": 8501,
+      "position": 6.97106222797318
     },
     "https://www.77diamonds.com/de/verlobungsringe/oval/gelbgold": {
-      "clicks": 150,
-      "impressions": 9771,
-      "position": 7.7758673626036225
+      "clicks": 141,
+      "impressions": 9392,
+      "position": 8.012031516183987
     },
     "https://www.77diamonds.com/de/verlobungsringe/radiant/gelbgold": {
-      "clicks": 63,
-      "impressions": 2731,
-      "position": 5.220798242402051
+      "clicks": 62,
+      "impressions": 2752,
+      "position": 5.31468023255814
     },
     "https://www.77diamonds.com/delivery-and-returns": {
-      "clicks": 82,
-      "impressions": 3185,
-      "position": 5.545682888540031
+      "clicks": 83,
+      "impressions": 2970,
+      "position": 5.499326599326599
     },
     "https://www.77diamonds.com/diamond-collections/toi-et-moi": {
-      "clicks": 91,
-      "impressions": 11925,
-      "position": 9.90909853249476
+      "clicks": 94,
+      "impressions": 11983,
+      "position": 9.912876575148127
+    },
+    "https://www.77diamonds.com/diamond-earrings": {
+      "clicks": 51,
+      "impressions": 6851,
+      "position": 32.22361699022041
     },
     "https://www.77diamonds.com/diamonds": {
-      "clicks": 669,
-      "impressions": 46599,
-      "position": 9.980385845189812
+      "clicks": 662,
+      "impressions": 46724,
+      "position": 9.93125588562623
     },
     "https://www.77diamonds.com/diamonds/loose-diamonds": {
-      "clicks": 97,
-      "impressions": 6955,
-      "position": 12.832207045291158
+      "clicks": 94,
+      "impressions": 7021,
+      "position": 12.713715994872524
     },
     "https://www.77diamonds.com/dk": {
-      "clicks": 261,
-      "impressions": 7663,
-      "position": 7.25133759624168
+      "clicks": 255,
+      "impressions": 7555,
+      "position": 7.282991396426207
     },
     "https://www.77diamonds.com/dk/saadan-saelger-du-din-diamant-eller-smykker": {
-      "clicks": 79,
-      "impressions": 2364,
-      "position": 6.857445008460237
+      "clicks": 78,
+      "impressions": 2335,
+      "position": 6.842826552462527
     },
     "https://www.77diamonds.com/engagement-ring-timeline/": {
-      "clicks": 64,
-      "impressions": 6209,
-      "position": 7.902077629247866
+      "clicks": 66,
+      "impressions": 6233,
+      "position": 7.891224129632601
     },
     "https://www.77diamonds.com/engagement-rings": {
-      "clicks": 1033,
-      "impressions": 195402,
-      "position": 13.62876019692736
+      "clicks": 1005,
+      "impressions": 183679,
+      "position": 13.981816103092896
     },
     "https://www.77diamonds.com/engagement-rings/1-5-carat": {
-      "clicks": 68,
-      "impressions": 10452,
-      "position": 12.823383084577115
+      "clicks": 67,
+      "impressions": 10435,
+      "position": 12.790129372304744
     },
     "https://www.77diamonds.com/engagement-rings/2-carat": {
-      "clicks": 59,
-      "impressions": 22663,
-      "position": 14.921060759828796
+      "clicks": 58,
+      "impressions": 22572,
+      "position": 14.902091086301613
     },
     "https://www.77diamonds.com/engagement-rings/4-5-carat": {
-      "clicks": 48,
-      "impressions": 3091,
-      "position": 9.771594953089615
+      "clicks": 49,
+      "impressions": 3174,
+      "position": 9.781348456206679
     },
     "https://www.77diamonds.com/engagement-rings/4-carat": {
       "clicks": 65,
-      "impressions": 11723,
-      "position": 13.121811822912225
+      "impressions": 11395,
+      "position": 13.174901272487933
     },
     "https://www.77diamonds.com/engagement-rings/5-carat": {
-      "clicks": 131,
-      "impressions": 14907,
-      "position": 11.285973032803382
+      "clicks": 138,
+      "impressions": 15086,
+      "position": 11.143112819832957
     },
     "https://www.77diamonds.com/engagement-rings/emerald": {
-      "clicks": 71,
-      "impressions": 18911,
-      "position": 31.400613399608694
+      "clicks": 75,
+      "impressions": 18833,
+      "position": 31.218552540752935
     },
     "https://www.77diamonds.com/engagement-rings/lab-grown-diamonds": {
-      "clicks": 241,
-      "impressions": 33535,
-      "position": 22.163083345758164
+      "clicks": 237,
+      "impressions": 33109,
+      "position": 22.27098372043855
     },
     "https://www.77diamonds.com/engagement-rings/marquise": {
-      "clicks": 71,
-      "impressions": 27171,
-      "position": 19.11909756725921
+      "clicks": 72,
+      "impressions": 26928,
+      "position": 19.074383541295305
     },
     "https://www.77diamonds.com/engagement-rings/oval/yellow-gold": {
       "clicks": 71,
-      "impressions": 12405,
-      "position": 11.913180169286578
+      "impressions": 12499,
+      "position": 11.94159532762621
     },
     "https://www.77diamonds.com/engagement-rings/pear": {
-      "clicks": 48,
-      "impressions": 20688,
-      "position": 24.68372969837587
+      "clicks": 49,
+      "impressions": 20816,
+      "position": 24.331908147578787
     },
     "https://www.77diamonds.com/engagement-rings/ring-size-chart": {
-      "clicks": 105,
-      "impressions": 14254,
-      "position": 7.68100182404939
+      "clicks": 106,
+      "impressions": 13655,
+      "position": 7.748663493225925
     },
     "https://www.77diamonds.com/es": {
-      "clicks": 515,
-      "impressions": 5179,
-      "position": 13.033017957134582
+      "clicks": 518,
+      "impressions": 5268,
+      "position": 13.11712224753227
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso": {
-      "clicks": 76,
-      "impressions": 4556,
-      "position": 17.914398595258998
+      "clicks": 78,
+      "impressions": 4604,
+      "position": 17.943744569939184
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/0-5-quilates": {
-      "clicks": 60,
-      "impressions": 1561,
-      "position": 4.955797565663037
+      "clicks": 61,
+      "impressions": 1552,
+      "position": 4.958762886597938
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/3-quilates": {
-      "clicks": 91,
-      "impressions": 4536,
-      "position": 5.389329805996472
+      "clicks": 92,
+      "impressions": 4568,
+      "position": 5.367338003502627
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/diamantes-de-laboratorio": {
-      "clicks": 164,
-      "impressions": 7643,
-      "position": 10.070652884992803
+      "clicks": 160,
+      "impressions": 7587,
+      "position": 10.031105838935021
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/marquesa": {
-      "clicks": 218,
-      "impressions": 10191,
-      "position": 6.822981061721126
+      "clicks": 224,
+      "impressions": 10340,
+      "position": 6.7891682785299805
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/oval/oro-amarillo": {
-      "clicks": 49,
-      "impressions": 3635,
-      "position": 9.57936726272352
+      "clicks": 50,
+      "impressions": 3529,
+      "position": 9.659960328705015
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/ovalada": {
       "clicks": 58,
-      "impressions": 2310,
-      "position": 7.56926406926407
+      "impressions": 2360,
+      "position": 7.6059322033898304
     },
     "https://www.77diamonds.com/es/como-se-forman-los-diamantes": {
-      "clicks": 73,
-      "impressions": 21259,
-      "position": 7.959875817300908
+      "clicks": 78,
+      "impressions": 21980,
+      "position": 8.024158325750683
     },
     "https://www.77diamonds.com/es/diamante-corte-redondo": {
-      "clicks": 125,
-      "impressions": 14677,
-      "position": 11.87272603393064
+      "clicks": 128,
+      "impressions": 14542,
+      "position": 11.871682024480814
     },
     "https://www.77diamonds.com/es/diamantes-de-laboratorio": {
-      "clicks": 91,
-      "impressions": 7687,
-      "position": 10.868999609730714
+      "clicks": 92,
+      "impressions": 7697,
+      "position": 10.86306353124594
     },
     "https://www.77diamonds.com/es/diamantes-de-laboratorio-sueltos": {
-      "clicks": 141,
-      "impressions": 4751,
-      "position": 6.721111344980004
+      "clicks": 144,
+      "impressions": 4774,
+      "position": 6.674067867616254
     },
     "https://www.77diamonds.com/es/diamantes-fluorescencia": {
-      "clicks": 61,
-      "impressions": 5385,
-      "position": 5.193314763231197
+      "clicks": 60,
+      "impressions": 5294,
+      "position": 5.195315451454476
     },
     "https://www.77diamonds.com/es/diamantes_en_linea": {
       "clicks": 214,
-      "impressions": 10291,
-      "position": 14.555631134000583
+      "impressions": 10339,
+      "position": 14.57471709062772
     },
     "https://www.77diamonds.com/es/grados-de-pureza-del-diamante": {
-      "clicks": 295,
-      "impressions": 19509,
-      "position": 4.841611563893588
+      "clicks": 298,
+      "impressions": 19595,
+      "position": 4.8396019392702225
     },
     "https://www.77diamonds.com/es/piedras-preciosas/esmeralda": {
       "clicks": 156,
-      "impressions": 10721,
-      "position": 7.366197183098592
+      "impressions": 10649,
+      "position": 7.367264531880928
     },
     "https://www.77diamonds.com/es/piedras-preciosas/esmeralda/gu%C3%ADa": {
-      "clicks": 65,
-      "impressions": 17855,
-      "position": 8.87034444133296
+      "clicks": 66,
+      "impressions": 18139,
+      "position": 8.85131484646342
     },
     "https://www.77diamonds.com/eternity-rings": {
-      "clicks": 51,
-      "impressions": 7856,
-      "position": 41.14103869653768
+      "clicks": 49,
+      "impressions": 7789,
+      "position": 41.090383874695085
     },
     "https://www.77diamonds.com/faq.html": {
-      "clicks": 178,
-      "impressions": 4249,
-      "position": 4.980230642504118
+      "clicks": 180,
+      "impressions": 4228,
+      "position": 4.9879375591296125
     },
     "https://www.77diamonds.com/fi": {
       "clicks": 48,
-      "impressions": 299,
-      "position": 18.993311036789297
-    },
-    "https://www.77diamonds.com/fi/jalokivet/opas": {
-      "clicks": 49,
-      "impressions": 1982,
-      "position": 5.366801210898083
+      "impressions": 296,
+      "position": 18.93581081081081
     },
     "https://www.77diamonds.com/fr": {
-      "clicks": 934,
-      "impressions": 10838,
-      "position": 6.147536445838716
+      "clicks": 932,
+      "impressions": 10931,
+      "position": 6.132833226603238
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles": {
       "clicks": 104,
-      "impressions": 22035,
-      "position": 18.958747447243024
+      "impressions": 21857,
+      "position": 18.990254838266917
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/2-carats": {
       "clicks": 58,
-      "impressions": 4462,
-      "position": 7.341326759300762
+      "impressions": 4449,
+      "position": 7.376713868285008
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/3-carats": {
-      "clicks": 90,
-      "impressions": 3631,
-      "position": 5.313412283117598
+      "clicks": 86,
+      "impressions": 3601,
+      "position": 5.296584282143849
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/4-carats": {
-      "clicks": 87,
-      "impressions": 2494,
-      "position": 4.816760224538893
+      "clicks": 86,
+      "impressions": 2424,
+      "position": 4.856848184818482
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/diamant-de-laboratoire": {
-      "clicks": 100,
-      "impressions": 4105,
-      "position": 12.582704019488428
+      "clicks": 93,
+      "impressions": 4126,
+      "position": 12.802229762481822
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/marquise": {
-      "clicks": 311,
-      "impressions": 17837,
-      "position": 8.346751135280597
+      "clicks": 314,
+      "impressions": 17723,
+      "position": 8.43982395756926
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/marquise/or-jaune": {
-      "clicks": 54,
-      "impressions": 2422,
-      "position": 5.537985136251033
+      "clicks": 53,
+      "impressions": 2429,
+      "position": 5.567723342939481
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/ovale": {
-      "clicks": 86,
-      "impressions": 3188,
-      "position": 6.572772898368883
+      "clicks": 85,
+      "impressions": 3175,
+      "position": 6.6576377952755905
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/ovale/or-jaune": {
-      "clicks": 142,
-      "impressions": 9490,
-      "position": 7.0814541622760805
+      "clicks": 141,
+      "impressions": 9520,
+      "position": 7.112289915966387
+    },
+    "https://www.77diamonds.com/fr/bagues-de-fiancailles/poire": {
+      "clicks": 48,
+      "impressions": 4015,
+      "position": 7.457036114570361
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/radiant": {
-      "clicks": 70,
-      "impressions": 8251,
-      "position": 9.909950309053448
+      "clicks": 71,
+      "impressions": 8516,
+      "position": 9.954086425551901
     },
     "https://www.77diamonds.com/fr/classification-purete-diamant.html": {
-      "clicks": 172,
-      "impressions": 11008,
-      "position": 6.918968023255814
+      "clicks": 173,
+      "impressions": 11027,
+      "position": 6.884918835585381
     },
     "https://www.77diamonds.com/fr/couleur-diamant.html": {
-      "clicks": 60,
-      "impressions": 5157,
-      "position": 14.711654062439402
+      "clicks": 61,
+      "impressions": 5141,
+      "position": 14.71892627893406
     },
     "https://www.77diamonds.com/fr/diamant-fluorescence.html": {
-      "clicks": 63,
-      "impressions": 2569,
-      "position": 6.597898014791748
+      "clicks": 64,
+      "impressions": 2585,
+      "position": 6.6456479690522245
     },
     "https://www.77diamonds.com/fr/diamants": {
-      "clicks": 86,
-      "impressions": 8430,
-      "position": 15.2858837485172
+      "clicks": 79,
+      "impressions": 8575,
+      "position": 15.34204081632653
     },
     "https://www.77diamonds.com/fr/diamants-de-labo-en-vrac": {
-      "clicks": 87,
-      "impressions": 3598,
-      "position": 7.090327959977765
+      "clicks": 89,
+      "impressions": 3577,
+      "position": 7.046966731898239
     },
     "https://www.77diamonds.com/fr/diamants/diamants-de-couleur": {
-      "clicks": 57,
-      "impressions": 2830,
-      "position": 7.701413427561837
+      "clicks": 54,
+      "impressions": 2831,
+      "position": 7.684563758389261
     },
     "https://www.77diamonds.com/fr/les-pierres-precieuses/emeraude": {
-      "clicks": 126,
-      "impressions": 18684,
-      "position": 8.148629843716549
+      "clicks": 127,
+      "impressions": 19091,
+      "position": 8.116756586873397
     },
     "https://www.77diamonds.com/fr/les-pierres-precieuses/ruby": {
       "clicks": 96,
-      "impressions": 9620,
-      "position": 7.430769230769231
+      "impressions": 9630,
+      "position": 7.362097611630322
     },
     "https://www.77diamonds.com/fr/old-cut-diamonds": {
-      "clicks": 56,
-      "impressions": 2035,
-      "position": 5.487960687960688
+      "clicks": 54,
+      "impressions": 2112,
+      "position": 5.549242424242424
     },
     "https://www.77diamonds.com/fr/showroom/paris": {
-      "clicks": 56,
-      "impressions": 3427,
-      "position": 3.747884447038226
-    },
-    "https://www.77diamonds.com/gemstones": {
-      "clicks": 52,
-      "impressions": 5640,
-      "position": 16.659929078014184
+      "clicks": 57,
+      "impressions": 3407,
+      "position": 3.731141766950396
     },
     "https://www.77diamonds.com/gemstones/emerald": {
-      "clicks": 207,
-      "impressions": 32856,
-      "position": 11.462563915266617
+      "clicks": 206,
+      "impressions": 31270,
+      "position": 11.679117364886473
     },
     "https://www.77diamonds.com/gemstones/ruby": {
-      "clicks": 106,
-      "impressions": 8922,
-      "position": 10.67014122394082
+      "clicks": 113,
+      "impressions": 8944,
+      "position": 10.521914132379248
     },
     "https://www.77diamonds.com/gemstones/sapphire": {
-      "clicks": 322,
-      "impressions": 20829,
-      "position": 10.957703202266071
+      "clicks": 316,
+      "impressions": 20806,
+      "position": 10.834903393251947
     },
     "https://www.77diamonds.com/greenland-rubies": {
-      "clicks": 51,
-      "impressions": 760,
-      "position": 4.747368421052632
+      "clicks": 52,
+      "impressions": 747,
+      "position": 4.680053547523427
     },
     "https://www.77diamonds.com/history-and-meaning-of-gemstones/": {
-      "clicks": 107,
-      "impressions": 28959,
-      "position": 8.220553195897647
+      "clicks": 110,
+      "impressions": 28927,
+      "position": 8.193625332734124
     },
     "https://www.77diamonds.com/how-to-sell-your-diamond-or-jewellery": {
-      "clicks": 53,
-      "impressions": 4838,
-      "position": 10.09115336916081
+      "clicks": 50,
+      "impressions": 4821,
+      "position": 9.981124248081311
     },
     "https://www.77diamonds.com/hu/gyemantkovek/emerald": {
-      "clicks": 53,
-      "impressions": 1746,
-      "position": 6.081901489117984
+      "clicks": 55,
+      "impressions": 1751,
+      "position": 6.090234151913193
     },
     "https://www.77diamonds.com/hu/gyemantkovek/rubin": {
-      "clicks": 68,
-      "impressions": 2179,
-      "position": 5.645250114731528
+      "clicks": 70,
+      "impressions": 2187,
+      "position": 5.591220850480109
     },
     "https://www.77diamonds.com/hu/jegygyuruk/oval": {
-      "clicks": 105,
-      "impressions": 3631,
-      "position": 7.903057009088405
+      "clicks": 108,
+      "impressions": 3661,
+      "position": 7.898661567877629
     },
     "https://www.77diamonds.com/it": {
-      "clicks": 1737,
-      "impressions": 7823,
-      "position": 4.709957816694363
+      "clicks": 1718,
+      "impressions": 7846,
+      "position": 4.689523323986744
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento": {
-      "clicks": 286,
-      "impressions": 36445,
-      "position": 9.906598984771573
+      "clicks": 280,
+      "impressions": 36705,
+      "position": 9.901375834354992
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/0-5-carati": {
-      "clicks": 71,
-      "impressions": 4316,
-      "position": 6.2803521779425395
+      "clicks": 72,
+      "impressions": 4296,
+      "position": 6.213454376163873
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/1-5-carati": {
-      "clicks": 72,
-      "impressions": 1597,
-      "position": 5.37319974953037
+      "clicks": 73,
+      "impressions": 1590,
+      "position": 5.459119496855346
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/1-carati": {
       "clicks": 50,
-      "impressions": 4171,
-      "position": 6.968592663629825
+      "impressions": 4106,
+      "position": 7.0002435460302
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/2-carati": {
-      "clicks": 136,
-      "impressions": 5069,
-      "position": 5.070230814756362
+      "clicks": 129,
+      "impressions": 5031,
+      "position": 5.102166567282846
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/3-carati": {
-      "clicks": 241,
-      "impressions": 4853,
-      "position": 4.1691737069853705
+      "clicks": 240,
+      "impressions": 4852,
+      "position": 4.137262984336356
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/4-carati": {
-      "clicks": 97,
-      "impressions": 2303,
-      "position": 4.082935301780287
+      "clicks": 99,
+      "impressions": 2314,
+      "position": 4.095073465859983
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/5-carati": {
-      "clicks": 57,
-      "impressions": 1703,
-      "position": 4.492660011743981
+      "clicks": 56,
+      "impressions": 1688,
+      "position": 4.501184834123222
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/diamanti-creati-in-laboratorio": {
-      "clicks": 83,
-      "impressions": 1976,
-      "position": 8.060728744939272
+      "clicks": 78,
+      "impressions": 1985,
+      "position": 8.080100755667505
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/marquise": {
-      "clicks": 113,
-      "impressions": 2723,
-      "position": 3.615497612926919
+      "clicks": 114,
+      "impressions": 2761,
+      "position": 3.6030423759507424
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/ovale": {
-      "clicks": 122,
-      "impressions": 3827,
-      "position": 3.9754376796446302
+      "clicks": 126,
+      "impressions": 3828,
+      "position": 4.050679205851619
     },
     "https://www.77diamonds.com/it/anelli_eternity": {
-      "clicks": 52,
-      "impressions": 7231,
-      "position": 9.351541972064721
+      "clicks": 55,
+      "impressions": 7214,
+      "position": 9.369420571111727
     },
     "https://www.77diamonds.com/it/colore-diamante.html": {
-      "clicks": 111,
-      "impressions": 14864,
-      "position": 6.485131862217438
+      "clicks": 102,
+      "impressions": 14794,
+      "position": 6.492496958226308
     },
     "https://www.77diamonds.com/it/diamante-taglio-ovale.html": {
-      "clicks": 55,
-      "impressions": 1560,
-      "position": 18.43397435897436
+      "clicks": 53,
+      "impressions": 1591,
+      "position": 19.020113136392204
     },
     "https://www.77diamonds.com/it/diamanti-creati-in-laboratorio-sfusi": {
-      "clicks": 467,
-      "impressions": 11980,
-      "position": 5.893989983305509
+      "clicks": 478,
+      "impressions": 12079,
+      "position": 5.890388277175263
     },
     "https://www.77diamonds.com/it/diamanti_online.html": {
-      "clicks": 170,
-      "impressions": 11944,
-      "position": 7.466677829872739
+      "clicks": 169,
+      "impressions": 12252,
+      "position": 7.476003917727718
     },
     "https://www.77diamonds.com/it/diamond-collections/toi-et-moi": {
-      "clicks": 70,
-      "impressions": 4050,
-      "position": 6.272592592592592
+      "clicks": 68,
+      "impressions": 4051,
+      "position": 6.294248333744754
     },
     "https://www.77diamonds.com/it/fedi-nuziali/oro-giallo": {
-      "clicks": 95,
-      "impressions": 8710,
-      "position": 10.568312284730196
+      "clicks": 96,
+      "impressions": 8674,
+      "position": 10.59868572746138
     },
     "https://www.77diamonds.com/it/fedi-nuziali/platino": {
-      "clicks": 86,
-      "impressions": 2220,
-      "position": 9.694144144144143
+      "clicks": 82,
+      "impressions": 2218,
+      "position": 9.958521190261497
     },
     "https://www.77diamonds.com/it/fluorescenza-diamanti.html": {
-      "clicks": 144,
-      "impressions": 3807,
-      "position": 4.083004990806409
+      "clicks": 143,
+      "impressions": 3824,
+      "position": 4.069037656903766
     },
     "https://www.77diamonds.com/it/old-cut-diamonds": {
-      "clicks": 61,
-      "impressions": 1610,
-      "position": 6.070186335403727
+      "clicks": 59,
+      "impressions": 1616,
+      "position": 6.098391089108911
     },
     "https://www.77diamonds.com/it/orecchini-diamanti": {
-      "clicks": 63,
-      "impressions": 8583,
-      "position": 11.78189444250262
+      "clicks": 66,
+      "impressions": 8634,
+      "position": 12.00463284688441
     },
     "https://www.77diamonds.com/it/peso-diamanti-carati.html": {
-      "clicks": 213,
-      "impressions": 15790,
-      "position": 5.618112729575681
+      "clicks": 217,
+      "impressions": 15748,
+      "position": 5.5782956565913135
     },
     "https://www.77diamonds.com/it/pietre-preziose/rubino": {
-      "clicks": 176,
-      "impressions": 13004,
-      "position": 6.068901876345739
+      "clicks": 179,
+      "impressions": 13084,
+      "position": 6.0468511158667075
     },
     "https://www.77diamonds.com/it/pietre-preziose/smeraldo": {
-      "clicks": 260,
-      "impressions": 12261,
-      "position": 5.7877823994780195
+      "clicks": 254,
+      "impressions": 12211,
+      "position": 5.7557939562689375
     },
     "https://www.77diamonds.com/it/pietre-preziose/smeraldo/guida": {
-      "clicks": 67,
-      "impressions": 6497,
-      "position": 7.7606587655841155
+      "clicks": 71,
+      "impressions": 6542,
+      "position": 7.764445123815347
     },
     "https://www.77diamonds.com/it/pietre-preziose/zaffiro": {
-      "clicks": 110,
-      "impressions": 8119,
-      "position": 6.961078950609681
+      "clicks": 114,
+      "impressions": 8258,
+      "position": 6.959917655606684
     },
     "https://www.77diamonds.com/it/pietre-preziose/zaffiro/guida": {
-      "clicks": 52,
-      "impressions": 10034,
-      "position": 9.627566274666135
+      "clicks": 57,
+      "impressions": 9922,
+      "position": 9.555835517032856
     },
     "https://www.77diamonds.com/it/purezza-diamante.html": {
-      "clicks": 87,
-      "impressions": 11720,
-      "position": 7.244539249146758
+      "clicks": 90,
+      "impressions": 11671,
+      "position": 7.179676120298175
     },
     "https://www.77diamonds.com/it/showroom/milano": {
-      "clicks": 101,
-      "impressions": 3224,
-      "position": 3.8877171215880892
+      "clicks": 98,
+      "impressions": 3062,
+      "position": 3.750489875898106
     },
     "https://www.77diamonds.com/it/valutazione-purezza-diamante.html": {
-      "clicks": 342,
-      "impressions": 22490,
-      "position": 5.542996887505558
+      "clicks": 338,
+      "impressions": 22459,
+      "position": 5.543969010196358
     },
     "https://www.77diamonds.com/loose-lab-grown-diamonds": {
-      "clicks": 919,
-      "impressions": 59247,
-      "position": 8.059159113541615
+      "clicks": 906,
+      "impressions": 58457,
+      "position": 8.03934515969003
     },
     "https://www.77diamonds.com/nl": {
-      "clicks": 116,
-      "impressions": 2101,
-      "position": 12.785340314136125
+      "clicks": 117,
+      "impressions": 2086,
+      "position": 12.565196548418024
     },
     "https://www.77diamonds.com/nl/diamanten": {
-      "clicks": 84,
-      "impressions": 10041,
-      "position": 20.844338213325365
+      "clicks": 87,
+      "impressions": 9898,
+      "position": 20.41685188927056
     },
     "https://www.77diamonds.com/nl/edelstenen/robijn": {
-      "clicks": 282,
-      "impressions": 5647,
-      "position": 11.583141491057198
+      "clicks": 283,
+      "impressions": 5609,
+      "position": 11.633267962203602
     },
     "https://www.77diamonds.com/nl/edelstenen/saffier": {
-      "clicks": 260,
-      "impressions": 8731,
-      "position": 7.191043408544267
+      "clicks": 259,
+      "impressions": 8723,
+      "position": 7.169207841338989
     },
     "https://www.77diamonds.com/nl/edelstenen/smaragd": {
-      "clicks": 132,
-      "impressions": 6967,
-      "position": 8.355246160470791
+      "clicks": 124,
+      "impressions": 6625,
+      "position": 8.393207547169812
     },
     "https://www.77diamonds.com/nl/laboratorium-gekweekte-diamanten": {
-      "clicks": 158,
-      "impressions": 8783,
-      "position": 12.296595696231355
-    },
-    "https://www.77diamonds.com/nl/verlovingsringen/3-karaat": {
-      "clicks": 50,
-      "impressions": 1975,
-      "position": 8.851645569620253
+      "clicks": 162,
+      "impressions": 8576,
+      "position": 12.438199626865671
     },
     "https://www.77diamonds.com/nl/verlovingsringen/4-karaat": {
-      "clicks": 88,
-      "impressions": 2214,
-      "position": 17.979674796747968
+      "clicks": 91,
+      "impressions": 2215,
+      "position": 18.206772009029347
     },
     "https://www.77diamonds.com/nl/verlovingsringen/marquise": {
       "clicks": 60,
-      "impressions": 2816,
-      "position": 5.861860795454546
+      "impressions": 2839,
+      "position": 5.822472701655513
     },
     "https://www.77diamonds.com/no/hvordan-selge-din-diamant-eller-smykker": {
-      "clicks": 139,
-      "impressions": 2351,
-      "position": 6.24670353041259
+      "clicks": 141,
+      "impressions": 2359,
+      "position": 6.236116998728274
     },
     "https://www.77diamonds.com/old-cut-diamonds": {
-      "clicks": 247,
-      "impressions": 7275,
-      "position": 8.343642611683848
+      "clicks": 250,
+      "impressions": 7255,
+      "position": 8.290282563749138
     },
     "https://www.77diamonds.com/our-promises": {
       "clicks": 53,
-      "impressions": 3056,
-      "position": 4.018324607329843
+      "impressions": 3015,
+      "position": 4.045439469320066
     },
     "https://www.77diamonds.com/pl": {
-      "clicks": 502,
-      "impressions": 3293,
-      "position": 4.76191922259338
+      "clicks": 489,
+      "impressions": 3302,
+      "position": 4.832222895215021
     },
     "https://www.77diamonds.com/pl/diamenty": {
-      "clicks": 79,
-      "impressions": 9281,
-      "position": 8.612649498976403
+      "clicks": 73,
+      "impressions": 8819,
+      "position": 8.642249688173262
     },
     "https://www.77diamonds.com/pl/diamenty-syntetyczne-luzem": {
       "clicks": 255,
-      "impressions": 11349,
-      "position": 6.421358710018504
+      "impressions": 11549,
+      "position": 6.4444540652870375
     },
     "https://www.77diamonds.com/pl/kamienie-szlachetne/szafir": {
-      "clicks": 63,
-      "impressions": 6340,
-      "position": 7.12776025236593
+      "clicks": 67,
+      "impressions": 6312,
+      "position": 7.11137515842839
     },
     "https://www.77diamonds.com/pl/kamienie-szlachetne/szmaragd": {
-      "clicks": 87,
-      "impressions": 9514,
-      "position": 6.155350010510826
+      "clicks": 88,
+      "impressions": 9455,
+      "position": 6.05520888418826
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe": {
-      "clicks": 102,
-      "impressions": 3103,
-      "position": 6.171769255559136
+      "clicks": 99,
+      "impressions": 3080,
+      "position": 6.2844155844155845
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/1-5-karatowe": {
       "clicks": 58,
-      "impressions": 1083,
-      "position": 3.839335180055402
+      "impressions": 1091,
+      "position": 3.8267644362969753
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/2-karatowe": {
-      "clicks": 77,
-      "impressions": 2137,
-      "position": 4.716424894712214
+      "clicks": 79,
+      "impressions": 2120,
+      "position": 4.756132075471698
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/markiza": {
-      "clicks": 120,
-      "impressions": 3710,
-      "position": 5.109703504043127
+      "clicks": 123,
+      "impressions": 3727,
+      "position": 5.124765226723906
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/owalny": {
-      "clicks": 103,
-      "impressions": 7687,
-      "position": 6.834525822817744
+      "clicks": 105,
+      "impressions": 7662,
+      "position": 6.813625685199686
     },
     "https://www.77diamonds.com/pt": {
-      "clicks": 78,
-      "impressions": 1784,
-      "position": 11.52634529147982
+      "clicks": 76,
+      "impressions": 1823,
+      "position": 11.462424574876577
     },
     "https://www.77diamonds.com/pt/aliancas/ouro-amarelo": {
-      "clicks": 66,
-      "impressions": 3998,
-      "position": 9.212856428214106
+      "clicks": 64,
+      "impressions": 4013,
+      "position": 9.180164465487167
     },
     "https://www.77diamonds.com/pt/aneis-de-noivado": {
-      "clicks": 125,
-      "impressions": 11719,
-      "position": 9.897346189947948
+      "clicks": 127,
+      "impressions": 11363,
+      "position": 10.004928275983454
     },
     "https://www.77diamonds.com/pt/aneis-de-noivado/marquise": {
-      "clicks": 56,
-      "impressions": 2225,
-      "position": 18.024719101123594
+      "clicks": 54,
+      "impressions": 2224,
+      "position": 18.052607913669064
     },
     "https://www.77diamonds.com/pt/como-vender-seu-diamante-ou-joia-como-vender-seu-diamante-ou-joia": {
       "clicks": 54,
-      "impressions": 2243,
-      "position": 8.57333927775301
+      "impressions": 2230,
+      "position": 8.597757847533632
     },
     "https://www.77diamonds.com/pt/cost.html": {
-      "clicks": 227,
-      "impressions": 6170,
-      "position": 6.107941653160454
+      "clicks": 231,
+      "impressions": 6218,
+      "position": 6
     },
     "https://www.77diamonds.com/pt/diamantes": {
       "clicks": 66,
-      "impressions": 4973,
-      "position": 8.677659360546954
+      "impressions": 5007,
+      "position": 8.638306371080487
     },
     "https://www.77diamonds.com/pt/diamond-carat-weight.html": {
-      "clicks": 171,
-      "impressions": 27370,
-      "position": 5.052831567409573
+      "clicks": 169,
+      "impressions": 27712,
+      "position": 5.033090357967668
     },
     "https://www.77diamonds.com/pt/diamond-clarity-grading.html": {
-      "clicks": 168,
-      "impressions": 10314,
-      "position": 5.476148923792903
+      "clicks": 163,
+      "impressions": 10347,
+      "position": 5.494442833671596
     },
     "https://www.77diamonds.com/pt/pedras-preciosas/esmeralda": {
-      "clicks": 75,
-      "impressions": 5412,
-      "position": 6.778455284552845
+      "clicks": 74,
+      "impressions": 5433,
+      "position": 6.712865819988957
     },
     "https://www.77diamonds.com/pt/pedras-preciosas/rubi": {
       "clicks": 152,
-      "impressions": 15714,
-      "position": 7.352233676975945
+      "impressions": 15735,
+      "position": 7.32824912615189
     },
     "https://www.77diamonds.com/pt/pedras-preciosas/sapphire": {
-      "clicks": 90,
-      "impressions": 4317,
-      "position": 7.60620801482511
+      "clicks": 88,
+      "impressions": 4292,
+      "position": 7.652143522833178
     },
     "https://www.77diamonds.com/ro": {
-      "clicks": 136,
-      "impressions": 1488,
-      "position": 7.276881720430108
+      "clicks": 141,
+      "impressions": 1513,
+      "position": 7.194976867151355
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna": {
-      "clicks": 190,
-      "impressions": 19285,
-      "position": 9.604200155561317
+      "clicks": 186,
+      "impressions": 19419,
+      "position": 9.636026571914105
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna/diamante-crescute-in-laborator": {
-      "clicks": 53,
-      "impressions": 1446,
-      "position": 19.432918395573996
+      "clicks": 52,
+      "impressions": 1460,
+      "position": 19.50958904109589
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna/marquise": {
-      "clicks": 234,
-      "impressions": 4029,
-      "position": 10.077934971456937
+      "clicks": 232,
+      "impressions": 4096,
+      "position": 10.24755859375
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna/oval": {
-      "clicks": 107,
-      "impressions": 2038,
-      "position": 4.882237487733072
+      "clicks": 104,
+      "impressions": 2042,
+      "position": 5.0274240940254655
     },
     "https://www.77diamonds.com/ro/anule-de-logodna/pereche": {
-      "clicks": 50,
-      "impressions": 3106,
-      "position": 14.19639407598197
+      "clicks": 53,
+      "impressions": 3151,
+      "position": 14.338622659473183
     },
     "https://www.77diamonds.com/ro/cost": {
-      "clicks": 65,
-      "impressions": 2902,
-      "position": 5.3642315644383185
+      "clicks": 66,
+      "impressions": 2943,
+      "position": 5.386340468909276
     },
     "https://www.77diamonds.com/ro/culoare-diamant": {
       "clicks": 54,
-      "impressions": 3519,
-      "position": 7.730605285592498
+      "impressions": 3526,
+      "position": 7.738230289279637
     },
     "https://www.77diamonds.com/ro/cum-sa-vinzi-diamantul-sau-bijuteriile-tale": {
-      "clicks": 61,
-      "impressions": 1503,
-      "position": 6.123087159015303
+      "clicks": 59,
+      "impressions": 1493,
+      "position": 6.107166778298727
     },
     "https://www.77diamonds.com/ro/diamante": {
-      "clicks": 59,
-      "impressions": 3386,
-      "position": 10.029828706438275
+      "clicks": 61,
+      "impressions": 3411,
+      "position": 9.91615362063911
     },
     "https://www.77diamonds.com/ro/greutatea-in-carate-a-diamantului": {
       "clicks": 49,
-      "impressions": 2888,
-      "position": 4.924861495844875
+      "impressions": 2873,
+      "position": 4.973546815175775
     },
     "https://www.77diamonds.com/ro/piese-pretioase/ghid": {
-      "clicks": 66,
-      "impressions": 3739,
-      "position": 6.951858785771597
+      "clicks": 67,
+      "impressions": 3767,
+      "position": 6.966286169365543
     },
     "https://www.77diamonds.com/ro/pietre-de-piatra-pretioasa/ruby": {
-      "clicks": 88,
-      "impressions": 3249,
-      "position": 5.898738073253309
+      "clicks": 94,
+      "impressions": 3257,
+      "position": 5.908811789990789
     },
     "https://www.77diamonds.com/ro/pietre-pretioase/emerald": {
-      "clicks": 99,
-      "impressions": 4422,
-      "position": 5.399366802351877
+      "clicks": 105,
+      "impressions": 4448,
+      "position": 5.376348920863309
     },
     "https://www.77diamonds.com/ro/pietre-pretioase/sapfir": {
-      "clicks": 122,
-      "impressions": 5258,
-      "position": 7.074933434766071
+      "clicks": 121,
+      "impressions": 5276,
+      "position": 7.067285822592873
     },
     "https://www.77diamonds.com/round-cut-diamonds": {
       "clicks": 55,
-      "impressions": 29880,
-      "position": 23.363855421686747
+      "impressions": 29824,
+      "position": 23.47542247854077
     },
     "https://www.77diamonds.com/ru": {
-      "clicks": 87,
-      "impressions": 1376,
-      "position": 9.912790697674419
+      "clicks": 90,
+      "impressions": 1381,
+      "position": 9.865314989138305
     },
     "https://www.77diamonds.com/ru/brillianty_onlajn.html": {
-      "clicks": 93,
-      "impressions": 4901,
-      "position": 10.430116302795348
+      "clicks": 87,
+      "impressions": 4788,
+      "position": 10.403717627401837
     },
     "https://www.77diamonds.com/ru/chistota-brillianta.html": {
-      "clicks": 85,
-      "impressions": 8327,
-      "position": 6.858292302149634
+      "clicks": 78,
+      "impressions": 8235,
+      "position": 6.991499696417729
     },
     "https://www.77diamonds.com/ru/diamond-collections/toi-et-moi": {
-      "clicks": 55,
-      "impressions": 1125,
-      "position": 4.334222222222222
+      "clicks": 52,
+      "impressions": 1145,
+      "position": 4.385152838427947
     },
     "https://www.77diamonds.com/ru/engagement-rings/2-carat": {
       "clicks": 64,
-      "impressions": 3023,
-      "position": 8.96228911677142
+      "impressions": 3019,
+      "position": 8.997350115932427
     },
     "https://www.77diamonds.com/ru/engagement-rings/3-carat": {
-      "clicks": 68,
-      "impressions": 4139,
-      "position": 10.780623338970766
+      "clicks": 72,
+      "impressions": 4174,
+      "position": 10.825826545280307
     },
     "https://www.77diamonds.com/ru/engagement-rings/5-carat": {
-      "clicks": 83,
-      "impressions": 3134,
-      "position": 8.074664964901086
+      "clicks": 86,
+      "impressions": 3216,
+      "position": 8.016169154228855
     },
     "https://www.77diamonds.com/ru/engagement-rings/emerald": {
-      "clicks": 67,
-      "impressions": 1246,
-      "position": 12.276886035313002
+      "clicks": 68,
+      "impressions": 1257,
+      "position": 12.039777247414479
     },
     "https://www.77diamonds.com/ru/engagement-rings/marquise": {
-      "clicks": 524,
-      "impressions": 5888,
-      "position": 5.992697010869565
+      "clicks": 525,
+      "impressions": 5926,
+      "position": 6.018899763752953
     },
     "https://www.77diamonds.com/ru/engagement-rings/pear": {
-      "clicks": 164,
-      "impressions": 2139,
-      "position": 8.159887798036465
+      "clicks": 159,
+      "impressions": 2119,
+      "position": 8.218499292118924
     },
     "https://www.77diamonds.com/ru/engagement-rings/radiant": {
-      "clicks": 54,
-      "impressions": 524,
-      "position": 6.320610687022901
+      "clicks": 53,
+      "impressions": 513,
+      "position": 6.401559454191033
     },
     "https://www.77diamonds.com/ru/fluorescencija-brillianta.html": {
-      "clicks": 75,
-      "impressions": 6031,
-      "position": 7.283203448847621
+      "clicks": 76,
+      "impressions": 6016,
+      "position": 7.280418882978723
     },
     "https://www.77diamonds.com/ru/iskusstvennye-brillianty": {
-      "clicks": 70,
-      "impressions": 6574,
-      "position": 11.295558259811378
+      "clicks": 75,
+      "impressions": 6671,
+      "position": 11.354069854594513
     },
     "https://www.77diamonds.com/ru/laboratornye-brillianty": {
-      "clicks": 168,
-      "impressions": 4033,
-      "position": 7.740143813538309
+      "clicks": 162,
+      "impressions": 3960,
+      "position": 7.753030303030303
     },
     "https://www.77diamonds.com/ru/obruchalnye-kolca/laboratornye-brillianty": {
-      "clicks": 287,
-      "impressions": 4502,
-      "position": 8.899378054198134
+      "clicks": 288,
+      "impressions": 4610,
+      "position": 8.86941431670282
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/beloe-zoloto": {
-      "clicks": 111,
-      "impressions": 459,
-      "position": 5.069716775599129
+      "clicks": 112,
+      "impressions": 448,
+      "position": 5.006696428571429
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/rozovoe-zoloto": {
-      "clicks": 61,
-      "impressions": 651,
-      "position": 6.579109062980031
+      "clicks": 58,
+      "impressions": 641,
+      "position": 6.569422776911076
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/zheltoe-zoloto": {
-      "clicks": 70,
-      "impressions": 620,
-      "position": 6.701612903225806
+      "clicks": 65,
+      "impressions": 597,
+      "position": 6.850921273031826
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/oval/beloe-zoloto": {
-      "clicks": 97,
-      "impressions": 1196,
-      "position": 10.331103678929766
+      "clicks": 99,
+      "impressions": 1182,
+      "position": 10.302876480541455
     },
     "https://www.77diamonds.com/se": {
-      "clicks": 280,
-      "impressions": 4286,
-      "position": 8.201119925338311
+      "clicks": 298,
+      "impressions": 4396,
+      "position": 8.375113739763421
     },
     "https://www.77diamonds.com/se/adelstenar/smaragd": {
-      "clicks": 55,
-      "impressions": 4366,
-      "position": 6.638112688960146
+      "clicks": 56,
+      "impressions": 4422,
+      "position": 6.578697421981004
     },
     "https://www.77diamonds.com/se/diamanter": {
-      "clicks": 54,
-      "impressions": 5816,
-      "position": 9.339752407152682
+      "clicks": 55,
+      "impressions": 5754,
+      "position": 9.41449426485923
     },
     "https://www.77diamonds.com/se/forlovningsringar": {
       "clicks": 63,
-      "impressions": 6991,
-      "position": 9.617365183807753
+      "impressions": 6721,
+      "position": 9.526409760452314
     },
     "https://www.77diamonds.com/se/showroom/stockholm": {
       "clicks": 78,
-      "impressions": 4452,
-      "position": 6.791329739442947
+      "impressions": 4455,
+      "position": 6.680359147025814
     },
     "https://www.77diamonds.com/showroom/berlin": {
-      "clicks": 127,
-      "impressions": 7513,
-      "position": 5.4550778650339415
+      "clicks": 125,
+      "impressions": 7264,
+      "position": 5.387665198237886
     },
     "https://www.77diamonds.com/showroom/dubai": {
-      "clicks": 148,
-      "impressions": 7648,
-      "position": 14.22267259414226
+      "clicks": 149,
+      "impressions": 7706,
+      "position": 14.1350895406177
     },
     "https://www.77diamonds.com/showroom/frankfurt": {
-      "clicks": 227,
-      "impressions": 31024,
-      "position": 6.404203197524497
+      "clicks": 225,
+      "impressions": 30531,
+      "position": 6.3321542039238805
     },
     "https://www.77diamonds.com/showroom/geneva": {
-      "clicks": 124,
-      "impressions": 6323,
-      "position": 5.512573145658706
+      "clicks": 130,
+      "impressions": 6317,
+      "position": 5.403989235396549
     },
     "https://www.77diamonds.com/showroom/glasgow": {
-      "clicks": 88,
-      "impressions": 13111,
-      "position": 8.09366181069331
+      "clicks": 87,
+      "impressions": 13012,
+      "position": 8.196818321549339
     },
     "https://www.77diamonds.com/showroom/manchester": {
-      "clicks": 298,
-      "impressions": 23849,
-      "position": 5.375822885655583
+      "clicks": 295,
+      "impressions": 23878,
+      "position": 5.347349024206382
     },
     "https://www.77diamonds.com/showroom/mayfair": {
-      "clicks": 419,
-      "impressions": 32880,
-      "position": 7.036557177615572
+      "clicks": 422,
+      "impressions": 32811,
+      "position": 7.010423333638109
     },
     "https://www.77diamonds.com/showroom/milan": {
-      "clicks": 364,
-      "impressions": 13396,
-      "position": 5.258808599581965
+      "clicks": 366,
+      "impressions": 13179,
+      "position": 5.175127096137795
     },
     "https://www.77diamonds.com/showroom/munich": {
-      "clicks": 200,
-      "impressions": 35447,
-      "position": 7.317093124947104
+      "clicks": 208,
+      "impressions": 35320,
+      "position": 7.299886749716874
     },
     "https://www.77diamonds.com/showroom/stockholm": {
-      "clicks": 123,
-      "impressions": 9237,
-      "position": 6.01656381942189
+      "clicks": 124,
+      "impressions": 9273,
+      "position": 5.954491534562709
     },
     "https://www.77diamonds.com/showroom/zurich": {
-      "clicks": 266,
-      "impressions": 13025,
-      "position": 5.276314779270633
+      "clicks": 269,
+      "impressions": 13039,
+      "position": 5.26213666692231
     },
     "https://www.77diamonds.com/showrooms": {
-      "clicks": 60,
-      "impressions": 4825,
-      "position": 12.29720207253886
+      "clicks": 59,
+      "impressions": 4894,
+      "position": 12.377605230894973
     },
     "https://www.77diamonds.com/testimonials.html": {
-      "clicks": 54,
-      "impressions": 1732,
-      "position": 4.844110854503464
+      "clicks": 53,
+      "impressions": 1756,
+      "position": 4.900911161731207
     },
     "https://www.77diamonds.com/wedding-rings": {
-      "clicks": 114,
-      "impressions": 33461,
-      "position": 24.24027972863931
+      "clicks": 108,
+      "impressions": 33936,
+      "position": 24.543729372937293
     },
     "https://www.77diamonds.com/wedding-rings/palladium": {
-      "clicks": 61,
-      "impressions": 7116,
-      "position": 8.105958403597526
+      "clicks": 62,
+      "impressions": 7070,
+      "position": 8.066195190947667
     },
     "https://www.77diamonds.com/wedding-rings/platinum": {
-      "clicks": 69,
-      "impressions": 29535,
-      "position": 14.46314542068732
+      "clicks": 71,
+      "impressions": 29153,
+      "position": 14.376702226185984
     }
   },
   "pages_current": {
     "https://www.77diamonds.com/": {
-      "clicks": 1012,
-      "impressions": 30177,
-      "position": 10.025748086290884
+      "clicks": 998,
+      "impressions": 32107,
+      "position": 10.309278350515465
     },
     "https://www.77diamonds.com/ar": {
-      "clicks": 15,
-      "impressions": 5590,
-      "position": 7.266726296958855
+      "clicks": 18,
+      "impressions": 5742,
+      "position": 7.179031696273076
     },
     "https://www.77diamonds.com/ar/-kayf-tabia-almask-aw-mujawharatik": {
-      "clicks": 12,
-      "impressions": 890,
-      "position": 7.480898876404495
+      "clicks": 14,
+      "impressions": 911,
+      "position": 7.427003293084523
     },
-    "https://www.77diamonds.com/ar/alahgar-alkarima/alyaqout/dalil": {
+    "https://www.77diamonds.com/ar/alahgar-alkarima/alyaqout": {
       "clicks": 11,
-      "impressions": 3752,
-      "position": 7.134061833688699
+      "impressions": 4200,
+      "position": 8.275714285714287
+    },
+    "https://www.77diamonds.com/ar/alahgar-alkarima/alzfir": {
+      "clicks": 10,
+      "impressions": 494,
+      "position": 5.036437246963563
     },
     "https://www.77diamonds.com/ar/alahgar-alkarima/alzfir/dalil": {
-      "clicks": 18,
-      "impressions": 2371,
-      "position": 5.609869253479545
+      "clicks": 22,
+      "impressions": 2399,
+      "position": 5.632346811171321
     },
     "https://www.77diamonds.com/ar/alahgar-alkarima/alzomrod/dalil": {
-      "clicks": 15,
-      "impressions": 5563,
-      "position": 7.928995146503685
+      "clicks": 14,
+      "impressions": 5593,
+      "position": 7.953870910066154
     },
     "https://www.77diamonds.com/ar/almaasaat_online.html": {
-      "clicks": 18,
-      "impressions": 1956,
-      "position": 5.6947852760736195
-    },
-    "https://www.77diamonds.com/ar/alttaklfa.html": {
-      "clicks": 11,
-      "impressions": 3721,
-      "position": 7.621875839828003
+      "clicks": 19,
+      "impressions": 1787,
+      "position": 6.16675993284835
     },
     "https://www.77diamonds.com/ar/diamond-collections/toi-et-moi": {
-      "clicks": 51,
-      "impressions": 702,
-      "position": 4.448717948717949
+      "clicks": 99,
+      "impressions": 1395,
+      "position": 4.075985663082437
     },
     "https://www.77diamonds.com/ar/khawaatm-zafaaf/blatin": {
-      "clicks": 13,
-      "impressions": 687,
-      "position": 7.302765647743814
+      "clicks": 12,
+      "impressions": 707,
+      "position": 7.554455445544554
     },
     "https://www.77diamonds.com/ar/khawatm-khotuba/zhahb-abid": {
-      "clicks": 11,
-      "impressions": 681,
-      "position": 7.9588839941262846
+      "clicks": 10,
+      "impressions": 685,
+      "position": 8.145985401459853
     },
     "https://www.77diamonds.com/ar/khwaatm-alkhotba/jadoul_-maqaas-alkhaatm": {
       "clicks": 21,
-      "impressions": 4217,
-      "position": 6.544462888309225
+      "impressions": 4241,
+      "position": 6.577458146663523
     },
     "https://www.77diamonds.com/ar/khwaatm-alkhotba/swleeteer": {
-      "clicks": 13,
-      "impressions": 1615,
-      "position": 8.71764705882353
+      "clicks": 12,
+      "impressions": 1563,
+      "position": 8.836852207293667
     },
     "https://www.77diamonds.com/ar/khwaatm-alkhotbah/souleeteer/baydaawee": {
-      "clicks": 25,
-      "impressions": 1559,
-      "position": 7.878127004490057
+      "clicks": 24,
+      "impressions": 1548,
+      "position": 7.968346253229974
     },
     "https://www.77diamonds.com/ar/mokhtbraat-tsneef-almaas.html": {
-      "clicks": 11,
-      "impressions": 959,
-      "position": 5.774765380604797
+      "clicks": 10,
+      "impressions": 964,
+      "position": 5.875518672199171
     },
     "https://www.77diamonds.com/ar/naqaa-almaasa.html": {
-      "clicks": 19,
-      "impressions": 2735,
-      "position": 6.972577696526508
+      "clicks": 17,
+      "impressions": 2721,
+      "position": 6.838662256523337
     },
     "https://www.77diamonds.com/ar/wazn-almaasa-belqeeraat.html": {
-      "clicks": 42,
-      "impressions": 10297,
-      "position": 6.540740021365446
+      "clicks": 40,
+      "impressions": 10197,
+      "position": 6.58850642345788
     },
     "https://www.77diamonds.com/bg/-godezhni-pr-steni": {
-      "clicks": 64,
-      "impressions": 2024,
-      "position": 6.444169960474309
+      "clicks": 66,
+      "impressions": 1991,
+      "position": 6.196885986941235
     },
     "https://www.77diamonds.com/bg/-obeci-s-diamanti": {
-      "clicks": 25,
-      "impressions": 370,
-      "position": 3.348648648648649
+      "clicks": 28,
+      "impressions": 361,
+      "position": 3.290858725761773
     },
     "https://www.77diamonds.com/bg/-obeci-s-diamanti/byalo-zlato": {
-      "clicks": 14,
-      "impressions": 216,
-      "position": 4.680555555555555
+      "clicks": 18,
+      "impressions": 220,
+      "position": 4.322727272727272
     },
     "https://www.77diamonds.com/bg/bizhuta-s-diamanti/bradvichki/byalo-zlato": {
-      "clicks": 35,
-      "impressions": 188,
-      "position": 4.01595744680851
+      "clicks": 27,
+      "impressions": 169,
+      "position": 3.8520710059171597
     },
     "https://www.77diamonds.com/bg/bizhuta-s-diamanti/braketi": {
-      "clicks": 14,
-      "impressions": 140,
-      "position": 4.185714285714285
+      "clicks": 15,
+      "impressions": 129,
+      "position": 4.1937984496124034
     },
     "https://www.77diamonds.com/bg/brachni-khalki/markiz": {
-      "clicks": 14,
-      "impressions": 294,
-      "position": 6
-    },
-    "https://www.77diamonds.com/bg/cost": {
-      "clicks": 12,
-      "impressions": 369,
-      "position": 6.154471544715447
+      "clicks": 13,
+      "impressions": 276,
+      "position": 5.423913043478261
     },
     "https://www.77diamonds.com/bg/diamanteni-og-rlici/byalo-zlato": {
-      "clicks": 26,
-      "impressions": 388,
-      "position": 7.40979381443299
+      "clicks": 25,
+      "impressions": 386,
+      "position": 6.520725388601036
     },
     "https://www.77diamonds.com/bg/diamanti": {
-      "clicks": 36,
-      "impressions": 896,
-      "position": 3.8448660714285716
+      "clicks": 39,
+      "impressions": 925,
+      "position": 3.918918918918919
     },
     "https://www.77diamonds.com/bg/kak-da-prodadete-vashiya-diamant-ili-jewellery-kak-da-prodadete-vashiya-diamant-ili-jewellery": {
-      "clicks": 35,
-      "impressions": 397,
-      "position": 26.974811083123427
+      "clicks": 38,
+      "impressions": 300,
+      "position": 11.586666666666666
     },
     "https://www.77diamonds.com/bg/karatovo-teglo-na-diamanta": {
-      "clicks": 14,
-      "impressions": 328,
-      "position": 4.567073170731707
+      "clicks": 12,
+      "impressions": 314,
+      "position": 4.45859872611465
     },
     "https://www.77diamonds.com/bg/otgledani-v-laboratoriya-diamanti": {
       "clicks": 15,
-      "impressions": 184,
-      "position": 4.021739130434783
+      "impressions": 187,
+      "position": 3.7593582887700534
     },
     "https://www.77diamonds.com/bg/sk-pocenni-kam-ni/emerald": {
-      "clicks": 15,
-      "impressions": 440,
-      "position": 5.413636363636364
+      "clicks": 16,
+      "impressions": 477,
+      "position": 5.371069182389937
     },
     "https://www.77diamonds.com/bg/sk-pocenni-kam-ni/rubi": {
-      "clicks": 33,
-      "impressions": 322,
-      "position": 5.729813664596273
+      "clicks": 32,
+      "impressions": 316,
+      "position": 4.6835443037974684
     },
     "https://www.77diamonds.com/bg/sk-pocenni-kam-ni/sapfir": {
-      "clicks": 15,
-      "impressions": 282,
-      "position": 7.226950354609929
+      "clicks": 17,
+      "impressions": 295,
+      "position": 6.237288135593221
     },
     "https://www.77diamonds.com/blog?p=the-best-engagement-rings-for-different-hand-shapes": {
-      "clicks": 11,
-      "impressions": 745,
-      "position": 6.469798657718121
+      "clicks": 10,
+      "impressions": 633,
+      "position": 6.470774091627172
     },
     "https://www.77diamonds.com/contact": {
-      "clicks": 16,
-      "impressions": 196,
-      "position": 6.025510204081633
+      "clicks": 13,
+      "impressions": 171,
+      "position": 7.362573099415204
     },
     "https://www.77diamonds.com/cs/snubni-prsteny/marquise": {
-      "clicks": 11,
-      "impressions": 82,
-      "position": 2.7926829268292686
+      "clicks": 10,
+      "impressions": 86,
+      "position": 2.8488372093023253
     },
     "https://www.77diamonds.com/de": {
-      "clicks": 299,
-      "impressions": 6239,
-      "position": 6.677031575573008
+      "clicks": 289,
+      "impressions": 6138,
+      "position": 6.246497230368198
     },
     "https://www.77diamonds.com/de/": {
-      "clicks": 14,
-      "impressions": 103,
-      "position": 2.970873786407767
+      "clicks": 16,
+      "impressions": 112,
+      "position": 3.2142857142857144
     },
     "https://www.77diamonds.com/de/Verlobungsringe/Laborgez%C3%BCchtete-Diamanten": {
-      "clicks": 23,
-      "impressions": 2619,
-      "position": 13.227185948835434
+      "clicks": 26,
+      "impressions": 2531,
+      "position": 12.652706440142236
     },
     "https://www.77diamonds.com/de/ausstellungsraum/berlin": {
-      "clicks": 19,
-      "impressions": 446,
-      "position": 11.446188340807176
+      "clicks": 22,
+      "impressions": 471,
+      "position": 11.167728237791932
     },
     "https://www.77diamonds.com/de/ausstellungsraum/frankfurt": {
-      "clicks": 33,
-      "impressions": 2600,
-      "position": 4.153076923076923
+      "clicks": 32,
+      "impressions": 2562,
+      "position": 4.017954722872755
     },
     "https://www.77diamonds.com/de/ausstellungsraum/munchen": {
-      "clicks": 15,
-      "impressions": 1539,
-      "position": 7.002599090318388
+      "clicks": 13,
+      "impressions": 1547,
+      "position": 7.031674208144796
     },
     "https://www.77diamonds.com/de/ausstellungsraum/zurich": {
-      "clicks": 35,
-      "impressions": 2833,
-      "position": 3.5330038828097425
+      "clicks": 33,
+      "impressions": 2822,
+      "position": 3.4815733522324592
     },
     "https://www.77diamonds.com/de/diamant-karat-gewicht.html": {
-      "clicks": 24,
-      "impressions": 3653,
-      "position": 7.929373117985218
+      "clicks": 22,
+      "impressions": 3646,
+      "position": 7.549917718047175
     },
     "https://www.77diamonds.com/de/diamanten": {
-      "clicks": 22,
-      "impressions": 2341,
-      "position": 13.041862451943613
+      "clicks": 16,
+      "impressions": 2363,
+      "position": 12.77994075327973
     },
     "https://www.77diamonds.com/de/diamond-collections/toi-et-moi": {
-      "clicks": 27,
-      "impressions": 1135,
-      "position": 8.27488986784141
+      "clicks": 31,
+      "impressions": 1240,
+      "position": 8.148387096774194
     },
     "https://www.77diamonds.com/de/edelsteine/ruby": {
-      "clicks": 55,
-      "impressions": 4687,
-      "position": 7.679752506934073
+      "clicks": 54,
+      "impressions": 4598,
+      "position": 7.6385384949978254
     },
     "https://www.77diamonds.com/de/edelsteine/sapphire": {
       "clicks": 53,
-      "impressions": 4009,
-      "position": 7.476677475679721
+      "impressions": 3994,
+      "position": 7.666499749624436
     },
     "https://www.77diamonds.com/de/edelsteine/smaragd": {
-      "clicks": 46,
-      "impressions": 7500,
-      "position": 6.6386666666666665
+      "clicks": 53,
+      "impressions": 7363,
+      "position": 6.599891348635067
     },
     "https://www.77diamonds.com/de/eheringe": {
-      "clicks": 14,
-      "impressions": 3520,
-      "position": 6.254545454545455
+      "clicks": 13,
+      "impressions": 3474,
+      "position": 6.043177892918825
     },
     "https://www.77diamonds.com/de/lose-im-labor-gezuchtete-diamanten": {
-      "clicks": 74,
-      "impressions": 3817,
-      "position": 7.340581608593136
+      "clicks": 92,
+      "impressions": 3957,
+      "position": 7.008086934546373
     },
     "https://www.77diamonds.com/de/old-cut-diamonds": {
-      "clicks": 15,
-      "impressions": 629,
-      "position": 9.19872813990461
+      "clicks": 17,
+      "impressions": 628,
+      "position": 7.550955414012739
     },
     "https://www.77diamonds.com/de/so-werden-diamanten-geschliffen.html": {
-      "clicks": 11,
-      "impressions": 523,
-      "position": 5.90057361376673
+      "clicks": 13,
+      "impressions": 508,
+      "position": 5.7362204724409445
     },
     "https://www.77diamonds.com/de/verlobungsringe": {
-      "clicks": 16,
-      "impressions": 3427,
-      "position": 7.219725707615991
+      "clicks": 18,
+      "impressions": 3418,
+      "position": 7.267700409596255
+    },
+    "https://www.77diamonds.com/de/verlobungsringe/0-5-karat": {
+      "clicks": 11,
+      "impressions": 1110,
+      "position": 8.395495495495496
     },
     "https://www.77diamonds.com/de/verlobungsringe/1-5-karat": {
-      "clicks": 27,
-      "impressions": 1067,
-      "position": 5.866916588566073
+      "clicks": 24,
+      "impressions": 1036,
+      "position": 5.937258687258687
     },
     "https://www.77diamonds.com/de/verlobungsringe/2-5-karat": {
-      "clicks": 22,
-      "impressions": 497,
-      "position": 6.402414486921529
+      "clicks": 17,
+      "impressions": 487,
+      "position": 6.7412731006160165
     },
     "https://www.77diamonds.com/de/verlobungsringe/2-karat": {
-      "clicks": 12,
-      "impressions": 1915,
-      "position": 6.889295039164491
+      "clicks": 11,
+      "impressions": 1939,
+      "position": 6.798865394533265
     },
     "https://www.77diamonds.com/de/verlobungsringe/4-karat": {
-      "clicks": 41,
-      "impressions": 1012,
-      "position": 5.105731225296442
+      "clicks": 38,
+      "impressions": 996,
+      "position": 5.180722891566265
     },
     "https://www.77diamonds.com/de/verlobungsringe/marquise": {
       "clicks": 27,
-      "impressions": 2196,
-      "position": 5.567395264116575
+      "impressions": 2212,
+      "position": 5.054701627486438
     },
     "https://www.77diamonds.com/de/verlobungsringe/oval": {
-      "clicks": 20,
-      "impressions": 3822,
-      "position": 11.409733124018839
+      "clicks": 21,
+      "impressions": 3842,
+      "position": 11.487766788131182
     },
     "https://www.77diamonds.com/de/verlobungsringe/radiant/gelbgold": {
-      "clicks": 14,
-      "impressions": 739,
-      "position": 5.975642760487145
+      "clicks": 18,
+      "impressions": 736,
+      "position": 5.827445652173913
     },
     "https://www.77diamonds.com/delivery-and-returns": {
       "clicks": 22,
-      "impressions": 374,
-      "position": 4.564171122994653
+      "impressions": 395,
+      "position": 4.6455696202531644
     },
     "https://www.77diamonds.com/diamond-collections/toi-et-moi": {
-      "clicks": 18,
-      "impressions": 2884,
-      "position": 10.267683772538142
+      "clicks": 16,
+      "impressions": 2938,
+      "position": 10.43362831858407
     },
     "https://www.77diamonds.com/diamond-earrings": {
+      "clicks": 13,
+      "impressions": 2154,
+      "position": 28.81058495821727
+    },
+    "https://www.77diamonds.com/diamond-earrings/diamond-studs": {
       "clicks": 17,
-      "impressions": 2211,
-      "position": 29.845318860244234
+      "impressions": 3782,
+      "position": 15.505552617662612
+    },
+    "https://www.77diamonds.com/diamond-necklaces": {
+      "clicks": 12,
+      "impressions": 514,
+      "position": 37.400778210116734
     },
     "https://www.77diamonds.com/diamonds": {
-      "clicks": 128,
-      "impressions": 12064,
-      "position": 11.356763925729442
+      "clicks": 131,
+      "impressions": 12104,
+      "position": 11.46819233311302
     },
     "https://www.77diamonds.com/diamonds/coloured-diamonds": {
-      "clicks": 14,
-      "impressions": 929,
-      "position": 7.397201291711518
+      "clicks": 15,
+      "impressions": 961,
+      "position": 7.267429760665973
     },
     "https://www.77diamonds.com/diamonds/loose-diamonds": {
-      "clicks": 26,
-      "impressions": 2293,
-      "position": 9.427387701700829
+      "clicks": 29,
+      "impressions": 2201,
+      "position": 10.164470695138574
     },
     "https://www.77diamonds.com/dk": {
       "clicks": 28,
-      "impressions": 1152,
-      "position": 12.922743055555555
-    },
-    "https://www.77diamonds.com/dk/diamanter": {
-      "clicks": 11,
-      "impressions": 1066,
-      "position": 10.938086303939963
+      "impressions": 1128,
+      "position": 13.585106382978724
     },
     "https://www.77diamonds.com/dk/forlovelsesringe": {
       "clicks": 12,
-      "impressions": 1082,
-      "position": 12.685767097966728
+      "impressions": 1122,
+      "position": 12.709447415329768
+    },
+    "https://www.77diamonds.com/dk/forlovelsesringe/3-karat": {
+      "clicks": 11,
+      "impressions": 281,
+      "position": 9.93950177935943
     },
     "https://www.77diamonds.com/dk/laboratoriefremstillede-diamanter": {
       "clicks": 13,
-      "impressions": 1212,
-      "position": 10.002475247524753
+      "impressions": 1294,
+      "position": 10.122874806800619
     },
     "https://www.77diamonds.com/dk/saadan-saelger-du-din-diamant-eller-smykker": {
-      "clicks": 31,
-      "impressions": 653,
-      "position": 7.48698315467075
+      "clicks": 30,
+      "impressions": 660,
+      "position": 7.427272727272728
     },
     "https://www.77diamonds.com/engagement-ring-timeline/": {
-      "clicks": 11,
-      "impressions": 1582,
-      "position": 9.018963337547408
+      "clicks": 12,
+      "impressions": 1602,
+      "position": 9.142322097378278
     },
     "https://www.77diamonds.com/engagement-rings": {
-      "clicks": 206,
-      "impressions": 43373,
-      "position": 14.65589191432458
+      "clicks": 207,
+      "impressions": 47087,
+      "position": 15.668146197464269
     },
     "https://www.77diamonds.com/engagement-rings/3-carat": {
-      "clicks": 21,
-      "impressions": 4579,
-      "position": 16.838611050447696
-    },
-    "https://www.77diamonds.com/engagement-rings/4-carat": {
-      "clicks": 11,
-      "impressions": 2946,
-      "position": 15.977936184657162
+      "clicks": 17,
+      "impressions": 4584,
+      "position": 17.56479057591623
     },
     "https://www.77diamonds.com/engagement-rings/5-carat": {
-      "clicks": 40,
-      "impressions": 4017,
-      "position": 12.051033109285536
+      "clicks": 34,
+      "impressions": 3900,
+      "position": 12.701282051282051
     },
     "https://www.77diamonds.com/engagement-rings/emerald": {
-      "clicks": 23,
-      "impressions": 6842,
-      "position": 36.259280912014034
+      "clicks": 20,
+      "impressions": 7100,
+      "position": 36.03816901408451
     },
     "https://www.77diamonds.com/engagement-rings/emerald/yellow-gold": {
-      "clicks": 16,
-      "impressions": 1401,
-      "position": 23.135617416131335
+      "clicks": 14,
+      "impressions": 1465,
+      "position": 23.384300341296928
     },
     "https://www.77diamonds.com/engagement-rings/lab-grown-diamonds": {
-      "clicks": 51,
-      "impressions": 8508,
-      "position": 28.531147155618243
+      "clicks": 54,
+      "impressions": 8902,
+      "position": 28.43102673556504
     },
     "https://www.77diamonds.com/engagement-rings/marquise": {
-      "clicks": 24,
-      "impressions": 7609,
-      "position": 21.48495203049021
+      "clicks": 23,
+      "impressions": 7807,
+      "position": 21.43012680927373
     },
     "https://www.77diamonds.com/engagement-rings/oval": {
       "clicks": 11,
-      "impressions": 1520,
-      "position": 18.276973684210525
+      "impressions": 1515,
+      "position": 19.38811881188119
     },
     "https://www.77diamonds.com/engagement-rings/oval/yellow-gold": {
+      "clicks": 13,
+      "impressions": 4285,
+      "position": 12.275845974329055
+    },
+    "https://www.77diamonds.com/engagement-rings/pear": {
       "clicks": 12,
-      "impressions": 4206,
-      "position": 12.33999048977651
+      "impressions": 7872,
+      "position": 25.645579268292682
     },
     "https://www.77diamonds.com/engagement-rings/ring-size-chart": {
-      "clicks": 17,
-      "impressions": 2241,
-      "position": 9.80901383311022
+      "clicks": 15,
+      "impressions": 2222,
+      "position": 10.433393339333934
     },
     "https://www.77diamonds.com/es": {
-      "clicks": 84,
-      "impressions": 1605,
-      "position": 12.561993769470405
+      "clicks": 80,
+      "impressions": 1545,
+      "position": 12.414886731391586
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso": {
-      "clicks": 17,
-      "impressions": 1356,
-      "position": 18.651917404129794
-    },
-    "https://www.77diamonds.com/es/anillos-de-compromiso/2-quilates": {
-      "clicks": 11,
-      "impressions": 564,
-      "position": 6.384751773049645
-    },
-    "https://www.77diamonds.com/es/anillos-de-compromiso/diamante": {
-      "clicks": 14,
-      "impressions": 398,
-      "position": 9.198492462311558
+      "clicks": 15,
+      "impressions": 1311,
+      "position": 18.63768115942029
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/diamantes-de-laboratorio": {
       "clicks": 33,
-      "impressions": 1817,
-      "position": 9.667033571821683
+      "impressions": 1822,
+      "position": 9.809001097694841
     },
     "https://www.77diamonds.com/es/anillos-de-compromiso/marquesa": {
-      "clicks": 56,
-      "impressions": 2898,
-      "position": 6.0686680469289165
+      "clicks": 50,
+      "impressions": 2830,
+      "position": 6.043816254416961
     },
     "https://www.77diamonds.com/es/como-se-forman-los-diamantes": {
-      "clicks": 23,
-      "impressions": 7370,
-      "position": 8.122388059701493
+      "clicks": 24,
+      "impressions": 7276,
+      "position": 7.983369983507422
     },
     "https://www.77diamonds.com/es/diamante-corte-redondo": {
-      "clicks": 43,
-      "impressions": 3596,
-      "position": 7.39238042269188
+      "clicks": 41,
+      "impressions": 3580,
+      "position": 7.378491620111732
     },
     "https://www.77diamonds.com/es/diamantes-de-laboratorio": {
-      "clicks": 36,
-      "impressions": 2201,
-      "position": 10.709223080417992
+      "clicks": 31,
+      "impressions": 2222,
+      "position": 10.881188118811881
     },
     "https://www.77diamonds.com/es/diamantes-de-laboratorio-sueltos": {
       "clicks": 36,
       "impressions": 1226,
-      "position": 5.50489396411093
+      "position": 5.216965742251223
     },
     "https://www.77diamonds.com/es/diamantes-fluorescencia": {
-      "clicks": 16,
-      "impressions": 1564,
-      "position": 5.108056265984655
+      "clicks": 15,
+      "impressions": 1576,
+      "position": 5.258248730964467
     },
     "https://www.77diamonds.com/es/diamantes_en_linea": {
-      "clicks": 40,
-      "impressions": 2564,
-      "position": 10.292511700468019
+      "clicks": 39,
+      "impressions": 2483,
+      "position": 10.184051550543698
     },
     "https://www.77diamonds.com/es/diamantes_sueltos": {
-      "clicks": 12,
-      "impressions": 1097,
-      "position": 10.411121239744759
+      "clicks": 14,
+      "impressions": 1210,
+      "position": 9.837190082644629
     },
     "https://www.77diamonds.com/es/grados-de-pureza-del-diamante": {
-      "clicks": 72,
-      "impressions": 5328,
-      "position": 4.912162162162162
+      "clicks": 77,
+      "impressions": 5253,
+      "position": 4.9697315819531696
     },
     "https://www.77diamonds.com/es/piedras-preciosas/esmeralda": {
-      "clicks": 34,
-      "impressions": 1855,
-      "position": 6.756873315363881
+      "clicks": 33,
+      "impressions": 1761,
+      "position": 6.6785917092561045
     },
     "https://www.77diamonds.com/es/piedras-preciosas/esmeralda/gu%C3%ADa": {
-      "clicks": 17,
-      "impressions": 4991,
-      "position": 8.427168904027248
+      "clicks": 18,
+      "impressions": 5013,
+      "position": 8.415918611609815
     },
-    "https://www.77diamonds.com/es/piedras-preciosas/ruby": {
+    "https://www.77diamonds.com/eternity-rings": {
       "clicks": 11,
-      "impressions": 821,
-      "position": 7.982947624847746
+      "impressions": 1937,
+      "position": 34.29117191533299
     },
     "https://www.77diamonds.com/faq.html": {
-      "clicks": 33,
-      "impressions": 1024,
-      "position": 5.091796875
+      "clicks": 30,
+      "impressions": 999,
+      "position": 5.416416416416417
     },
     "https://www.77diamonds.com/fr": {
-      "clicks": 201,
-      "impressions": 2950,
-      "position": 6.104406779661017
+      "clicks": 195,
+      "impressions": 2981,
+      "position": 6.264340825226434
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles": {
-      "clicks": 18,
-      "impressions": 5284,
-      "position": 18.390802422407265
+      "clicks": 17,
+      "impressions": 5678,
+      "position": 18.347833744276155
     },
-    "https://www.77diamonds.com/fr/bagues-de-fiancailles/2-carats": {
-      "clicks": 11,
-      "impressions": 1010,
-      "position": 7.849504950495049
+    "https://www.77diamonds.com/fr/bagues-de-fiancailles/3-carats": {
+      "clicks": 14,
+      "impressions": 866,
+      "position": 4.855658198614319
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/4-carats": {
-      "clicks": 24,
-      "impressions": 626,
-      "position": 5.207667731629393
+      "clicks": 23,
+      "impressions": 641,
+      "position": 5.227769110764431
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/diamant-de-laboratoire": {
-      "clicks": 29,
-      "impressions": 1140,
-      "position": 10.806140350877193
+      "clicks": 30,
+      "impressions": 1100,
+      "position": 10.327272727272728
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/marquise": {
-      "clicks": 47,
-      "impressions": 3106,
-      "position": 8.45363811976819
-    },
-    "https://www.77diamonds.com/fr/bagues-de-fiancailles/marquise/or-jaune": {
-      "clicks": 11,
-      "impressions": 649,
-      "position": 6.608628659476117
+      "clicks": 43,
+      "impressions": 3090,
+      "position": 8.211003236245954
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/ovale": {
-      "clicks": 15,
-      "impressions": 675,
-      "position": 6.8
+      "clicks": 17,
+      "impressions": 669,
+      "position": 6.638266068759342
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/ovale/or-jaune": {
       "clicks": 41,
-      "impressions": 2742,
-      "position": 7.171407731582787
+      "impressions": 2807,
+      "position": 7.16601353758461
     },
     "https://www.77diamonds.com/fr/bagues-de-fiancailles/radiant": {
       "clicks": 14,
-      "impressions": 3048,
-      "position": 10.159120734908136
+      "impressions": 2987,
+      "position": 10.129561432875795
     },
     "https://www.77diamonds.com/fr/classification-purete-diamant.html": {
-      "clicks": 46,
-      "impressions": 2924,
-      "position": 6.800615595075239
+      "clicks": 43,
+      "impressions": 2857,
+      "position": 6.762338116905846
     },
     "https://www.77diamonds.com/fr/couleur-diamant.html": {
       "clicks": 12,
-      "impressions": 1164,
-      "position": 15.244845360824742
+      "impressions": 1139,
+      "position": 15.083406496927129
     },
     "https://www.77diamonds.com/fr/diamant-fluorescence.html": {
       "clicks": 14,
-      "impressions": 627,
-      "position": 5.821371610845295
+      "impressions": 624,
+      "position": 5.477564102564102
     },
     "https://www.77diamonds.com/fr/diamants": {
-      "clicks": 26,
-      "impressions": 3665,
-      "position": 14.057298772169167
+      "clicks": 28,
+      "impressions": 3609,
+      "position": 13.147409254641175
     },
     "https://www.77diamonds.com/fr/diamants-de-labo-en-vrac": {
-      "clicks": 34,
-      "impressions": 1039,
-      "position": 7.260827718960539
+      "clicks": 36,
+      "impressions": 1130,
+      "position": 7.078761061946903
     },
     "https://www.77diamonds.com/fr/diamants-taille-marquise.html": {
-      "clicks": 12,
-      "impressions": 466,
-      "position": 5.8068669527897
+      "clicks": 11,
+      "impressions": 430,
+      "position": 5.097674418604651
     },
     "https://www.77diamonds.com/fr/diamants/diamants-de-couleur": {
       "clicks": 12,
-      "impressions": 734,
-      "position": 6.960490463215259
+      "impressions": 747,
+      "position": 6.678714859437751
     },
     "https://www.77diamonds.com/fr/les-pierres-precieuses/emeraude": {
       "clicks": 28,
-      "impressions": 5768,
-      "position": 7.5426490984743415
+      "impressions": 5534,
+      "position": 7.566678713408023
     },
     "https://www.77diamonds.com/fr/les-pierres-precieuses/ruby": {
-      "clicks": 20,
-      "impressions": 1854,
-      "position": 7.8122977346278315
+      "clicks": 18,
+      "impressions": 1799,
+      "position": 7.912729294052252
+    },
+    "https://www.77diamonds.com/fr/showroom/geneve": {
+      "clicks": 11,
+      "impressions": 332,
+      "position": 3.7319277108433737
     },
     "https://www.77diamonds.com/gemstones/emerald": {
       "clicks": 46,
-      "impressions": 6197,
-      "position": 10.080200096821043
+      "impressions": 6363,
+      "position": 10.137356592802137
     },
     "https://www.77diamonds.com/gemstones/ruby": {
-      "clicks": 38,
-      "impressions": 3672,
-      "position": 9.86574074074074
+      "clicks": 32,
+      "impressions": 3787,
+      "position": 10.738051227884869
     },
     "https://www.77diamonds.com/gemstones/sapphire": {
-      "clicks": 51,
-      "impressions": 3920,
-      "position": 10.914030612244899
+      "clicks": 50,
+      "impressions": 4049,
+      "position": 11.346752284514695
+    },
+    "https://www.77diamonds.com/greenland-rubies": {
+      "clicks": 11,
+      "impressions": 220,
+      "position": 4.877272727272727
     },
     "https://www.77diamonds.com/history-and-meaning-of-gemstones/": {
-      "clicks": 22,
-      "impressions": 7425,
-      "position": 8.261683501683502
+      "clicks": 18,
+      "impressions": 7545,
+      "position": 8.304307488402916
+    },
+    "https://www.77diamonds.com/how-to-sell-your-diamond-or-jewellery": {
+      "clicks": 12,
+      "impressions": 1134,
+      "position": 9.665784832451498
     },
     "https://www.77diamonds.com/hu": {
-      "clicks": 14,
-      "impressions": 130,
-      "position": 7.292307692307692
+      "clicks": 11,
+      "impressions": 138,
+      "position": 7.434782608695652
     },
     "https://www.77diamonds.com/hu/gyemant-fulbevalo/gyemant-fulbevalo": {
-      "clicks": 20,
-      "impressions": 509,
-      "position": 6.834970530451867
-    },
-    "https://www.77diamonds.com/hu/gyemantkovek/emerald": {
-      "clicks": 12,
-      "impressions": 388,
-      "position": 6.59020618556701
+      "clicks": 18,
+      "impressions": 521,
+      "position": 8.232245681381958
     },
     "https://www.77diamonds.com/hu/gyemantkovek/rubin": {
-      "clicks": 15,
-      "impressions": 561,
-      "position": 5.549019607843137
+      "clicks": 11,
+      "impressions": 580,
+      "position": 5.6689655172413795
+    },
+    "https://www.77diamonds.com/hu/gyemantkovek/szafir": {
+      "clicks": 11,
+      "impressions": 212,
+      "position": 8.858490566037736
     },
     "https://www.77diamonds.com/hu/jegygyuruk": {
       "clicks": 11,
-      "impressions": 974,
-      "position": 16.335728952772072
+      "impressions": 867,
+      "position": 17.175317185697807
     },
     "https://www.77diamonds.com/hu/jegygyuruk/oval": {
-      "clicks": 22,
-      "impressions": 1014,
-      "position": 7.2495069033530575
+      "clicks": 20,
+      "impressions": 962,
+      "position": 7.1787941787941785
     },
     "https://www.77diamonds.com/it": {
-      "clicks": 201,
-      "impressions": 1984,
-      "position": 5.198588709677419
+      "clicks": 177,
+      "impressions": 1971,
+      "position": 5.263318112633181
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento": {
       "clicks": 50,
-      "impressions": 11638,
-      "position": 10.388984361574154
+      "impressions": 11559,
+      "position": 10.361536465092136
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/0-5-carati": {
-      "clicks": 16,
-      "impressions": 946,
-      "position": 5.6395348837209305
+      "clicks": 17,
+      "impressions": 949,
+      "position": 5.672286617492097
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/1-5-carati": {
-      "clicks": 19,
-      "impressions": 344,
-      "position": 5.72093023255814
+      "clicks": 20,
+      "impressions": 342,
+      "position": 5.549707602339181
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/2-5-carati": {
-      "clicks": 16,
-      "impressions": 244,
-      "position": 5.89344262295082
+      "clicks": 14,
+      "impressions": 215,
+      "position": 6.576744186046511
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/2-carati": {
-      "clicks": 36,
-      "impressions": 1356,
-      "position": 4.494837758112094
+      "clicks": 32,
+      "impressions": 1351,
+      "position": 4.4241302738712065
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/3-carati": {
-      "clicks": 45,
-      "impressions": 1277,
-      "position": 3.390759592795615
+      "clicks": 43,
+      "impressions": 1261,
+      "position": 3.544012688342585
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/4-carati": {
-      "clicks": 23,
-      "impressions": 648,
-      "position": 3.933641975308642
+      "clicks": 24,
+      "impressions": 636,
+      "position": 3.949685534591195
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/diamanti-creati-in-laboratorio": {
-      "clicks": 16,
-      "impressions": 527,
-      "position": 9.27134724857685
+      "clicks": 15,
+      "impressions": 555,
+      "position": 9.67927927927928
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/marquise": {
-      "clicks": 21,
-      "impressions": 676,
-      "position": 4.488165680473372
+      "clicks": 24,
+      "impressions": 651,
+      "position": 4.4562211981566815
     },
     "https://www.77diamonds.com/it/anelli-fidanzamento/ovale": {
-      "clicks": 42,
-      "impressions": 929,
-      "position": 5.465016146393972
+      "clicks": 36,
+      "impressions": 906,
+      "position": 5.8509933774834435
     },
     "https://www.77diamonds.com/it/anelli_eternity": {
-      "clicks": 17,
-      "impressions": 1645,
-      "position": 9.651671732522797
+      "clicks": 14,
+      "impressions": 1627,
+      "position": 9.643515673017824
     },
     "https://www.77diamonds.com/it/colore-diamante.html": {
-      "clicks": 17,
-      "impressions": 3382,
-      "position": 6.3083973979893555
+      "clicks": 20,
+      "impressions": 3314,
+      "position": 6.243814121907061
     },
     "https://www.77diamonds.com/it/diamanti-creati-in-laboratorio-sfusi": {
-      "clicks": 133,
-      "impressions": 3100,
-      "position": 6.085806451612903
+      "clicks": 120,
+      "impressions": 2958,
+      "position": 6.098377281947261
     },
     "https://www.77diamonds.com/it/diamanti_online.html": {
-      "clicks": 45,
-      "impressions": 4974,
-      "position": 7.960997185363892
+      "clicks": 43,
+      "impressions": 4955,
+      "position": 7.901715438950555
     },
     "https://www.77diamonds.com/it/diamond-collections/toi-et-moi": {
-      "clicks": 17,
-      "impressions": 724,
-      "position": 6.3397790055248615
+      "clicks": 16,
+      "impressions": 689,
+      "position": 6.448476052249637
     },
     "https://www.77diamonds.com/it/fedi-nuziali/oro-giallo": {
       "clicks": 21,
-      "impressions": 2103,
-      "position": 10.90679980979553
-    },
-    "https://www.77diamonds.com/it/fedi-nuziali/palladio": {
-      "clicks": 11,
-      "impressions": 110,
-      "position": 4.390909090909091
+      "impressions": 2130,
+      "position": 11.089671361502347
     },
     "https://www.77diamonds.com/it/fedi-nuziali/platino": {
-      "clicks": 14,
-      "impressions": 519,
-      "position": 8.117533718689788
+      "clicks": 12,
+      "impressions": 506,
+      "position": 7.452569169960475
     },
     "https://www.77diamonds.com/it/fluorescenza-diamanti.html": {
-      "clicks": 36,
-      "impressions": 910,
-      "position": 3.6362637362637362
+      "clicks": 35,
+      "impressions": 925,
+      "position": 3.735135135135135
     },
     "https://www.77diamonds.com/it/old-cut-diamonds": {
-      "clicks": 18,
-      "impressions": 505,
-      "position": 5.774257425742574
+      "clicks": 20,
+      "impressions": 492,
+      "position": 5.587398373983739
     },
     "https://www.77diamonds.com/it/orecchini-diamanti": {
-      "clicks": 18,
-      "impressions": 2676,
-      "position": 15.782137518684603
+      "clicks": 17,
+      "impressions": 4101,
+      "position": 23.522311631309435
     },
     "https://www.77diamonds.com/it/orecchini_cerchio_diamanti.html": {
       "clicks": 13,
-      "impressions": 1934,
-      "position": 9.087900723888314
+      "impressions": 1940,
+      "position": 9.282474226804124
     },
     "https://www.77diamonds.com/it/peso-diamanti-carati.html": {
-      "clicks": 37,
-      "impressions": 3815,
-      "position": 5.8854521625163825
+      "clicks": 32,
+      "impressions": 3803,
+      "position": 5.942413883775966
     },
     "https://www.77diamonds.com/it/pietre-preziose/rubino": {
-      "clicks": 38,
-      "impressions": 2669,
-      "position": 5.5473960284750845
+      "clicks": 39,
+      "impressions": 2599,
+      "position": 5.649095806079261
     },
     "https://www.77diamonds.com/it/pietre-preziose/rubino/guida": {
-      "clicks": 11,
-      "impressions": 1047,
-      "position": 7.851002865329513
+      "clicks": 15,
+      "impressions": 1082,
+      "position": 7.813308687615526
     },
     "https://www.77diamonds.com/it/pietre-preziose/smeraldo": {
-      "clicks": 58,
-      "impressions": 2979,
-      "position": 6.038267875125881
+      "clicks": 49,
+      "impressions": 2934,
+      "position": 6.082140422631221
     },
     "https://www.77diamonds.com/it/pietre-preziose/smeraldo/guida": {
-      "clicks": 22,
-      "impressions": 1387,
-      "position": 7.73323720259553
+      "clicks": 19,
+      "impressions": 1380,
+      "position": 7.886956521739131
     },
     "https://www.77diamonds.com/it/pietre-preziose/zaffiro": {
-      "clicks": 29,
-      "impressions": 1956,
-      "position": 7.032208588957055
+      "clicks": 23,
+      "impressions": 1840,
+      "position": 7.001630434782609
     },
     "https://www.77diamonds.com/it/pietre-preziose/zaffiro/guida": {
-      "clicks": 14,
-      "impressions": 1732,
-      "position": 7.811200923787529
+      "clicks": 12,
+      "impressions": 1705,
+      "position": 7.875073313782991
     },
     "https://www.77diamonds.com/it/purezza-diamante.html": {
-      "clicks": 23,
-      "impressions": 3202,
-      "position": 6.989069331667707
+      "clicks": 19,
+      "impressions": 3142,
+      "position": 6.966900063653724
     },
     "https://www.77diamonds.com/it/valutazione-purezza-diamante.html": {
-      "clicks": 68,
-      "impressions": 5436,
-      "position": 5.94775570272259
-    },
-    "https://www.77diamonds.com/it/wedding-rings/mens-wedding-rings": {
-      "clicks": 13,
-      "impressions": 734,
-      "position": 10.227520435967303
+      "clicks": 69,
+      "impressions": 5281,
+      "position": 5.932777882976709
     },
     "https://www.77diamonds.com/login": {
-      "clicks": 14,
-      "impressions": 909,
-      "position": 11.629262926292629
+      "clicks": 11,
+      "impressions": 842,
+      "position": 10.10332541567696
     },
     "https://www.77diamonds.com/loose-lab-grown-diamonds": {
-      "clicks": 177,
-      "impressions": 13996,
-      "position": 7.652329236924835
+      "clicks": 200,
+      "impressions": 14949,
+      "position": 7.646464646464646
     },
     "https://www.77diamonds.com/nl": {
       "clicks": 19,
-      "impressions": 533,
-      "position": 18.50656660412758
+      "impressions": 537,
+      "position": 18.636871508379887
     },
-    "https://www.77diamonds.com/nl/diamant-karaatgewicht.html": {
-      "clicks": 11,
-      "impressions": 912,
-      "position": 9.646929824561404
-    },
-    "https://www.77diamonds.com/nl/diamanten": {
-      "clicks": 14,
-      "impressions": 3546,
-      "position": 24.55978567399887
+    "https://www.77diamonds.com/nl/diamond-collections/toi-et-moi": {
+      "clicks": 13,
+      "impressions": 389,
+      "position": 9.688946015424165
     },
     "https://www.77diamonds.com/nl/edelstenen/robijn": {
-      "clicks": 36,
-      "impressions": 1378,
-      "position": 10.354862119013063
+      "clicks": 34,
+      "impressions": 1345,
+      "position": 9.97546468401487
     },
     "https://www.77diamonds.com/nl/edelstenen/saffier": {
-      "clicks": 62,
-      "impressions": 2351,
-      "position": 7.1373883453849425
+      "clicks": 59,
+      "impressions": 2357,
+      "position": 7.087399236317353
     },
     "https://www.77diamonds.com/nl/edelstenen/smaragd": {
-      "clicks": 28,
-      "impressions": 2466,
-      "position": 8.062043795620438
+      "clicks": 35,
+      "impressions": 2862,
+      "position": 7.973794549266247
     },
     "https://www.77diamonds.com/nl/laboratorium-gekweekte-diamanten": {
-      "clicks": 37,
-      "impressions": 2260,
-      "position": 13.006637168141593
-    },
-    "https://www.77diamonds.com/nl/verlovingsringen/0-5-karaat": {
-      "clicks": 13,
-      "impressions": 391,
-      "position": 7.406649616368286
-    },
-    "https://www.77diamonds.com/nl/verlovingsringen/1-5-karaat": {
-      "clicks": 11,
-      "impressions": 289,
-      "position": 7.280276816608996
-    },
-    "https://www.77diamonds.com/nl/verlovingsringen/3-karaat": {
-      "clicks": 11,
-      "impressions": 634,
-      "position": 10.798107255520504
+      "clicks": 34,
+      "impressions": 2326,
+      "position": 13.182717110920034
     },
     "https://www.77diamonds.com/nl/verlovingsringen/4-karaat": {
-      "clicks": 21,
-      "impressions": 386,
-      "position": 10.691709844559586
+      "clicks": 19,
+      "impressions": 375,
+      "position": 9.333333333333334
     },
     "https://www.77diamonds.com/nl/verlovingsringen/marquise": {
-      "clicks": 13,
-      "impressions": 795,
-      "position": 5.8125786163522015
+      "clicks": 15,
+      "impressions": 799,
+      "position": 5.81351689612015
     },
     "https://www.77diamonds.com/no/hvordan-selge-din-diamant-eller-smykker": {
-      "clicks": 29,
-      "impressions": 564,
-      "position": 5.476950354609929
+      "clicks": 33,
+      "impressions": 578,
+      "position": 5.538062283737024
     },
     "https://www.77diamonds.com/old-cut-diamonds": {
-      "clicks": 50,
-      "impressions": 2005,
-      "position": 8.200498753117207
+      "clicks": 59,
+      "impressions": 2052,
+      "position": 8.357699805068226
     },
     "https://www.77diamonds.com/pl": {
-      "clicks": 66,
-      "impressions": 908,
-      "position": 7.131057268722467
+      "clicks": 58,
+      "impressions": 901,
+      "position": 6.802441731409545
+    },
+    "https://www.77diamonds.com/pl/diamenty": {
+      "clicks": 12,
+      "impressions": 2285,
+      "position": 8.677899343544858
     },
     "https://www.77diamonds.com/pl/diamenty-syntetyczne-luzem": {
-      "clicks": 113,
-      "impressions": 4364,
-      "position": 5.53391384051329
+      "clicks": 118,
+      "impressions": 4397,
+      "position": 5.326586308846941
+    },
+    "https://www.77diamonds.com/pl/engagement-rings/lab-grown-diamonds": {
+      "clicks": 11,
+      "impressions": 586,
+      "position": 9.800341296928327
     },
     "https://www.77diamonds.com/pl/kamienie-szlachetne/szafir": {
-      "clicks": 20,
-      "impressions": 1638,
-      "position": 7.291208791208791
+      "clicks": 16,
+      "impressions": 1686,
+      "position": 7.2253855278766315
     },
     "https://www.77diamonds.com/pl/kamienie-szlachetne/szmaragd": {
-      "clicks": 26,
-      "impressions": 3741,
-      "position": 6.269179363806469
+      "clicks": 28,
+      "impressions": 3827,
+      "position": 6.201463287170107
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe": {
-      "clicks": 12,
-      "impressions": 627,
-      "position": 8.813397129186603
-    },
-    "https://www.77diamonds.com/pl/pierscionki-zareczynowe/1-5-karatowe": {
       "clicks": 13,
-      "impressions": 235,
-      "position": 4.217021276595744
+      "impressions": 642,
+      "position": 8.45171339563863
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/2-karatowe": {
-      "clicks": 25,
-      "impressions": 526,
-      "position": 4.9524714828897345
+      "clicks": 20,
+      "impressions": 520,
+      "position": 4.921153846153846
+    },
+    "https://www.77diamonds.com/pl/pierscionki-zareczynowe/4-5-karatowe": {
+      "clicks": 11,
+      "impressions": 197,
+      "position": 4.289340101522843
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/markiza": {
-      "clicks": 32,
-      "impressions": 966,
-      "position": 4.7184265010351965
-    },
-    "https://www.77diamonds.com/pl/pierscionki-zareczynowe/obraczka-wysadzana-diamentami/markiza": {
-      "clicks": 12,
-      "impressions": 266,
-      "position": 2.7894736842105265
+      "clicks": 27,
+      "impressions": 905,
+      "position": 4.759116022099448
     },
     "https://www.77diamonds.com/pl/pierscionki-zareczynowe/owalny": {
-      "clicks": 40,
-      "impressions": 1830,
-      "position": 5.959016393442623
+      "clicks": 38,
+      "impressions": 1817,
+      "position": 5.947716015410016
     },
     "https://www.77diamonds.com/pt": {
-      "clicks": 25,
-      "impressions": 669,
-      "position": 11.997010463378176
+      "clicks": 28,
+      "impressions": 668,
+      "position": 11.95059880239521
+    },
+    "https://www.77diamonds.com/pt/aliancas/ouro-amarelo": {
+      "clicks": 11,
+      "impressions": 1051,
+      "position": 9.247383444338725
     },
     "https://www.77diamonds.com/pt/aneis-de-noivado": {
-      "clicks": 32,
-      "impressions": 2288,
-      "position": 9.56555944055944
+      "clicks": 31,
+      "impressions": 2264,
+      "position": 9.580388692579506
     },
     "https://www.77diamonds.com/pt/aneis-de-noivado/diamond": {
-      "clicks": 14,
-      "impressions": 867,
-      "position": 6.431372549019608
+      "clicks": 15,
+      "impressions": 843,
+      "position": 6.2064056939501775
     },
     "https://www.77diamonds.com/pt/como-vender-seu-diamante-ou-joia-como-vender-seu-diamante-ou-joia": {
-      "clicks": 13,
-      "impressions": 497,
-      "position": 7.629778672032193
+      "clicks": 11,
+      "impressions": 509,
+      "position": 7.373280943025541
     },
     "https://www.77diamonds.com/pt/cost.html": {
-      "clicks": 46,
-      "impressions": 1645,
-      "position": 5.056534954407295
+      "clicks": 44,
+      "impressions": 1637,
+      "position": 5.071472205253513
     },
     "https://www.77diamonds.com/pt/diamantes": {
-      "clicks": 16,
-      "impressions": 964,
-      "position": 8.54149377593361
+      "clicks": 12,
+      "impressions": 909,
+      "position": 8.656765676567657
     },
     "https://www.77diamonds.com/pt/diamond-carat-weight.html": {
-      "clicks": 49,
-      "impressions": 6672,
-      "position": 4.852517985611511
+      "clicks": 52,
+      "impressions": 6699,
+      "position": 4.865502313778176
     },
     "https://www.77diamonds.com/pt/diamond-clarity-grading.html": {
-      "clicks": 26,
-      "impressions": 2592,
-      "position": 5.7827932098765435
+      "clicks": 23,
+      "impressions": 2567,
+      "position": 5.844176081028438
     },
     "https://www.77diamonds.com/pt/pedras-preciosas/esmeralda": {
-      "clicks": 19,
-      "impressions": 1280,
-      "position": 6.14453125
+      "clicks": 17,
+      "impressions": 1282,
+      "position": 6.185647425897036
     },
     "https://www.77diamonds.com/pt/pedras-preciosas/rubi": {
-      "clicks": 39,
-      "impressions": 3590,
-      "position": 6.97075208913649
+      "clicks": 40,
+      "impressions": 3500,
+      "position": 6.965714285714285
     },
     "https://www.77diamonds.com/pt/pedras-preciosas/sapphire": {
       "clicks": 19,
-      "impressions": 949,
-      "position": 6.971548998946259
+      "impressions": 969,
+      "position": 6.961816305469556
     },
     "https://www.77diamonds.com/ro": {
-      "clicks": 45,
-      "impressions": 508,
-      "position": 5.81496062992126
+      "clicks": 37,
+      "impressions": 498,
+      "position": 5.7028112449799195
     },
     "https://www.77diamonds.com/ro/-cercei-de-diamant": {
-      "clicks": 18,
-      "impressions": 1333,
-      "position": 10.372093023255815
+      "clicks": 17,
+      "impressions": 1276,
+      "position": 10.267241379310345
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna": {
       "clicks": 57,
-      "impressions": 5759,
-      "position": 9.411877061989928
+      "impressions": 5584,
+      "position": 9.415651862464184
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna/-aur-galben": {
-      "clicks": 13,
-      "impressions": 391,
-      "position": 8.721227621483376
+      "clicks": 11,
+      "impressions": 334,
+      "position": 7.568862275449102
+    },
+    "https://www.77diamonds.com/ro/-inele-de-logodna/diamante-crescute-in-laborator": {
+      "clicks": 12,
+      "impressions": 274,
+      "position": 12.722627737226277
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna/marquise": {
-      "clicks": 55,
-      "impressions": 909,
-      "position": 6.814081408140814
+      "clicks": 51,
+      "impressions": 870,
+      "position": 6.2091954022988505
     },
     "https://www.77diamonds.com/ro/-inele-de-logodna/oval": {
-      "clicks": 26,
-      "impressions": 470,
-      "position": 5.353191489361702
+      "clicks": 29,
+      "impressions": 461,
+      "position": 5.16702819956616
+    },
+    "https://www.77diamonds.com/ro/-inele-de-logodna/oval/-aur-galben": {
+      "clicks": 12,
+      "impressions": 253,
+      "position": 4.434782608695652
+    },
+    "https://www.77diamonds.com/ro/anule-de-logodna/2-carate": {
+      "clicks": 15,
+      "impressions": 280,
+      "position": 3.25
     },
     "https://www.77diamonds.com/ro/anule-de-logodna/pereche": {
-      "clicks": 18,
-      "impressions": 698,
-      "position": 11.832378223495702
-    },
-    "https://www.77diamonds.com/ro/cost": {
-      "clicks": 12,
-      "impressions": 913,
-      "position": 5.193866374589266
+      "clicks": 14,
+      "impressions": 666,
+      "position": 11.13963963963964
     },
     "https://www.77diamonds.com/ro/cum-sa-vinzi-diamantul-sau-bijuteriile-tale": {
-      "clicks": 12,
-      "impressions": 412,
-      "position": 5.759708737864078
+      "clicks": 17,
+      "impressions": 421,
+      "position": 5.679334916864608
     },
     "https://www.77diamonds.com/ro/diamante": {
-      "clicks": 27,
-      "impressions": 1667,
-      "position": 5.016196760647871
+      "clicks": 23,
+      "impressions": 1671,
+      "position": 4.933572710951526
+    },
+    "https://www.77diamonds.com/ro/diamante-cultivate-in-laborator": {
+      "clicks": 11,
+      "impressions": 360,
+      "position": 6.158333333333333
     },
     "https://www.77diamonds.com/ro/greutatea-in-carate-a-diamantului": {
       "clicks": 18,
-      "impressions": 849,
-      "position": 5.482921083627797
+      "impressions": 858,
+      "position": 5.477855477855478
     },
     "https://www.77diamonds.com/ro/pietre-de-piatra-pretioasa/ruby": {
-      "clicks": 24,
-      "impressions": 915,
-      "position": 5.432786885245902
+      "clicks": 17,
+      "impressions": 914,
+      "position": 5.364332603938731
     },
     "https://www.77diamonds.com/ro/pietre-pretioase/emerald": {
-      "clicks": 33,
-      "impressions": 1123,
-      "position": 5.66073018699911
+      "clicks": 28,
+      "impressions": 1089,
+      "position": 5.709825528007346
     },
     "https://www.77diamonds.com/ro/pietre-pretioase/sapfir": {
-      "clicks": 25,
-      "impressions": 1280,
-      "position": 6.26953125
+      "clicks": 24,
+      "impressions": 1256,
+      "position": 6.171178343949045
     },
-    "https://www.77diamonds.com/ru": {
-      "clicks": 14,
-      "impressions": 255,
-      "position": 8.384313725490196
+    "https://www.77diamonds.com/ru/brilliant-chistota.html": {
+      "clicks": 11,
+      "impressions": 1818,
+      "position": 7.777777777777778
     },
     "https://www.77diamonds.com/ru/brillianty_onlajn.html": {
       "clicks": 23,
-      "impressions": 1103,
-      "position": 9.836808703535812
-    },
-    "https://www.77diamonds.com/ru/engagement-rings/marquise": {
-      "clicks": 15,
-      "impressions": 188,
-      "position": 6.308510638297872
+      "impressions": 1015,
+      "position": 9.78128078817734
     },
     "https://www.77diamonds.com/ru/engagement-rings/pear": {
-      "clicks": 27,
-      "impressions": 399,
-      "position": 9.225563909774436
+      "clicks": 31,
+      "impressions": 418,
+      "position": 9.514354066985646
+    },
+    "https://www.77diamonds.com/ru/fluorescencija-brillianta.html": {
+      "clicks": 14,
+      "impressions": 1469,
+      "position": 5.828454731109598
     },
     "https://www.77diamonds.com/ru/iskusstvennye-brillianty": {
-      "clicks": 24,
-      "impressions": 2063,
-      "position": 10.645176926805624
-    },
-    "https://www.77diamonds.com/ru/laboratornye-brillianty": {
-      "clicks": 13,
-      "impressions": 429,
-      "position": 7.247086247086247
+      "clicks": 23,
+      "impressions": 1909,
+      "position": 10.133577789418544
     },
     "https://www.77diamonds.com/ru/obruchalnye-kolca/laboratornye-brillianty": {
-      "clicks": 22,
-      "impressions": 457,
-      "position": 7.993435448577681
+      "clicks": 13,
+      "impressions": 239,
+      "position": 7.581589958158996
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/beloe-zoloto": {
-      "clicks": 19,
-      "impressions": 121,
-      "position": 6.644628099173554
+      "clicks": 15,
+      "impressions": 110,
+      "position": 6.881818181818182
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/platina": {
-      "clicks": 35,
-      "impressions": 282,
-      "position": 7.843971631205674
+      "clicks": 41,
+      "impressions": 316,
+      "position": 7.063291139240507
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/rozovoe-zoloto": {
       "clicks": 20,
-      "impressions": 207,
-      "position": 6.85024154589372
+      "impressions": 198,
+      "position": 6.929292929292929
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/markiz/zheltoe-zoloto": {
-      "clicks": 27,
-      "impressions": 267,
-      "position": 6.906367041198502
+      "clicks": 31,
+      "impressions": 293,
+      "position": 6.51877133105802
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/oval/beloe-zoloto": {
-      "clicks": 18,
-      "impressions": 257,
-      "position": 9.883268482490273
+      "clicks": 20,
+      "impressions": 281,
+      "position": 10.064056939501778
     },
     "https://www.77diamonds.com/ru/pomolvochnye-kol-ca/s-brilliantovym-obodkom/markiz": {
-      "clicks": 18,
-      "impressions": 309,
-      "position": 11.964401294498382
+      "clicks": 24,
+      "impressions": 353,
+      "position": 11.835694050991501
     },
     "https://www.77diamonds.com/se": {
-      "clicks": 89,
-      "impressions": 1107,
-      "position": 7.799457994579946
+      "clicks": 78,
+      "impressions": 1060,
+      "position": 6.863207547169812
     },
     "https://www.77diamonds.com/se/adelstenar/smaragd": {
-      "clicks": 14,
-      "impressions": 1430,
-      "position": 5.913986013986014
+      "clicks": 15,
+      "impressions": 1437,
+      "position": 6.156576200417536
     },
     "https://www.77diamonds.com/se/diamanter": {
-      "clicks": 15,
-      "impressions": 1491,
-      "position": 10.113346747149563
+      "clicks": 13,
+      "impressions": 1683,
+      "position": 10.034462269756387
     },
     "https://www.77diamonds.com/se/diamanter/losa-diamanter": {
-      "clicks": 15,
-      "impressions": 1633,
-      "position": 8.229026331904471
+      "clicks": 12,
+      "impressions": 1506,
+      "position": 8.624833997343957
     },
     "https://www.77diamonds.com/se/forlovningsringar/2-karat": {
-      "clicks": 14,
-      "impressions": 345,
-      "position": 5.118840579710145
+      "clicks": 12,
+      "impressions": 347,
+      "position": 5.051873198847262
     },
     "https://www.77diamonds.com/se/forlovningsringar/3-karat": {
       "clicks": 12,
-      "impressions": 481,
-      "position": 9.247401247401248
+      "impressions": 465,
+      "position": 10.09032258064516
     },
     "https://www.77diamonds.com/se/losa-labbodlade-diamanter": {
-      "clicks": 12,
-      "impressions": 484,
-      "position": 6.8264462809917354
+      "clicks": 13,
+      "impressions": 508,
+      "position": 6.75984251968504
     },
     "https://www.77diamonds.com/se/showroom/stockholm": {
-      "clicks": 24,
-      "impressions": 1096,
-      "position": 8.095802919708028
+      "clicks": 20,
+      "impressions": 1110,
+      "position": 7.9522522522522525
     },
     "https://www.77diamonds.com/showroom/copenhagen": {
       "clicks": 16,
-      "impressions": 1227,
-      "position": 5.264058679706602
+      "impressions": 1286,
+      "position": 5.077760497667185
     },
     "https://www.77diamonds.com/showroom/dubai": {
-      "clicks": 29,
-      "impressions": 2036,
-      "position": 12.959233791748527
+      "clicks": 33,
+      "impressions": 2073,
+      "position": 13.19922817173179
     },
     "https://www.77diamonds.com/showroom/frankfurt": {
-      "clicks": 50,
-      "impressions": 5411,
-      "position": 5.973017926446128
+      "clicks": 46,
+      "impressions": 5487,
+      "position": 6.209404045926736
     },
     "https://www.77diamonds.com/showroom/geneva": {
-      "clicks": 31,
-      "impressions": 1813,
-      "position": 5.378378378378378
+      "clicks": 26,
+      "impressions": 1866,
+      "position": 5.70096463022508
     },
     "https://www.77diamonds.com/showroom/glasgow": {
-      "clicks": 20,
-      "impressions": 3493,
-      "position": 8.38505582593759
+      "clicks": 19,
+      "impressions": 3553,
+      "position": 8.475935828877006
     },
     "https://www.77diamonds.com/showroom/manchester": {
-      "clicks": 69,
-      "impressions": 6623,
-      "position": 5.950475615280085
+      "clicks": 75,
+      "impressions": 6686,
+      "position": 6.040831588393658
     },
     "https://www.77diamonds.com/showroom/mayfair": {
-      "clicks": 90,
-      "impressions": 8529,
-      "position": 8.686012428186189
+      "clicks": 83,
+      "impressions": 8443,
+      "position": 9.126495321568163
     },
     "https://www.77diamonds.com/showroom/milan": {
-      "clicks": 67,
-      "impressions": 2223,
-      "position": 4.754385964912281
+      "clicks": 69,
+      "impressions": 2262,
+      "position": 4.946949602122016
     },
     "https://www.77diamonds.com/showroom/munich": {
-      "clicks": 55,
-      "impressions": 2947,
-      "position": 6.179504580929759
+      "clicks": 45,
+      "impressions": 2767,
+      "position": 6.4741597397903865
     },
     "https://www.77diamonds.com/showroom/stockholm": {
-      "clicks": 32,
-      "impressions": 2601,
-      "position": 6.074586697424068
+      "clicks": 34,
+      "impressions": 2650,
+      "position": 6.266792452830189
     },
     "https://www.77diamonds.com/showroom/zurich": {
-      "clicks": 72,
-      "impressions": 3466,
-      "position": 4.977207155222159
+      "clicks": 76,
+      "impressions": 3487,
+      "position": 4.924003441353599
     },
     "https://www.77diamonds.com/showrooms": {
-      "clicks": 15,
-      "impressions": 1298,
-      "position": 15.297380585516178
+      "clicks": 12,
+      "impressions": 1235,
+      "position": 16.015384615384615
     },
     "https://www.77diamonds.com/signup-and-access": {
-      "clicks": 14,
-      "impressions": 211,
-      "position": 6.355450236966824
+      "clicks": 15,
+      "impressions": 213,
+      "position": 6.807511737089202
     },
     "https://www.77diamonds.com/wedding-rings": {
-      "clicks": 28,
-      "impressions": 7611,
-      "position": 14.415714098016029
+      "clicks": 27,
+      "impressions": 7423,
+      "position": 12.848982891014415
     },
     "https://www.77diamonds.com/wedding-rings/platinum": {
-      "clicks": 13,
-      "impressions": 7172,
-      "position": 14.448131622978249
+      "clicks": 11,
+      "impressions": 7483,
+      "position": 14.95616731257517
     }
   },
   "source_status": {
