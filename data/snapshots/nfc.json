@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "baseline_scale": 4.0,
   "domain": "nfc.co.za",
   "indexed_rate": 100.0,
@@ -8,7 +8,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-25T03:18:08Z",
+      "last_crawl": "2026-10-26T09:46:07Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/",
@@ -18,7 +18,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/contact/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-25T04:57:19Z",
+      "last_crawl": "2026-10-26T07:17:04Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/contact/",
@@ -28,7 +28,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/how-it-works/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-23T17:16:01Z",
+      "last_crawl": "2026-10-26T09:44:03Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/how-it-works/",
@@ -98,7 +98,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-23T17:19:04Z",
+      "last_crawl": "2026-10-26T09:25:57Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/vehicles/",
@@ -108,7 +108,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/vehicles/pre-owned-vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-25T06:23:53Z",
+      "last_crawl": "2026-10-26T09:44:03Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/vehicles/pre-owned-vehicles/",
@@ -116,30 +116,30 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 308,
+    "chatgpt.com": 310,
     "claude.ai": 7,
-    "gemini.google.com": 6
+    "gemini.google.com": 5
   },
   "pages_baseline": {
     "https://nfc.co.za/": {
-      "clicks": 1937,
-      "impressions": 52792,
-      "position": 13.370283376269132
+      "clicks": 1950,
+      "impressions": 52638,
+      "position": 13.3172802918044
     },
     "https://nfc.co.za/5-common-myths-about-rent-to-own-cars-debunked/": {
       "clicks": 0,
-      "impressions": 75,
-      "position": 20.266666666666666
+      "impressions": 81,
+      "position": 20.88888888888889
     },
     "https://nfc.co.za/a-second-chance-on-the-road-rent-to-own-cars-for-blacklisted-individuals/": {
       "clicks": 2,
       "impressions": 216,
-      "position": 33.25925925925926
+      "position": 33.148148148148145
     },
     "https://nfc.co.za/about-us/": {
-      "clicks": 13,
-      "impressions": 2097,
-      "position": 3.7448736289938007
+      "clicks": 12,
+      "impressions": 2104,
+      "position": 3.75
     },
     "https://nfc.co.za/apply-now/": {
       "clicks": 0,
@@ -147,9 +147,9 @@
       "position": 4
     },
     "https://nfc.co.za/apply/": {
-      "clicks": 19,
-      "impressions": 1215,
-      "position": 7.0436213991769545
+      "clicks": 17,
+      "impressions": 1174,
+      "position": 7.128620102214651
     },
     "https://nfc.co.za/avoiding-rent-to-own-scams": {
       "clicks": 0,
@@ -158,28 +158,28 @@
     },
     "https://nfc.co.za/avoiding-rent-to-own-scams-red-flags-to-watch-out-for/": {
       "clicks": 3,
-      "impressions": 326,
-      "position": 7.352760736196319
+      "impressions": 335,
+      "position": 7.313432835820896
     },
     "https://nfc.co.za/beware-of-festive-season-scams-fraudsters-posing-as-no-finance-cars-representatives/": {
       "clicks": 0,
-      "impressions": 44,
-      "position": 6.704545454545454
+      "impressions": 43,
+      "position": 6.5813953488372094
     },
     "https://nfc.co.za/book-a-service/": {
-      "clicks": 13,
-      "impressions": 1859,
-      "position": 6.638515330823023
+      "clicks": 14,
+      "impressions": 1834,
+      "position": 6.694656488549619
     },
     "https://nfc.co.za/careers/": {
-      "clicks": 31,
-      "impressions": 1531,
-      "position": 9.652514696276944
+      "clicks": 33,
+      "impressions": 1585,
+      "position": 9.673186119873817
     },
     "https://nfc.co.za/contact/": {
-      "clicks": 210,
-      "impressions": 14241,
-      "position": 2.8590688856119657
+      "clicks": 213,
+      "impressions": 14345,
+      "position": 2.867270826071802
     },
     "https://nfc.co.za/disclaimer/": {
       "clicks": 0,
@@ -198,28 +198,23 @@
     },
     "https://nfc.co.za/frequently-asked-questions/": {
       "clicks": 29,
-      "impressions": 889,
-      "position": 4.321709786276715
-    },
-    "https://nfc.co.za/frequently-awaited-questions/": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "impressions": 866,
+      "position": 4.190531177829099
     },
     "https://nfc.co.za/from-dreams-to-driveways-how-rent-to-own-makes-car-ownership-possible-for-everyday-south-africans/": {
       "clicks": 0,
-      "impressions": 9,
-      "position": 12.555555555555555
+      "impressions": 8,
+      "position": 13.25
     },
     "https://nfc.co.za/how-a-rent-to-buy-car-can-unlock-more-income-opportunities-in-south-africa/": {
       "clicks": 0,
       "impressions": 75,
-      "position": 14.6
+      "position": 13.84
     },
     "https://nfc.co.za/how-does-rent-to-own-work-a-complete-guide-for-south-african-drivers/": {
-      "clicks": 13,
-      "impressions": 1632,
-      "position": 8.919117647058822
+      "clicks": 11,
+      "impressions": 1658,
+      "position": 9.066948130277442
     },
     "https://nfc.co.za/how-it-works": {
       "clicks": 0,
@@ -227,9 +222,9 @@
       "position": 1
     },
     "https://nfc.co.za/how-it-works/": {
-      "clicks": 87,
-      "impressions": 9727,
-      "position": 3.630410198416778
+      "clicks": 83,
+      "impressions": 9735,
+      "position": 3.6219825372367747
     },
     "https://nfc.co.za/how-rent-to-buy-helps-south-africans-take-control-of-their-daily-commute/": {
       "clicks": 0,
@@ -243,28 +238,28 @@
     },
     "https://nfc.co.za/how-to-choose-the-right-vehicle-for-your-stage-of-life/": {
       "clicks": 0,
-      "impressions": 35,
-      "position": 7.142857142857143
+      "impressions": 33,
+      "position": 7.0606060606060606
     },
     "https://nfc.co.za/how-to-get-back-on-track-with-rent-to-own-car-solutions-after-being-blacklisted/": {
       "clicks": 3,
       "impressions": 98,
-      "position": 14.744897959183673
+      "position": 15.295918367346939
     },
     "https://nfc.co.za/how-to-get-the-most-out-of-your-rent-to-own-car-agreement/": {
       "clicks": 1,
-      "impressions": 257,
-      "position": 8.603112840466926
+      "impressions": 251,
+      "position": 8.633466135458168
     },
     "https://nfc.co.za/how-to-upgrade-your-rent-to-own-car-without-breaking-the-bank/": {
       "clicks": 1,
-      "impressions": 179,
-      "position": 9.335195530726256
+      "impressions": 183,
+      "position": 9.240437158469945
     },
     "https://nfc.co.za/in-house-car-finance-vs-rent-to-own-whats-the-difference/": {
       "clicks": 1,
-      "impressions": 424,
-      "position": 10.51179245283019
+      "impressions": 421,
+      "position": 10.05938242280285
     },
     "https://nfc.co.za/interphalangeal/p4a4l4p8i1g8e9r550": {
       "clicks": 0,
@@ -273,13 +268,13 @@
     },
     "https://nfc.co.za/job/used-car-sales-executive-brackenfell-cape-town/": {
       "clicks": 1,
-      "impressions": 200,
-      "position": 5.705
+      "impressions": 199,
+      "position": 5.758793969849246
     },
     "https://nfc.co.za/job/used-car-sales-executive-durban/": {
       "clicks": 1,
-      "impressions": 295,
-      "position": 9.610169491525424
+      "impressions": 303,
+      "position": 9.557755775577558
     },
     "https://nfc.co.za/job/used-car-sales-executive-johannesburg/": {
       "clicks": 0,
@@ -288,13 +283,13 @@
     },
     "https://nfc.co.za/job/used-car-sales-executive-milnerton/": {
       "clicks": 0,
-      "impressions": 213,
-      "position": 4.03755868544601
+      "impressions": 220,
+      "position": 3.8954545454545455
     },
     "https://nfc.co.za/job/used-car-sales-executive-springs/": {
       "clicks": 0,
-      "impressions": 46,
-      "position": 7.717391304347826
+      "impressions": 48,
+      "position": 7.729166666666667
     },
     "https://nfc.co.za/jukyuban/": {
       "clicks": 0,
@@ -303,28 +298,28 @@
     },
     "https://nfc.co.za/market-leader/": {
       "clicks": 6,
-      "impressions": 376,
-      "position": 22.57712765957447
+      "impressions": 361,
+      "position": 21.656509695290858
     },
     "https://nfc.co.za/no-credit-no-problem-how-rent-to-own-cars-help-people-without-a-credit-history/": {
       "clicks": 27,
-      "impressions": 1185,
-      "position": 10.38649789029536
+      "impressions": 1191,
+      "position": 10.435768261964736
     },
     "https://nfc.co.za/no-finance-cars-blog/": {
       "clicks": 1,
-      "impressions": 69,
-      "position": 7.971014492753623
+      "impressions": 66,
+      "position": 7.984848484848484
     },
     "https://nfc.co.za/our-areas/": {
-      "clicks": 14,
-      "impressions": 3147,
-      "position": 5.089609151572927
+      "clicks": 13,
+      "impressions": 3136,
+      "position": 5.1654974489795915
     },
     "https://nfc.co.za/planning-for-the-future-tax-considerations-for-owning-a-car-after-rent-to-own/": {
       "clicks": 2,
-      "impressions": 26,
-      "position": 6.5
+      "impressions": 28,
+      "position": 6.535714285714286
     },
     "https://nfc.co.za/pretoria/": {
       "clicks": 0,
@@ -333,8 +328,8 @@
     },
     "https://nfc.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 58,
-      "position": 7.586206896551724
+      "impressions": 56,
+      "position": 7.375
     },
     "https://nfc.co.za/rebound/a2n1o5s0t4r0a6c2a560": {
       "clicks": 0,
@@ -342,9 +337,9 @@
       "position": 9
     },
     "https://nfc.co.za/referrals/": {
-      "clicks": 14,
-      "impressions": 241,
-      "position": 8.468879668049793
+      "clicks": 13,
+      "impressions": 237,
+      "position": 8.49789029535865
     },
     "https://nfc.co.za/rent-to-buy/pretoria/": {
       "clicks": 0,
@@ -352,14 +347,9 @@
       "position": 1
     },
     "https://nfc.co.za/rent-to-own-a-bakkie-in-south-africa/": {
-      "clicks": 5,
+      "clicks": 4,
       "impressions": 77,
-      "position": 8.831168831168831
-    },
-    "https://nfc.co.za/rent-to-own-cars-by-nfc": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "position": 8.857142857142858
     },
     "https://nfc.co.za/rent-to-own-cars-for-self-employed-south-african-how-to-qualify-without-payslips/": {
       "clicks": 0,
@@ -378,38 +368,33 @@
     },
     "https://nfc.co.za/rent-to-own-cars-under-debt-review-what-you-need-to-know-before-you-apply/": {
       "clicks": 5,
-      "impressions": 102,
-      "position": 10.598039215686274
+      "impressions": 103,
+      "position": 10.572815533980583
     },
     "https://nfc.co.za/rent-to-own-cars-vs-leasing-key-differences-explained/": {
       "clicks": 3,
-      "impressions": 283,
-      "position": 26.47703180212014
-    },
-    "https://nfc.co.za/rent-to-own-cars/": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "impressions": 279,
+      "position": 27.885304659498207
     },
     "https://nfc.co.za/rent-to-own-cars/benoni/": {
-      "clicks": 14,
-      "impressions": 726,
-      "position": 7.234159779614325
+      "clicks": 17,
+      "impressions": 732,
+      "position": 7.2636612021857925
     },
     "https://nfc.co.za/rent-to-own-cars/boksburg/": {
-      "clicks": 229,
-      "impressions": 6145,
-      "position": 5.8346623270952
+      "clicks": 234,
+      "impressions": 6204,
+      "position": 5.929400386847195
     },
     "https://nfc.co.za/rent-to-own-cars/cape-town/": {
-      "clicks": 79,
-      "impressions": 4300,
-      "position": 20.74767441860465
+      "clicks": 80,
+      "impressions": 4382,
+      "position": 20.839570972158832
     },
     "https://nfc.co.za/rent-to-own-cars/centurion/": {
-      "clicks": 49,
-      "impressions": 916,
-      "position": 8.374454148471616
+      "clicks": 48,
+      "impressions": 909,
+      "position": 8.555555555555555
     },
     "https://nfc.co.za/rent-to-own-cars/durban": {
       "clicks": 0,
@@ -417,69 +402,69 @@
       "position": 1
     },
     "https://nfc.co.za/rent-to-own-cars/durban/": {
-      "clicks": 131,
-      "impressions": 4132,
-      "position": 12.151258470474346
+      "clicks": 130,
+      "impressions": 4225,
+      "position": 11.944378698224853
     },
     "https://nfc.co.za/rent-to-own-cars/george/": {
-      "clicks": 9,
-      "impressions": 318,
-      "position": 10.738993710691824
+      "clicks": 8,
+      "impressions": 306,
+      "position": 11.130718954248366
     },
     "https://nfc.co.za/rent-to-own-cars/germiston/": {
-      "clicks": 12,
-      "impressions": 227,
-      "position": 12.977973568281937
+      "clicks": 11,
+      "impressions": 230,
+      "position": 13.491304347826087
     },
     "https://nfc.co.za/rent-to-own-cars/johannesburg/": {
-      "clicks": 16,
-      "impressions": 1888,
-      "position": 37.13665254237288
+      "clicks": 15,
+      "impressions": 1920,
+      "position": 37.07604166666667
     },
     "https://nfc.co.za/rent-to-own-cars/kempton-park/": {
-      "clicks": 23,
-      "impressions": 635,
-      "position": 7.55748031496063
+      "clicks": 27,
+      "impressions": 633,
+      "position": 7.957345971563981
     },
     "https://nfc.co.za/rent-to-own-cars/krugersdorp/": {
-      "clicks": 31,
-      "impressions": 785,
-      "position": 12.477707006369426
+      "clicks": 29,
+      "impressions": 774,
+      "position": 12.644702842377262
     },
     "https://nfc.co.za/rent-to-own-cars/midrand/": {
-      "clicks": 35,
-      "impressions": 891,
-      "position": 14.083052749719416
+      "clicks": 31,
+      "impressions": 864,
+      "position": 14.78587962962963
     },
     "https://nfc.co.za/rent-to-own-cars/paarl/": {
       "clicks": 15,
       "impressions": 269,
-      "position": 5.5390334572490705
+      "position": 5.557620817843866
     },
     "https://nfc.co.za/rent-to-own-cars/pietermaritzburg/": {
-      "clicks": 82,
-      "impressions": 1159,
-      "position": 12.66695427092321
+      "clicks": 78,
+      "impressions": 1155,
+      "position": 12.993073593073593
     },
     "https://nfc.co.za/rent-to-own-cars/pinetown/": {
-      "clicks": 36,
-      "impressions": 1305,
-      "position": 9.990038314176244
+      "clicks": 33,
+      "impressions": 1333,
+      "position": 10.053263315828957
     },
     "https://nfc.co.za/rent-to-own-cars/pretoria/": {
-      "clicks": 146,
-      "impressions": 4817,
-      "position": 13.943948515673656
+      "clicks": 145,
+      "impressions": 4826,
+      "position": 14.08806464981351
     },
     "https://nfc.co.za/rent-to-own-cars/randfontein": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 46.42857142857143
+      "impressions": 9,
+      "position": 56.77777777777778
     },
     "https://nfc.co.za/rent-to-own-cars/randfontein/": {
       "clicks": 8,
-      "impressions": 364,
-      "position": 10.626373626373626
+      "impressions": 366,
+      "position": 10.71311475409836
     },
     "https://nfc.co.za/rent-to-own-cars/roodepoort": {
       "clicks": 0,
@@ -488,33 +473,33 @@
     },
     "https://nfc.co.za/rent-to-own-cars/roodepoort/": {
       "clicks": 19,
-      "impressions": 710,
-      "position": 9.53661971830986
+      "impressions": 711,
+      "position": 9.724331926863572
     },
     "https://nfc.co.za/rent-to-own-cars/springs/": {
       "clicks": 67,
-      "impressions": 1484,
-      "position": 10.380053908355794
+      "impressions": 1489,
+      "position": 10.43384822028207
     },
     "https://nfc.co.za/rent-to-own-cars/vanderbijlpark/": {
       "clicks": 19,
-      "impressions": 244,
-      "position": 7.024590163934426
+      "impressions": 239,
+      "position": 7.125523012552302
     },
     "https://nfc.co.za/rent-to-own-cars/vereeniging/": {
-      "clicks": 38,
-      "impressions": 644,
-      "position": 11.630434782608695
+      "clicks": 34,
+      "impressions": 623,
+      "position": 13.038523274478331
     },
     "https://nfc.co.za/rent-to-own-cars/witbank/": {
-      "clicks": 30,
-      "impressions": 743,
-      "position": 10.230148048452222
+      "clicks": 29,
+      "impressions": 759,
+      "position": 10.495388669301713
     },
     "https://nfc.co.za/rent-to-own-vehicles/2023-toyota-corolla-cross/": {
       "clicks": 12,
-      "impressions": 355,
-      "position": 4.614084507042254
+      "impressions": 351,
+      "position": 4.649572649572649
     },
     "https://nfc.co.za/rent-to-own-vehicles/2025-toyota-corolla-cross/": {
       "clicks": 1,
@@ -528,13 +513,13 @@
     },
     "https://nfc.co.za/rent-to-own-vehicles/2026-changan-alsvin-1-4-cs-mt/": {
       "clicks": 5,
-      "impressions": 22,
-      "position": 4.136363636363637
+      "impressions": 23,
+      "position": 4.043478260869565
     },
     "https://nfc.co.za/rent-to-own-vehicles/chery-tiggo-7-pro/": {
-      "clicks": 25,
-      "impressions": 238,
-      "position": 4.819327731092438
+      "clicks": 27,
+      "impressions": 243,
+      "position": 4.827160493827161
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3-aircross-max/": {
       "clicks": 2,
@@ -543,23 +528,23 @@
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3-aircross-plus/": {
       "clicks": 3,
-      "impressions": 33,
-      "position": 9.030303030303031
+      "impressions": 32,
+      "position": 9.5625
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3/": {
       "clicks": 3,
-      "impressions": 60,
-      "position": 5.983333333333333
+      "impressions": 58,
+      "position": 6.844827586206897
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5-diesel/": {
       "clicks": 2,
-      "impressions": 63,
-      "position": 5.698412698412699
+      "impressions": 58,
+      "position": 5.206896551724138
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5/": {
-      "clicks": 9,
-      "impressions": 162,
-      "position": 5.6234567901234565
+      "clicks": 8,
+      "impressions": 157,
+      "position": 5.707006369426751
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-ballade/": {
       "clicks": 0,
@@ -568,53 +553,48 @@
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v-trendline/": {
       "clicks": 9,
-      "impressions": 526,
-      "position": 4.9676806083650185
+      "impressions": 545,
+      "position": 4.972477064220183
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v/": {
       "clicks": 7,
       "impressions": 76,
-      "position": 4.394736842105264
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/honda-brv-trendline/": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "position": 5.276315789473684
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-comfort/": {
       "clicks": 0,
-      "impressions": 267,
-      "position": 4.213483146067416
+      "impressions": 269,
+      "position": 4.245353159851302
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-elegance/": {
       "clicks": 1,
       "impressions": 103,
-      "position": 7.796116504854369
+      "position": 7.631067961165049
     },
     "https://nfc.co.za/rent-to-own-vehicles/lepas-amur/": {
-      "clicks": 65,
-      "impressions": 445,
-      "position": 3.4966292134831463
+      "clicks": 63,
+      "impressions": 433,
+      "position": 3.5242494226327943
     },
     "https://nfc.co.za/rent-to-own-vehicles/mahindra-pik-up/": {
-      "clicks": 19,
-      "impressions": 104,
-      "position": 6.009615384615385
+      "clicks": 20,
+      "impressions": 106,
+      "position": 6
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-almera/": {
       "clicks": 2,
-      "impressions": 229,
-      "position": 4.8733624454148465
+      "impressions": 234,
+      "position": 4.833333333333334
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-acenta/": {
       "clicks": 1,
-      "impressions": 29,
-      "position": 4.551724137931035
+      "impressions": 28,
+      "position": 4.321428571428571
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-panel-van/": {
       "clicks": 1,
-      "impressions": 183,
-      "position": 3.7704918032786887
+      "impressions": 188,
+      "position": 3.6595744680851063
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-visia": {
       "clicks": 0,
@@ -622,39 +602,39 @@
       "position": 1
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-visia/": {
-      "clicks": 16,
-      "impressions": 248,
-      "position": 4.862903225806452
+      "clicks": 17,
+      "impressions": 243,
+      "position": 4.794238683127572
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-np200/": {
-      "clicks": 30,
-      "impressions": 379,
-      "position": 5.527704485488127
+      "clicks": 29,
+      "impressions": 378,
+      "position": 5.76984126984127
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kiger/": {
       "clicks": 5,
       "impressions": 209,
-      "position": 7.569377990430622
+      "position": 7.650717703349282
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid-climber/": {
       "clicks": 13,
-      "impressions": 3087,
-      "position": 5.594752186588921
+      "impressions": 3073,
+      "position": 5.687927107061504
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid/": {
-      "clicks": 24,
-      "impressions": 401,
-      "position": 7.241895261845387
+      "clicks": 25,
+      "impressions": 408,
+      "position": 7.196078431372549
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-celerio/": {
       "clicks": 3,
-      "impressions": 50,
-      "position": 10.2
+      "impressions": 51,
+      "position": 9.470588235294118
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-s-presso/": {
-      "clicks": 6,
-      "impressions": 122,
-      "position": 5.295081967213115
+      "clicks": 5,
+      "impressions": 114,
+      "position": 5.2105263157894735
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-swift": {
       "clicks": 0,
@@ -662,64 +642,64 @@
       "position": 1
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-swift/": {
-      "clicks": 23,
-      "impressions": 426,
-      "position": 8.507042253521128
+      "clicks": 24,
+      "impressions": 427,
+      "position": 8.735362997658079
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-punch/": {
       "clicks": 1,
-      "impressions": 64,
-      "position": 6.453125
+      "impressions": 65,
+      "position": 6.615384615384615
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-tiago/": {
-      "clicks": 16,
-      "impressions": 551,
-      "position": 6.288566243194192
+      "clicks": 17,
+      "impressions": 564,
+      "position": 6.283687943262412
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-corolla-quest/": {
       "clicks": 11,
-      "impressions": 318,
-      "position": 7.09433962264151
+      "impressions": 321,
+      "position": 6.993769470404985
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-hilux-single-cab/": {
-      "clicks": 9,
-      "impressions": 198,
-      "position": 7.752525252525253
+      "clicks": 8,
+      "impressions": 197,
+      "position": 7.659898477157361
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet-cross/": {
-      "clicks": 15,
-      "impressions": 289,
-      "position": 6.411764705882353
+      "clicks": 13,
+      "impressions": 287,
+      "position": 6.592334494773519
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet/": {
-      "clicks": 9,
-      "impressions": 230,
-      "position": 8.604347826086958
+      "clicks": 7,
+      "impressions": 225,
+      "position": 8.702222222222222
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-urban-cruiser/": {
       "clicks": 7,
-      "impressions": 67,
-      "position": 6.08955223880597
+      "impressions": 69,
+      "position": 6.130434782608695
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-vitz/": {
       "clicks": 29,
-      "impressions": 8977,
-      "position": 2.0167093683858752
+      "impressions": 8742,
+      "position": 2.0301990391214826
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-sedan/": {
       "clicks": 4,
-      "impressions": 1260,
-      "position": 4.228571428571429
+      "impressions": 1243,
+      "position": 4.317779565567176
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-comfortline/": {
       "clicks": 6,
-      "impressions": 159,
-      "position": 7.138364779874214
+      "impressions": 156,
+      "position": 7.416666666666667
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-trendline/": {
       "clicks": 9,
-      "impressions": 313,
-      "position": 9.76996805111821
+      "impressions": 322,
+      "position": 10.177018633540373
     },
     "https://nfc.co.za/rent-to-own-vs-public-transport-the-freedom-and-advantages-of-owning-your-ride/": {
       "clicks": 0,
@@ -728,8 +708,8 @@
     },
     "https://nfc.co.za/rent-to-own-vs-traditional-financing-for-blacklisted-customers/": {
       "clicks": 0,
-      "impressions": 46,
-      "position": 15.934782608695652
+      "impressions": 45,
+      "position": 16.044444444444444
     },
     "https://nfc.co.za/rent-to-own/cape-town/": {
       "clicks": 0,
@@ -742,24 +722,24 @@
       "position": 1
     },
     "https://nfc.co.za/responsible-ownership-and-implications-of-owning-a-car-when-blacklisted/": {
-      "clicks": 12,
-      "impressions": 324,
-      "position": 6.41358024691358
+      "clicks": 13,
+      "impressions": 327,
+      "position": 6.4067278287461775
     },
     "https://nfc.co.za/tax-saver-deals/": {
       "clicks": 0,
-      "impressions": 13,
-      "position": 11.76923076923077
+      "impressions": 14,
+      "position": 13.785714285714286
     },
     "https://nfc.co.za/terms-of-use/": {
       "clicks": 1,
-      "impressions": 28,
-      "position": 3.642857142857143
+      "impressions": 25,
+      "position": 3.8
     },
     "https://nfc.co.za/the-future-of-rent-to-own-vehicles-in-south-africa/": {
-      "clicks": 3,
-      "impressions": 152,
-      "position": 13.888157894736842
+      "clicks": 2,
+      "impressions": 147,
+      "position": 14.006802721088436
     },
     "https://nfc.co.za/the-practical-path-to-car-ownership-how-rent-to-buy-helps-south-africans-budget-smarter/": {
       "clicks": 0,
@@ -768,8 +748,8 @@
     },
     "https://nfc.co.za/understanding-your-rights-and-responsibilities-in-a-rent-to-own-agreement/": {
       "clicks": 0,
-      "impressions": 30,
-      "position": 6.966666666666667
+      "impressions": 28,
+      "position": 7.107142857142857
     },
     "https://nfc.co.za/vehicle-upgrade": {
       "clicks": 0,
@@ -778,28 +758,28 @@
     },
     "https://nfc.co.za/vehicle-upgrade/": {
       "clicks": 7,
-      "impressions": 413,
-      "position": 6.00726392251816
+      "impressions": 409,
+      "position": 6.11002444987775
     },
     "https://nfc.co.za/vehicles/": {
-      "clicks": 395,
-      "impressions": 19312,
-      "position": 11.611485086992543
+      "clicks": 397,
+      "impressions": 19499,
+      "position": 11.737319862557055
     },
     "https://nfc.co.za/vehicles/new-vehicles/": {
-      "clicks": 44,
-      "impressions": 10556,
-      "position": 5.684539598332702
+      "clicks": 41,
+      "impressions": 10609,
+      "position": 5.770383636535017
     },
     "https://nfc.co.za/vehicles/pre-owned-vehicles/": {
-      "clicks": 144,
-      "impressions": 14460,
-      "position": 8.852213001383126
+      "clicks": 140,
+      "impressions": 14573,
+      "position": 8.982090166746723
     },
     "https://nfc.co.za/what-happens-if-you-miss-a-payment-on-a-rent-to-own-car/": {
       "clicks": 58,
-      "impressions": 786,
-      "position": 5.076335877862595
+      "impressions": 788,
+      "position": 5.0456852791878175
     },
     "https://nfc.co.za/what-happens-if-yous-miss-a-payment-on-a-rent-to-own-car/": {
       "clicks": 0,
@@ -809,7 +789,7 @@
     "https://nfc.co.za/what-it-actually-means-to-get-a-car-without-going-through-a-bank/": {
       "clicks": 0,
       "impressions": 53,
-      "position": 8
+      "position": 8.056603773584905
     },
     "https://nfc.co.za/what-it-actually-means-to-get-car-without-going-through-bank": {
       "clicks": 1,
@@ -823,8 +803,8 @@
     },
     "https://nfc.co.za/who-qualifies-for-a-rent-to-own-vehicle-in-south-africa/": {
       "clicks": 12,
-      "impressions": 531,
-      "position": 8.764595103578156
+      "impressions": 546,
+      "position": 8.747252747252748
     },
     "https://nfc.co.za/why-rent-to-buy-is-becoming-the-smart-choice-for-south-africans-starting-over/": {
       "clicks": 0,
@@ -833,40 +813,40 @@
     },
     "https://nfc.co.za/why-rent-to-buy/": {
       "clicks": 5,
-      "impressions": 290,
-      "position": 6.448275862068965
+      "impressions": 285,
+      "position": 6.712280701754386
     }
   },
   "pages_current": {
     "https://nfc.co.za/": {
-      "clicks": 537,
-      "impressions": 14350,
-      "position": 12.127526132404181
+      "clicks": 506,
+      "impressions": 14422,
+      "position": 12.446748023852448
     },
     "https://nfc.co.za/5-common-myths-about-rent-to-own-cars-debunked/": {
       "clicks": 0,
-      "impressions": 28,
-      "position": 26.357142857142858
+      "impressions": 24,
+      "position": 31.083333333333332
     },
     "https://nfc.co.za/a-second-chance-on-the-road-rent-to-own-cars-for-blacklisted-individuals/": {
       "clicks": 0,
-      "impressions": 56,
-      "position": 26
+      "impressions": 69,
+      "position": 28.36231884057971
     },
     "https://nfc.co.za/about-us/": {
       "clicks": 2,
-      "impressions": 584,
-      "position": 3.912671232876712
+      "impressions": 530,
+      "position": 4.483018867924528
     },
     "https://nfc.co.za/apply/": {
       "clicks": 9,
-      "impressions": 363,
-      "position": 7.53168044077135
+      "impressions": 388,
+      "position": 7.685567010309279
     },
     "https://nfc.co.za/avoiding-rent-to-own-scams-red-flags-to-watch-out-for/": {
       "clicks": 1,
-      "impressions": 80,
-      "position": 5.575
+      "impressions": 78,
+      "position": 5.615384615384615
     },
     "https://nfc.co.za/beware-of-festive-season-scams-fraudsters-posing-as-no-finance-cars-representatives/": {
       "clicks": 0,
@@ -874,19 +854,19 @@
       "position": 13.222222222222221
     },
     "https://nfc.co.za/book-a-service/": {
-      "clicks": 2,
-      "impressions": 434,
-      "position": 7.65668202764977
+      "clicks": 1,
+      "impressions": 432,
+      "position": 7.5625
     },
     "https://nfc.co.za/careers/": {
-      "clicks": 15,
-      "impressions": 627,
-      "position": 9.818181818181818
+      "clicks": 14,
+      "impressions": 698,
+      "position": 9.918338108882521
     },
     "https://nfc.co.za/contact/": {
-      "clicks": 66,
-      "impressions": 4042,
-      "position": 3.040079168728352
+      "clicks": 62,
+      "impressions": 4039,
+      "position": 3.2508046546174794
     },
     "https://nfc.co.za/disclaimer/": {
       "clicks": 0,
@@ -895,8 +875,8 @@
     },
     "https://nfc.co.za/frequently-asked-questions/": {
       "clicks": 5,
-      "impressions": 182,
-      "position": 4.906593406593407
+      "impressions": 203,
+      "position": 5.024630541871921
     },
     "https://nfc.co.za/from-dreams-to-driveways-how-rent-to-own-makes-car-ownership-possible-for-everyday-south-africans/": {
       "clicks": 0,
@@ -905,18 +885,18 @@
     },
     "https://nfc.co.za/how-a-rent-to-buy-car-can-unlock-more-income-opportunities-in-south-africa/": {
       "clicks": 0,
-      "impressions": 18,
-      "position": 12.38888888888889
+      "impressions": 16,
+      "position": 11.625
     },
     "https://nfc.co.za/how-does-rent-to-own-work-a-complete-guide-for-south-african-drivers/": {
       "clicks": 4,
-      "impressions": 488,
-      "position": 10.452868852459016
+      "impressions": 482,
+      "position": 10.219917012448132
     },
     "https://nfc.co.za/how-it-works/": {
       "clicks": 16,
-      "impressions": 2687,
-      "position": 4.633420171194641
+      "impressions": 2705,
+      "position": 4.918669131238447
     },
     "https://nfc.co.za/how-to-choose-the-best-rent-to-own-car-for-your-budget-and-lifestyle/": {
       "clicks": 0,
@@ -925,38 +905,38 @@
     },
     "https://nfc.co.za/how-to-choose-the-right-vehicle-for-your-stage-of-life/": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 6.571428571428571
+      "impressions": 8,
+      "position": 6.625
     },
     "https://nfc.co.za/how-to-get-back-on-track-with-rent-to-own-car-solutions-after-being-blacklisted/": {
       "clicks": 0,
-      "impressions": 24,
-      "position": 23.5
+      "impressions": 31,
+      "position": 17
     },
     "https://nfc.co.za/how-to-get-the-most-out-of-your-rent-to-own-car-agreement/": {
       "clicks": 0,
       "impressions": 30,
-      "position": 10.133333333333333
+      "position": 9.933333333333334
     },
     "https://nfc.co.za/how-to-upgrade-your-rent-to-own-car-without-breaking-the-bank/": {
       "clicks": 1,
-      "impressions": 43,
-      "position": 6.046511627906977
+      "impressions": 47,
+      "position": 6.0638297872340425
     },
     "https://nfc.co.za/in-house-car-finance-vs-rent-to-own-whats-the-difference/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 7.5
+      "impressions": 9,
+      "position": 7.888888888888889
     },
     "https://nfc.co.za/job/used-car-sales-executive-brackenfell-cape-town/": {
       "clicks": 1,
-      "impressions": 46,
-      "position": 6.260869565217392
+      "impressions": 58,
+      "position": 5.775862068965517
     },
     "https://nfc.co.za/job/used-car-sales-executive-durban/": {
       "clicks": 0,
-      "impressions": 114,
-      "position": 9.894736842105264
+      "impressions": 100,
+      "position": 10.08
     },
     "https://nfc.co.za/job/used-car-sales-executive-johannesburg/": {
       "clicks": 0,
@@ -965,37 +945,37 @@
     },
     "https://nfc.co.za/job/used-car-sales-executive-milnerton/": {
       "clicks": 0,
-      "impressions": 90,
-      "position": 3.3444444444444446
+      "impressions": 89,
+      "position": 3.438202247191011
     },
     "https://nfc.co.za/job/used-car-sales-executive-springs/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 7.5
+      "impressions": 11,
+      "position": 7.2727272727272725
     },
     "https://nfc.co.za/market-leader/": {
       "clicks": 1,
-      "impressions": 46,
-      "position": 25.82608695652174
+      "impressions": 45,
+      "position": 28.733333333333334
     },
     "https://nfc.co.za/no-credit-no-problem-how-rent-to-own-cars-help-people-without-a-credit-history/": {
       "clicks": 5,
-      "impressions": 244,
-      "position": 13.163934426229508
+      "impressions": 236,
+      "position": 13.65677966101695
     },
     "https://nfc.co.za/no-finance-cars-blog/": {
       "clicks": 1,
-      "impressions": 23,
-      "position": 20.652173913043477
+      "impressions": 25,
+      "position": 19.68
     },
     "https://nfc.co.za/our-areas/": {
       "clicks": 5,
-      "impressions": 765,
-      "position": 6.522875816993464
+      "impressions": 774,
+      "position": 6.781653746770026
     },
     "https://nfc.co.za/planning-for-the-future-tax-considerations-for-owning-a-car-after-rent-to-own/": {
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "position": 8
     },
     "https://nfc.co.za/privacy-policy/": {
@@ -1005,143 +985,138 @@
     },
     "https://nfc.co.za/referrals/": {
       "clicks": 6,
-      "impressions": 60,
-      "position": 11.266666666666667
+      "impressions": 67,
+      "position": 10.925373134328359
     },
     "https://nfc.co.za/rent-to-own-a-bakkie-in-south-africa/": {
-      "clicks": 0,
-      "impressions": 11,
-      "position": 11.181818181818182
+      "clicks": 2,
+      "impressions": 15,
+      "position": 9.666666666666666
     },
     "https://nfc.co.za/rent-to-own-cars-for-self-employed-south-africans-how-to-qualify-without-payslips/": {
       "clicks": 1,
-      "impressions": 13,
-      "position": 7.461538461538462
+      "impressions": 15,
+      "position": 7.466666666666667
     },
     "https://nfc.co.za/rent-to-own-cars-under-debt-review-what-you-need-to-know-before-you-apply/": {
       "clicks": 2,
-      "impressions": 23,
-      "position": 7.130434782608695
+      "impressions": 27,
+      "position": 12.11111111111111
     },
     "https://nfc.co.za/rent-to-own-cars-vs-leasing-key-differences-explained/": {
       "clicks": 0,
-      "impressions": 90,
-      "position": 28.3
+      "impressions": 107,
+      "position": 33.06542056074766
     },
     "https://nfc.co.za/rent-to-own-cars/benoni/": {
-      "clicks": 7,
-      "impressions": 221,
-      "position": 6.633484162895928
+      "clicks": 3,
+      "impressions": 210,
+      "position": 6.695238095238095
     },
     "https://nfc.co.za/rent-to-own-cars/boksburg/": {
-      "clicks": 60,
-      "impressions": 1840,
-      "position": 8.66195652173913
+      "clicks": 66,
+      "impressions": 1876,
+      "position": 8.711620469083154
     },
     "https://nfc.co.za/rent-to-own-cars/cape-town/": {
       "clicks": 29,
-      "impressions": 1525,
-      "position": 21.820983606557377
+      "impressions": 1549,
+      "position": 22.724338282763075
     },
     "https://nfc.co.za/rent-to-own-cars/centurion/": {
-      "clicks": 14,
-      "impressions": 284,
-      "position": 9.204225352112676
+      "clicks": 15,
+      "impressions": 291,
+      "position": 9.161512027491408
     },
     "https://nfc.co.za/rent-to-own-cars/durban/": {
-      "clicks": 40,
-      "impressions": 1422,
-      "position": 12.09774964838256
+      "clicks": 43,
+      "impressions": 1358,
+      "position": 12.962444771723122
     },
     "https://nfc.co.za/rent-to-own-cars/george/": {
-      "clicks": 5,
-      "impressions": 109,
-      "position": 13.110091743119266
+      "clicks": 4,
+      "impressions": 125,
+      "position": 14.576
     },
     "https://nfc.co.za/rent-to-own-cars/germiston/": {
-      "clicks": 0,
-      "impressions": 57,
-      "position": 18.45614035087719
+      "clicks": 2,
+      "impressions": 74,
+      "position": 18.7027027027027
     },
     "https://nfc.co.za/rent-to-own-cars/johannesburg/": {
-      "clicks": 6,
-      "impressions": 617,
-      "position": 37.222042139384115
+      "clicks": 7,
+      "impressions": 656,
+      "position": 38.640243902439025
     },
     "https://nfc.co.za/rent-to-own-cars/kempton-park/": {
-      "clicks": 6,
-      "impressions": 176,
-      "position": 13.159090909090908
+      "clicks": 5,
+      "impressions": 182,
+      "position": 11.895604395604396
     },
     "https://nfc.co.za/rent-to-own-cars/krugersdorp/": {
-      "clicks": 4,
-      "impressions": 213,
-      "position": 10
+      "clicks": 5,
+      "impressions": 240,
+      "position": 9.95
     },
     "https://nfc.co.za/rent-to-own-cars/midrand/": {
       "clicks": 12,
-      "impressions": 288,
-      "position": 17.78472222222222
+      "impressions": 297,
+      "position": 16.53872053872054
     },
     "https://nfc.co.za/rent-to-own-cars/paarl/": {
       "clicks": 5,
-      "impressions": 76,
-      "position": 6.026315789473684
+      "impressions": 80,
+      "position": 5.85
     },
     "https://nfc.co.za/rent-to-own-cars/pietermaritzburg/": {
       "clicks": 12,
-      "impressions": 329,
-      "position": 14.151975683890578
+      "impressions": 318,
+      "position": 14.223270440251572
     },
     "https://nfc.co.za/rent-to-own-cars/pinetown/": {
-      "clicks": 6,
-      "impressions": 409,
-      "position": 11.525672371638143
+      "clicks": 5,
+      "impressions": 381,
+      "position": 12.199475065616799
     },
     "https://nfc.co.za/rent-to-own-cars/pretoria/": {
-      "clicks": 43,
-      "impressions": 1397,
-      "position": 16.69935576234789
-    },
-    "https://nfc.co.za/rent-to-own-cars/randfontein": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 93
+      "clicks": 37,
+      "impressions": 1465,
+      "position": 17.16655290102389
     },
     "https://nfc.co.za/rent-to-own-cars/randfontein/": {
       "clicks": 2,
-      "impressions": 103,
-      "position": 12.45631067961165
+      "impressions": 115,
+      "position": 11.704347826086957
     },
     "https://nfc.co.za/rent-to-own-cars/roodepoort/": {
-      "clicks": 9,
-      "impressions": 197,
-      "position": 14.01522842639594
+      "clicks": 10,
+      "impressions": 191,
+      "position": 14.214659685863875
     },
     "https://nfc.co.za/rent-to-own-cars/springs/": {
-      "clicks": 10,
+      "clicks": 9,
       "impressions": 380,
-      "position": 10.218421052631578
+      "position": 11.23421052631579
     },
     "https://nfc.co.za/rent-to-own-cars/vanderbijlpark/": {
-      "clicks": 8,
-      "impressions": 72,
-      "position": 9.416666666666666
+      "clicks": 7,
+      "impressions": 75,
+      "position": 11.76
     },
     "https://nfc.co.za/rent-to-own-cars/vereeniging/": {
-      "clicks": 6,
-      "impressions": 189,
-      "position": 19.391534391534393
+      "clicks": 5,
+      "impressions": 205,
+      "position": 17.858536585365854
     },
     "https://nfc.co.za/rent-to-own-cars/witbank/": {
-      "clicks": 10,
-      "impressions": 233,
-      "position": 13.493562231759658
+      "clicks": 11,
+      "impressions": 235,
+      "position": 12.702127659574469
     },
     "https://nfc.co.za/rent-to-own-vehicles/2023-toyota-corolla-cross/": {
       "clicks": 3,
-      "impressions": 113,
-      "position": 5.575221238938053
+      "impressions": 125,
+      "position": 5.44
     },
     "https://nfc.co.za/rent-to-own-vehicles/2025-toyota-corolla-cross/": {
       "clicks": 2,
@@ -1149,14 +1124,14 @@
       "position": 2.8461538461538463
     },
     "https://nfc.co.za/rent-to-own-vehicles/2026-changan-alsvin-1-4-cs-mt/": {
-      "clicks": 1,
+      "clicks": 2,
       "impressions": 16,
-      "position": 3.3125
+      "position": 3.25
     },
     "https://nfc.co.za/rent-to-own-vehicles/chery-tiggo-7-pro/": {
       "clicks": 9,
       "impressions": 66,
-      "position": 4.227272727272727
+      "position": 4.303030303030303
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3-aircross-max/": {
       "clicks": 0,
@@ -1165,63 +1140,63 @@
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3-aircross-plus/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 7.25
+      "impressions": 7,
+      "position": 4.428571428571429
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3/": {
-      "clicks": 2,
+      "clicks": 3,
       "impressions": 24,
-      "position": 9.333333333333334
+      "position": 6.916666666666667
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5-diesel/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 3.375
+      "impressions": 9,
+      "position": 5.111111111111111
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5/": {
-      "clicks": 1,
-      "impressions": 39,
-      "position": 8.923076923076923
+      "clicks": 3,
+      "impressions": 47,
+      "position": 9.872340425531915
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-ballade/": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 3.8333333333333335
+      "impressions": 5,
+      "position": 4.4
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v-trendline/": {
-      "clicks": 0,
-      "impressions": 114,
-      "position": 4.894736842105264
+      "clicks": 1,
+      "impressions": 100,
+      "position": 5.09
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v/": {
       "clicks": 0,
       "impressions": 20,
-      "position": 8.6
+      "position": 4.9
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-comfort/": {
       "clicks": 0,
-      "impressions": 68,
-      "position": 5.338235294117647
+      "impressions": 71,
+      "position": 5.042253521126761
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-elegance/": {
       "clicks": 1,
-      "impressions": 14,
-      "position": 22.928571428571427
+      "impressions": 11,
+      "position": 22.90909090909091
     },
     "https://nfc.co.za/rent-to-own-vehicles/lepas-amur/": {
       "clicks": 12,
-      "impressions": 128,
-      "position": 3.234375
+      "impressions": 131,
+      "position": 3.2519083969465647
     },
     "https://nfc.co.za/rent-to-own-vehicles/mahindra-pik-up/": {
-      "clicks": 6,
-      "impressions": 42,
-      "position": 8.928571428571429
+      "clicks": 5,
+      "impressions": 40,
+      "position": 9.2
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-almera/": {
       "clicks": 1,
-      "impressions": 73,
-      "position": 4.972602739726027
+      "impressions": 63,
+      "position": 4.809523809523809
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-acenta/": {
       "clicks": 0,
@@ -1230,83 +1205,83 @@
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-panel-van/": {
       "clicks": 0,
-      "impressions": 78,
-      "position": 3.2948717948717947
+      "impressions": 74,
+      "position": 3.6216216216216215
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-visia/": {
-      "clicks": 1,
-      "impressions": 50,
-      "position": 6.52
+      "clicks": 0,
+      "impressions": 55,
+      "position": 6.454545454545454
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-np200/": {
-      "clicks": 5,
-      "impressions": 106,
-      "position": 7.160377358490566
+      "clicks": 4,
+      "impressions": 107,
+      "position": 6.803738317757009
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kiger/": {
-      "clicks": 2,
-      "impressions": 63,
-      "position": 11.619047619047619
+      "clicks": 3,
+      "impressions": 65,
+      "position": 12.03076923076923
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid-climber/": {
       "clicks": 0,
-      "impressions": 796,
-      "position": 6.4296482412060305
+      "impressions": 809,
+      "position": 6.263288009888751
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid/": {
-      "clicks": 4,
-      "impressions": 90,
-      "position": 8.255555555555556
+      "clicks": 3,
+      "impressions": 87,
+      "position": 7.32183908045977
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-celerio/": {
       "clicks": 0,
       "impressions": 12,
-      "position": 20.5
+      "position": 23
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-s-presso/": {
       "clicks": 0,
-      "impressions": 30,
-      "position": 5.533333333333333
+      "impressions": 31,
+      "position": 7.67741935483871
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-swift/": {
-      "clicks": 10,
-      "impressions": 143,
-      "position": 7.909090909090909
+      "clicks": 8,
+      "impressions": 141,
+      "position": 9.02836879432624
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-punch/": {
       "clicks": 0,
-      "impressions": 17,
-      "position": 8
+      "impressions": 16,
+      "position": 7.6875
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-tiago/": {
-      "clicks": 3,
-      "impressions": 142,
-      "position": 6.077464788732394
+      "clicks": 4,
+      "impressions": 138,
+      "position": 5.934782608695652
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-corolla-quest/": {
-      "clicks": 2,
-      "impressions": 89,
-      "position": 7.966292134831461
+      "clicks": 3,
+      "impressions": 85,
+      "position": 8.51764705882353
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-hilux-single-cab/": {
       "clicks": 3,
-      "impressions": 64,
-      "position": 6.859375
+      "impressions": 59,
+      "position": 7.220338983050848
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet-cross/": {
       "clicks": 3,
       "impressions": 98,
-      "position": 5.826530612244898
+      "position": 5.26530612244898
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet/": {
       "clicks": 2,
-      "impressions": 42,
-      "position": 9.833333333333334
+      "impressions": 47,
+      "position": 9.893617021276595
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-urban-cruiser/": {
-      "clicks": 3,
-      "impressions": 23,
-      "position": 5.434782608695652
+      "clicks": 4,
+      "impressions": 24,
+      "position": 5.166666666666667
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-vitz": {
       "clicks": 0,
@@ -1315,23 +1290,23 @@
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-vitz/": {
       "clicks": 1,
-      "impressions": 179,
-      "position": 6.4581005586592175
+      "impressions": 176,
+      "position": 6.517045454545454
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-sedan/": {
       "clicks": 1,
-      "impressions": 336,
-      "position": 4.613095238095238
+      "impressions": 346,
+      "position": 4.719653179190751
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-comfortline/": {
-      "clicks": 1,
-      "impressions": 38,
-      "position": 6.526315789473684
+      "clicks": 0,
+      "impressions": 30,
+      "position": 3.933333333333333
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-trendline/": {
       "clicks": 1,
-      "impressions": 89,
-      "position": 12.415730337078651
+      "impressions": 82,
+      "position": 10.097560975609756
     },
     "https://nfc.co.za/rent-to-own-vs-public-transport-the-freedom-and-advantages-of-owning-your-ride/": {
       "clicks": 0,
@@ -1340,18 +1315,18 @@
     },
     "https://nfc.co.za/rent-to-own-vs-traditional-financing-for-blacklisted-customers/": {
       "clicks": 0,
-      "impressions": 11,
-      "position": 10.090909090909092
+      "impressions": 12,
+      "position": 17.333333333333332
     },
     "https://nfc.co.za/responsible-ownership-and-implications-of-owning-a-car-when-blacklisted/": {
-      "clicks": 2,
-      "impressions": 64,
-      "position": 9.875
+      "clicks": 1,
+      "impressions": 73,
+      "position": 9.602739726027398
     },
     "https://nfc.co.za/tax-saver-deals/": {
       "clicks": 0,
-      "impressions": 2,
-      "position": 60.5
+      "impressions": 1,
+      "position": 81
     },
     "https://nfc.co.za/terms-of-use/": {
       "clicks": 0,
@@ -1370,43 +1345,43 @@
     },
     "https://nfc.co.za/understanding-your-rights-and-responsibilities-in-a-rent-to-own-agreement/": {
       "clicks": 2,
-      "impressions": 11,
-      "position": 6.7272727272727275
+      "impressions": 9,
+      "position": 7
     },
     "https://nfc.co.za/vehicle-upgrade/": {
-      "clicks": 3,
-      "impressions": 135,
-      "position": 6.377777777777778
+      "clicks": 4,
+      "impressions": 142,
+      "position": 6.028169014084507
     },
     "https://nfc.co.za/vehicles/": {
-      "clicks": 101,
-      "impressions": 5833,
-      "position": 14.311160637750728
+      "clicks": 102,
+      "impressions": 5923,
+      "position": 14.708593618098936
     },
     "https://nfc.co.za/vehicles/new-vehicles/": {
-      "clicks": 11,
-      "impressions": 2775,
-      "position": 6.808648648648648
+      "clicks": 10,
+      "impressions": 2690,
+      "position": 7.37546468401487
     },
     "https://nfc.co.za/vehicles/pre-owned-vehicles/": {
-      "clicks": 39,
-      "impressions": 4262,
-      "position": 10.454012200844673
+      "clicks": 42,
+      "impressions": 4301,
+      "position": 11.082073936293884
     },
     "https://nfc.co.za/what-happens-if-you-miss-a-payment-on-a-rent-to-own-car/": {
       "clicks": 8,
-      "impressions": 210,
-      "position": 6.980952380952381
+      "impressions": 252,
+      "position": 7.273809523809524
     },
     "https://nfc.co.za/what-it-actually-means-to-get-a-car-without-going-through-a-bank/": {
       "clicks": 2,
-      "impressions": 8,
-      "position": 6.25
+      "impressions": 7,
+      "position": 5.571428571428571
     },
     "https://nfc.co.za/who-qualifies-for-a-rent-to-own-vehicle-in-south-africa/": {
-      "clicks": 1,
-      "impressions": 131,
-      "position": 9.374045801526718
+      "clicks": 0,
+      "impressions": 130,
+      "position": 10.36923076923077
     },
     "https://nfc.co.za/why-rent-to-buy-is-becoming-the-smart-choice-for-south-africans-starting-over/": {
       "clicks": 0,
@@ -1414,9 +1389,9 @@
       "position": 12
     },
     "https://nfc.co.za/why-rent-to-buy/": {
-      "clicks": 0,
-      "impressions": 74,
-      "position": 6.297297297297297
+      "clicks": 1,
+      "impressions": 87,
+      "position": 5.436781609195402
     }
   },
   "source_status": {
