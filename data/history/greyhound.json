@@ -1867,7 +1867,7 @@
       "ga4": {
         "conversions": 19.0,
         "llm_sessions": 45,
-        "revenue": 13705.000049,
+        "revenue": 13705.000048999998,
         "sessions": 896
       },
       "gsc": {
@@ -1881,7 +1881,7 @@
       "ga4": {
         "conversions": 17.0,
         "llm_sessions": 43,
-        "revenue": 8144.999970000001,
+        "revenue": 8144.99997,
         "sessions": 891
       },
       "gsc": {
@@ -1974,17 +1974,31 @@
         "impressions": 39740,
         "position": 5.421716155007549
       }
+    },
+    "2026-10-25": {
+      "ga4": {
+        "conversions": 25.0,
+        "llm_sessions": 45,
+        "revenue": 17889.999987,
+        "sessions": 1092
+      },
+      "gsc": {
+        "clicks": 1102,
+        "ctr": 0.024619646567324235,
+        "impressions": 44761,
+        "position": 5.714662317642591
+      }
     }
   },
   "state": {
     "last_indexed_rate": 100.0,
     "streak_dates": {
-      "ctr_divergence": "2026-10-24",
-      "indexation_priority": "2026-10-24",
-      "indexation_rate": "2026-10-24",
-      "llm_referrals": "2026-10-24",
-      "organic_clicks": "2026-10-24",
-      "organic_impressions": "2026-10-24"
+      "ctr_divergence": "2026-10-25",
+      "indexation_priority": "2026-10-25",
+      "indexation_rate": "2026-10-25",
+      "llm_referrals": "2026-10-25",
+      "organic_clicks": "2026-10-25",
+      "organic_impressions": "2026-10-25"
     },
     "streaks": {
       "ctr_divergence": 0,
@@ -1995,5 +2009,5 @@
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-10-27T10:12:07.537259+00:00"
+  "updated_at": "2026-10-28T10:58:23.822226+00:00"
 }
