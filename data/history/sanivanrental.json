@@ -1830,20 +1830,111 @@
         "impressions": 705,
         "position": 7.991489361702127
       }
+    },
+    "2026-10-28": {
+      "ga4": {
+        "conversions": 1.0,
+        "llm_sessions": 2,
+        "revenue": 0.0,
+        "sessions": 16
+      },
+      "gsc": {
+        "clicks": 6,
+        "ctr": 0.007334963325183374,
+        "impressions": 818,
+        "position": 8.101466992665037
+      }
     }
   },
   "state": {
+    "last_cwv": {
+      "fleet": {
+        "form_factor": "PHONE",
+        "metrics": {
+          "CLS": {
+            "good_pct": 99.8,
+            "p75": 0.0,
+            "poor_pct": 0.2,
+            "rating": "good"
+          },
+          "INP": {
+            "good_pct": 65.3,
+            "p75": 256.0,
+            "poor_pct": 8.1,
+            "rating": "needs_improvement"
+          },
+          "LCP": {
+            "good_pct": 26.5,
+            "p75": 4306.0,
+            "poor_pct": 30.6,
+            "rating": "poor"
+          }
+        },
+        "ok": true
+      },
+      "home": {
+        "form_factor": "PHONE",
+        "metrics": {
+          "CLS": {
+            "good_pct": 40.1,
+            "p75": 0.27,
+            "poor_pct": 42.8,
+            "rating": "poor"
+          },
+          "INP": {
+            "good_pct": 46.0,
+            "p75": 407.0,
+            "poor_pct": 18.3,
+            "rating": "needs_improvement"
+          },
+          "LCP": {
+            "good_pct": 12.4,
+            "p75": 6859.0,
+            "poor_pct": 75.3,
+            "rating": "poor"
+          }
+        },
+        "ok": true
+      },
+      "origin": {
+        "form_factor": "PHONE",
+        "metrics": {
+          "CLS": {
+            "good_pct": 57.8,
+            "p75": 0.26,
+            "poor_pct": 30.5,
+            "rating": "poor"
+          },
+          "INP": {
+            "good_pct": 54.3,
+            "p75": 343.0,
+            "poor_pct": 14.6,
+            "rating": "needs_improvement"
+          },
+          "LCP": {
+            "good_pct": 13.4,
+            "p75": 6177.0,
+            "poor_pct": 65.1,
+            "rating": "poor"
+          }
+        },
+        "ok": true
+      }
+    },
+    "last_cwv_run": "2026-10-28",
     "last_indexed_rate": 100.0,
     "streak_dates": {
-      "indexation_priority": "2026-10-27",
-      "indexation_rate": "2026-10-27",
-      "organic_impressions": "2026-10-27"
+      "core_web_vitals": "2026-10-28",
+      "indexation_priority": "2026-10-28",
+      "indexation_rate": "2026-10-28",
+      "organic_impressions": "2026-10-28"
     },
     "streaks": {
+      "core_web_vitals": 0,
       "indexation_priority": 0,
       "indexation_rate": 0,
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-10-30T11:19:47.212070+00:00"
+  "updated_at": "2026-10-31T10:52:52.504972+00:00"
 }

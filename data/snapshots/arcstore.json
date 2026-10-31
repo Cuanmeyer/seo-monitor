@@ -1,6 +1,104 @@
 {
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "baseline_scale": 4.0,
+  "cwv": {
+    "brand": {
+      "form_factor": "PHONE",
+      "metrics": {
+        "CLS": {
+          "good_pct": 73.3,
+          "p75": 0.2,
+          "poor_pct": 23.8,
+          "rating": "needs_improvement"
+        },
+        "INP": {
+          "good_pct": 59.7,
+          "p75": 312.0,
+          "poor_pct": 11.4,
+          "rating": "needs_improvement"
+        },
+        "LCP": {
+          "good_pct": 61.6,
+          "p75": 3111.0,
+          "poor_pct": 13.1,
+          "rating": "needs_improvement"
+        }
+      },
+      "ok": true
+    },
+    "category": {
+      "form_factor": "PHONE",
+      "metrics": {
+        "CLS": {
+          "good_pct": 51.2,
+          "p75": 0.42,
+          "poor_pct": 44.7,
+          "rating": "poor"
+        },
+        "INP": {
+          "good_pct": 43.4,
+          "p75": 487.0,
+          "poor_pct": 24.5,
+          "rating": "needs_improvement"
+        },
+        "LCP": {
+          "good_pct": 76.8,
+          "p75": 2421.0,
+          "poor_pct": 5.7,
+          "rating": "good"
+        }
+      },
+      "ok": true
+    },
+    "home": {
+      "form_factor": "PHONE",
+      "metrics": {
+        "CLS": {
+          "good_pct": 72.2,
+          "p75": 0.12,
+          "poor_pct": 11.8,
+          "rating": "needs_improvement"
+        },
+        "INP": {
+          "good_pct": 82.1,
+          "p75": 165.0,
+          "poor_pct": 3.5,
+          "rating": "good"
+        },
+        "LCP": {
+          "good_pct": 85.4,
+          "p75": 2003.0,
+          "poor_pct": 4.3,
+          "rating": "good"
+        }
+      },
+      "ok": true
+    },
+    "origin": {
+      "form_factor": "PHONE",
+      "metrics": {
+        "CLS": {
+          "good_pct": 80.2,
+          "p75": 0.05,
+          "poor_pct": 13.3,
+          "rating": "good"
+        },
+        "INP": {
+          "good_pct": 67.1,
+          "p75": 245.0,
+          "poor_pct": 7.8,
+          "rating": "needs_improvement"
+        },
+        "LCP": {
+          "good_pct": 70.6,
+          "p75": 2684.0,
+          "poor_pct": 8.3,
+          "rating": "needs_improvement"
+        }
+      },
+      "ok": true
+    }
+  },
   "domain": "www.arcstore.co.za",
   "indexed_rate": 100.0,
   "inspections": {
@@ -8,7 +106,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T08:08:08Z",
+      "last_crawl": "2026-10-31T08:27:54Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": null,
@@ -18,7 +116,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/brands",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-29T21:21:27Z",
+      "last_crawl": "2026-10-30T22:34:39Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": null,
@@ -28,7 +126,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/brands/kayali",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T07:34:52Z",
+      "last_crawl": "2026-10-31T08:30:16Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.arcstore.co.za/brands/kayali",
@@ -38,7 +136,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/brands/medicube",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T07:30:58Z",
+      "last_crawl": "2026-10-31T00:35:39Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.arcstore.co.za/brands/medicube",
@@ -48,7 +146,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/brands/sol-de-janeiro",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T06:57:04Z",
+      "last_crawl": "2026-10-31T09:24:02Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.arcstore.co.za/brands/sol-de-janeiro",
@@ -58,7 +156,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/fragrance",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T10:24:48Z",
+      "last_crawl": "2026-10-31T06:23:45Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.arcstore.co.za/fragrance",
@@ -68,7 +166,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/makeup",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T07:12:27Z",
+      "last_crawl": "2026-10-31T06:21:13Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.arcstore.co.za/makeup",
@@ -78,7 +176,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/offers",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T11:07:05Z",
+      "last_crawl": "2026-10-30T17:09:20Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": null,
@@ -88,7 +186,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/our-stores",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-29T14:21:49Z",
+      "last_crawl": "2026-10-31T08:29:54Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": null,
@@ -98,7 +196,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.arcstore.co.za/skincare",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-10-30T07:59:01Z",
+      "last_crawl": "2026-10-31T08:36:12Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.arcstore.co.za/skincare",
@@ -106,2517 +204,2517 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 1374,
-    "gemini.google.com": 17
+    "chatgpt.com": 1393,
+    "gemini.google.com": 21
   },
   "pages_baseline": {
     "https://www.arcstore.co.za/": {
-      "clicks": 34074,
-      "impressions": 110825,
-      "position": 3.9060951951274534
+      "clicks": 34532,
+      "impressions": 111322,
+      "position": 3.967158333483049
     },
     "https://www.arcstore.co.za/accessories/makeup-brushes": {
-      "clicks": 53,
-      "impressions": 2306,
-      "position": 8.68733738074588
+      "clicks": 57,
+      "impressions": 2410,
+      "position": 8.535684647302904
     },
     "https://www.arcstore.co.za/accessories/makeup-brushes/makeup-brushes": {
-      "clicks": 149,
-      "impressions": 7158,
-      "position": 6.405280804694049
+      "clicks": 144,
+      "impressions": 6955,
+      "position": 6.370668583752696
     },
     "https://www.arcstore.co.za/arc-gift-cards": {
-      "clicks": 273,
-      "impressions": 902,
-      "position": 3.467849223946785
+      "clicks": 280,
+      "impressions": 919,
+      "position": 3.5505984766050056
     },
     "https://www.arcstore.co.za/arc-masterclass": {
-      "clicks": 102,
-      "impressions": 440,
-      "position": 4.38409090909091
+      "clicks": 103,
+      "impressions": 445,
+      "position": 4.296629213483146
     },
     "https://www.arcstore.co.za/arc-personalisation": {
-      "clicks": 69,
-      "impressions": 641,
-      "position": 6.302652106084244
+      "clicks": 71,
+      "impressions": 646,
+      "position": 6.28328173374613
     },
     "https://www.arcstore.co.za/arc-studio": {
-      "clicks": 87,
-      "impressions": 1425,
-      "position": 6.353684210526316
+      "clicks": 83,
+      "impressions": 1424,
+      "position": 6.508426966292135
     },
     "https://www.arcstore.co.za/arc-studio/all-out-glam?BookingType=BOOKING001": {
-      "clicks": 41,
-      "impressions": 400,
-      "position": 5.1775
+      "clicks": 40,
+      "impressions": 384,
+      "position": 5.184895833333333
     },
     "https://www.arcstore.co.za/arc/advent-calendars": {
-      "clicks": 225,
-      "impressions": 590,
-      "position": 5.5508474576271185
+      "clicks": 249,
+      "impressions": 628,
+      "position": 5.375796178343949
     },
     "https://www.arcstore.co.za/arc/arc-makeup-booking": {
-      "clicks": 47,
-      "impressions": 289,
-      "position": 4.006920415224913
+      "clicks": 44,
+      "impressions": 285,
+      "position": 4.010526315789473
     },
     "https://www.arcstore.co.za/arc/customer/t-cs/arc-exclusives-15-off": {
-      "clicks": 39,
-      "impressions": 487,
-      "position": 5.108829568788501
+      "clicks": 37,
+      "impressions": 483,
+      "position": 5.151138716356107
     },
     "https://www.arcstore.co.za/arc/the-40-off-arc-sale-is-now-on": {
-      "clicks": 128,
-      "impressions": 1086,
-      "position": 5.1869244935543275
+      "clicks": 132,
+      "impressions": 1098,
+      "position": 5.163934426229508
     },
     "https://www.arcstore.co.za/arc/the-arc-sale-up-to-40-off-starts-now": {
       "clicks": 39,
-      "impressions": 709,
-      "position": 6.276445698166431
+      "impressions": 741,
+      "position": 6.125506072874494
     },
     "https://www.arcstore.co.za/arc/want-15-off-your-entire-in-store-purchase-heres-how": {
       "clicks": 46,
-      "impressions": 351,
-      "position": 4.683760683760683
+      "impressions": 348,
+      "position": 4.649425287356322
     },
     "https://www.arcstore.co.za/blackfriday": {
-      "clicks": 47,
-      "impressions": 1190,
-      "position": 17.257983193277312
+      "clicks": 57,
+      "impressions": 1235,
+      "position": 16.7417004048583
     },
     "https://www.arcstore.co.za/brands": {
-      "clicks": 678,
-      "impressions": 60147,
-      "position": 2.0023941343707916
+      "clicks": 689,
+      "impressions": 60412,
+      "position": 1.9597762034032975
     },
     "https://www.arcstore.co.za/brands/anastasia-beverly-hills": {
       "clicks": 65,
-      "impressions": 2180,
-      "position": 11.756422018348625
+      "impressions": 2193,
+      "position": 11.722298221614228
     },
     "https://www.arcstore.co.za/brands/anua": {
-      "clicks": 349,
-      "impressions": 9267,
-      "position": 4.719542462501349
+      "clicks": 352,
+      "impressions": 9348,
+      "position": 4.6406718014548565
     },
     "https://www.arcstore.co.za/brands/arencia": {
-      "clicks": 110,
-      "impressions": 2696,
-      "position": 4.530044510385757
+      "clicks": 108,
+      "impressions": 2701,
+      "position": 4.536838208071085
     },
     "https://www.arcstore.co.za/brands/armani": {
-      "clicks": 43,
-      "impressions": 7378,
-      "position": 7.260097587422066
+      "clicks": 42,
+      "impressions": 7287,
+      "position": 7.23095924248662
     },
     "https://www.arcstore.co.za/brands/axis-y": {
-      "clicks": 137,
-      "impressions": 5029,
-      "position": 7.1745873931199045
+      "clicks": 138,
+      "impressions": 5058,
+      "position": 7.1631079478054565
     },
     "https://www.arcstore.co.za/brands/beauty-of-joseon": {
-      "clicks": 240,
-      "impressions": 4891,
-      "position": 4.248006542629319
+      "clicks": 243,
+      "impressions": 4962,
+      "position": 4.204151551793632
     },
     "https://www.arcstore.co.za/brands/benefit": {
-      "clicks": 103,
-      "impressions": 5028,
-      "position": 7.394988066825776
+      "clicks": 101,
+      "impressions": 4974,
+      "position": 7.335946924004825
     },
     "https://www.arcstore.co.za/brands/biodance": {
       "clicks": 55,
-      "impressions": 969,
-      "position": 5.841073271413829
+      "impressions": 984,
+      "position": 5.5426829268292686
     },
     "https://www.arcstore.co.za/brands/burberry": {
-      "clicks": 55,
-      "impressions": 10621,
-      "position": 7.079088598060446
+      "clicks": 49,
+      "impressions": 10530,
+      "position": 7.096011396011396
     },
     "https://www.arcstore.co.za/brands/bvlgari/all-fragrances": {
-      "clicks": 110,
-      "impressions": 8654,
-      "position": 7.725675987982436
+      "clicks": 113,
+      "impressions": 8748,
+      "position": 7.633859167809785
     },
     "https://www.arcstore.co.za/brands/by-arc": {
-      "clicks": 39,
-      "impressions": 1414,
-      "position": 2.3323903818953324
+      "clicks": 36,
+      "impressions": 1410,
+      "position": 2.35177304964539
     },
     "https://www.arcstore.co.za/brands/calvin-klein": {
-      "clicks": 344,
-      "impressions": 25437,
-      "position": 4.7283484687659705
+      "clicks": 347,
+      "impressions": 25677,
+      "position": 4.744440549908479
     },
     "https://www.arcstore.co.za/brands/carolina-herrera": {
-      "clicks": 66,
-      "impressions": 5612,
-      "position": 7.107626514611547
+      "clicks": 63,
+      "impressions": 5590,
+      "position": 7.11824686940966
     },
     "https://www.arcstore.co.za/brands/chanel": {
-      "clicks": 212,
-      "impressions": 11084,
-      "position": 6.960664020209311
+      "clicks": 222,
+      "impressions": 11570,
+      "position": 6.860674157303371
     },
     "https://www.arcstore.co.za/brands/chloe": {
-      "clicks": 65,
-      "impressions": 3044,
-      "position": 6.003613666228646
+      "clicks": 63,
+      "impressions": 2950,
+      "position": 6.025084745762712
     },
     "https://www.arcstore.co.za/brands/coach": {
-      "clicks": 80,
-      "impressions": 7000,
-      "position": 6.288285714285714
+      "clicks": 81,
+      "impressions": 6906,
+      "position": 6.244280335939763
     },
     "https://www.arcstore.co.za/brands/cosrx": {
-      "clicks": 141,
-      "impressions": 3760,
-      "position": 9.481648936170213
+      "clicks": 143,
+      "impressions": 3787,
+      "position": 9.192764721415369
     },
     "https://www.arcstore.co.za/brands/dior": {
-      "clicks": 39,
-      "impressions": 4753,
-      "position": 9.45444982116558
+      "clicks": 37,
+      "impressions": 4778,
+      "position": 9.249267475931353
     },
     "https://www.arcstore.co.za/brands/dolce-gabbana-men-fragrance": {
-      "clicks": 42,
-      "impressions": 4769,
-      "position": 4.51310547284546
+      "clicks": 41,
+      "impressions": 4773,
+      "position": 4.49821914938194
     },
     "https://www.arcstore.co.za/brands/dolce-gabbana-women-fragrance": {
-      "clicks": 53,
-      "impressions": 7092,
-      "position": 5.143542019176537
+      "clicks": 55,
+      "impressions": 7219,
+      "position": 5.098490095581106
     },
     "https://www.arcstore.co.za/brands/dr-althea": {
-      "clicks": 150,
-      "impressions": 5349,
-      "position": 4.7238736212376145
+      "clicks": 152,
+      "impressions": 5358,
+      "position": 4.730683090705487
     },
     "https://www.arcstore.co.za/brands/elie-saab": {
-      "clicks": 57,
-      "impressions": 5305,
-      "position": 5.425636192271442
+      "clicks": 53,
+      "impressions": 5347,
+      "position": 5.374602580886479
     },
     "https://www.arcstore.co.za/brands/erborian": {
-      "clicks": 181,
-      "impressions": 2865,
-      "position": 3.2945898778359513
+      "clicks": 185,
+      "impressions": 2858,
+      "position": 3.155703289013296
     },
     "https://www.arcstore.co.za/brands/est%C3%A9e-lauder": {
-      "clicks": 42,
-      "impressions": 10114,
-      "position": 7.960450860193791
+      "clicks": 43,
+      "impressions": 10195,
+      "position": 7.883276115743011
     },
     "https://www.arcstore.co.za/brands/fenty-beauty": {
-      "clicks": 342,
-      "impressions": 13018,
-      "position": 9.907051774466124
+      "clicks": 334,
+      "impressions": 12951,
+      "position": 9.689135974056057
     },
     "https://www.arcstore.co.za/brands/fenty-beauty/lipsticks": {
-      "clicks": 58,
-      "impressions": 2021,
-      "position": 5.078673923800099
+      "clicks": 60,
+      "impressions": 2000,
+      "position": 5.082
     },
     "https://www.arcstore.co.za/brands/fenty-skin": {
-      "clicks": 105,
-      "impressions": 1883,
-      "position": 3.717472118959108
+      "clicks": 108,
+      "impressions": 1899,
+      "position": 3.6893101632438126
     },
     "https://www.arcstore.co.za/brands/givenchy/womens-fragrances": {
-      "clicks": 63,
-      "impressions": 3734,
-      "position": 6.062131762185324
+      "clicks": 62,
+      "impressions": 3656,
+      "position": 5.9931619256017505
     },
     "https://www.arcstore.co.za/brands/gucci": {
-      "clicks": 133,
-      "impressions": 15441,
-      "position": 5.743734214105304
+      "clicks": 128,
+      "impressions": 15905,
+      "position": 5.801949072618673
     },
     "https://www.arcstore.co.za/brands/guerlain": {
-      "clicks": 354,
-      "impressions": 3871,
-      "position": 7.386980108499096
+      "clicks": 348,
+      "impressions": 3866,
+      "position": 7.40041386445939
     },
     "https://www.arcstore.co.za/brands/haruharu-wonder": {
-      "clicks": 91,
-      "impressions": 1918,
-      "position": 5.106360792492179
+      "clicks": 98,
+      "impressions": 1950,
+      "position": 4.98102564102564
     },
     "https://www.arcstore.co.za/brands/heliocare-1": {
-      "clicks": 75,
-      "impressions": 5643,
-      "position": 7.587099060783271
+      "clicks": 79,
+      "impressions": 5741,
+      "position": 7.59118620449399
     },
     "https://www.arcstore.co.za/brands/huda-beauty": {
       "clicks": 415,
-      "impressions": 8918,
-      "position": 6.094640053823727
+      "impressions": 8865,
+      "position": 5.9697687535250985
     },
     "https://www.arcstore.co.za/brands/hugo-boss": {
-      "clicks": 51,
-      "impressions": 8100,
-      "position": 7.682098765432099
+      "clicks": 54,
+      "impressions": 8102,
+      "position": 7.692051345346828
     },
     "https://www.arcstore.co.za/brands/innisfree": {
-      "clicks": 53,
-      "impressions": 1022,
-      "position": 12.850293542074365
+      "clicks": 52,
+      "impressions": 1016,
+      "position": 12.604330708661417
     },
     "https://www.arcstore.co.za/brands/issey-miyake": {
-      "clicks": 139,
-      "impressions": 12985,
-      "position": 4.901424720831729
+      "clicks": 142,
+      "impressions": 13131,
+      "position": 4.86093976087122
     },
     "https://www.arcstore.co.za/brands/it-cosmetics": {
-      "clicks": 146,
-      "impressions": 2169,
-      "position": 5.2337482710926695
+      "clicks": 143,
+      "impressions": 2155,
+      "position": 5.233410672853828
     },
     "https://www.arcstore.co.za/brands/jean-paul-gaultier": {
-      "clicks": 129,
-      "impressions": 14297,
-      "position": 5.216758760579142
+      "clicks": 132,
+      "impressions": 14047,
+      "position": 5.186445504378159
     },
     "https://www.arcstore.co.za/brands/k%C3%A9rastase": {
-      "clicks": 371,
-      "impressions": 11299,
-      "position": 4.603947251969201
+      "clicks": 368,
+      "impressions": 11321,
+      "position": 4.583340694284957
     },
     "https://www.arcstore.co.za/brands/kayali": {
-      "clicks": 1609,
-      "impressions": 20090,
-      "position": 3.84006968641115
+      "clicks": 1591,
+      "impressions": 20166,
+      "position": 3.826291778240603
     },
     "https://www.arcstore.co.za/brands/kiehl's": {
-      "clicks": 85,
+      "clicks": 86,
       "impressions": 2286,
-      "position": 5.359580052493438
+      "position": 5.376202974628171
     },
     "https://www.arcstore.co.za/brands/kilian-paris": {
-      "clicks": 50,
-      "impressions": 1766,
-      "position": 4.5311438278595695
+      "clicks": 49,
+      "impressions": 1783,
+      "position": 4.538979248457656
     },
     "https://www.arcstore.co.za/brands/kylie-cosmetics-by-kylie-jenner": {
-      "clicks": 298,
-      "impressions": 10515,
-      "position": 6.537803138373752
+      "clicks": 306,
+      "impressions": 10685,
+      "position": 6.425643425362658
     },
     "https://www.arcstore.co.za/brands/la-mer": {
-      "clicks": 53,
-      "impressions": 2638,
-      "position": 5.173237300985595
+      "clicks": 52,
+      "impressions": 2632,
+      "position": 5.139437689969605
     },
     "https://www.arcstore.co.za/brands/lanc%C3%B4me": {
       "clicks": 89,
-      "impressions": 5048,
-      "position": 6.648771790808241
+      "impressions": 5049,
+      "position": 5.731828084769261
     },
     "https://www.arcstore.co.za/brands/lanc%C3%B4me/womens-fragrances": {
-      "clicks": 44,
+      "clicks": 42,
       "impressions": 4126,
-      "position": 4.482307319437712
+      "position": 4.358700920988851
     },
     "https://www.arcstore.co.za/brands/laneige": {
-      "clicks": 409,
-      "impressions": 6172,
-      "position": 5.873784834737524
+      "clicks": 401,
+      "impressions": 6085,
+      "position": 5.4491372226787185
     },
     "https://www.arcstore.co.za/brands/lelive.": {
-      "clicks": 122,
-      "impressions": 13616,
-      "position": 6.454612220916569
+      "clicks": 124,
+      "impressions": 13683,
+      "position": 6.405612804209603
     },
     "https://www.arcstore.co.za/brands/loewe": {
-      "clicks": 68,
-      "impressions": 2067,
-      "position": 6.403483309143686
+      "clicks": 58,
+      "impressions": 1966,
+      "position": 6.513733468972533
     },
     "https://www.arcstore.co.za/brands/mac": {
-      "clicks": 131,
-      "impressions": 18118,
-      "position": 7.840655701512309
+      "clicks": 137,
+      "impressions": 18193,
+      "position": 7.795580717858517
     },
     "https://www.arcstore.co.za/brands/maison-margiela": {
-      "clicks": 86,
-      "impressions": 8866,
-      "position": 5.920257162192646
+      "clicks": 87,
+      "impressions": 8831,
+      "position": 5.866040086060469
     },
     "https://www.arcstore.co.za/brands/maison-margiela-fragrances": {
-      "clicks": 191,
-      "impressions": 3772,
-      "position": 4.311770943796395
+      "clicks": 193,
+      "impressions": 3694,
+      "position": 4.287222523010287
     },
     "https://www.arcstore.co.za/brands/marc-jacobs": {
-      "clicks": 201,
-      "impressions": 10691,
-      "position": 4.705359648302311
+      "clicks": 203,
+      "impressions": 10507,
+      "position": 4.636337679642143
     },
     "https://www.arcstore.co.za/brands/medicube": {
-      "clicks": 2420,
-      "impressions": 42058,
-      "position": 3.433306386418755
+      "clicks": 2433,
+      "impressions": 42230,
+      "position": 3.4172862893677483
     },
     "https://www.arcstore.co.za/brands/michael-kors": {
-      "clicks": 101,
-      "impressions": 7529,
-      "position": 4.3038916190729175
+      "clicks": 99,
+      "impressions": 7280,
+      "position": 4.2274725274725276
     },
     "https://www.arcstore.co.za/brands/mizani": {
-      "clicks": 117,
-      "impressions": 6639,
-      "position": 7.8665461665913545
+      "clicks": 120,
+      "impressions": 6655,
+      "position": 7.914500375657401
     },
     "https://www.arcstore.co.za/brands/narciso-rodriguez": {
-      "clicks": 154,
-      "impressions": 9260,
-      "position": 4.636393088552916
+      "clicks": 152,
+      "impressions": 9397,
+      "position": 4.5506012557199105
     },
     "https://www.arcstore.co.za/brands/nars": {
-      "clicks": 142,
-      "impressions": 7448,
-      "position": 10.7765843179377
+      "clicks": 144,
+      "impressions": 7462,
+      "position": 10.709997319753418
     },
     "https://www.arcstore.co.za/brands/nars/cheeks": {
-      "clicks": 57,
-      "impressions": 1152,
-      "position": 5.114583333333333
+      "clicks": 58,
+      "impressions": 1127,
+      "position": 4.909494232475598
     },
     "https://www.arcstore.co.za/brands/nars/complexion": {
-      "clicks": 150,
-      "impressions": 4141,
-      "position": 3.834822506640908
+      "clicks": 157,
+      "impressions": 4122,
+      "position": 3.636584182435711
     },
     "https://www.arcstore.co.za/brands/nars/soft-matte-collection": {
-      "clicks": 75,
-      "impressions": 1037,
-      "position": 4.271938283510125
+      "clicks": 71,
+      "impressions": 1030,
+      "position": 4.307766990291262
     },
     "https://www.arcstore.co.za/brands/paula's-choice": {
-      "clicks": 124,
-      "impressions": 2032,
-      "position": 5.591535433070866
+      "clicks": 121,
+      "impressions": 1979,
+      "position": 5.569479535118747
     },
     "https://www.arcstore.co.za/brands/purito-seoul": {
-      "clicks": 40,
-      "impressions": 1388,
-      "position": 9.159221902017292
+      "clicks": 38,
+      "impressions": 1424,
+      "position": 9.415730337078651
     },
     "https://www.arcstore.co.za/brands/rabanne": {
-      "clicks": 57,
-      "impressions": 7531,
-      "position": 5.356128004249103
+      "clicks": 56,
+      "impressions": 7456,
+      "position": 5.299087982832618
     },
     "https://www.arcstore.co.za/brands/rabanne/1-million-range": {
       "clicks": 40,
-      "impressions": 9895,
-      "position": 6.148762001010612
+      "impressions": 9817,
+      "position": 6.154425995721708
     },
     "https://www.arcstore.co.za/brands/real-techniques": {
-      "clicks": 138,
-      "impressions": 2295,
-      "position": 4.477995642701525
+      "clicks": 134,
+      "impressions": 2315,
+      "position": 4.575377969762419
     },
     "https://www.arcstore.co.za/brands/redken": {
-      "clicks": 39,
-      "impressions": 2972,
-      "position": 8.792395693135935
+      "clicks": 37,
+      "impressions": 3018,
+      "position": 8.684227965540092
     },
     "https://www.arcstore.co.za/brands/salt-stone": {
-      "clicks": 252,
-      "impressions": 1674,
-      "position": 3.4982078853046596
+      "clicks": 246,
+      "impressions": 1653,
+      "position": 3.5190562613430125
     },
     "https://www.arcstore.co.za/brands/shark-beauty": {
-      "clicks": 170,
-      "impressions": 3314,
-      "position": 3.1176825588412793
+      "clicks": 171,
+      "impressions": 3325,
+      "position": 3.1001503759398497
     },
     "https://www.arcstore.co.za/brands/shiseido": {
-      "clicks": 78,
-      "impressions": 2598,
-      "position": 9.553502694380292
+      "clicks": 74,
+      "impressions": 2569,
+      "position": 9.360451537563254
     },
     "https://www.arcstore.co.za/brands/skin-functional": {
-      "clicks": 66,
-      "impressions": 11419,
-      "position": 5.80514931254926
+      "clicks": 67,
+      "impressions": 11413,
+      "position": 5.807675457811268
     },
     "https://www.arcstore.co.za/brands/skin1004": {
-      "clicks": 170,
-      "impressions": 7380,
-      "position": 4.961382113821138
+      "clicks": 171,
+      "impressions": 7425,
+      "position": 4.860471380471381
     },
     "https://www.arcstore.co.za/brands/sol-de-janeiro": {
-      "clicks": 1337,
-      "impressions": 27530,
-      "position": 3.2787141300399565
+      "clicks": 1330,
+      "impressions": 27340,
+      "position": 3.2169348939283102
     },
     "https://www.arcstore.co.za/brands/sol-de-janeiro/body-mists": {
-      "clicks": 154,
-      "impressions": 5409,
-      "position": 3.3521907931225736
+      "clicks": 149,
+      "impressions": 5306,
+      "position": 3.3098379193366
     },
     "https://www.arcstore.co.za/brands/the-inkey-list": {
-      "clicks": 94,
-      "impressions": 588,
-      "position": 4.096938775510204
+      "clicks": 102,
+      "impressions": 670,
+      "position": 3.8850746268656717
     },
     "https://www.arcstore.co.za/brands/the-ordinary": {
-      "clicks": 353,
-      "impressions": 21936,
-      "position": 6.725929978118162
+      "clicks": 366,
+      "impressions": 22174,
+      "position": 6.674348335888879
     },
     "https://www.arcstore.co.za/brands/the-ordinary/serums": {
-      "clicks": 88,
-      "impressions": 2210,
-      "position": 7.3950226244343895
+      "clicks": 90,
+      "impressions": 2221,
+      "position": 7.323728050427735
     },
     "https://www.arcstore.co.za/brands/tirtir": {
       "clicks": 126,
-      "impressions": 2486,
-      "position": 7.405872888173773
+      "impressions": 2466,
+      "position": 7.347120843471209
     },
     "https://www.arcstore.co.za/brands/tom-ford": {
-      "clicks": 266,
-      "impressions": 14669,
-      "position": 4.569227622878179
+      "clicks": 274,
+      "impressions": 14565,
+      "position": 4.559972536903536
     },
     "https://www.arcstore.co.za/brands/torriden": {
-      "clicks": 54,
-      "impressions": 666,
-      "position": 4.806306306306306
+      "clicks": 53,
+      "impressions": 661,
+      "position": 4.344931921331316
     },
     "https://www.arcstore.co.za/brands/urban-decay": {
-      "clicks": 66,
-      "impressions": 1183,
-      "position": 4.88334742180896
+      "clicks": 62,
+      "impressions": 1186,
+      "position": 4.881112984822934
     },
     "https://www.arcstore.co.za/brands/valentino": {
-      "clicks": 196,
-      "impressions": 11178,
-      "position": 3.8619609948112363
+      "clicks": 194,
+      "impressions": 11150,
+      "position": 3.8259192825112107
     },
     "https://www.arcstore.co.za/brands/versace": {
-      "clicks": 55,
-      "impressions": 10385,
-      "position": 6.966586422725085
+      "clicks": 59,
+      "impressions": 10262,
+      "position": 6.891346716039759
     },
     "https://www.arcstore.co.za/brands/yves-saint-laurent": {
-      "clicks": 328,
-      "impressions": 21402,
-      "position": 5.350995234090272
+      "clicks": 329,
+      "impressions": 21562,
+      "position": 5.293757536406641
+    },
+    "https://www.arcstore.co.za/brands/yves-saint-laurent/womens-fragrances": {
+      "clicks": 36,
+      "impressions": 3461,
+      "position": 5.431378214388905
     },
     "https://www.arcstore.co.za/chanel-makeup": {
-      "clicks": 80,
-      "impressions": 1508,
-      "position": 6.732095490716181
-    },
-    "https://www.arcstore.co.za/chanel-makeup/complexion/foundation": {
-      "clicks": 38,
-      "impressions": 839,
-      "position": 3.6162097735399286
+      "clicks": 81,
+      "impressions": 1492,
+      "position": 6.766085790884718
     },
     "https://www.arcstore.co.za/christmas-gifts": {
-      "clicks": 201,
-      "impressions": 3514,
-      "position": 8.11525327262379
+      "clicks": 234,
+      "impressions": 3975,
+      "position": 7.7323270440251575
     },
     "https://www.arcstore.co.za/customer/about-arc": {
-      "clicks": 146,
-      "impressions": 19242,
-      "position": 1.4395073277206112
+      "clicks": 145,
+      "impressions": 19206,
+      "position": 1.4438717067583047
     },
     "https://www.arcstore.co.za/customer/help-centre": {
       "clicks": 87,
-      "impressions": 1231,
-      "position": 5.8342810722989435
+      "impressions": 1229,
+      "position": 5.784377542717657
     },
     "https://www.arcstore.co.za/customer/help-centre/clubcard": {
       "clicks": 41,
-      "impressions": 3030,
-      "position": 7.666006600660066
+      "impressions": 3070,
+      "position": 7.619869706840391
     },
     "https://www.arcstore.co.za/customer/help-centre/delivery": {
       "clicks": 93,
-      "impressions": 1810,
-      "position": 5.413812154696132
+      "impressions": 1729,
+      "position": 5.349913244650087
     },
     "https://www.arcstore.co.za/customer/help-centre/returns": {
-      "clicks": 69,
+      "clicks": 67,
       "impressions": 616,
-      "position": 4.358766233766234
+      "position": 4.336038961038961
     },
     "https://www.arcstore.co.za/customer/t-cs/online-terms-1": {
-      "clicks": 39,
-      "impressions": 1527,
-      "position": 3.8840864440078584
+      "clicks": 37,
+      "impressions": 1522,
+      "position": 3.883705650459921
     },
     "https://www.arcstore.co.za/dior-fragrance/female": {
-      "clicks": 44,
-      "impressions": 7160,
-      "position": 5.850279329608939
+      "clicks": 46,
+      "impressions": 7252,
+      "position": 5.730832873690017
     },
     "https://www.arcstore.co.za/dior-makeup": {
       "clicks": 52,
-      "impressions": 1597,
-      "position": 4.095804633688165
+      "impressions": 1656,
+      "position": 4.158212560386474
     },
     "https://www.arcstore.co.za/fragrance": {
-      "clicks": 1068,
-      "impressions": 51708,
-      "position": 3.385143498104742
+      "clicks": 1049,
+      "impressions": 51971,
+      "position": 3.305247157068365
     },
     "https://www.arcstore.co.za/fragrance/gift-sets/gift-sets": {
-      "clicks": 53,
-      "impressions": 1766,
-      "position": 9.503397508493771
+      "clicks": 50,
+      "impressions": 1748,
+      "position": 9.424485125858123
     },
     "https://www.arcstore.co.za/fragrance/giftset": {
-      "clicks": 116,
-      "impressions": 5009,
-      "position": 6.000199640646835
+      "clicks": 115,
+      "impressions": 5111,
+      "position": 6.014869888475836
     },
     "https://www.arcstore.co.za/fragrance/men": {
-      "clicks": 238,
-      "impressions": 18869,
-      "position": 7.169696327309343
+      "clicks": 241,
+      "impressions": 18796,
+      "position": 7.101032134496702
     },
     "https://www.arcstore.co.za/fragrance/mini": {
-      "clicks": 332,
-      "impressions": 4550,
-      "position": 4.498241758241758
+      "clicks": 329,
+      "impressions": 4570,
+      "position": 4.475054704595186
     },
     "https://www.arcstore.co.za/fragrance/women": {
       "clicks": 204,
-      "impressions": 19045,
-      "position": 7.536938829088999
+      "impressions": 18501,
+      "position": 7.320631317226096
     },
     "https://www.arcstore.co.za/fragrance/women/body-mist-spray": {
-      "clicks": 93,
-      "impressions": 10630,
-      "position": 7.502539981185325
+      "clicks": 90,
+      "impressions": 10725,
+      "position": 7.481678321678322
     },
     "https://www.arcstore.co.za/gifts/giftsets": {
-      "clicks": 69,
-      "impressions": 342,
-      "position": 9.049707602339181
+      "clicks": 88,
+      "impressions": 434,
+      "position": 8.112903225806452
     },
     "https://www.arcstore.co.za/k-beauty-at-arc": {
-      "clicks": 350,
-      "impressions": 21759,
-      "position": 8.208879084516752
+      "clicks": 341,
+      "impressions": 21984,
+      "position": 8.259188500727802
     },
     "https://www.arcstore.co.za/makeup": {
-      "clicks": 733,
-      "impressions": 65904,
-      "position": 2.2821224811847536
+      "clicks": 737,
+      "impressions": 66332,
+      "position": 2.232059940903335
     },
     "https://www.arcstore.co.za/makeup/eyes/eye-shadow": {
       "clicks": 66,
-      "impressions": 3420,
-      "position": 6.703801169590643
+      "impressions": 3410,
+      "position": 6.759824046920821
     },
     "https://www.arcstore.co.za/makeup/eyes/eye-shadow-palettes": {
-      "clicks": 135,
-      "impressions": 5293,
-      "position": 5.326279992442849
+      "clicks": 139,
+      "impressions": 5130,
+      "position": 5.2631578947368425
     },
     "https://www.arcstore.co.za/makeup/eyes/eyeliner": {
-      "clicks": 37,
-      "impressions": 5240,
-      "position": 7.9238549618320615
+      "clicks": 39,
+      "impressions": 5090,
+      "position": 7.978978388998035
     },
     "https://www.arcstore.co.za/makeup/face/blush": {
-      "clicks": 100,
-      "impressions": 8253,
-      "position": 7.380467708711984
+      "clicks": 102,
+      "impressions": 7973,
+      "position": 7.395585099711527
     },
     "https://www.arcstore.co.za/makeup/face/bronzer": {
-      "clicks": 72,
-      "impressions": 5215,
-      "position": 6.165867689357622
+      "clicks": 69,
+      "impressions": 4864,
+      "position": 6.013774671052632
     },
     "https://www.arcstore.co.za/makeup/face/concealer": {
-      "clicks": 79,
-      "impressions": 6280,
-      "position": 9.088853503184714
+      "clicks": 78,
+      "impressions": 6368,
+      "position": 9.1615891959799
     },
     "https://www.arcstore.co.za/makeup/face/contouring": {
-      "clicks": 36,
-      "impressions": 4562,
-      "position": 6.528715475668567
+      "clicks": 37,
+      "impressions": 4527,
+      "position": 6.4585818422796555
     },
     "https://www.arcstore.co.za/makeup/face/foundation": {
-      "clicks": 174,
-      "impressions": 12627,
-      "position": 7.158232359230221
+      "clicks": 175,
+      "impressions": 12453,
+      "position": 7.153938809925319
     },
     "https://www.arcstore.co.za/makeup/face/highlighter": {
-      "clicks": 43,
-      "impressions": 3340,
-      "position": 5.710479041916168
+      "clicks": 41,
+      "impressions": 3151,
+      "position": 5.740399873056172
     },
     "https://www.arcstore.co.za/makeup/face/powder": {
       "clicks": 50,
-      "impressions": 4857,
-      "position": 6.663578340539428
+      "impressions": 4804,
+      "position": 6.613447127393838
     },
     "https://www.arcstore.co.za/makeup/face/setting-finishing-sprays": {
-      "clicks": 78,
-      "impressions": 6589,
-      "position": 6.501897101229321
+      "clicks": 75,
+      "impressions": 6541,
+      "position": 6.4013147836722215
     },
     "https://www.arcstore.co.za/makeup/face/tinted-moisturiser": {
-      "clicks": 133,
-      "impressions": 5156,
-      "position": 4.7812257564003104
+      "clicks": 130,
+      "impressions": 5169,
+      "position": 4.770942155155736
     },
     "https://www.arcstore.co.za/makeup/giftset": {
-      "clicks": 151,
-      "impressions": 4638,
-      "position": 6.3926261319534285
+      "clicks": 147,
+      "impressions": 4702,
+      "position": 6.316886431305828
     },
     "https://www.arcstore.co.za/makeup/lips/lip-balms": {
-      "clicks": 42,
-      "impressions": 7211,
-      "position": 8.831923450284288
+      "clicks": 39,
+      "impressions": 7068,
+      "position": 8.807724957555179
     },
     "https://www.arcstore.co.za/makeup/lips/lip-gloss": {
-      "clicks": 75,
-      "impressions": 7332,
-      "position": 5.985270049099836
+      "clicks": 77,
+      "impressions": 7218,
+      "position": 5.914380714879468
     },
     "https://www.arcstore.co.za/makeup/lips/lip-stain": {
-      "clicks": 46,
-      "impressions": 2691,
-      "position": 5.237458193979933
+      "clicks": 47,
+      "impressions": 2629,
+      "position": 5.197413465195892
     },
     "https://www.arcstore.co.za/makeup/makeup-minis": {
-      "clicks": 100,
-      "impressions": 2090,
-      "position": 12.578947368421053
+      "clicks": 97,
+      "impressions": 2068,
+      "position": 12.041586073500968
     },
     "https://www.arcstore.co.za/mens-fragrance/bleu-de-chanel": {
       "clicks": 53,
-      "impressions": 4719,
-      "position": 4.639330366603094
+      "impressions": 4689,
+      "position": 4.631264661974835
+    },
+    "https://www.arcstore.co.za/new-in": {
+      "clicks": 38,
+      "impressions": 1480,
+      "position": 11.466216216216216
     },
     "https://www.arcstore.co.za/offers": {
-      "clicks": 630,
-      "impressions": 50878,
-      "position": 1.2215692440740595
+      "clicks": 643,
+      "impressions": 51104,
+      "position": 1.220589386349405
     },
     "https://www.arcstore.co.za/our-stores": {
-      "clicks": 726,
-      "impressions": 61461,
-      "position": 1.8360911797725388
+      "clicks": 718,
+      "impressions": 61700,
+      "position": 1.8309886547811993
     },
     "https://www.arcstore.co.za/our-stores/cavendish": {
-      "clicks": 179,
-      "impressions": 5347,
-      "position": 4.54628763792781
+      "clicks": 182,
+      "impressions": 5341,
+      "position": 4.4963489983149225
     },
     "https://www.arcstore.co.za/our-stores/gateway": {
       "clicks": 182,
-      "impressions": 4570,
-      "position": 4.332385120350109
+      "impressions": 4571,
+      "position": 4.343250929774666
     },
     "https://www.arcstore.co.za/our-stores/mall-of-africa": {
-      "clicks": 63,
-      "impressions": 3335,
-      "position": 4.590704647676162
+      "clicks": 62,
+      "impressions": 3282,
+      "position": 4.628275441803778
     },
     "https://www.arcstore.co.za/our-stores/menlyn": {
       "clicks": 215,
-      "impressions": 7870,
-      "position": 3.8796696315120713
+      "impressions": 7916,
+      "position": 3.853208691258211
     },
     "https://www.arcstore.co.za/our-stores/pavilion-shopping-centre": {
       "clicks": 46,
-      "impressions": 1659,
-      "position": 6.145268233875829
+      "impressions": 1660,
+      "position": 6.146385542168675
     },
     "https://www.arcstore.co.za/our-stores/sandton-city-1": {
-      "clicks": 278,
-      "impressions": 8192,
-      "position": 3.1605224609375
+      "clicks": 284,
+      "impressions": 8159,
+      "position": 3.172815295992156
     },
     "https://www.arcstore.co.za/our-stores/tyger-valley": {
-      "clicks": 196,
-      "impressions": 4556,
-      "position": 4.637620719929763
+      "clicks": 188,
+      "impressions": 4580,
+      "position": 4.6067685589519645
     },
     "https://www.arcstore.co.za/our-stores/va-waterfront": {
-      "clicks": 128,
-      "impressions": 4421,
-      "position": 4.944808866772224
+      "clicks": 124,
+      "impressions": 4399,
+      "position": 4.9854512389179355
     },
     "https://www.arcstore.co.za/pay-just-now": {
-      "clicks": 59,
-      "impressions": 1099,
-      "position": 5.45950864422202
+      "clicks": 58,
+      "impressions": 1101,
+      "position": 5.521344232515895
     },
     "https://www.arcstore.co.za/products/brand/anua/azelaic-acid-10-hyaluron-redness-soothing-serum": {
       "clicks": 86,
-      "impressions": 3812,
-      "position": 3.5870933892969568
+      "impressions": 3827,
+      "position": 3.5654559707342566
     },
     "https://www.arcstore.co.za/products/brand/anua/niacinamide-10-txa-4-serum": {
-      "clicks": 59,
-      "impressions": 2936,
-      "position": 4.3641008174386915
+      "clicks": 57,
+      "impressions": 2953,
+      "position": 4.348120555367423
     },
     "https://www.arcstore.co.za/products/brand/anua/pdrn-hyaluronic-acid-100-moisture-cream": {
-      "clicks": 44,
-      "impressions": 1705,
-      "position": 3.228739002932551
+      "clicks": 46,
+      "impressions": 1768,
+      "position": 3.1889140271493215
     },
     "https://www.arcstore.co.za/products/brand/anua/pdrn-hyaluronic-acid-hydrating-capsule-mist": {
       "clicks": 60,
-      "impressions": 1552,
-      "position": 2.8698453608247423
+      "impressions": 1544,
+      "position": 2.851683937823834
     },
     "https://www.arcstore.co.za/products/brand/armani/emporio-armani-power-of-you-eau-de-parfum": {
-      "clicks": 53,
-      "impressions": 3164,
-      "position": 4.265802781289507
+      "clicks": 54,
+      "impressions": 3135,
+      "position": 4.205103668261563
     },
     "https://www.arcstore.co.za/products/brand/armani/stronger-with-you-intensely-edp": {
-      "clicks": 51,
-      "impressions": 7312,
-      "position": 6.072757111597374
+      "clicks": 50,
+      "impressions": 7219,
+      "position": 6.138661864524172
     },
     "https://www.arcstore.co.za/products/brand/axis-y/dark-spot-correcting-glow-serum": {
-      "clicks": 143,
-      "impressions": 9105,
-      "position": 3.8879736408566723
+      "clicks": 144,
+      "impressions": 9158,
+      "position": 3.8454902817209
     },
     "https://www.arcstore.co.za/products/brand/axis-y/txa-2-5-intensive-brightening-cream": {
       "clicks": 38,
-      "impressions": 738,
-      "position": 2.910569105691057
+      "impressions": 745,
+      "position": 2.7798657718120805
     },
     "https://www.arcstore.co.za/products/brand/beauty-of-joseon/relief-sun-rice-probiotics": {
-      "clicks": 68,
-      "impressions": 1930,
-      "position": 2.6523316062176168
+      "clicks": 64,
+      "impressions": 1848,
+      "position": 2.6645021645021645
     },
     "https://www.arcstore.co.za/products/brand/beauty-of-joseon/revive-eye-serum-ginseng-retinal": {
-      "clicks": 49,
-      "impressions": 1451,
-      "position": 2.56512749827705
+      "clicks": 53,
+      "impressions": 1425,
+      "position": 2.555789473684211
     },
     "https://www.arcstore.co.za/products/brand/benefit/benetint-cheek-lip-stain": {
-      "clicks": 43,
-      "impressions": 1078,
-      "position": 4.167903525046382
+      "clicks": 42,
+      "impressions": 1081,
+      "position": 4.199814986123959
     },
     "https://www.arcstore.co.za/products/brand/biodance/bio-collagen-real-deep-mask": {
-      "clicks": 89,
-      "impressions": 3208,
-      "position": 5.940461346633416
+      "clicks": 90,
+      "impressions": 3238,
+      "position": 5.882334774552192
     },
     "https://www.arcstore.co.za/products/brand/burberry/goddess-amber-vanilla-eau-de-parfum-intense": {
       "clicks": 37,
-      "impressions": 1225,
-      "position": 5.304489795918367
+      "impressions": 1224,
+      "position": 5.242647058823529
     },
     "https://www.arcstore.co.za/products/brand/burberry/goddess-edp": {
       "clicks": 70,
-      "impressions": 8927,
-      "position": 5.305925842948359
+      "impressions": 8745,
+      "position": 5.238650657518582
     },
     "https://www.arcstore.co.za/products/brand/by-arc/arc-favourites": {
-      "clicks": 94,
-      "impressions": 603,
-      "position": 4.8026533996683245
+      "clicks": 95,
+      "impressions": 597,
+      "position": 4.651591289782244
     },
     "https://www.arcstore.co.za/products/brand/by-arc/fashion-toweling-makeup-pouch": {
-      "clicks": 42,
-      "impressions": 2189,
-      "position": 6.899954317039744
+      "clicks": 41,
+      "impressions": 2166,
+      "position": 6.933979686057248
     },
     "https://www.arcstore.co.za/products/brand/chanel/allure-homme-sport-superleggera-eau-de-parfum": {
-      "clicks": 74,
-      "impressions": 592,
-      "position": 5.934121621621622
+      "clicks": 78,
+      "impressions": 634,
+      "position": 5.556782334384858
     },
     "https://www.arcstore.co.za/products/brand/chanel/bleu-de-chanel-edp": {
       "clicks": 70,
-      "impressions": 3846,
-      "position": 4.589183567342694
+      "impressions": 3887,
+      "position": 4.51505016722408
     },
     "https://www.arcstore.co.za/products/brand/chanel/bleu-de-chanel-parfum": {
-      "clicks": 66,
-      "impressions": 4193,
-      "position": 4.103744335797758
+      "clicks": 65,
+      "impressions": 4226,
+      "position": 4.101514434453383
     },
     "https://www.arcstore.co.za/products/brand/chanel/coco-mademoiselle-crush-absolu-eau-de-parfum": {
-      "clicks": 119,
-      "impressions": 1830,
-      "position": 3.848087431693989
+      "clicks": 115,
+      "impressions": 1810,
+      "position": 3.770718232044199
     },
     "https://www.arcstore.co.za/products/brand/chanel/les-beiges-water-fresh-tint-with-micro-droplet-pigments": {
-      "clicks": 51,
-      "impressions": 697,
-      "position": 6.573888091822095
+      "clicks": 50,
+      "impressions": 699,
+      "position": 6.497854077253219
     },
     "https://www.arcstore.co.za/products/brand/chanel/n5-edp": {
-      "clicks": 51,
-      "impressions": 4770,
-      "position": 4.488679245283018
+      "clicks": 49,
+      "impressions": 4712,
+      "position": 4.4365449915110355
     },
     "https://www.arcstore.co.za/products/brand/cosrx/advanced-snail-96-mucin-power-essence": {
-      "clicks": 39,
-      "impressions": 1616,
-      "position": 4.08539603960396
+      "clicks": 41,
+      "impressions": 1603,
+      "position": 4.074859638178415
     },
     "https://www.arcstore.co.za/products/brand/cosrx/the-6-peptide-skin-booster-serum": {
-      "clicks": 46,
-      "impressions": 980,
-      "position": 4.997959183673469
+      "clicks": 48,
+      "impressions": 976,
+      "position": 4.969262295081967
     },
     "https://www.arcstore.co.za/products/brand/dior/dior-addict-lip-maximizer-plumping-gloss": {
-      "clicks": 43,
-      "impressions": 3316,
-      "position": 5.340772014475271
+      "clicks": 41,
+      "impressions": 3270,
+      "position": 5.364525993883792
     },
     "https://www.arcstore.co.za/products/brand/dior/sauvage-eau-de-parfum": {
-      "clicks": 52,
-      "impressions": 6097,
-      "position": 7.31671313760866
+      "clicks": 51,
+      "impressions": 5957,
+      "position": 7.269934530804096
     },
     "https://www.arcstore.co.za/products/brand/dolce-gabbana/light-blue-eau-de-parfum": {
-      "clicks": 51,
-      "impressions": 5446,
-      "position": 4.240359897172237
+      "clicks": 50,
+      "impressions": 5296,
+      "position": 4.217711480362538
     },
     "https://www.arcstore.co.za/products/brand/dolce-gabbana/light-blue-eau-de-toilette": {
-      "clicks": 78,
-      "impressions": 5213,
-      "position": 4.066180702090927
+      "clicks": 80,
+      "impressions": 5446,
+      "position": 4.063900110172604
     },
     "https://www.arcstore.co.za/products/brand/dolce-gabbana/light-blue-pour-homme-eau-de-parfum": {
-      "clicks": 44,
-      "impressions": 2860,
-      "position": 5.682867132867133
-    },
-    "https://www.arcstore.co.za/products/brand/dolce-gabbana/the-one-edp": {
-      "clicks": 38,
-      "impressions": 3049,
-      "position": 4.353558543784848
+      "clicks": 43,
+      "impressions": 2871,
+      "position": 5.70846394984326
     },
     "https://www.arcstore.co.za/products/brand/fenty-beauty/gloss-bomb-universal-lip-luminizer": {
-      "clicks": 103,
-      "impressions": 3353,
-      "position": 3.5550253504324485
+      "clicks": 101,
+      "impressions": 3310,
+      "position": 3.5302114803625377
     },
     "https://www.arcstore.co.za/products/brand/fenty-beauty/pro-filtr-soft-matte-longwear-liquid-foundation-with-sweat-resistant-technology": {
-      "clicks": 80,
-      "impressions": 4701,
-      "position": 4.154647947245267
+      "clicks": 76,
+      "impressions": 4544,
+      "position": 4.162852112676056
     },
     "https://www.arcstore.co.za/products/brand/fenty-skin/big-drippr-body-wash": {
-      "clicks": 37,
-      "impressions": 625,
-      "position": 4.359999999999999
+      "clicks": 39,
+      "impressions": 630,
+      "position": 4.347619047619048
     },
     "https://www.arcstore.co.za/products/brand/fenty-skin/butta-drop-whipped-oil-body-cream": {
       "clicks": 42,
-      "impressions": 747,
-      "position": 4.187416331994646
+      "impressions": 738,
+      "position": 4.1016260162601625
+    },
+    "https://www.arcstore.co.za/products/brand/gucci/oud-intense-edp": {
+      "clicks": 38,
+      "impressions": 9587,
+      "position": 5.68634609366851
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/easy-bake-intense-eau-de-parfum": {
       "clicks": 58,
-      "impressions": 791,
-      "position": 12.830594184576485
+      "impressions": 801,
+      "position": 11.877652933832708
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/easy-bake-loose-powder": {
-      "clicks": 214,
-      "impressions": 5883,
-      "position": 4.966003739588645
+      "clicks": 215,
+      "impressions": 5866,
+      "position": 4.855949539720423
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/easy-blur-foundation": {
-      "clicks": 88,
-      "impressions": 2245,
-      "position": 3.887750556792873
+      "clicks": 90,
+      "impressions": 2285,
+      "position": 3.8695842450765863
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/empowered-eyeshadow-palette": {
-      "clicks": 40,
-      "impressions": 3140,
-      "position": 11.069108280254778
+      "clicks": 37,
+      "impressions": 2624,
+      "position": 11.722179878048781
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/fauxfilter-under-eye-color-corrector": {
-      "clicks": 58,
-      "impressions": 2034,
-      "position": 6.8952802359882
+      "clicks": 57,
+      "impressions": 2021,
+      "position": 6.847600197921821
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/lip-contour-stain": {
-      "clicks": 67,
-      "impressions": 1952,
-      "position": 10.335040983606557
+      "clicks": 65,
+      "impressions": 1929,
+      "position": 10.00051840331778
     },
     "https://www.arcstore.co.za/products/brand/jean-paul-gaultier/le-male-le-parfum-edp": {
       "clicks": 47,
-      "impressions": 4666,
-      "position": 5.110587226746678
+      "impressions": 4787,
+      "position": 4.962398161687904
     },
     "https://www.arcstore.co.za/products/brand/kayali/eden-collection-miniature-set": {
-      "clicks": 73,
-      "impressions": 936,
-      "position": 2.7852564102564106
+      "clicks": 70,
+      "impressions": 930,
+      "position": 2.736559139784946
     },
     "https://www.arcstore.co.za/products/brand/kayali/eden-juicy-apple-01-edp": {
-      "clicks": 62,
-      "impressions": 1174,
-      "position": 3.995741056218058
+      "clicks": 59,
+      "impressions": 1170,
+      "position": 3.9205128205128204
+    },
+    "https://www.arcstore.co.za/products/brand/kayali/fleur-majesty-rose-royale-31-edp-1": {
+      "clicks": 38,
+      "impressions": 907,
+      "position": 5.156560088202866
     },
     "https://www.arcstore.co.za/products/brand/kayali/lovefest-burning-cherry-48-edp": {
-      "clicks": 39,
-      "impressions": 550,
-      "position": 7.565454545454545
+      "clicks": 38,
+      "impressions": 538,
+      "position": 7.347583643122676
     },
     "https://www.arcstore.co.za/products/brand/kayali/the-wedding-silk-santal-36-edp": {
-      "clicks": 78,
-      "impressions": 1029,
-      "position": 10.514091350826044
+      "clicks": 76,
+      "impressions": 1009,
+      "position": 10.489593657086225
     },
     "https://www.arcstore.co.za/products/brand/kayali/vanilla-28-edp": {
-      "clicks": 291,
-      "impressions": 8224,
-      "position": 4.444066147859923
+      "clicks": 287,
+      "impressions": 8030,
+      "position": 4.283935242839352
     },
     "https://www.arcstore.co.za/products/brand/kayali/vanilla-candy-rock-sugar-42-edp": {
-      "clicks": 62,
-      "impressions": 2299,
-      "position": 6.838190517616355
+      "clicks": 63,
+      "impressions": 2316,
+      "position": 6.639896373056994
     },
     "https://www.arcstore.co.za/products/brand/kayali/yum-marshmallow-edp": {
-      "clicks": 193,
-      "impressions": 5158,
-      "position": 6.119426134160527
+      "clicks": 191,
+      "impressions": 5194,
+      "position": 5.962841740469773
     },
     "https://www.arcstore.co.za/products/brand/kerastase/genesis-anti-hair-fall-fortifying-serum": {
       "clicks": 38,
-      "impressions": 2347,
-      "position": 4.017895185342991
+      "impressions": 2309,
+      "position": 3.9467301862278044
     },
     "https://www.arcstore.co.za/products/brand/kylie-cosmetics/cosmic-kylie-jenner-2-0-eau-de-parfum": {
-      "clicks": 48,
-      "impressions": 2793,
-      "position": 5.677407805227354
+      "clicks": 46,
+      "impressions": 2739,
+      "position": 5.67214311792625
     },
     "https://www.arcstore.co.za/products/brand/kylie-cosmetics/kylie-cosmic-eau-de-parfum": {
       "clicks": 53,
-      "impressions": 2373,
-      "position": 3.5592077538980194
-    },
-    "https://www.arcstore.co.za/products/brand/kylie-cosmetics/kylie-silk-on-my-skin-tint": {
-      "clicks": 39,
-      "impressions": 922,
-      "position": 8.41648590021692
+      "impressions": 2362,
+      "position": 3.5033869602032177
     },
     "https://www.arcstore.co.za/products/brand/kylie-cosmetics/sweet-eclair-hair-body-mist": {
-      "clicks": 71,
-      "impressions": 3949,
-      "position": 3.5158267915928083
+      "clicks": 72,
+      "impressions": 3939,
+      "position": 3.5265295760345263
     },
     "https://www.arcstore.co.za/products/brand/lancome/la-vie-est-belle-vanilla-nude-eau-de-parfum": {
-      "clicks": 54,
-      "impressions": 4542,
-      "position": 6.850946719506825
+      "clicks": 53,
+      "impressions": 4538,
+      "position": 6.882988100484795
     },
     "https://www.arcstore.co.za/products/brand/lancome/o-off-now-hair-and-body-mist": {
-      "clicks": 46,
-      "impressions": 1430,
-      "position": 2.690909090909091
+      "clicks": 44,
+      "impressions": 1427,
+      "position": 2.6937631394533987
     },
     "https://www.arcstore.co.za/products/brand/lancome/teint-idole-ultra-wear-foundation-1": {
-      "clicks": 61,
-      "impressions": 4294,
-      "position": 4.955286446204005
+      "clicks": 63,
+      "impressions": 4314,
+      "position": 4.83240611961057
     },
     "https://www.arcstore.co.za/products/brand/laneige/cream-skin-cerapeptide-toner-moisturizer": {
-      "clicks": 87,
-      "impressions": 1078,
-      "position": 7.729128014842301
+      "clicks": 83,
+      "impressions": 1052,
+      "position": 7.9610266159695815
     },
     "https://www.arcstore.co.za/products/brand/laneige/lip-glowy-balm": {
-      "clicks": 118,
-      "impressions": 3829,
-      "position": 3.5476625750848787
+      "clicks": 120,
+      "impressions": 3832,
+      "position": 3.4545929018789145
     },
     "https://www.arcstore.co.za/products/brand/laneige/lip-sleeping-mask-sweet-soothing": {
-      "clicks": 58,
-      "impressions": 2091,
-      "position": 4.182687709230033
+      "clicks": 55,
+      "impressions": 2082,
+      "position": 4.294908741594621
     },
     "https://www.arcstore.co.za/products/brand/marc-jacobs": {
       "clicks": 47,
       "impressions": 1426,
       "position": 2.7489481065918655
     },
-    "https://www.arcstore.co.za/products/brand/medicube/collagen-jelly-cream": {
-      "clicks": 37,
-      "impressions": 3919,
-      "position": 8.471804031640724
-    },
     "https://www.arcstore.co.za/products/brand/medicube/collagen-night-wrapping-mask": {
-      "clicks": 116,
-      "impressions": 7347,
-      "position": 5.196542806587723
+      "clicks": 120,
+      "impressions": 7452,
+      "position": 5.001476113794954
     },
     "https://www.arcstore.co.za/products/brand/medicube/hypochlorous-acid-daily-facial-spray": {
-      "clicks": 39,
-      "impressions": 3183,
-      "position": 5.884699968583098
+      "clicks": 38,
+      "impressions": 3202,
+      "position": 5.9556527170518425
     },
     "https://www.arcstore.co.za/products/brand/medicube/kojic-acid-turmeric-night-wrapping-mask": {
-      "clicks": 82,
-      "impressions": 2535,
-      "position": 3.580276134122288
+      "clicks": 79,
+      "impressions": 2566,
+      "position": 3.562743569758379
     },
     "https://www.arcstore.co.za/products/brand/medicube/pdnr-pink-collagen-gel-mask": {
       "clicks": 38,
-      "impressions": 1086,
-      "position": 4.597605893186003
+      "impressions": 1071,
+      "position": 4.530345471521942
     },
     "https://www.arcstore.co.za/products/brand/medicube/pdrn-pink-collagen-capsule-cream": {
-      "clicks": 55,
-      "impressions": 2374,
-      "position": 3.914490311710194
+      "clicks": 56,
+      "impressions": 2425,
+      "position": 3.8395876288659796
     },
     "https://www.arcstore.co.za/products/brand/medicube/pdrn-pink-peptide-serum": {
-      "clicks": 94,
-      "impressions": 3877,
-      "position": 4.046685581635285
+      "clicks": 91,
+      "impressions": 3808,
+      "position": 4.081144957983193
     },
     "https://www.arcstore.co.za/products/brand/medicube/pdrn-pink-vita-coating-mask": {
       "clicks": 52,
-      "impressions": 1408,
-      "position": 3.500710227272727
+      "impressions": 1405,
+      "position": 3.491103202846975
     },
     "https://www.arcstore.co.za/products/brand/medicube/zero-pore-pad-2-0": {
       "clicks": 94,
-      "impressions": 3778,
-      "position": 4.2146638433033345
+      "impressions": 3813,
+      "position": 4.172829792814057
     },
     "https://www.arcstore.co.za/products/brand/nars/light-reflecting-foundation": {
       "clicks": 56,
-      "impressions": 1842,
-      "position": 5.146036916395222
+      "impressions": 1828,
+      "position": 5.0541575492341355
     },
     "https://www.arcstore.co.za/products/brand/nars/natural-radiant-longwear-foundation": {
       "clicks": 39,
-      "impressions": 1163,
-      "position": 5.931212381771281
+      "impressions": 1140,
+      "position": 5.956140350877193
     },
     "https://www.arcstore.co.za/products/brand/nars/radiant-creamy-concealer": {
-      "clicks": 60,
+      "clicks": 56,
       "impressions": 1794,
-      "position": 4.447045707915273
+      "position": 4.4453734671125975
     },
     "https://www.arcstore.co.za/products/brand/paulas-choice/10-azelaic-acid-booster-for-redness-relief": {
-      "clicks": 56,
-      "impressions": 1197,
-      "position": 8.661654135338345
+      "clicks": 51,
+      "impressions": 1162,
+      "position": 8.6592082616179
     },
     "https://www.arcstore.co.za/products/brand/paulas-choice/skin-perfecting-2-bha-liquid-exfoliant": {
-      "clicks": 84,
+      "clicks": 83,
       "impressions": 2013,
-      "position": 5.04769001490313
+      "position": 5.050670640834575
     },
     "https://www.arcstore.co.za/products/brand/rabanne/rabanne-advent-calendar": {
-      "clicks": 41,
-      "impressions": 538,
-      "position": 9.440520446096654
+      "clicks": 42,
+      "impressions": 552,
+      "position": 9.06159420289855
     },
     "https://www.arcstore.co.za/products/brand/skin1004/madagascar-centella-hyalu-cica-water-fit-sun-serum": {
       "clicks": 61,
-      "impressions": 2064,
-      "position": 3.4302325581395348
+      "impressions": 2049,
+      "position": 3.272816007808687
     },
     "https://www.arcstore.co.za/products/brand/sol-de-janeiro/brazilian-bum-bum-cream": {
       "clicks": 38,
-      "impressions": 2419,
-      "position": 5.911120297643654
+      "impressions": 2455,
+      "position": 6.013441955193483
     },
     "https://www.arcstore.co.za/products/brand/sol-de-janeiro/cheirosa-62-perfume-mist": {
-      "clicks": 93,
-      "impressions": 4624,
-      "position": 5.507569204152249
+      "clicks": 96,
+      "impressions": 4613,
+      "position": 5.507045306741817
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/azelaic-acid-suspension-10": {
-      "clicks": 61,
-      "impressions": 1863,
-      "position": 9.800858829844337
+      "clicks": 62,
+      "impressions": 1716,
+      "position": 10.016317016317016
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/multi-peptide-eye-serum": {
-      "clicks": 80,
-      "impressions": 4894,
-      "position": 5.564568859828361
+      "clicks": 86,
+      "impressions": 5241,
+      "position": 5.541118107231444
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/multi-peptide-hyaluronic-acid-serum-for-firmness-and-elasticity": {
-      "clicks": 173,
-      "impressions": 4326,
-      "position": 7.345584835876098
+      "clicks": 174,
+      "impressions": 4311,
+      "position": 7.367664115054512
     },
     "https://www.arcstore.co.za/products/brand/tirtir/mask-fit-red-cushion": {
-      "clicks": 56,
-      "impressions": 1559,
-      "position": 5.967286722257858
+      "clicks": 54,
+      "impressions": 1570,
+      "position": 5.998089171974522
     },
     "https://www.arcstore.co.za/products/brand/tirtir/milk-skin-toner": {
-      "clicks": 48,
-      "impressions": 1704,
-      "position": 5.15669014084507
+      "clicks": 50,
+      "impressions": 1690,
+      "position": 5.102366863905325
     },
     "https://www.arcstore.co.za/products/brand/tom-ford/fucking-fabulous-edp": {
-      "clicks": 82,
-      "impressions": 1450,
-      "position": 4.011034482758621
+      "clicks": 76,
+      "impressions": 1437,
+      "position": 3.9721642310368823
     },
     "https://www.arcstore.co.za/products/brand/torriden/dive-in-serum": {
-      "clicks": 47,
-      "impressions": 615,
-      "position": 2.88130081300813
+      "clicks": 46,
+      "impressions": 624,
+      "position": 2.7644230769230766
     },
     "https://www.arcstore.co.za/products/brand/valentino/donna-born-in-roma-extradose-eau-de-parfum": {
-      "clicks": 41,
-      "impressions": 1100,
-      "position": 4.577272727272727
+      "clicks": 39,
+      "impressions": 1074,
+      "position": 4.526070763500931
     },
     "https://www.arcstore.co.za/products/brand/versace/dylan-blue-edt": {
-      "clicks": 47,
-      "impressions": 4490,
-      "position": 5.689309576837417
+      "clicks": 44,
+      "impressions": 4440,
+      "position": 5.713963963963964
     },
     "https://www.arcstore.co.za/products/brand/versace/eros-edp": {
-      "clicks": 39,
-      "impressions": 7355,
-      "position": 5.413460231135282
+      "clicks": 40,
+      "impressions": 7217,
+      "position": 5.38921989746432
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/black-opium-edp": {
-      "clicks": 38,
-      "impressions": 5784,
-      "position": 6.337136929460581
+      "clicks": 37,
+      "impressions": 5734,
+      "position": 6.339379141960237
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/libre-edp": {
-      "clicks": 68,
-      "impressions": 3487,
-      "position": 4.46400917694293
+      "clicks": 71,
+      "impressions": 3511,
+      "position": 4.3941896895471375
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/libre-edp-intense": {
-      "clicks": 43,
-      "impressions": 2182,
-      "position": 4.285976168652612
+      "clicks": 45,
+      "impressions": 2166,
+      "position": 4.283010156971375
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/y-edp": {
-      "clicks": 63,
-      "impressions": 4496,
-      "position": 3.889679715302491
+      "clicks": 68,
+      "impressions": 4447,
+      "position": 3.846413312345401
     },
     "https://www.arcstore.co.za/skincare": {
-      "clicks": 311,
-      "impressions": 50953,
-      "position": 2.707357761073931
+      "clicks": 307,
+      "impressions": 51637,
+      "position": 2.6797257780273833
     },
     "https://www.arcstore.co.za/skincare/cleanser/oil-and-balm-cleanser": {
-      "clicks": 47,
-      "impressions": 3057,
-      "position": 5.087340529931305
+      "clicks": 44,
+      "impressions": 2902,
+      "position": 5.0044796691936595
     },
     "https://www.arcstore.co.za/skincare/masks/eye-masks": {
       "clicks": 209,
-      "impressions": 11606,
-      "position": 5.5404101326899875
+      "impressions": 11607,
+      "position": 5.5276988024468
     },
     "https://www.arcstore.co.za/skincare/masks/masks": {
       "clicks": 49,
-      "impressions": 5492,
-      "position": 8.71504005826657
+      "impressions": 5269,
+      "position": 8.72651356993737
     },
     "https://www.arcstore.co.za/skincare/moisturiser/bb-cc-cream": {
       "clicks": 38,
-      "impressions": 1626,
-      "position": 6.922509225092251
+      "impressions": 1631,
+      "position": 6.956468424279583
     },
     "https://www.arcstore.co.za/skincare/moisturiser/face-mists-essences": {
       "clicks": 76,
-      "impressions": 3444,
-      "position": 5.008130081300813
+      "impressions": 3458,
+      "position": 5.0057836899942165
     },
     "https://www.arcstore.co.za/womens-fragrances-and-mens-fragrance": {
-      "clicks": 112,
-      "impressions": 8008,
-      "position": 5.10064935064935
+      "clicks": 110,
+      "impressions": 7953,
+      "position": 5.062492141330315
     },
     "https://www.arcstore.co.za/womens-fragrances/coco-mademoiselle": {
-      "clicks": 42,
-      "impressions": 5327,
-      "position": 5.442838370565046
+      "clicks": 43,
+      "impressions": 5333,
+      "position": 5.416651040690043
     }
   },
   "pages_current": {
     "https://www.arcstore.co.za/": {
-      "clicks": 10817,
-      "impressions": 29141,
-      "position": 4.882639579973233
+      "clicks": 10757,
+      "impressions": 29252,
+      "position": 4.623512922193354
     },
     "https://www.arcstore.co.za/accessories/makeup-brushes": {
-      "clicks": 17,
-      "impressions": 843,
-      "position": 6.97153024911032
+      "clicks": 15,
+      "impressions": 894,
+      "position": 7.815436241610739
     },
     "https://www.arcstore.co.za/accessories/makeup-brushes/makeup-brushes": {
       "clicks": 32,
-      "impressions": 1643,
-      "position": 7.321363359707852
+      "impressions": 1635,
+      "position": 7.258715596330275
+    },
+    "https://www.arcstore.co.za/arc-ebucks": {
+      "clicks": 11,
+      "impressions": 126,
+      "position": 6.150793650793651
     },
     "https://www.arcstore.co.za/arc-gift-cards": {
-      "clicks": 87,
-      "impressions": 270,
-      "position": 3.7925925925925927
+      "clicks": 85,
+      "impressions": 268,
+      "position": 3.7238805970149254
     },
     "https://www.arcstore.co.za/arc-masterclass": {
-      "clicks": 31,
-      "impressions": 141,
-      "position": 5.48936170212766
+      "clicks": 28,
+      "impressions": 131,
+      "position": 5.3893129770992365
     },
     "https://www.arcstore.co.za/arc-personalisation": {
-      "clicks": 14,
-      "impressions": 175,
-      "position": 7.131428571428572
+      "clicks": 15,
+      "impressions": 184,
+      "position": 6.7228260869565215
     },
     "https://www.arcstore.co.za/arc-studio": {
-      "clicks": 29,
-      "impressions": 434,
-      "position": 7.523041474654378
+      "clicks": 32,
+      "impressions": 438,
+      "position": 7.308219178082192
     },
     "https://www.arcstore.co.za/arc-studio/all-out-glam?BookingType=BOOKING001": {
-      "clicks": 10,
-      "impressions": 97,
-      "position": 5.742268041237113
+      "clicks": 13,
+      "impressions": 103,
+      "position": 5.436893203883495
     },
     "https://www.arcstore.co.za/arc/advent-calendars": {
-      "clicks": 131,
-      "impressions": 341,
-      "position": 7.193548387096774
+      "clicks": 120,
+      "impressions": 347,
+      "position": 8.086455331412104
     },
     "https://www.arcstore.co.za/arc/arc-makeup-booking": {
-      "clicks": 20,
-      "impressions": 98,
-      "position": 4.020408163265306
+      "clicks": 22,
+      "impressions": 109,
+      "position": 4.247706422018348
     },
     "https://www.arcstore.co.za/arc/the-40-off-arc-sale-is-now-on": {
-      "clicks": 50,
-      "impressions": 273,
-      "position": 4.805860805860806
+      "clicks": 51,
+      "impressions": 270,
+      "position": 4.688888888888889
     },
     "https://www.arcstore.co.za/arc/the-arc-sale-up-to-40-off-starts-now": {
       "clicks": 11,
-      "impressions": 190,
-      "position": 5.2105263157894735
+      "impressions": 166,
+      "position": 5.36144578313253
+    },
+    "https://www.arcstore.co.za/arc/want-15-off-your-entire-in-store-purchase-heres-how": {
+      "clicks": 10,
+      "impressions": 116,
+      "position": 4.0344827586206895
     },
     "https://www.arcstore.co.za/blackfriday": {
-      "clicks": 62,
-      "impressions": 675,
-      "position": 12.57925925925926
+      "clicks": 57,
+      "impressions": 706,
+      "position": 12.458923512747875
     },
     "https://www.arcstore.co.za/body/body-moisturisers/body-lotions-oils": {
-      "clicks": 11,
-      "impressions": 639,
-      "position": 10.597809076682315
+      "clicks": 13,
+      "impressions": 674,
+      "position": 10.58753709198813
     },
     "https://www.arcstore.co.za/brands": {
-      "clicks": 200,
-      "impressions": 15318,
-      "position": 1.5250032641336988
+      "clicks": 196,
+      "impressions": 15403,
+      "position": 1.566513016944751
     },
     "https://www.arcstore.co.za/brands/anastasia-beverly-hills": {
-      "clicks": 26,
-      "impressions": 687,
-      "position": 11.379912663755459
+      "clicks": 30,
+      "impressions": 698,
+      "position": 10.744985673352435
     },
     "https://www.arcstore.co.za/brands/anua": {
-      "clicks": 100,
-      "impressions": 2685,
-      "position": 3.6737430167597767
+      "clicks": 103,
+      "impressions": 2743,
+      "position": 3.921618665694495
     },
     "https://www.arcstore.co.za/brands/arencia": {
-      "clicks": 35,
-      "impressions": 703,
-      "position": 4.065433854907539
+      "clicks": 39,
+      "impressions": 735,
+      "position": 3.9959183673469387
     },
     "https://www.arcstore.co.za/brands/axis-y": {
-      "clicks": 27,
-      "impressions": 1119,
-      "position": 8.892761394101877
+      "clicks": 26,
+      "impressions": 1074,
+      "position": 8.98417132216015
     },
     "https://www.arcstore.co.za/brands/beauty-of-joseon": {
-      "clicks": 59,
-      "impressions": 1157,
-      "position": 3.504753673292999
+      "clicks": 57,
+      "impressions": 1126,
+      "position": 3.6030195381882772
     },
     "https://www.arcstore.co.za/brands/benefit": {
-      "clicks": 27,
-      "impressions": 1334,
-      "position": 7.0389805097451275
+      "clicks": 34,
+      "impressions": 1430,
+      "position": 7.025874125874126
     },
     "https://www.arcstore.co.za/brands/biodance": {
       "clicks": 13,
-      "impressions": 271,
-      "position": 4.062730627306273
+      "impressions": 272,
+      "position": 3.7720588235294117
+    },
+    "https://www.arcstore.co.za/brands/biotherm": {
+      "clicks": 10,
+      "impressions": 78,
+      "position": 7.294871794871795
     },
     "https://www.arcstore.co.za/brands/burberry": {
-      "clicks": 12,
-      "impressions": 2718,
-      "position": 6.732891832229581
+      "clicks": 14,
+      "impressions": 2631,
+      "position": 6.563283922462942
     },
     "https://www.arcstore.co.za/brands/bvlgari/all-fragrances": {
-      "clicks": 33,
-      "impressions": 1858,
-      "position": 5.088266953713671
+      "clicks": 32,
+      "impressions": 1783,
+      "position": 5.043746494671901
     },
     "https://www.arcstore.co.za/brands/by-arc": {
-      "clicks": 15,
-      "impressions": 138,
-      "position": 5.688405797101449
+      "clicks": 16,
+      "impressions": 192,
+      "position": 4.953125
     },
     "https://www.arcstore.co.za/brands/calvin-klein": {
-      "clicks": 132,
-      "impressions": 8607,
-      "position": 5.5107470663413505
+      "clicks": 129,
+      "impressions": 8633,
+      "position": 5.513842233290861
     },
     "https://www.arcstore.co.za/brands/carolina-herrera": {
-      "clicks": 12,
-      "impressions": 1310,
-      "position": 6.800763358778626
+      "clicks": 13,
+      "impressions": 1302,
+      "position": 6.635176651305684
     },
     "https://www.arcstore.co.za/brands/chanel": {
-      "clicks": 84,
-      "impressions": 4753,
-      "position": 6.166631601094046
+      "clicks": 75,
+      "impressions": 4609,
+      "position": 6.257322629637666
     },
     "https://www.arcstore.co.za/brands/chloe": {
-      "clicks": 20,
-      "impressions": 782,
-      "position": 6.226342710997442
+      "clicks": 19,
+      "impressions": 810,
+      "position": 6.291358024691358
     },
     "https://www.arcstore.co.za/brands/coach": {
-      "clicks": 22,
-      "impressions": 1853,
-      "position": 5.448461953588775
+      "clicks": 23,
+      "impressions": 1943,
+      "position": 5.602161605764282
     },
     "https://www.arcstore.co.za/brands/cosrx": {
-      "clicks": 28,
-      "impressions": 944,
-      "position": 4.965042372881356
-    },
-    "https://www.arcstore.co.za/brands/dermalogica": {
-      "clicks": 10,
-      "impressions": 2146,
-      "position": 6.743243243243243
+      "clicks": 26,
+      "impressions": 928,
+      "position": 4.758620689655173
     },
     "https://www.arcstore.co.za/brands/dior": {
-      "clicks": 17,
-      "impressions": 1294,
-      "position": 7.085780525502319
+      "clicks": 23,
+      "impressions": 1341,
+      "position": 6.947054436987323
+    },
+    "https://www.arcstore.co.za/brands/dolce-gabbana-men-fragrance": {
+      "clicks": 13,
+      "impressions": 1021,
+      "position": 4.83741429970617
     },
     "https://www.arcstore.co.za/brands/dolce-gabbana-women-fragrance": {
-      "clicks": 15,
-      "impressions": 1892,
-      "position": 4.369450317124736
+      "clicks": 14,
+      "impressions": 1723,
+      "position": 4.1984910040626815
     },
     "https://www.arcstore.co.za/brands/dr-althea": {
-      "clicks": 34,
-      "impressions": 990,
-      "position": 4.0636363636363635
+      "clicks": 33,
+      "impressions": 932,
+      "position": 3.9281115879828326
     },
     "https://www.arcstore.co.za/brands/elie-saab": {
-      "clicks": 21,
-      "impressions": 1557,
-      "position": 5.216441875401413
+      "clicks": 20,
+      "impressions": 1508,
+      "position": 5.340185676392573
     },
     "https://www.arcstore.co.za/brands/erborian": {
-      "clicks": 35,
-      "impressions": 623,
-      "position": 3.446227929373997
+      "clicks": 37,
+      "impressions": 612,
+      "position": 3.189542483660131
     },
     "https://www.arcstore.co.za/brands/est%C3%A9e-lauder": {
-      "clicks": 26,
-      "impressions": 3027,
-      "position": 6.770399735711926
+      "clicks": 24,
+      "impressions": 3109,
+      "position": 6.542618205210679
     },
     "https://www.arcstore.co.za/brands/fenty-beauty": {
-      "clicks": 98,
-      "impressions": 2488,
-      "position": 4.643086816720257
+      "clicks": 103,
+      "impressions": 2459,
+      "position": 4.658397722651484
     },
     "https://www.arcstore.co.za/brands/fenty-beauty/lipsticks": {
-      "clicks": 13,
-      "impressions": 446,
-      "position": 4.836322869955157
+      "clicks": 11,
+      "impressions": 457,
+      "position": 4.772428884026258
     },
     "https://www.arcstore.co.za/brands/fenty-skin": {
-      "clicks": 22,
-      "impressions": 410,
-      "position": 4.8
+      "clicks": 21,
+      "impressions": 393,
+      "position": 5.251908396946565
     },
     "https://www.arcstore.co.za/brands/givenchy": {
-      "clicks": 12,
-      "impressions": 476,
-      "position": 9.6890756302521
+      "clicks": 11,
+      "impressions": 495,
+      "position": 9.319191919191919
     },
     "https://www.arcstore.co.za/brands/givenchy/womens-fragrances": {
       "clicks": 15,
-      "impressions": 979,
-      "position": 5.880490296220633
+      "impressions": 996,
+      "position": 6.248995983935743
     },
     "https://www.arcstore.co.za/brands/gucci": {
-      "clicks": 34,
-      "impressions": 4007,
-      "position": 5.43773396556027
+      "clicks": 37,
+      "impressions": 3676,
+      "position": 5.20348204570185
     },
     "https://www.arcstore.co.za/brands/guerlain": {
-      "clicks": 72,
-      "impressions": 904,
-      "position": 5.029867256637168
+      "clicks": 75,
+      "impressions": 862,
+      "position": 4.841067285382831
     },
     "https://www.arcstore.co.za/brands/haruharu-wonder": {
-      "clicks": 34,
-      "impressions": 560,
-      "position": 3.9714285714285715
+      "clicks": 29,
+      "impressions": 577,
+      "position": 4.046793760831889
     },
     "https://www.arcstore.co.za/brands/heliocare-1": {
-      "clicks": 26,
-      "impressions": 1498,
-      "position": 7.440587449933244
+      "clicks": 21,
+      "impressions": 1488,
+      "position": 7.373655913978495
     },
     "https://www.arcstore.co.za/brands/huda-beauty": {
-      "clicks": 100,
-      "impressions": 1754,
-      "position": 4.573546180159635
+      "clicks": 99,
+      "impressions": 1713,
+      "position": 4.5983654407472265
     },
     "https://www.arcstore.co.za/brands/hugo-boss": {
-      "clicks": 16,
-      "impressions": 2148,
-      "position": 8.129422718808193
+      "clicks": 14,
+      "impressions": 2108,
+      "position": 7.935483870967742
     },
     "https://www.arcstore.co.za/brands/innisfree": {
-      "clicks": 10,
-      "impressions": 237,
-      "position": 7.69198312236287
+      "clicks": 11,
+      "impressions": 239,
+      "position": 7.845188284518828
     },
     "https://www.arcstore.co.za/brands/issey-miyake": {
-      "clicks": 35,
-      "impressions": 3588,
-      "position": 4.798216276477146
+      "clicks": 32,
+      "impressions": 3532,
+      "position": 4.996885617214043
     },
     "https://www.arcstore.co.za/brands/it-cosmetics": {
       "clicks": 43,
-      "impressions": 553,
-      "position": 4.502712477396022
+      "impressions": 573,
+      "position": 4.591623036649215
     },
     "https://www.arcstore.co.za/brands/jean-paul-gaultier": {
-      "clicks": 48,
-      "impressions": 3711,
-      "position": 4.871463217461601
+      "clicks": 42,
+      "impressions": 3724,
+      "position": 4.8482814178302895
     },
     "https://www.arcstore.co.za/brands/k%C3%A9rastase": {
-      "clicks": 68,
-      "impressions": 2844,
-      "position": 4.728902953586498
+      "clicks": 71,
+      "impressions": 2746,
+      "position": 4.639111434814275
     },
     "https://www.arcstore.co.za/brands/kayali": {
       "clicks": 441,
-      "impressions": 5836,
-      "position": 3.4456819739547635
+      "impressions": 5752,
+      "position": 3.4421070931849793
     },
     "https://www.arcstore.co.za/brands/kiehl's": {
-      "clicks": 14,
-      "impressions": 701,
-      "position": 5.483594864479315
-    },
-    "https://www.arcstore.co.za/brands/kilian-paris": {
-      "clicks": 10,
-      "impressions": 444,
-      "position": 5.5
+      "clicks": 13,
+      "impressions": 675,
+      "position": 5.343703703703704
     },
     "https://www.arcstore.co.za/brands/kylie-cosmetics-by-kylie-jenner": {
-      "clicks": 64,
-      "impressions": 1590,
-      "position": 5.109433962264151
+      "clicks": 50,
+      "impressions": 1102,
+      "position": 5.253176043557168
     },
     "https://www.arcstore.co.za/brands/la-mer": {
-      "clicks": 16,
-      "impressions": 602,
-      "position": 4.568106312292359
+      "clicks": 21,
+      "impressions": 631,
+      "position": 4.491283676703645
     },
     "https://www.arcstore.co.za/brands/lanc%C3%B4me": {
-      "clicks": 28,
-      "impressions": 1526,
-      "position": 7.017038007863696
+      "clicks": 32,
+      "impressions": 1575,
+      "position": 7.307936507936508
     },
     "https://www.arcstore.co.za/brands/lanc%C3%B4me/womens-fragrances": {
-      "clicks": 20,
-      "impressions": 1091,
-      "position": 3.4848762603116406
+      "clicks": 18,
+      "impressions": 1096,
+      "position": 3.946167883211679
     },
     "https://www.arcstore.co.za/brands/laneige": {
-      "clicks": 104,
-      "impressions": 1637,
-      "position": 3.3469761759315824
+      "clicks": 103,
+      "impressions": 1727,
+      "position": 4.029530978575565
     },
     "https://www.arcstore.co.za/brands/lelive.": {
-      "clicks": 25,
-      "impressions": 3464,
-      "position": 6.308314087759816
+      "clicks": 26,
+      "impressions": 3674,
+      "position": 6.257757212847033
     },
     "https://www.arcstore.co.za/brands/loewe": {
-      "clicks": 24,
-      "impressions": 451,
-      "position": 4.594235033259423
+      "clicks": 23,
+      "impressions": 443,
+      "position": 4.611738148984198
     },
     "https://www.arcstore.co.za/brands/mac": {
-      "clicks": 44,
-      "impressions": 5414,
-      "position": 7.749353527890654
+      "clicks": 43,
+      "impressions": 5438,
+      "position": 7.658146377344612
     },
     "https://www.arcstore.co.za/brands/maison-margiela-fragrances": {
       "clicks": 41,
-      "impressions": 932,
-      "position": 3.9055793991416308
+      "impressions": 1019,
+      "position": 4.182531894013739
     },
     "https://www.arcstore.co.za/brands/marc-jacobs": {
-      "clicks": 55,
-      "impressions": 2539,
-      "position": 4.417881055533675
+      "clicks": 51,
+      "impressions": 2510,
+      "position": 4.425099601593626
     },
     "https://www.arcstore.co.za/brands/medicube": {
-      "clicks": 530,
-      "impressions": 10634,
-      "position": 3.4292834305059245
+      "clicks": 535,
+      "impressions": 10682,
+      "position": 3.335611308743681
     },
     "https://www.arcstore.co.za/brands/michael-kors": {
-      "clicks": 20,
-      "impressions": 1476,
-      "position": 4.014227642276422
+      "clicks": 24,
+      "impressions": 1522,
+      "position": 4.369250985545335
     },
     "https://www.arcstore.co.za/brands/mizani": {
-      "clicks": 30,
-      "impressions": 1465,
-      "position": 7.53037542662116
+      "clicks": 27,
+      "impressions": 1442,
+      "position": 7.201109570041609
     },
     "https://www.arcstore.co.za/brands/narciso-rodriguez": {
-      "clicks": 44,
-      "impressions": 2426,
-      "position": 4.372217642209398
+      "clicks": 45,
+      "impressions": 2329,
+      "position": 4.726062687848862
     },
     "https://www.arcstore.co.za/brands/nars": {
       "clicks": 34,
-      "impressions": 2169,
-      "position": 11.677270631627477
+      "impressions": 2178,
+      "position": 11.822314049586776
     },
     "https://www.arcstore.co.za/brands/nars/cheeks": {
-      "clicks": 18,
-      "impressions": 323,
-      "position": 7.746130030959752
+      "clicks": 20,
+      "impressions": 326,
+      "position": 7.717791411042945
     },
     "https://www.arcstore.co.za/brands/nars/complexion": {
-      "clicks": 43,
-      "impressions": 921,
-      "position": 2.973941368078176
+      "clicks": 39,
+      "impressions": 976,
+      "position": 5.658811475409836
     },
     "https://www.arcstore.co.za/brands/nars/soft-matte-collection": {
-      "clicks": 18,
-      "impressions": 292,
-      "position": 2.434931506849315
+      "clicks": 20,
+      "impressions": 275,
+      "position": 2.621818181818182
     },
     "https://www.arcstore.co.za/brands/olaplex": {
-      "clicks": 14,
-      "impressions": 655,
-      "position": 8.822900763358778
+      "clicks": 13,
+      "impressions": 628,
+      "position": 7.839171974522293
     },
     "https://www.arcstore.co.za/brands/paula's-choice": {
-      "clicks": 33,
-      "impressions": 514,
-      "position": 4.809338521400778
+      "clicks": 34,
+      "impressions": 527,
+      "position": 4.698292220113852
     },
     "https://www.arcstore.co.za/brands/purito-seoul": {
-      "clicks": 14,
-      "impressions": 411,
-      "position": 9.832116788321168
+      "clicks": 20,
+      "impressions": 401,
+      "position": 8.643391521197007
     },
     "https://www.arcstore.co.za/brands/rabanne": {
-      "clicks": 14,
-      "impressions": 1875,
-      "position": 5.0192
+      "clicks": 16,
+      "impressions": 1905,
+      "position": 5.020472440944882
     },
     "https://www.arcstore.co.za/brands/rabanne/1-million-range": {
-      "clicks": 12,
-      "impressions": 2708,
-      "position": 5.587887740029542
+      "clicks": 13,
+      "impressions": 2732,
+      "position": 5.687774524158126
     },
     "https://www.arcstore.co.za/brands/real-techniques": {
-      "clicks": 27,
-      "impressions": 655,
-      "position": 4.709923664122138
+      "clicks": 26,
+      "impressions": 615,
+      "position": 4.796747967479675
     },
     "https://www.arcstore.co.za/brands/redken": {
-      "clicks": 15,
-      "impressions": 918,
-      "position": 8.35838779956427
+      "clicks": 20,
+      "impressions": 899,
+      "position": 7.7441601779755285
     },
     "https://www.arcstore.co.za/brands/salt-stone": {
-      "clicks": 48,
-      "impressions": 384,
-      "position": 4.653645833333334
+      "clicks": 43,
+      "impressions": 394,
+      "position": 5.038071065989848
     },
     "https://www.arcstore.co.za/brands/shark-beauty": {
-      "clicks": 48,
-      "impressions": 902,
-      "position": 3.617516629711752
+      "clicks": 50,
+      "impressions": 908,
+      "position": 3.709251101321586
     },
     "https://www.arcstore.co.za/brands/shiseido": {
-      "clicks": 23,
-      "impressions": 443,
-      "position": 4.674943566591422
+      "clicks": 24,
+      "impressions": 454,
+      "position": 4.643171806167401
     },
     "https://www.arcstore.co.za/brands/skin-functional": {
       "clicks": 11,
-      "impressions": 3279,
-      "position": 6.440378164074413
+      "impressions": 3432,
+      "position": 6.453379953379954
     },
     "https://www.arcstore.co.za/brands/skin1004": {
-      "clicks": 47,
-      "impressions": 1900,
-      "position": 4.428421052631579
+      "clicks": 48,
+      "impressions": 1893,
+      "position": 4.385631273111463
     },
     "https://www.arcstore.co.za/brands/sol-de-janeiro": {
-      "clicks": 305,
-      "impressions": 8178,
-      "position": 3.831010026901443
+      "clicks": 289,
+      "impressions": 8444,
+      "position": 3.969682614874467
     },
     "https://www.arcstore.co.za/brands/sol-de-janeiro/body-mists": {
-      "clicks": 22,
-      "impressions": 1070,
-      "position": 2.37196261682243
+      "clicks": 25,
+      "impressions": 1127,
+      "position": 2.3070097604259097
     },
     "https://www.arcstore.co.za/brands/the-inkey-list": {
-      "clicks": 42,
-      "impressions": 503,
-      "position": 2.715705765407555
+      "clicks": 47,
+      "impressions": 484,
+      "position": 2.6549586776859506
     },
     "https://www.arcstore.co.za/brands/the-ordinary": {
-      "clicks": 115,
-      "impressions": 6436,
-      "position": 6.356587942821628
+      "clicks": 123,
+      "impressions": 6571,
+      "position": 6.430984629432355
     },
     "https://www.arcstore.co.za/brands/the-ordinary/serums": {
-      "clicks": 34,
-      "impressions": 728,
-      "position": 7.21978021978022
+      "clicks": 37,
+      "impressions": 749,
+      "position": 7.395193591455274
     },
     "https://www.arcstore.co.za/brands/tirtir": {
-      "clicks": 33,
-      "impressions": 463,
-      "position": 5.8207343412527
+      "clicks": 32,
+      "impressions": 483,
+      "position": 5.942028985507246
     },
     "https://www.arcstore.co.za/brands/tom-ford": {
-      "clicks": 70,
-      "impressions": 3901,
-      "position": 4.171494488592669
+      "clicks": 56,
+      "impressions": 3954,
+      "position": 4.291856348002023
     },
     "https://www.arcstore.co.za/brands/urban-decay": {
-      "clicks": 14,
-      "impressions": 233,
-      "position": 5.725321888412017
+      "clicks": 17,
+      "impressions": 237,
+      "position": 5.818565400843882
     },
     "https://www.arcstore.co.za/brands/valentino": {
-      "clicks": 50,
-      "impressions": 2988,
-      "position": 3.8845381526104417
+      "clicks": 58,
+      "impressions": 3017,
+      "position": 3.88929400066291
     },
     "https://www.arcstore.co.za/brands/versace": {
-      "clicks": 18,
-      "impressions": 2628,
-      "position": 5.84779299847793
+      "clicks": 15,
+      "impressions": 2645,
+      "position": 5.997353497164461
     },
     "https://www.arcstore.co.za/brands/yves-saint-laurent": {
-      "clicks": 103,
-      "impressions": 6679,
-      "position": 4.946998053600838
+      "clicks": 113,
+      "impressions": 6722,
+      "position": 5.074085093722107
     },
     "https://www.arcstore.co.za/brands/zadig-voltaire": {
-      "clicks": 17,
-      "impressions": 714,
-      "position": 5.4677871148459385
+      "clicks": 16,
+      "impressions": 739,
+      "position": 5.326116373477673
     },
     "https://www.arcstore.co.za/chanel-makeup": {
-      "clicks": 13,
-      "impressions": 395,
-      "position": 6.650632911392405
+      "clicks": 15,
+      "impressions": 408,
+      "position": 6.485294117647059
     },
     "https://www.arcstore.co.za/christmas-gifts": {
-      "clicks": 120,
-      "impressions": 1670,
-      "position": 5.370658682634731
+      "clicks": 102,
+      "impressions": 1363,
+      "position": 5.6705796038151135
     },
     "https://www.arcstore.co.za/customer/about-arc": {
-      "clicks": 15,
-      "impressions": 3701,
-      "position": 1.4015131045663334
+      "clicks": 12,
+      "impressions": 3652,
+      "position": 1.421960569550931
     },
     "https://www.arcstore.co.za/customer/help-centre": {
-      "clicks": 19,
-      "impressions": 361,
-      "position": 6.14404432132964
+      "clicks": 24,
+      "impressions": 431,
+      "position": 6.092807424593968
     },
     "https://www.arcstore.co.za/customer/help-centre/clubcard": {
-      "clicks": 13,
-      "impressions": 790,
-      "position": 8.120253164556962
+      "clicks": 15,
+      "impressions": 755,
+      "position": 8.22251655629139
     },
     "https://www.arcstore.co.za/customer/help-centre/delivery": {
-      "clicks": 25,
-      "impressions": 295,
-      "position": 3.464406779661017
+      "clicks": 27,
+      "impressions": 304,
+      "position": 3.161184210526316
     },
     "https://www.arcstore.co.za/customer/help-centre/returns": {
-      "clicks": 12,
-      "impressions": 152,
-      "position": 4.5131578947368425
+      "clicks": 15,
+      "impressions": 173,
+      "position": 4.2485549132947975
     },
     "https://www.arcstore.co.za/customer/t-cs/online-terms-1": {
-      "clicks": 14,
-      "impressions": 395,
-      "position": 3.369620253164557
+      "clicks": 16,
+      "impressions": 436,
+      "position": 3.3623853211009176
     },
     "https://www.arcstore.co.za/dior-fragrance/female": {
-      "clicks": 21,
-      "impressions": 2509,
-      "position": 4.3184535671582305
+      "clicks": 24,
+      "impressions": 2548,
+      "position": 4.254317111459969
     },
     "https://www.arcstore.co.za/dior-makeup": {
       "clicks": 18,
-      "impressions": 654,
-      "position": 4.548929663608563
+      "impressions": 652,
+      "position": 4.4079754601226995
     },
     "https://www.arcstore.co.za/fragrance": {
-      "clicks": 316,
-      "impressions": 15823,
-      "position": 4.24540226252923
+      "clicks": 318,
+      "impressions": 15833,
+      "position": 4.361460241268237
     },
     "https://www.arcstore.co.za/fragrance/gift-sets/gift-sets": {
-      "clicks": 16,
-      "impressions": 408,
-      "position": 9.514705882352942
+      "clicks": 17,
+      "impressions": 438,
+      "position": 9.735159817351597
     },
     "https://www.arcstore.co.za/fragrance/giftset": {
-      "clicks": 42,
-      "impressions": 1707,
-      "position": 6.162272993555946
+      "clicks": 44,
+      "impressions": 1644,
+      "position": 6.130170316301703
     },
     "https://www.arcstore.co.za/fragrance/men": {
-      "clicks": 70,
-      "impressions": 5951,
-      "position": 6.7319778188539745
+      "clicks": 61,
+      "impressions": 6015,
+      "position": 6.782211138819617
     },
     "https://www.arcstore.co.za/fragrance/mini": {
-      "clicks": 75,
-      "impressions": 1321,
-      "position": 5.237698713096139
+      "clicks": 79,
+      "impressions": 1367,
+      "position": 5.520117044623262
     },
     "https://www.arcstore.co.za/fragrance/women": {
-      "clicks": 50,
-      "impressions": 6070,
-      "position": 6.410543657331137
+      "clicks": 54,
+      "impressions": 6259,
+      "position": 6.290621505032753
     },
     "https://www.arcstore.co.za/fragrance/women/body-mist-spray": {
-      "clicks": 18,
-      "impressions": 2731,
-      "position": 7.445990479677774
+      "clicks": 24,
+      "impressions": 2718,
+      "position": 7.545253863134658
     },
     "https://www.arcstore.co.za/gifts-under-1000": {
-      "clicks": 29,
-      "impressions": 222,
-      "position": 4.711711711711711
+      "clicks": 16,
+      "impressions": 140,
+      "position": 5.171428571428572
     },
     "https://www.arcstore.co.za/gifts/giftsets": {
-      "clicks": 76,
-      "impressions": 320,
-      "position": 5.03125
+      "clicks": 59,
+      "impressions": 234,
+      "position": 5.076923076923077
     },
     "https://www.arcstore.co.za/k-beauty-at-arc": {
-      "clicks": 87,
-      "impressions": 6256,
-      "position": 8.447090792838875
+      "clicks": 90,
+      "impressions": 6140,
+      "position": 8.297068403908796
     },
     "https://www.arcstore.co.za/makeup": {
-      "clicks": 237,
-      "impressions": 17569,
-      "position": 1.9950480960783197
+      "clicks": 231,
+      "impressions": 17459,
+      "position": 1.965862878744487
     },
     "https://www.arcstore.co.za/makeup/eyes/eye-shadow": {
       "clicks": 15,
-      "impressions": 952,
-      "position": 9.716386554621849
+      "impressions": 959,
+      "position": 9.4859228362878
     },
     "https://www.arcstore.co.za/makeup/eyes/eye-shadow-palettes": {
-      "clicks": 37,
-      "impressions": 1532,
-      "position": 6.037206266318538
+      "clicks": 40,
+      "impressions": 1564,
+      "position": 6.123401534526854
     },
     "https://www.arcstore.co.za/makeup/face/blush": {
-      "clicks": 23,
-      "impressions": 1741,
-      "position": 7.5519816197587595
+      "clicks": 21,
+      "impressions": 1736,
+      "position": 7.498271889400922
     },
     "https://www.arcstore.co.za/makeup/face/bronzer": {
-      "clicks": 20,
-      "impressions": 1220,
-      "position": 5.358196721311476
+      "clicks": 22,
+      "impressions": 1203,
+      "position": 5.321695760598503
     },
     "https://www.arcstore.co.za/makeup/face/concealer": {
-      "clicks": 22,
-      "impressions": 1942,
-      "position": 9.524201853759012
-    },
-    "https://www.arcstore.co.za/makeup/face/contouring": {
-      "clicks": 11,
-      "impressions": 1000,
-      "position": 5.718
+      "clicks": 23,
+      "impressions": 1900,
+      "position": 9.255263157894737
     },
     "https://www.arcstore.co.za/makeup/face/foundation": {
-      "clicks": 52,
-      "impressions": 2424,
-      "position": 8.41377887788779
+      "clicks": 51,
+      "impressions": 2386,
+      "position": 8.181056160938809
     },
     "https://www.arcstore.co.za/makeup/face/highlighter": {
-      "clicks": 15,
-      "impressions": 800,
-      "position": 5.41875
+      "clicks": 16,
+      "impressions": 808,
+      "position": 5.537128712871287
     },
     "https://www.arcstore.co.za/makeup/face/powder": {
-      "clicks": 16,
-      "impressions": 1222,
-      "position": 6.685761047463175
+      "clicks": 15,
+      "impressions": 1268,
+      "position": 6.542586750788644
     },
     "https://www.arcstore.co.za/makeup/face/setting-finishing-sprays": {
-      "clicks": 19,
-      "impressions": 1678,
-      "position": 6.079856972586413
+      "clicks": 20,
+      "impressions": 1689,
+      "position": 6.435168738898756
     },
     "https://www.arcstore.co.za/makeup/face/tinted-moisturiser": {
-      "clicks": 35,
-      "impressions": 1354,
-      "position": 5.2924667651403245
-    },
-    "https://www.arcstore.co.za/makeup/for-dry-skin/foundation": {
-      "clicks": 10,
-      "impressions": 445,
-      "position": 8.53932584269663
+      "clicks": 37,
+      "impressions": 1381,
+      "position": 5.545257060101376
     },
     "https://www.arcstore.co.za/makeup/giftset": {
-      "clicks": 47,
-      "impressions": 1608,
-      "position": 6.565298507462686
+      "clicks": 54,
+      "impressions": 1643,
+      "position": 6.636640292148509
     },
     "https://www.arcstore.co.za/makeup/lips/lip-balms": {
-      "clicks": 18,
-      "impressions": 1896,
-      "position": 8.712552742616033
+      "clicks": 20,
+      "impressions": 1894,
+      "position": 8.745512143611403
     },
     "https://www.arcstore.co.za/makeup/lips/lip-gloss": {
-      "clicks": 19,
-      "impressions": 2019,
-      "position": 5.626052501238237
+      "clicks": 17,
+      "impressions": 1962,
+      "position": 5.740061162079511
     },
     "https://www.arcstore.co.za/makeup/makeup-minis": {
-      "clicks": 10,
-      "impressions": 535,
-      "position": 9.30841121495327
+      "clicks": 11,
+      "impressions": 578,
+      "position": 12.937716262975778
     },
-    "https://www.arcstore.co.za/minis": {
-      "clicks": 10,
-      "impressions": 190,
-      "position": 10.284210526315789
+    "https://www.arcstore.co.za/mens-fragrance/bleu-de-chanel": {
+      "clicks": 11,
+      "impressions": 1055,
+      "position": 5.642654028436019
     },
     "https://www.arcstore.co.za/new-in": {
-      "clicks": 26,
-      "impressions": 404,
-      "position": 9.396039603960396
+      "clicks": 29,
+      "impressions": 619,
+      "position": 6.18578352180937
     },
     "https://www.arcstore.co.za/offers": {
       "clicks": 203,
-      "impressions": 12501,
-      "position": 1.287177025837933
+      "impressions": 12508,
+      "position": 1.3228333866325552
     },
     "https://www.arcstore.co.za/our-stores": {
-      "clicks": 128,
-      "impressions": 15649,
-      "position": 1.8364751741325325
+      "clicks": 137,
+      "impressions": 15554,
+      "position": 1.8476919120483477
     },
     "https://www.arcstore.co.za/our-stores/cavendish": {
-      "clicks": 48,
-      "impressions": 1583,
-      "position": 4.51610865445357
-    },
-    "https://www.arcstore.co.za/our-stores/eastgate": {
-      "clicks": 10,
-      "impressions": 264,
-      "position": 6.988636363636363
+      "clicks": 52,
+      "impressions": 1651,
+      "position": 4.650514839491217
     },
     "https://www.arcstore.co.za/our-stores/gateway": {
-      "clicks": 53,
-      "impressions": 1063,
-      "position": 5.148635936030104
+      "clicks": 56,
+      "impressions": 1057,
+      "position": 4.957426679280983
     },
     "https://www.arcstore.co.za/our-stores/mall-of-africa": {
-      "clicks": 19,
-      "impressions": 697,
-      "position": 5.886657101865136
+      "clicks": 20,
+      "impressions": 719,
+      "position": 5.5034770514603615
     },
     "https://www.arcstore.co.za/our-stores/menlyn": {
-      "clicks": 63,
-      "impressions": 2205,
-      "position": 4.068480725623583
+      "clicks": 66,
+      "impressions": 2249,
+      "position": 4.173410404624278
+    },
+    "https://www.arcstore.co.za/our-stores/pavilion-shopping-centre": {
+      "clicks": 11,
+      "impressions": 356,
+      "position": 7.842696629213483
     },
     "https://www.arcstore.co.za/our-stores/sandton-city-1": {
-      "clicks": 80,
-      "impressions": 1953,
-      "position": 3.5519713261648747
+      "clicks": 93,
+      "impressions": 2081,
+      "position": 3.390197020663143
     },
     "https://www.arcstore.co.za/our-stores/tyger-valley": {
-      "clicks": 61,
-      "impressions": 1319,
-      "position": 4.354056103108416
+      "clicks": 65,
+      "impressions": 1310,
+      "position": 4.30381679389313
     },
     "https://www.arcstore.co.za/our-stores/va-waterfront": {
-      "clicks": 34,
-      "impressions": 1097,
-      "position": 6.552415679124886
+      "clicks": 36,
+      "impressions": 1109,
+      "position": 6.394950405770965
     },
     "https://www.arcstore.co.za/pay-just-now": {
-      "clicks": 12,
-      "impressions": 329,
-      "position": 5.975683890577508
+      "clicks": 15,
+      "impressions": 338,
+      "position": 6.201183431952662
     },
     "https://www.arcstore.co.za/products/brand/anua/azelaic-acid-10-hyaluron-redness-soothing-serum": {
-      "clicks": 23,
-      "impressions": 1170,
-      "position": 2.752136752136752
+      "clicks": 22,
+      "impressions": 1179,
+      "position": 2.768447837150127
     },
     "https://www.arcstore.co.za/products/brand/anua/pdrn-hyaluronic-acid-100-moisture-cream": {
-      "clicks": 23,
-      "impressions": 556,
-      "position": 2.7374100719424463
+      "clicks": 22,
+      "impressions": 542,
+      "position": 2.643911439114391
     },
     "https://www.arcstore.co.za/products/brand/anua/pdrn-hyaluronic-acid-hydrating-capsule-mist": {
-      "clicks": 26,
-      "impressions": 550,
-      "position": 2.2800000000000002
+      "clicks": 25,
+      "impressions": 537,
+      "position": 2.260707635009311
     },
     "https://www.arcstore.co.za/products/brand/armani/acqua-di-gio-parfum": {
-      "clicks": 13,
-      "impressions": 904,
-      "position": 6.485619469026549
+      "clicks": 12,
+      "impressions": 980,
+      "position": 6.330612244897959
     },
     "https://www.arcstore.co.za/products/brand/armani/emporio-armani-power-of-you-eau-de-parfum": {
-      "clicks": 12,
-      "impressions": 822,
-      "position": 4.559610705596107
+      "clicks": 13,
+      "impressions": 837,
+      "position": 4.479091995221028
     },
     "https://www.arcstore.co.za/products/brand/axis-y/dark-spot-correcting-glow-serum": {
-      "clicks": 35,
-      "impressions": 2419,
-      "position": 4.115336916081025
-    },
-    "https://www.arcstore.co.za/products/brand/beauty-of-joseon/relief-sun-rice-niacinamide-face-cream-spf50-pa": {
-      "clicks": 10,
-      "impressions": 379,
-      "position": 3.3641160949868074
+      "clicks": 30,
+      "impressions": 2257,
+      "position": 4.298183429330971
     },
     "https://www.arcstore.co.za/products/brand/benefit/benetint-cheek-lip-stain": {
-      "clicks": 11,
-      "impressions": 240,
-      "position": 3.725
+      "clicks": 12,
+      "impressions": 233,
+      "position": 3.665236051502146
     },
     "https://www.arcstore.co.za/products/brand/biodance/bio-collagen-real-deep-mask": {
       "clicks": 17,
-      "impressions": 849,
-      "position": 4.552414605418139
+      "impressions": 866,
+      "position": 4.405311778290994
     },
     "https://www.arcstore.co.za/products/brand/burberry/goddess-amber-vanilla-eau-de-parfum-intense": {
-      "clicks": 15,
-      "impressions": 345,
-      "position": 4.895652173913044
+      "clicks": 14,
+      "impressions": 341,
+      "position": 4.86217008797654
     },
     "https://www.arcstore.co.za/products/brand/burberry/goddess-edp": {
-      "clicks": 22,
-      "impressions": 1781,
-      "position": 5.074115665356541
+      "clicks": 24,
+      "impressions": 1726,
+      "position": 5.225376593279258
     },
     "https://www.arcstore.co.za/products/brand/by-arc/arc-favourites": {
-      "clicks": 24,
-      "impressions": 180,
-      "position": 5.961111111111111
+      "clicks": 25,
+      "impressions": 234,
+      "position": 5.641025641025641
     },
     "https://www.arcstore.co.za/products/brand/by-arc/fashion-toweling-makeup-pouch": {
-      "clicks": 14,
-      "impressions": 466,
-      "position": 6.686695278969957
+      "clicks": 15,
+      "impressions": 445,
+      "position": 6.341573033707865
     },
     "https://www.arcstore.co.za/products/brand/calvin-klein/calvin-klein-gift-set-perfume-mist-collection-x-4": {
-      "clicks": 24,
-      "impressions": 197,
-      "position": 2.9543147208121825
+      "clicks": 27,
+      "impressions": 237,
+      "position": 2.9029535864978904
     },
     "https://www.arcstore.co.za/products/brand/chanel/allure-homme-sport-eau-de-toilette": {
       "clicks": 13,
-      "impressions": 502,
-      "position": 3.555776892430279
+      "impressions": 507,
+      "position": 3.6252465483234713
     },
     "https://www.arcstore.co.za/products/brand/chanel/allure-homme-sport-superleggera-eau-de-parfum": {
-      "clicks": 20,
-      "impressions": 213,
-      "position": 3.3427230046948355
+      "clicks": 17,
+      "impressions": 174,
+      "position": 3.2873563218390807
     },
     "https://www.arcstore.co.za/products/brand/chanel/bleu-de-chanel-edp": {
-      "clicks": 20,
-      "impressions": 990,
-      "position": 3.7959595959595958
+      "clicks": 21,
+      "impressions": 947,
+      "position": 3.7972544878563887
     },
     "https://www.arcstore.co.za/products/brand/chanel/bleu-de-chanel-edt": {
       "clicks": 15,
-      "impressions": 970,
-      "position": 4.880412371134021
+      "impressions": 969,
+      "position": 4.818369453044376
     },
     "https://www.arcstore.co.za/products/brand/chanel/bleu-de-chanel-parfum": {
       "clicks": 23,
-      "impressions": 1485,
-      "position": 3.9117845117845116
+      "impressions": 1525,
+      "position": 3.847213114754098
+    },
+    "https://www.arcstore.co.za/products/brand/chanel/chance-edp": {
+      "clicks": 12,
+      "impressions": 565,
+      "position": 3.150442477876106
     },
     "https://www.arcstore.co.za/products/brand/chanel/coco-mademoiselle-crush-absolu-eau-de-parfum": {
-      "clicks": 26,
-      "impressions": 505,
-      "position": 3.277227722772277
+      "clicks": 27,
+      "impressions": 532,
+      "position": 3.4210526315789473
     },
     "https://www.arcstore.co.za/products/brand/chanel/coco-mademoiselle-edp": {
-      "clicks": 17,
-      "impressions": 1368,
-      "position": 5.181286549707602
-    },
-    "https://www.arcstore.co.za/products/brand/chanel/les-beiges-healthy-glow-bronzing-cream": {
-      "clicks": 10,
-      "impressions": 191,
-      "position": 3.0104712041884816
+      "clicks": 16,
+      "impressions": 1310,
+      "position": 5.231297709923664
     },
     "https://www.arcstore.co.za/products/brand/chanel/les-beiges-water-fresh-tint-with-micro-droplet-pigments": {
-      "clicks": 27,
-      "impressions": 262,
-      "position": 3.698473282442748
+      "clicks": 39,
+      "impressions": 314,
+      "position": 3.4585987261146496
     },
     "https://www.arcstore.co.za/products/brand/chanel/n5-edp": {
-      "clicks": 10,
-      "impressions": 1439,
-      "position": 3.8304378040305767
+      "clicks": 11,
+      "impressions": 1433,
+      "position": 4.109560362875087
+    },
+    "https://www.arcstore.co.za/products/brand/coach/cherry-parfum": {
+      "clicks": 12,
+      "impressions": 420,
+      "position": 3.2928571428571427
     },
     "https://www.arcstore.co.za/products/brand/cosrx/advanced-snail-96-mucin-power-essence": {
       "clicks": 11,
-      "impressions": 433,
-      "position": 3.491916859122402
+      "impressions": 431,
+      "position": 3.589327146171694
     },
     "https://www.arcstore.co.za/products/brand/cosrx/the-6-peptide-skin-booster-serum": {
-      "clicks": 17,
-      "impressions": 299,
-      "position": 3.9297658862876252
+      "clicks": 16,
+      "impressions": 288,
+      "position": 3.9965277777777777
     },
     "https://www.arcstore.co.za/products/brand/dior/forever-skin-perfect-stick-foundation": {
-      "clicks": 13,
-      "impressions": 570,
-      "position": 4.807017543859649
+      "clicks": 12,
+      "impressions": 577,
+      "position": 4.870017331022531
     },
     "https://www.arcstore.co.za/products/brand/dior/homme-intense-eau-de-parfum": {
       "clicks": 12,
-      "impressions": 972,
-      "position": 5.55761316872428
+      "impressions": 966,
+      "position": 5.527950310559007
     },
     "https://www.arcstore.co.za/products/brand/dior/sauvage-eau-de-parfum": {
-      "clicks": 12,
-      "impressions": 1186,
-      "position": 5.983136593591905
+      "clicks": 13,
+      "impressions": 1118,
+      "position": 5.783542039355993
     },
     "https://www.arcstore.co.za/products/brand/dior/sauvage-elixir-eau-de-parfum": {
-      "clicks": 17,
-      "impressions": 2132,
-      "position": 5.991088180112571
+      "clicks": 16,
+      "impressions": 2240,
+      "position": 6.010267857142857
     },
-    "https://www.arcstore.co.za/products/brand/dolce-gabbana/light-blue-eau-de-parfum": {
+    "https://www.arcstore.co.za/products/brand/dior/sauvage-parfum": {
       "clicks": 12,
-      "impressions": 1005,
-      "position": 4.600995024875622
+      "impressions": 1031,
+      "position": 6.0465567410281285
     },
     "https://www.arcstore.co.za/products/brand/dolce-gabbana/light-blue-eau-de-toilette": {
-      "clicks": 23,
-      "impressions": 2040,
-      "position": 4.200980392156863
+      "clicks": 22,
+      "impressions": 2139,
+      "position": 4.246376811594203
     },
     "https://www.arcstore.co.za/products/brand/dr-althea/345-relief-cream-renewal": {
-      "clicks": 13,
-      "impressions": 1578,
-      "position": 3.929657794676806
+      "clicks": 14,
+      "impressions": 1583,
+      "position": 3.9804169298799748
     },
     "https://www.arcstore.co.za/products/brand/drunk-elephant/protini-polypeptide-cream": {
-      "clicks": 11,
-      "impressions": 190,
-      "position": 5.836842105263158
+      "clicks": 12,
+      "impressions": 196,
+      "position": 6.0561224489795915
     },
     "https://www.arcstore.co.za/products/brand/fenty-beauty/diamond-bomb-all-over-diamond-veil": {
-      "clicks": 13,
-      "impressions": 229,
-      "position": 14.279475982532752
+      "clicks": 12,
+      "impressions": 446,
+      "position": 28.45964125560538
     },
     "https://www.arcstore.co.za/products/brand/fenty-beauty/gloss-bomb-universal-lip-luminizer": {
-      "clicks": 27,
-      "impressions": 816,
-      "position": 3.3333333333333335
+      "clicks": 25,
+      "impressions": 830,
+      "position": 3.4397590361445785
     },
     "https://www.arcstore.co.za/products/brand/fenty-beauty/pro-filtr-soft-matte-longwear-liquid-foundation-with-sweat-resistant-technology": {
       "clicks": 20,
-      "impressions": 862,
-      "position": 3.4791183294663575
+      "impressions": 890,
+      "position": 3.6044943820224717
     },
     "https://www.arcstore.co.za/products/brand/fenty-skin/allover-body-mist-green-raspberry": {
-      "clicks": 12,
-      "impressions": 110,
-      "position": 2.9454545454545453
-    },
-    "https://www.arcstore.co.za/products/brand/fenty-skin/butta-drop-whipped-oil-body-cream": {
-      "clicks": 12,
-      "impressions": 215,
-      "position": 5.027906976744186
+      "clicks": 13,
+      "impressions": 116,
+      "position": 3.2413793103448274
     },
     "https://www.arcstore.co.za/products/brand/gucci/oud-intense-edp": {
-      "clicks": 19,
-      "impressions": 2535,
-      "position": 5.443392504930967
+      "clicks": 20,
+      "impressions": 2563,
+      "position": 5.390948107686305
+    },
+    "https://www.arcstore.co.za/products/brand/guerlain/shalimar-edp": {
+      "clicks": 12,
+      "impressions": 145,
+      "position": 3.503448275862069
     },
     "https://www.arcstore.co.za/products/brand/haruharu-wonder/black-rice-hyaluronic-toner": {
-      "clicks": 11,
-      "impressions": 215,
-      "position": 4.046511627906977
+      "clicks": 13,
+      "impressions": 219,
+      "position": 4.420091324200913
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/blush-filter": {
-      "clicks": 12,
-      "impressions": 202,
-      "position": 4.4405940594059405
+      "clicks": 14,
+      "impressions": 196,
+      "position": 3.7346938775510203
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/easy-bake-intense-eau-de-parfum": {
-      "clicks": 15,
-      "impressions": 181,
-      "position": 4.138121546961326
+      "clicks": 14,
+      "impressions": 173,
+      "position": 4.098265895953757
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/easy-bake-loose-powder": {
-      "clicks": 69,
+      "clicks": 78,
       "impressions": 1272,
-      "position": 3.716194968553459
+      "position": 3.8624213836477987
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/easy-blur-foundation": {
-      "clicks": 22,
-      "impressions": 453,
-      "position": 4.185430463576159
+      "clicks": 21,
+      "impressions": 426,
+      "position": 4.237089201877934
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/fauxfilter-under-eye-color-corrector": {
-      "clicks": 16,
-      "impressions": 582,
-      "position": 6.1116838487972505
+      "clicks": 18,
+      "impressions": 579,
+      "position": 6.150259067357513
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/lip-contour-stain": {
-      "clicks": 17,
-      "impressions": 371,
-      "position": 6.064690026954178
+      "clicks": 19,
+      "impressions": 368,
+      "position": 7.423913043478261
     },
     "https://www.arcstore.co.za/products/brand/huda-beauty/liquid-matte-lipstick": {
-      "clicks": 14,
-      "impressions": 369,
-      "position": 4.731707317073171
+      "clicks": 15,
+      "impressions": 359,
+      "position": 4.799442896935933
     },
     "https://www.arcstore.co.za/products/brand/jean-paul-gaultier/le-male-le-parfum-edp": {
       "clicks": 13,
-      "impressions": 1547,
-      "position": 3.948933419521655
+      "impressions": 1453,
+      "position": 4.370956641431521
     },
     "https://www.arcstore.co.za/products/brand/kayali/eden-collection-miniature-set": {
-      "clicks": 13,
-      "impressions": 319,
-      "position": 4.38871473354232
+      "clicks": 15,
+      "impressions": 345,
+      "position": 4.034782608695652
     },
     "https://www.arcstore.co.za/products/brand/kayali/eden-juicy-apple-01-edp": {
-      "clicks": 11,
-      "impressions": 312,
-      "position": 3.0673076923076925
+      "clicks": 13,
+      "impressions": 333,
+      "position": 3.129129129129129
     },
     "https://www.arcstore.co.za/products/brand/kayali/freedom-musk-santal-eau-de-parfum": {
-      "clicks": 25,
-      "impressions": 370,
-      "position": 5.008108108108108
+      "clicks": 26,
+      "impressions": 351,
+      "position": 4.925925925925926
+    },
+    "https://www.arcstore.co.za/products/brand/kayali/lovefest-burning-cherry-48-edp": {
+      "clicks": 12,
+      "impressions": 168,
+      "position": 2.9345238095238093
     },
     "https://www.arcstore.co.za/products/brand/kayali/the-wedding-silk-santal-36-edp": {
-      "clicks": 22,
-      "impressions": 191,
-      "position": 6.130890052356021
+      "clicks": 26,
+      "impressions": 207,
+      "position": 6.9227053140096615
     },
     "https://www.arcstore.co.za/products/brand/kayali/vanilla-28-edp": {
-      "clicks": 64,
-      "impressions": 1826,
-      "position": 3.235487404162103
+      "clicks": 60,
+      "impressions": 1793,
+      "position": 3.214723926380368
     },
     "https://www.arcstore.co.za/products/brand/kayali/vanilla-candy-rock-sugar-42-edp": {
-      "clicks": 21,
-      "impressions": 632,
-      "position": 4.8354430379746836
+      "clicks": 18,
+      "impressions": 624,
+      "position": 4.923076923076923
     },
     "https://www.arcstore.co.za/products/brand/kayali/yum-marshmallow-edp": {
-      "clicks": 58,
-      "impressions": 1048,
-      "position": 3.7614503816793894
-    },
-    "https://www.arcstore.co.za/products/brand/kayali/yum-pistachio-gelato-33-edp": {
-      "clicks": 13,
-      "impressions": 295,
-      "position": 4.305084745762712
+      "clicks": 53,
+      "impressions": 1039,
+      "position": 3.672762271414822
     },
     "https://www.arcstore.co.za/products/brand/kerastase/genesis-anti-hair-fall-fortifying-serum": {
-      "clicks": 11,
-      "impressions": 717,
-      "position": 3.4755927475592747
+      "clicks": 13,
+      "impressions": 697,
+      "position": 3.430416068866571
+    },
+    "https://www.arcstore.co.za/products/brand/kylie-cosmetics/cosmic-kylie-jenner-2-0-eau-de-parfum": {
+      "clicks": 12,
+      "impressions": 523,
+      "position": 5.667304015296367
     },
     "https://www.arcstore.co.za/products/brand/kylie-cosmetics/kylie-cosmic-eau-de-parfum": {
-      "clicks": 28,
-      "impressions": 1049,
-      "position": 2.7416587225929456
+      "clicks": 29,
+      "impressions": 1070,
+      "position": 2.742056074766355
     },
     "https://www.arcstore.co.za/products/brand/kylie-cosmetics/skin-tint-blurring-elixir": {
-      "clicks": 17,
-      "impressions": 283,
-      "position": 2.7491166077738516
+      "clicks": 15,
+      "impressions": 273,
+      "position": 2.6227106227106227
     },
     "https://www.arcstore.co.za/products/brand/kylie-cosmetics/vanilla-dew-hair-body-mist": {
-      "clicks": 13,
-      "impressions": 812,
-      "position": 3.0492610837438425
+      "clicks": 12,
+      "impressions": 768,
+      "position": 3.0950520833333335
     },
     "https://www.arcstore.co.za/products/brand/lancome/teint-idole-ultra-wear-foundation-1": {
       "clicks": 19,
-      "impressions": 1015,
-      "position": 3.2
+      "impressions": 1039,
+      "position": 3.087584215591915
     },
     "https://www.arcstore.co.za/products/brand/laneige/lip-glowy-balm": {
-      "clicks": 29,
-      "impressions": 1025,
-      "position": 2.64390243902439
+      "clicks": 28,
+      "impressions": 1067,
+      "position": 2.656044985941893
     },
     "https://www.arcstore.co.za/products/brand/loreal-professionnel-paris/serie-expert-aminexil-advanced-anti-hair-loss-activator-serum": {
-      "clicks": 13,
-      "impressions": 419,
-      "position": 3.548926014319809
-    },
-    "https://www.arcstore.co.za/products/brand/loreal-professionnel-paris/serie-expert-serioxyl-advanced-denser-hair-serum": {
-      "clicks": 11,
-      "impressions": 373,
-      "position": 4.128686327077748
+      "clicks": 12,
+      "impressions": 379,
+      "position": 3.5567282321899736
     },
     "https://www.arcstore.co.za/products/brand/medicube/collagen-night-wrapping-mask": {
-      "clicks": 36,
-      "impressions": 2303,
-      "position": 3.6686930091185412
+      "clicks": 40,
+      "impressions": 2290,
+      "position": 3.6812227074235806
     },
     "https://www.arcstore.co.za/products/brand/medicube/pdrn-pink-collagen-capsule-cream": {
-      "clicks": 17,
-      "impressions": 702,
-      "position": 3.972934472934473
+      "clicks": 18,
+      "impressions": 673,
+      "position": 4.069836552748885
     },
     "https://www.arcstore.co.za/products/brand/medicube/pdrn-pink-peptide-serum": {
       "clicks": 13,
-      "impressions": 471,
-      "position": 4.898089171974522
-    },
-    "https://www.arcstore.co.za/products/brand/medicube/rosemary-pdrn-cooling-thickening-shampoo": {
-      "clicks": 12,
-      "impressions": 206,
-      "position": 3.6699029126213594
+      "impressions": 432,
+      "position": 5.037037037037037
     },
     "https://www.arcstore.co.za/products/brand/medicube/zero-pore-pad-2-0": {
       "clicks": 15,
-      "impressions": 848,
-      "position": 3.4752358490566038
+      "impressions": 830,
+      "position": 3.5265060240963857
     },
     "https://www.arcstore.co.za/products/brand/nars/radiant-creamy-concealer": {
-      "clicks": 13,
-      "impressions": 399,
-      "position": 3.7844611528822054
+      "clicks": 12,
+      "impressions": 393,
+      "position": 3.9974554707379135
     },
     "https://www.arcstore.co.za/products/brand/paulas-choice/10-azelaic-acid-booster-for-redness-relief": {
-      "clicks": 12,
-      "impressions": 217,
-      "position": 8.751152073732719
+      "clicks": 14,
+      "impressions": 206,
+      "position": 9.169902912621358
     },
     "https://www.arcstore.co.za/products/brand/paulas-choice/skin-perfecting-2-bha-liquid-exfoliant": {
-      "clicks": 15,
-      "impressions": 476,
-      "position": 4.628151260504202
+      "clicks": 17,
+      "impressions": 477,
+      "position": 4.39412997903564
     },
-    "https://www.arcstore.co.za/products/brand/skin1004/madagascar-centella-ampoule": {
-      "clicks": 12,
-      "impressions": 304,
-      "position": 3.2401315789473686
+    "https://www.arcstore.co.za/products/brand/rabanne/rabanne-advent-calendar": {
+      "clicks": 11,
+      "impressions": 257,
+      "position": 8.424124513618677
     },
     "https://www.arcstore.co.za/products/brand/skin1004/madagascar-centella-hyalu-cica-water-fit-sun-serum": {
-      "clicks": 20,
-      "impressions": 582,
-      "position": 2.4175257731958766
+      "clicks": 24,
+      "impressions": 592,
+      "position": 2.52027027027027
     },
     "https://www.arcstore.co.za/products/brand/sol-de-janeiro/cheirosa-62-perfume-mist": {
-      "clicks": 39,
-      "impressions": 829,
-      "position": 2.870928829915561
+      "clicks": 35,
+      "impressions": 851,
+      "position": 3.0282021151586367
     },
     "https://www.arcstore.co.za/products/brand/sol-de-janeiro/cheirosa-74-intense-perfume-mist": {
-      "clicks": 15,
-      "impressions": 191,
-      "position": 2.2460732984293195
+      "clicks": 16,
+      "impressions": 182,
+      "position": 2.2362637362637363
+    },
+    "https://www.arcstore.co.za/products/brand/sol-de-janeiro/glowmotions-copacabana-bronze": {
+      "clicks": 11,
+      "impressions": 118,
+      "position": 4.016949152542373
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/azelaic-acid-suspension-10": {
-      "clicks": 11,
-      "impressions": 317,
-      "position": 12.100946372239747
+      "clicks": 13,
+      "impressions": 357,
+      "position": 11.518207282913165
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/lash-curl-finisher": {
-      "clicks": 18,
-      "impressions": 132,
-      "position": 3.6136363636363638
+      "clicks": 22,
+      "impressions": 139,
+      "position": 3.5323741007194243
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/multi-peptide-eye-serum": {
-      "clicks": 31,
-      "impressions": 1605,
-      "position": 5.426791277258567
+      "clicks": 28,
+      "impressions": 1332,
+      "position": 5.4391891891891895
     },
     "https://www.arcstore.co.za/products/brand/the-ordinary/multi-peptide-hyaluronic-acid-serum-for-firmness-and-elasticity": {
-      "clicks": 47,
-      "impressions": 1079,
-      "position": 7.617238183503244
-    },
-    "https://www.arcstore.co.za/products/brand/the-ordinary/natural-moisturizing-factors-ha": {
-      "clicks": 12,
-      "impressions": 696,
-      "position": 6.155172413793103
+      "clicks": 54,
+      "impressions": 1151,
+      "position": 7.514335360556038
     },
     "https://www.arcstore.co.za/products/brand/tirtir/mask-fit-red-cushion": {
-      "clicks": 13,
-      "impressions": 420,
-      "position": 5.183333333333334
+      "clicks": 16,
+      "impressions": 411,
+      "position": 4.7104622871046224
     },
     "https://www.arcstore.co.za/products/brand/tirtir/milk-skin-toner": {
       "clicks": 21,
       "impressions": 554,
-      "position": 3.7057761732851984
+      "position": 3.7274368231046933
     },
     "https://www.arcstore.co.za/products/brand/tom-ford/fucking-fabulous-edp": {
-      "clicks": 24,
-      "impressions": 402,
-      "position": 3.8134328358208953
+      "clicks": 23,
+      "impressions": 419,
+      "position": 3.7661097852028638
     },
     "https://www.arcstore.co.za/products/brand/torriden/dive-in-serum": {
       "clicks": 12,
-      "impressions": 146,
-      "position": 2.5205479452054798
+      "impressions": 137,
+      "position": 2.81021897810219
+    },
+    "https://www.arcstore.co.za/products/brand/valentino/donna-born-in-roma-extradose-eau-de-parfum": {
+      "clicks": 12,
+      "impressions": 303,
+      "position": 3.5445544554455446
     },
     "https://www.arcstore.co.za/products/brand/vt-cosmetics/pdrn-reedle-shot-100": {
-      "clicks": 13,
-      "impressions": 218,
-      "position": 3.9174311926605503
+      "clicks": 15,
+      "impressions": 252,
+      "position": 3.9047619047619047
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/beauty-advent-calendar-skincare-makeup-and-fragrance-favourites": {
-      "clicks": 38,
-      "impressions": 515,
-      "position": 4.22135922330097
+      "clicks": 60,
+      "impressions": 756,
+      "position": 4.265873015873016
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/la-nuit-de-lhomme-edt": {
       "clicks": 11,
-      "impressions": 368,
-      "position": 5.154891304347826
+      "impressions": 381,
+      "position": 5.0682414698162725
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/libre-edp": {
-      "clicks": 24,
-      "impressions": 1061,
-      "position": 3.64373232799246
+      "clicks": 20,
+      "impressions": 1038,
+      "position": 3.76878612716763
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/libre-edp-intense": {
-      "clicks": 14,
-      "impressions": 532,
-      "position": 3.9718045112781954
+      "clicks": 15,
+      "impressions": 529,
+      "position": 4.024574669187146
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/make-me-blush-bold-blurring-blush": {
-      "clicks": 13,
-      "impressions": 209,
-      "position": 2.799043062200957
+      "clicks": 18,
+      "impressions": 250,
+      "position": 2.8280000000000003
     },
     "https://www.arcstore.co.za/products/brand/yves-saint-laurent/y-edp": {
-      "clicks": 23,
-      "impressions": 1349,
-      "position": 3.7679762787249813
+      "clicks": 22,
+      "impressions": 1362,
+      "position": 3.8208516886930983
     },
     "https://www.arcstore.co.za/sign-up": {
-      "clicks": 14,
-      "impressions": 99,
-      "position": 5.646464646464646
+      "clicks": 13,
+      "impressions": 91,
+      "position": 5.527472527472527
     },
     "https://www.arcstore.co.za/skincare": {
-      "clicks": 129,
-      "impressions": 15182,
-      "position": 2.5083651692794096
+      "clicks": 142,
+      "impressions": 15131,
+      "position": 2.5338047716608285
     },
     "https://www.arcstore.co.za/skincare/eye-treatments/eye-cream": {
-      "clicks": 11,
-      "impressions": 817,
-      "position": 16.630354957160343
+      "clicks": 12,
+      "impressions": 735,
+      "position": 17.082993197278913
     },
     "https://www.arcstore.co.za/skincare/masks/eye-masks": {
-      "clicks": 44,
-      "impressions": 2987,
-      "position": 5.705724807499163
+      "clicks": 39,
+      "impressions": 3002,
+      "position": 5.620919387075283
     },
     "https://www.arcstore.co.za/skincare/masks/masks": {
       "clicks": 13,
-      "impressions": 1079,
-      "position": 8.129749768303984
+      "impressions": 1065,
+      "position": 7.906103286384977
     },
     "https://www.arcstore.co.za/skincare/moisturiser/face-mists-essences": {
       "clicks": 23,
-      "impressions": 886,
-      "position": 4.753950338600451
+      "impressions": 904,
+      "position": 4.6371681415929205
     },
     "https://www.arcstore.co.za/skincare/skin-giftsets": {
-      "clicks": 12,
-      "impressions": 450,
-      "position": 4.804444444444444
+      "clicks": 11,
+      "impressions": 418,
+      "position": 5.62200956937799
     },
     "https://www.arcstore.co.za/womens-fragrances-and-mens-fragrance": {
-      "clicks": 27,
-      "impressions": 1857,
-      "position": 4.340872374798062
+      "clicks": 28,
+      "impressions": 1886,
+      "position": 4.3844114528101805
     }
   },
   "source_status": {
     "crux": {
-      "note": "no CrUX data (missing CRUX_API_KEY or insufficient traffic)",
-      "ok": true
+      "ok": true,
+      "targets": 4
     },
     "ga4": {
       "days_pulled": 43,
