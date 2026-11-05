@@ -40,9 +40,11 @@
     "link": "https://search.google.com/search-console/index?resource_id=sc-domain%3Asani.co.za",
     "occurrences": 33,
     "pct_change": null,
+    "resolved_at": "2026-11-02",
+    "resolved_reason": "back inside threshold",
     "severity": "critical",
     "signal": "indexation_priority",
-    "status": "open",
+    "status": "resolved",
     "summary": "2 priority URL(s) not indexed as expected"
   },
   {
@@ -62,9 +64,11 @@
     "link": null,
     "occurrences": 1,
     "pct_change": -27.6,
+    "resolved_at": "2026-11-02",
+    "resolved_reason": "not seen for 24 days",
     "severity": "warning",
     "signal": "llm_referrals",
-    "status": "open",
+    "status": "resolved",
     "summary": "Sessions from LLM surfaces -27.6% against baseline"
   },
   {
