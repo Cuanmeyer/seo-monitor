@@ -126,6 +126,11 @@ def append_alerts(new_alerts: list[dict]) -> list[dict]:
             prior["occurrences"] = prior.get("occurrences", 1) + 1
             prior["current_value"] = alert["current_value"]
             prior["pct_change"] = alert["pct_change"]
+            # Keep the wording current. Without this an alert raised for two
+            # URLs still said "2" weeks after one of them was fixed.
+            for field in ("summary", "detail", "hint", "as_of", "baseline_value"):
+                if field in alert:
+                    prior[field] = alert[field]
             if alert["severity"] == "critical" and prior["severity"] != "critical":
                 prior["severity"] = "critical"
                 fresh.append(prior)  # escalation is worth re-notifying
@@ -141,18 +146,46 @@ def append_alerts(new_alerts: list[dict]) -> list[dict]:
     return fresh
 
 
-def resolve_alerts(client: str, healthy_signals: set[str], today: str) -> list[dict]:
-    """Close open alerts whose signal has come back inside threshold."""
+def resolve_alerts(
+    client: str,
+    healthy_signals: set[str],
+    today: str,
+    raised_signals: set[str] | None = None,
+    watching_signals: set[str] | None = None,
+    stale_after_days: int = 3,
+) -> list[dict]:
+    """Close open alerts whose signal has come back inside threshold.
+
+    Also closes alerts that have gone quiet: not raised again for
+    stale_after_days and not still breaching. Without this, a signal that
+    stops being judged at all (for example LLM referrals dropping under the
+    volume floor) left its last alert open forever.
+    """
+    raised_signals = raised_signals or set()
+    watching_signals = watching_signals or set()
+    today_date = dt.date.fromisoformat(today[:10])
+
     alerts = load_alerts()
     resolved = []
     for alert in alerts:
-        if (
-            alert.get("status") == "open"
-            and alert["client"] == client
-            and alert["signal"] in healthy_signals
-        ):
+        if alert.get("status") != "open" or alert["client"] != client:
+            continue
+        signal = alert["signal"]
+        reason = None
+        if signal in healthy_signals:
+            reason = "back inside threshold"
+        elif signal not in raised_signals and signal not in watching_signals:
+            last_seen = (alert.get("last_seen") or alert.get("detected_at") or "")[:10]
+            try:
+                quiet = (today_date - dt.date.fromisoformat(last_seen)).days
+            except ValueError:
+                quiet = 0
+            if quiet >= stale_after_days:
+                reason = f"not seen for {quiet} days"
+        if reason:
             alert["status"] = "resolved"
             alert["resolved_at"] = today
+            alert["resolved_reason"] = reason
             resolved.append(alert)
     if resolved:
         save_alerts(alerts)
