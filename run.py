@@ -106,7 +106,13 @@ def main() -> int:
                 alert["suppressed"] = suppressed_reason
             print(f"  suppression window active: {suppressed_reason}")
 
-        resolved = store.resolve_alerts(client_cfg.slug, healthy, as_of.isoformat())
+        resolved = store.resolve_alerts(
+            client_cfg.slug,
+            healthy,
+            as_of.isoformat(),
+            raised_signals={finding.signal for finding in findings},
+            watching_signals=watching,
+        )
         for alert in resolved:
             print(f"  resolved: {alert['signal']}")
 
