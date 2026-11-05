@@ -283,12 +283,12 @@ clients:
       - "https://sani.co.za/monthly-mobility/"
       - "https://sani.co.za/sani-premium/"
       - "https://sani.co.za/car-rental/east-london-airport-king-phalo/"
-      - "https://sani.co.za/locations/randburg/"
+      - "https://sani.co.za/car-rental/randburg-johannesburg/"
       - "https://sani.co.za/our-vehicles/"
     template_samples:
       home: "https://sani.co.za/"
       airport: "https://sani.co.za/car-rental/cape-town-int-airport/"
-      location: "https://sani.co.za/locations/randburg/"
+      location: "https://sani.co.za/car-rental/randburg-johannesburg/"
       product: "https://sani.co.za/monthly-mobility/"
     suppression_windows: []
     threshold_overrides: {}
