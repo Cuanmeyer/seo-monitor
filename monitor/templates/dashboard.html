@@ -153,8 +153,8 @@ const fmt = n => (n === null || n === undefined) ? "—" : Math.round(n).toLocal
 const pct = (a, b) => (a === null || a === undefined || !b) ? null : ((a - b) / b) * 100;
 const signed = v => v === null ? "—" : (v >= 0 ? "+" : "") + v.toFixed(1) + "%";
 
-const LABELS = { good:"OK", warning:"Warning", watching:"Watching", critical:"Critical", unknown:"No data" };
-const RANK   = { critical:0, warning:1, watching:2, unknown:3, good:4 };
+const LABELS = { good:"Healthy", warning:"Warning", watching:"Watching", critical:"Critical", unknown:"No data" };
+const RANK   = { critical:0, warning:1, watching:2, good:3, unknown:4 };
 
 /* Last `n` days against the prior 28, scaled to the same length. Same method
    the evaluator uses, so the 7-day view reproduces the alert figures exactly
@@ -185,8 +185,14 @@ function statsFor(c, n) {
 }
 
 function worstStatus(c) {
+  // A signal with no data (no API key yet, too little traffic) says nothing
+  // about the client's health, so it only decides the row when every signal
+  // is empty. Otherwise a perfectly healthy client reads as "No data".
+  const states = Object.values(c.statuses || {}).map(s => s.state);
+  const known = states.filter(s => s !== "unknown");
+  if (!known.length) return "unknown";
   let worst = "good";
-  Object.values(c.statuses || {}).forEach(s => { if (RANK[s.state] < RANK[worst]) worst = s.state; });
+  known.forEach(s => { if (RANK[s] < RANK[worst]) worst = s; });
   return worst;
 }
 function pill(state, label) {
