@@ -1,26 +1,26 @@
 {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "baseline_scale": 4.0,
   "cwv": {
     "fleet": {
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 98.4,
+          "good_pct": 98.6,
           "p75": 0.0,
           "poor_pct": 0.7,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 43.3,
-          "p75": 433.0,
-          "poor_pct": 20.5,
+          "good_pct": 41.8,
+          "p75": 449.0,
+          "poor_pct": 21.6,
           "rating": "needs_improvement"
         },
         "LCP": {
-          "good_pct": 24.9,
-          "p75": 7377.0,
-          "poor_pct": 60.2,
+          "good_pct": 25.1,
+          "p75": 7609.0,
+          "poor_pct": 60.8,
           "rating": "poor"
         }
       },
@@ -30,21 +30,21 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 63.3,
+          "good_pct": 62.7,
           "p75": 0.25,
-          "poor_pct": 26.0,
+          "poor_pct": 27.7,
           "rating": "needs_improvement"
         },
         "INP": {
-          "good_pct": 65.9,
-          "p75": 242.0,
-          "poor_pct": 8.2,
+          "good_pct": 65.0,
+          "p75": 250.0,
+          "poor_pct": 10.7,
           "rating": "needs_improvement"
         },
         "LCP": {
-          "good_pct": 47.0,
-          "p75": 4216.0,
-          "poor_pct": 27.6,
+          "good_pct": 45.6,
+          "p75": 4313.0,
+          "poor_pct": 28.7,
           "rating": "poor"
         }
       },
@@ -56,19 +56,19 @@
         "CLS": {
           "good_pct": 94.5,
           "p75": 0.0,
-          "poor_pct": 2.6,
+          "poor_pct": 2.8,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 52.2,
-          "p75": 359.0,
-          "poor_pct": 16.0,
+          "good_pct": 50.8,
+          "p75": 374.0,
+          "poor_pct": 17.0,
           "rating": "needs_improvement"
         },
         "LCP": {
           "good_pct": 36.4,
-          "p75": 6085.0,
-          "poor_pct": 44.7,
+          "p75": 6262.0,
+          "poor_pct": 45.2,
           "rating": "poor"
         }
       },
@@ -78,21 +78,15 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 88.2,
+          "good_pct": 89.9,
           "p75": 0.0,
-          "poor_pct": 0.7,
+          "poor_pct": 0.4,
           "rating": "good"
         },
-        "INP": {
-          "good_pct": 52.1,
-          "p75": 297.0,
-          "poor_pct": 9.8,
-          "rating": "needs_improvement"
-        },
         "LCP": {
-          "good_pct": 43.9,
-          "p75": 3760.0,
-          "poor_pct": 21.8,
+          "good_pct": 38.9,
+          "p75": 3949.0,
+          "poor_pct": 24.0,
           "rating": "needs_improvement"
         }
       },
@@ -126,7 +120,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.britz.co.za/4x4-rental-pick-up-locations-maun-botswana/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-02T18:17:23Z",
+      "last_crawl": "2026-11-06T20:01:18Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.britz.co.za/4x4-rental-pick-up-locations-maun-botswana/",
@@ -146,7 +140,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.britz.co.za/4x4-vehicle-rental/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-05T11:31:19Z",
+      "last_crawl": "2026-11-07T06:01:22Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.britz.co.za/4x4-vehicle-rental/",
@@ -214,60 +208,60 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 295,
+    "chatgpt.com": 296,
     "gemini.google.com": 23,
     "perplexity.ai": 1
   },
   "pages_baseline": {
     "https://www.britz.co.za/": {
-      "clicks": 1007,
-      "impressions": 37235,
-      "position": 7.559500469987914
+      "clicks": 991,
+      "impressions": 37173,
+      "position": 7.519785866085599
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-cape-town/": {
-      "clicks": 11,
-      "impressions": 955,
-      "position": 17.90890052356021
+      "clicks": 9,
+      "impressions": 951,
+      "position": 18.28286014721346
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-durban-airport/": {
-      "clicks": 7,
-      "impressions": 167,
-      "position": 16.479041916167667
+      "clicks": 6,
+      "impressions": 174,
+      "position": 16.614942528735632
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-east-london-airport/": {
       "clicks": 1,
-      "impressions": 48,
-      "position": 14.166666666666666
+      "impressions": 49,
+      "position": 14.040816326530612
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-gaborone-airport/": {
-      "clicks": 5,
-      "impressions": 267,
-      "position": 20.629213483146067
+      "clicks": 4,
+      "impressions": 272,
+      "position": 21.705882352941178
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-george-airport/": {
-      "clicks": 5,
-      "impressions": 75,
-      "position": 8.733333333333334
+      "clicks": 7,
+      "impressions": 77,
+      "position": 9.636363636363637
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-johannesburg/": {
-      "clicks": 15,
-      "impressions": 1866,
-      "position": 9.739549839228296
+      "clicks": 16,
+      "impressions": 1883,
+      "position": 9.670738183749336
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-kasane-botswana/": {
-      "clicks": 9,
-      "impressions": 495,
-      "position": 15.088888888888889
+      "clicks": 10,
+      "impressions": 503,
+      "position": 15.238568588469185
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-maputo-vilanculous/": {
-      "clicks": 19,
-      "impressions": 547,
-      "position": 15.394881170018282
+      "clicks": 20,
+      "impressions": 556,
+      "position": 15.654676258992806
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-maun-botswana/": {
-      "clicks": 28,
-      "impressions": 1110,
-      "position": 14.47027027027027
+      "clicks": 27,
+      "impressions": 1126,
+      "position": 14.682060390763766
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-namibia-windhoek/": {
       "clicks": 0,
@@ -276,13 +270,13 @@
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-nelspruit-airport/": {
       "clicks": 1,
-      "impressions": 22,
-      "position": 8.272727272727273
+      "impressions": 23,
+      "position": 8.217391304347826
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-port-elizabeth-airport/": {
       "clicks": 5,
-      "impressions": 180,
-      "position": 31.155555555555555
+      "impressions": 183,
+      "position": 32.28415300546448
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-swakopmund-airport/": {
       "clicks": 0,
@@ -291,23 +285,23 @@
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-vic-falls-airport/": {
       "clicks": 3,
-      "impressions": 85,
-      "position": 36.258823529411764
+      "impressions": 86,
+      "position": 37.872093023255815
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-walvis-bay-airport/": {
       "clicks": 7,
-      "impressions": 609,
-      "position": 20.320197044334975
+      "impressions": 615,
+      "position": 20.80650406504065
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-windhoek-airport/": {
-      "clicks": 24,
-      "impressions": 1249,
-      "position": 12.373899119295436
+      "clicks": 25,
+      "impressions": 1257,
+      "position": 12.970564836913285
     },
     "https://www.britz.co.za/4x4-vehicle-rental/": {
-      "clicks": 51,
-      "impressions": 5966,
-      "position": 17.40931947703654
+      "clicks": 50,
+      "impressions": 5995,
+      "position": 17.41701417848207
     },
     "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny": {
       "clicks": 0,
@@ -316,78 +310,78 @@
     },
     "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny-unequipped/": {
       "clicks": 5,
-      "impressions": 211,
-      "position": 31.786729857819907
+      "impressions": 209,
+      "position": 31.818181818181817
     },
     "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny/": {
-      "clicks": 115,
-      "impressions": 3412,
-      "position": 9.750586166471278
+      "clicks": 114,
+      "impressions": 3443,
+      "position": 10.149578855649143
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-double-cab-unequipped/": {
-      "clicks": 11,
-      "impressions": 450,
-      "position": 21.962222222222223
+      "clicks": 10,
+      "impressions": 462,
+      "position": 22.474025974025974
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-double-cab/": {
       "clicks": 9,
-      "impressions": 571,
-      "position": 19.51138353765324
+      "impressions": 567,
+      "position": 19.91005291005291
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-fortuner-suv/": {
       "clicks": 27,
-      "impressions": 1148,
-      "position": 11.222996515679442
+      "impressions": 1147,
+      "position": 11.198779424585876
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-land-cruiser/": {
-      "clicks": 21,
-      "impressions": 405,
-      "position": 17.130864197530865
+      "clicks": 23,
+      "impressions": 422,
+      "position": 17.571090047393366
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-navi/": {
-      "clicks": 47,
-      "impressions": 1609,
-      "position": 10.929770043505282
+      "clicks": 49,
+      "impressions": 1597,
+      "position": 10.76017532874139
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-single-cab-unequipped/": {
       "clicks": 1,
-      "impressions": 80,
-      "position": 39.7875
+      "impressions": 81,
+      "position": 40.98765432098765
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-single-cab/": {
       "clicks": 36,
-      "impressions": 1170,
-      "position": 13.93931623931624
+      "impressions": 1179,
+      "position": 14.094995759117896
     },
     "https://www.britz.co.za/branches/": {
       "clicks": 4,
-      "impressions": 1381,
-      "position": 9.04996379435192
+      "impressions": 1380,
+      "position": 9.23913043478261
     },
     "https://www.britz.co.za/contact/": {
       "clicks": 7,
-      "impressions": 1020,
-      "position": 9.398039215686275
+      "impressions": 1021,
+      "position": 9.648383937316357
     },
     "https://www.britz.co.za/enquire/": {
       "clicks": 2,
-      "impressions": 272,
-      "position": 29.503676470588236
+      "impressions": 277,
+      "position": 29.407942238267147
     },
     "https://www.britz.co.za/faqs/": {
       "clicks": 12,
-      "impressions": 674,
-      "position": 14.13353115727003
+      "impressions": 677,
+      "position": 14.259970457902511
     },
     "https://www.britz.co.za/locations/": {
       "clicks": 0,
-      "impressions": 19,
-      "position": 8.105263157894736
+      "impressions": 18,
+      "position": 8.38888888888889
     },
     "https://www.britz.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 25,
-      "position": 6
+      "impressions": 26,
+      "position": 6.076923076923077
     },
     "https://www.britz.co.za/province/branches/": {
       "clicks": 0,
@@ -396,63 +390,63 @@
     },
     "https://www.britz.co.za/search-results/": {
       "clicks": 0,
-      "impressions": 158,
-      "position": 21.132911392405063
+      "impressions": 163,
+      "position": 21.03680981595092
     },
     "https://www.britz.co.za/self-driving-travel-info/": {
       "clicks": 0,
-      "impressions": 403,
-      "position": 10.062034739454095
+      "impressions": 407,
+      "position": 10.213759213759214
     },
     "https://www.britz.co.za/self-driving-travel-info/botswana/": {
-      "clicks": 11,
-      "impressions": 2566,
-      "position": 23.996492595479346
+      "clicks": 12,
+      "impressions": 2577,
+      "position": 23.571206829646876
     },
     "https://www.britz.co.za/self-driving-travel-info/eswatini/": {
       "clicks": 1,
-      "impressions": 125,
-      "position": 10.424
+      "impressions": 126,
+      "position": 10.34920634920635
     },
     "https://www.britz.co.za/self-driving-travel-info/kruger-national-park/": {
       "clicks": 7,
-      "impressions": 244,
-      "position": 20.524590163934427
+      "impressions": 239,
+      "position": 20.85355648535565
     },
     "https://www.britz.co.za/self-driving-travel-info/lesotho/": {
       "clicks": 3,
-      "impressions": 59,
-      "position": 9.474576271186441
+      "impressions": 61,
+      "position": 9.459016393442623
     },
     "https://www.britz.co.za/self-driving-travel-info/lesotho/maseru/": {
       "clicks": 0,
-      "impressions": 109,
-      "position": 8.697247706422019
+      "impressions": 113,
+      "position": 8.814159292035399
     },
     "https://www.britz.co.za/self-driving-travel-info/lesotho/sani-pass/": {
       "clicks": 7,
-      "impressions": 234,
-      "position": 7.555555555555555
+      "impressions": 241,
+      "position": 7.45643153526971
     },
     "https://www.britz.co.za/self-driving-travel-info/mozambique/": {
       "clicks": 3,
-      "impressions": 470,
-      "position": 16.246808510638296
+      "impressions": 475,
+      "position": 16.16842105263158
     },
     "https://www.britz.co.za/self-driving-travel-info/mozambique/maputo/": {
       "clicks": 1,
-      "impressions": 187,
-      "position": 9.598930481283423
+      "impressions": 181,
+      "position": 9.602209944751381
     },
     "https://www.britz.co.za/self-driving-travel-info/mozambique/ponta-do-ouro/": {
       "clicks": 1,
-      "impressions": 225,
-      "position": 6.946666666666666
+      "impressions": 228,
+      "position": 6.868421052631579
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/": {
-      "clicks": 49,
+      "clicks": 46,
       "impressions": 5001,
-      "position": 8.285542891421716
+      "position": 8.335532893421316
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/swakopmund/": {
       "clicks": 1,
@@ -461,23 +455,23 @@
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/walvis-bay/": {
       "clicks": 0,
-      "impressions": 110,
-      "position": 9.3
+      "impressions": 111,
+      "position": 9.225225225225225
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/windhoek/": {
       "clicks": 1,
-      "impressions": 120,
-      "position": 3.5833333333333335
+      "impressions": 125,
+      "position": 3.6
     },
     "https://www.britz.co.za/self-driving-travel-info/south-africa/": {
       "clicks": 7,
-      "impressions": 987,
-      "position": 19.820668693009118
+      "impressions": 997,
+      "position": 19.86960882647944
     },
     "https://www.britz.co.za/self-driving-travel-info/south-africa/drakensberg/": {
       "clicks": 1,
-      "impressions": 84,
-      "position": 8.226190476190476
+      "impressions": 87,
+      "position": 8.10344827586207
     },
     "https://www.britz.co.za/self-driving-travel-info/south-africa/garden-route/": {
       "clicks": 0,
@@ -485,14 +479,14 @@
       "position": 15.068493150684931
     },
     "https://www.britz.co.za/self-driving-travel-info/zimbabwe/": {
-      "clicks": 44,
-      "impressions": 2396,
-      "position": 8.931135225375627
+      "clicks": 42,
+      "impressions": 2414,
+      "position": 8.925849212924607
     },
     "https://www.britz.co.za/self-driving-travel-info/zimbabwe/victoria-falls/": {
       "clicks": 1,
-      "impressions": 49,
-      "position": 10.73469387755102
+      "impressions": 51,
+      "position": 11.098039215686274
     },
     "https://www.britz.co.za/thank-you/": {
       "clicks": 0,
@@ -500,76 +494,76 @@
       "position": 16.6
     },
     "https://www.britz.co.za/waiver-options/": {
-      "clicks": 6,
-      "impressions": 149,
-      "position": 32.34228187919463
+      "clicks": 7,
+      "impressions": 155,
+      "position": 32.78709677419354
     },
     "https://www.britz.co.za/wp-content/uploads/2026/08/Maui_Britz-Terms-and-Conditions-26082026.pdf": {
-      "clicks": 5,
-      "impressions": 143,
-      "position": 4.6923076923076925
+      "clicks": 6,
+      "impressions": 149,
+      "position": 4.718120805369128
     }
   },
   "pages_current": {
     "https://www.britz.co.za/": {
-      "clicks": 218,
-      "impressions": 7697,
-      "position": 7.683123294790178
+      "clicks": 226,
+      "impressions": 7662,
+      "position": 7.72644218219786
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-cape-town/": {
-      "clicks": 1,
-      "impressions": 215,
-      "position": 18.651162790697676
+      "clicks": 2,
+      "impressions": 208,
+      "position": 18.697115384615383
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-durban-airport/": {
-      "clicks": 1,
+      "clicks": 2,
       "impressions": 72,
-      "position": 15.402777777777779
+      "position": 14.38888888888889
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-east-london-airport/": {
       "clicks": 1,
-      "impressions": 17,
-      "position": 26.176470588235293
+      "impressions": 19,
+      "position": 28.94736842105263
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-gaborone-airport/": {
-      "clicks": 0,
-      "impressions": 80,
-      "position": 40.725
+      "clicks": 1,
+      "impressions": 78,
+      "position": 40
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-george-airport/": {
-      "clicks": 3,
-      "impressions": 21,
-      "position": 10.142857142857142
+      "clicks": 1,
+      "impressions": 15,
+      "position": 4.266666666666667
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-johannesburg/": {
-      "clicks": 3,
-      "impressions": 466,
-      "position": 9.811158798283262
+      "clicks": 1,
+      "impressions": 448,
+      "position": 10.160714285714286
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-kasane-botswana/": {
-      "clicks": 5,
-      "impressions": 127,
-      "position": 17.062992125984252
+      "clicks": 4,
+      "impressions": 120,
+      "position": 17.408333333333335
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-maputo-vilanculous/": {
       "clicks": 2,
-      "impressions": 143,
-      "position": 20.041958041958043
+      "impressions": 137,
+      "position": 20.37956204379562
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-maun-botswana/": {
-      "clicks": 9,
-      "impressions": 343,
-      "position": 15.60058309037901
+      "clicks": 8,
+      "impressions": 338,
+      "position": 15.511834319526628
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-nelspruit-airport/": {
       "clicks": 1,
-      "impressions": 39,
-      "position": 34.282051282051285
+      "impressions": 47,
+      "position": 32.5531914893617
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-port-elizabeth-airport/": {
       "clicks": 1,
-      "impressions": 50,
-      "position": 39.42
+      "impressions": 54,
+      "position": 36.2962962962963
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-swakopmund-airport/": {
       "clicks": 0,
@@ -577,19 +571,19 @@
       "position": 2
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-vic-falls-airport/": {
-      "clicks": 1,
+      "clicks": 2,
       "impressions": 27,
-      "position": 46.370370370370374
+      "position": 43.666666666666664
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-walvis-bay-airport/": {
-      "clicks": 3,
-      "impressions": 101,
-      "position": 23.653465346534652
+      "clicks": 4,
+      "impressions": 92,
+      "position": 22.282608695652176
     },
     "https://www.britz.co.za/4x4-rental-pick-up-locations-windhoek-airport/": {
-      "clicks": 4,
-      "impressions": 377,
-      "position": 19.10079575596817
+      "clicks": 3,
+      "impressions": 381,
+      "position": 18.364829396325458
     },
     "https://www.britz.co.za/4x4-vehicle-rental": {
       "clicks": 0,
@@ -598,88 +592,88 @@
     },
     "https://www.britz.co.za/4x4-vehicle-rental/": {
       "clicks": 10,
-      "impressions": 1384,
-      "position": 17.01950867052023
+      "impressions": 1348,
+      "position": 16.9080118694362
     },
     "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny-unequipped/": {
       "clicks": 1,
-      "impressions": 77,
-      "position": 30.194805194805195
+      "impressions": 84,
+      "position": 28.904761904761905
     },
     "https://www.britz.co.za/4x4-vehicle-rental/suzuki-jimny/": {
-      "clicks": 18,
-      "impressions": 831,
-      "position": 16.962695547533094
+      "clicks": 21,
+      "impressions": 827,
+      "position": 16.30471584038694
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-double-cab-unequipped/": {
       "clicks": 2,
-      "impressions": 137,
-      "position": 25.401459854014597
+      "impressions": 132,
+      "position": 25.234848484848484
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-double-cab/": {
-      "clicks": 2,
-      "impressions": 140,
-      "position": 22.05
+      "clicks": 3,
+      "impressions": 138,
+      "position": 22.014492753623188
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-fortuner-suv/": {
-      "clicks": 5,
-      "impressions": 293,
-      "position": 12.566552901023892
+      "clicks": 8,
+      "impressions": 298,
+      "position": 12.473154362416107
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-land-cruiser/": {
-      "clicks": 4,
-      "impressions": 111,
-      "position": 23.35135135135135
+      "clicks": 2,
+      "impressions": 106,
+      "position": 23.037735849056602
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-navi/": {
-      "clicks": 13,
-      "impressions": 314,
-      "position": 12.022292993630574
+      "clicks": 10,
+      "impressions": 310,
+      "position": 12.558064516129033
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-single-cab-unequipped/": {
       "clicks": 1,
-      "impressions": 13,
-      "position": 25
+      "impressions": 12,
+      "position": 16.166666666666664
     },
     "https://www.britz.co.za/4x4-vehicle-rental/toyota-single-cab/": {
-      "clicks": 9,
-      "impressions": 287,
-      "position": 17.4006968641115
+      "clicks": 8,
+      "impressions": 281,
+      "position": 17.99644128113879
     },
     "https://www.britz.co.za/branches/": {
       "clicks": 1,
-      "impressions": 398,
-      "position": 10.896984924623116
+      "impressions": 419,
+      "position": 10.486873508353222
     },
     "https://www.britz.co.za/contact/": {
       "clicks": 0,
-      "impressions": 217,
-      "position": 11.838709677419354
+      "impressions": 222,
+      "position": 11.50900900900901
     },
     "https://www.britz.co.za/enquire/": {
       "clicks": 0,
-      "impressions": 57,
-      "position": 26.736842105263158
+      "impressions": 58,
+      "position": 27
     },
     "https://www.britz.co.za/faqs/": {
-      "clicks": 1,
-      "impressions": 153,
-      "position": 19.37908496732026
+      "clicks": 0,
+      "impressions": 155,
+      "position": 19.26451612903226
     },
     "https://www.britz.co.za/locations/": {
       "clicks": 0,
-      "impressions": 30,
-      "position": 11.366666666666667
+      "impressions": 36,
+      "position": 11.36111111111111
     },
     "https://www.britz.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 5,
-      "position": 5.2
+      "impressions": 6,
+      "position": 4.666666666666666
     },
     "https://www.britz.co.za/province/branches/": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 7.75
+      "impressions": 19,
+      "position": 7.157894736842105
     },
     "https://www.britz.co.za/province/pick-up-points/": {
       "clicks": 0,
@@ -688,88 +682,88 @@
     },
     "https://www.britz.co.za/search-results/": {
       "clicks": 0,
-      "impressions": 53,
-      "position": 19.433962264150942
+      "impressions": 50,
+      "position": 21.74
     },
     "https://www.britz.co.za/self-driving-travel-info/": {
       "clicks": 0,
-      "impressions": 156,
-      "position": 11.865384615384615
+      "impressions": 158,
+      "position": 12.164556962025317
     },
     "https://www.britz.co.za/self-driving-travel-info/botswana/": {
-      "clicks": 4,
-      "impressions": 573,
-      "position": 20.336823734729492
+      "clicks": 5,
+      "impressions": 575,
+      "position": 19.713043478260868
     },
     "https://www.britz.co.za/self-driving-travel-info/eswatini/": {
       "clicks": 0,
       "impressions": 47,
-      "position": 6.468085106382978
+      "position": 6.48936170212766
     },
     "https://www.britz.co.za/self-driving-travel-info/kruger-national-park/": {
       "clicks": 2,
-      "impressions": 72,
-      "position": 22.61111111111111
+      "impressions": 73,
+      "position": 23.63013698630137
     },
     "https://www.britz.co.za/self-driving-travel-info/lesotho/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 6.333333333333333
+      "impressions": 8,
+      "position": 5.5
     },
     "https://www.britz.co.za/self-driving-travel-info/lesotho/maseru/": {
       "clicks": 0,
-      "impressions": 18,
-      "position": 10
+      "impressions": 17,
+      "position": 10.058823529411764
     },
     "https://www.britz.co.za/self-driving-travel-info/lesotho/sani-pass/": {
       "clicks": 0,
-      "impressions": 54,
-      "position": 6.7407407407407405
+      "impressions": 59,
+      "position": 7.203389830508475
     },
     "https://www.britz.co.za/self-driving-travel-info/mozambique/": {
       "clicks": 2,
-      "impressions": 143,
-      "position": 21.83916083916084
+      "impressions": 139,
+      "position": 21.640287769784173
     },
     "https://www.britz.co.za/self-driving-travel-info/mozambique/maputo/": {
       "clicks": 1,
-      "impressions": 21,
-      "position": 6.285714285714286
+      "impressions": 19,
+      "position": 6.368421052631579
     },
     "https://www.britz.co.za/self-driving-travel-info/mozambique/ponta-do-ouro/": {
       "clicks": 0,
       "impressions": 32,
-      "position": 5.34375
+      "position": 5.5625
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/": {
       "clicks": 11,
-      "impressions": 1424,
-      "position": 9.23314606741573
+      "impressions": 1438,
+      "position": 9.33518776077886
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/swakopmund/": {
-      "clicks": 0,
-      "impressions": 9,
-      "position": 6.777777777777778
+      "clicks": 1,
+      "impressions": 11,
+      "position": 6.454545454545454
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/walvis-bay/": {
       "clicks": 0,
       "impressions": 11,
-      "position": 7.181818181818182
+      "position": 7.7272727272727275
     },
     "https://www.britz.co.za/self-driving-travel-info/namibia/windhoek/": {
       "clicks": 1,
       "impressions": 33,
-      "position": 7.848484848484849
+      "position": 7.696969696969697
     },
     "https://www.britz.co.za/self-driving-travel-info/south-africa/": {
       "clicks": 1,
-      "impressions": 250,
-      "position": 18.168
+      "impressions": 247,
+      "position": 18.13765182186235
     },
     "https://www.britz.co.za/self-driving-travel-info/south-africa/drakensberg/": {
       "clicks": 0,
-      "impressions": 21,
-      "position": 7.238095238095238
+      "impressions": 22,
+      "position": 7.409090909090909
     },
     "https://www.britz.co.za/self-driving-travel-info/south-africa/garden-route/": {
       "clicks": 0,
@@ -778,26 +772,30 @@
     },
     "https://www.britz.co.za/self-driving-travel-info/zimbabwe/": {
       "clicks": 4,
-      "impressions": 613,
-      "position": 8.712887438825447
+      "impressions": 602,
+      "position": 9.26079734219269
     },
     "https://www.britz.co.za/self-driving-travel-info/zimbabwe/victoria-falls/": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 17.6875
+      "impressions": 21,
+      "position": 23.857142857142858
     },
     "https://www.britz.co.za/waiver-options/": {
       "clicks": 2,
-      "impressions": 45,
-      "position": 49.51111111111111
+      "impressions": 47,
+      "position": 48
     },
     "https://www.britz.co.za/wp-content/uploads/2026/08/Maui_Britz-Terms-and-Conditions-26082026.pdf": {
-      "clicks": 1,
-      "impressions": 46,
-      "position": 4.6521739130434785
+      "clicks": 2,
+      "impressions": 43,
+      "position": 4.8604651162790695
     }
   },
   "source_status": {
+    "crux": {
+      "ok": true,
+      "targets": 4
+    },
     "ga4": {
       "days_pulled": 43,
       "ok": true
