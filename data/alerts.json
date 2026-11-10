@@ -242,24 +242,23 @@
     "summary": "Organic clicks -21.6% against a 28-day baseline"
   },
   {
-    "as_of": "2026-11-06",
+    "as_of": "2026-11-07",
     "baseline_value": 0,
     "client": "sani",
     "client_name": "SANI",
-    "current_value": 2,
+    "current_value": 1,
     "detail": [
-      "https://sani.co.za/car-rental/nelspruit-airport-kruger-mpumalanga/ -> Excluded by ‘noindex’ tag",
       "https://sani.co.za/car-rental/east-london-airport-king-phalo/ -> Excluded by ‘noindex’ tag"
     ],
     "detected_at": "2026-11-06T12:50:15+00:00",
     "hint": "Indexation changed in the same run. Check coverage before looking anywhere else.",
-    "last_seen": "2026-11-09T13:42:35+00:00",
+    "last_seen": "2026-11-10T13:22:46+00:00",
     "link": "https://search.google.com/search-console/index?resource_id=sc-domain%3Asani.co.za",
-    "occurrences": 4,
+    "occurrences": 5,
     "pct_change": null,
     "severity": "critical",
     "signal": "indexation_priority",
     "status": "open",
-    "summary": "2 priority URL(s) not indexed as expected"
+    "summary": "1 priority URL(s) not indexed as expected"
   }
 ]
