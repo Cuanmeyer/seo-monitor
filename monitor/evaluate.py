@@ -209,6 +209,9 @@ def evaluate_client(client_cfg, history: dict, snapshot: dict, as_of: dt.date,
                     hint="A silent gap is worse than a red light. Fix the collector before trusting this client's status.",
                 )
             )
+        else:
+            # Source is working again, so let any earlier failure alert close.
+            healthy.add(f"monitor_failure_{source}")
 
     min_clicks = client_cfg.setting("min_baseline_clicks_per_week", 100)
 
