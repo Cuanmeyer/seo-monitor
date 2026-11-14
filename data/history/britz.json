@@ -2210,19 +2210,19 @@
           "CLS": {
             "good_pct": 98.6,
             "p75": 0.0,
-            "poor_pct": 0.7,
+            "poor_pct": 0.5,
             "rating": "good"
           },
           "INP": {
-            "good_pct": 41.8,
-            "p75": 449.0,
-            "poor_pct": 21.6,
+            "good_pct": 42.7,
+            "p75": 455.0,
+            "poor_pct": 22.2,
             "rating": "needs_improvement"
           },
           "LCP": {
             "good_pct": 25.1,
-            "p75": 7609.0,
-            "poor_pct": 60.8,
+            "p75": 7554.0,
+            "poor_pct": 60.6,
             "rating": "poor"
           }
         },
@@ -2232,21 +2232,21 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 62.7,
-            "p75": 0.25,
-            "poor_pct": 27.7,
-            "rating": "needs_improvement"
+            "good_pct": 59.5,
+            "p75": 0.27,
+            "poor_pct": 29.5,
+            "rating": "poor"
           },
           "INP": {
-            "good_pct": 65.0,
-            "p75": 250.0,
-            "poor_pct": 10.7,
+            "good_pct": 65.5,
+            "p75": 252.0,
+            "poor_pct": 11.4,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 45.6,
-            "p75": 4313.0,
-            "poor_pct": 28.7,
+            "good_pct": 45.7,
+            "p75": 4203.0,
+            "poor_pct": 28.2,
             "rating": "poor"
           }
         },
@@ -2256,21 +2256,21 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 94.5,
+            "good_pct": 94.2,
             "p75": 0.0,
-            "poor_pct": 2.8,
+            "poor_pct": 2.9,
             "rating": "good"
           },
           "INP": {
-            "good_pct": 50.8,
-            "p75": 374.0,
-            "poor_pct": 17.0,
+            "good_pct": 50.9,
+            "p75": 380.0,
+            "poor_pct": 18.0,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 36.4,
-            "p75": 6262.0,
-            "poor_pct": 45.2,
+            "good_pct": 36.9,
+            "p75": 6172.0,
+            "poor_pct": 44.6,
             "rating": "poor"
           }
         },
@@ -2280,22 +2280,28 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 89.9,
+            "good_pct": 91.3,
             "p75": 0.0,
-            "poor_pct": 0.4,
+            "poor_pct": 0.5,
             "rating": "good"
           },
-          "LCP": {
-            "good_pct": 38.9,
-            "p75": 3949.0,
-            "poor_pct": 24.0,
+          "INP": {
+            "good_pct": 53.6,
+            "p75": 329.0,
+            "poor_pct": 14.9,
             "rating": "needs_improvement"
+          },
+          "LCP": {
+            "good_pct": 39.6,
+            "p75": 4075.0,
+            "poor_pct": 26.5,
+            "rating": "poor"
           }
         },
         "ok": true
       }
     },
-    "last_cwv_run": "2026-11-04",
+    "last_cwv_run": "2026-11-11",
     "last_indexed_rate": 100.0,
     "streak_dates": {
       "core_web_vitals": "2026-11-10",
@@ -2316,5 +2322,5 @@
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-11-13T12:55:30.081671+00:00"
+  "updated_at": "2026-11-14T12:00:48.904838+00:00"
 }

@@ -2200,6 +2200,12 @@
       }
     },
     "2026-11-10": {
+      "ga4": {
+        "conversions": 46.0,
+        "llm_sessions": 45,
+        "revenue": 36920.000017,
+        "sessions": 1620
+      },
       "gsc": {
         "clicks": 1431,
         "ctr": 0.026871725536589487,
@@ -2215,20 +2221,20 @@
         "metrics": {
           "CLS": {
             "good_pct": 99.9,
-            "p75": 0.01,
+            "p75": 0.02,
             "poor_pct": 0.0,
             "rating": "good"
           },
           "INP": {
-            "good_pct": 63.0,
-            "p75": 252.0,
-            "poor_pct": 6.6,
+            "good_pct": 61.4,
+            "p75": 257.0,
+            "poor_pct": 7.1,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 48.2,
-            "p75": 3605.0,
-            "poor_pct": 17.3,
+            "good_pct": 48.0,
+            "p75": 3623.0,
+            "poor_pct": 17.6,
             "rating": "needs_improvement"
           }
         },
@@ -2244,15 +2250,15 @@
             "rating": "good"
           },
           "INP": {
-            "good_pct": 32.9,
-            "p75": 418.0,
-            "poor_pct": 18.9,
+            "good_pct": 31.4,
+            "p75": 430.0,
+            "poor_pct": 19.9,
             "rating": "needs_improvement"
           },
           "LCP": {
             "good_pct": 38.8,
-            "p75": 4564.0,
-            "poor_pct": 32.3,
+            "p75": 4543.0,
+            "poor_pct": 32.1,
             "rating": "poor"
           }
         },
@@ -2262,21 +2268,21 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 98.9,
+            "good_pct": 99.0,
             "p75": 0.02,
             "poor_pct": 0.5,
             "rating": "good"
           },
           "INP": {
-            "good_pct": 29.7,
-            "p75": 431.0,
-            "poor_pct": 20.0,
+            "good_pct": 29.1,
+            "p75": 444.0,
+            "poor_pct": 20.8,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 29.2,
-            "p75": 4945.0,
-            "poor_pct": 41.9,
+            "good_pct": 29.4,
+            "p75": 4920.0,
+            "poor_pct": 41.4,
             "rating": "poor"
           }
         },
@@ -2292,15 +2298,15 @@
             "rating": "good"
           },
           "INP": {
-            "good_pct": 49.0,
-            "p75": 330.0,
-            "poor_pct": 12.5,
+            "good_pct": 47.8,
+            "p75": 339.0,
+            "poor_pct": 13.1,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 46.2,
-            "p75": 3852.0,
-            "poor_pct": 22.8,
+            "good_pct": 45.8,
+            "p75": 3865.0,
+            "poor_pct": 23.1,
             "rating": "needs_improvement"
           }
         },
@@ -2316,29 +2322,29 @@
             "rating": "good"
           },
           "INP": {
-            "good_pct": 20.1,
+            "good_pct": 20.3,
             "p75": 514.0,
-            "poor_pct": 26.3,
+            "poor_pct": 26.4,
             "rating": "poor"
           },
           "LCP": {
             "good_pct": 45.0,
-            "p75": 4172.0,
-            "poor_pct": 27.4,
+            "p75": 4140.0,
+            "poor_pct": 27.0,
             "rating": "poor"
           }
         },
         "ok": true
       }
     },
-    "last_cwv_run": "2026-11-04",
+    "last_cwv_run": "2026-11-11",
     "last_indexed_rate": 100.0,
     "streak_dates": {
       "core_web_vitals": "2026-11-10",
       "ctr_divergence": "2026-11-10",
       "indexation_priority": "2026-11-10",
       "indexation_rate": "2026-11-10",
-      "llm_referrals": "2026-11-09",
+      "llm_referrals": "2026-11-10",
       "organic_clicks": "2026-11-10",
       "organic_impressions": "2026-11-10"
     },
@@ -2352,5 +2358,5 @@
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-11-13T12:49:27.867870+00:00"
+  "updated_at": "2026-11-14T11:56:04.615037+00:00"
 }

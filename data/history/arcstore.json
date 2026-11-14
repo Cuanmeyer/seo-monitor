@@ -2318,21 +2318,21 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 72.2,
-            "p75": 0.25,
-            "poor_pct": 25.0,
+            "good_pct": 74.3,
+            "p75": 0.13,
+            "poor_pct": 22.8,
             "rating": "needs_improvement"
           },
           "INP": {
-            "good_pct": 57.8,
-            "p75": 312.0,
-            "poor_pct": 12.1,
+            "good_pct": 59.7,
+            "p75": 310.0,
+            "poor_pct": 11.5,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 61.9,
-            "p75": 3101.0,
-            "poor_pct": 12.9,
+            "good_pct": 67.5,
+            "p75": 2829.0,
+            "poor_pct": 9.5,
             "rating": "needs_improvement"
           }
         },
@@ -2342,20 +2342,20 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 52.0,
+            "good_pct": 53.8,
             "p75": 0.41,
-            "poor_pct": 44.2,
+            "poor_pct": 42.4,
             "rating": "poor"
           },
           "INP": {
-            "good_pct": 42.3,
-            "p75": 505.0,
-            "poor_pct": 25.5,
-            "rating": "poor"
+            "good_pct": 43.1,
+            "p75": 494.0,
+            "poor_pct": 24.6,
+            "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 77.0,
-            "p75": 2413.0,
+            "good_pct": 78.4,
+            "p75": 2344.0,
             "poor_pct": 6.2,
             "rating": "good"
           }
@@ -2366,21 +2366,21 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 72.0,
+            "good_pct": 70.8,
             "p75": 0.12,
-            "poor_pct": 11.7,
+            "poor_pct": 11.0,
             "rating": "needs_improvement"
           },
           "INP": {
-            "good_pct": 81.7,
+            "good_pct": 82.0,
             "p75": 168.0,
-            "poor_pct": 3.8,
+            "poor_pct": 3.2,
             "rating": "good"
           },
           "LCP": {
-            "good_pct": 86.2,
-            "p75": 1974.0,
-            "poor_pct": 4.2,
+            "good_pct": 85.8,
+            "p75": 1976.0,
+            "poor_pct": 4.6,
             "rating": "good"
           }
         },
@@ -2390,21 +2390,21 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 80.3,
+            "good_pct": 80.6,
             "p75": 0.06,
-            "poor_pct": 13.3,
+            "poor_pct": 12.7,
             "rating": "good"
           },
           "INP": {
-            "good_pct": 66.7,
-            "p75": 245.0,
-            "poor_pct": 8.0,
+            "good_pct": 68.0,
+            "p75": 237.0,
+            "poor_pct": 7.4,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 69.8,
-            "p75": 2720.0,
-            "poor_pct": 8.6,
+            "good_pct": 69.7,
+            "p75": 2722.0,
+            "poor_pct": 9.0,
             "rating": "needs_improvement"
           }
         },
@@ -2414,28 +2414,28 @@
         "form_factor": "PHONE",
         "metrics": {
           "CLS": {
-            "good_pct": 95.4,
+            "good_pct": 95.0,
             "p75": 0.02,
             "poor_pct": 1.8,
             "rating": "good"
           },
           "INP": {
-            "good_pct": 48.8,
-            "p75": 283.0,
-            "poor_pct": 6.4,
+            "good_pct": 57.9,
+            "p75": 261.0,
+            "poor_pct": 6.7,
             "rating": "needs_improvement"
           },
           "LCP": {
-            "good_pct": 75.8,
-            "p75": 2460.0,
-            "poor_pct": 4.1,
+            "good_pct": 79.2,
+            "p75": 2345.0,
+            "poor_pct": 2.8,
             "rating": "good"
           }
         },
         "ok": true
       }
     },
-    "last_cwv_run": "2026-11-04",
+    "last_cwv_run": "2026-11-11",
     "last_indexed_rate": 100.0,
     "streak_dates": {
       "core_web_vitals": "2026-11-10",
@@ -2456,5 +2456,5 @@
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-11-13T12:47:09.426213+00:00"
+  "updated_at": "2026-11-14T11:54:44.158400+00:00"
 }

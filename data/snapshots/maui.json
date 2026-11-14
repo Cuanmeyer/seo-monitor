@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "baseline_scale": 4.0,
   "cwv": {
     "fleet": {
@@ -14,13 +14,13 @@
         "INP": {
           "good_pct": 94.1,
           "p75": 103.0,
-          "poor_pct": 0.1,
+          "poor_pct": 0.3,
           "rating": "good"
         },
         "LCP": {
-          "good_pct": 61.3,
-          "p75": 3253.0,
-          "poor_pct": 12.7,
+          "good_pct": 61.4,
+          "p75": 3151.0,
+          "poor_pct": 12.9,
           "rating": "needs_improvement"
         }
       },
@@ -30,21 +30,21 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 64.5,
+          "good_pct": 63.8,
           "p75": 0.2,
-          "poor_pct": 21.1,
+          "poor_pct": 19.4,
           "rating": "needs_improvement"
         },
         "INP": {
-          "good_pct": 88.6,
-          "p75": 126.0,
-          "poor_pct": 3.5,
+          "good_pct": 86.8,
+          "p75": 128.0,
+          "poor_pct": 4.5,
           "rating": "good"
         },
         "LCP": {
-          "good_pct": 37.6,
-          "p75": 4805.0,
-          "poor_pct": 41.0,
+          "good_pct": 35.7,
+          "p75": 4982.0,
+          "poor_pct": 43.0,
           "rating": "poor"
         }
       },
@@ -54,21 +54,21 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 76.4,
-          "p75": 0.01,
-          "poor_pct": 11.2,
+          "good_pct": 75.4,
+          "p75": 0.08,
+          "poor_pct": 11.0,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 87.1,
-          "p75": 138.0,
-          "poor_pct": 2.4,
+          "good_pct": 86.3,
+          "p75": 140.0,
+          "poor_pct": 3.0,
           "rating": "good"
         },
         "LCP": {
-          "good_pct": 47.5,
-          "p75": 4086.0,
-          "poor_pct": 26.4,
+          "good_pct": 45.4,
+          "p75": 4241.0,
+          "poor_pct": 28.6,
           "rating": "poor"
         }
       },
@@ -78,21 +78,21 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 73.5,
+          "good_pct": 71.9,
           "p75": 0.1,
           "poor_pct": 0.3,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 76.8,
-          "p75": 186.0,
-          "poor_pct": 1.9,
+          "good_pct": 76.2,
+          "p75": 190.0,
+          "poor_pct": 2.1,
           "rating": "good"
         },
         "LCP": {
-          "good_pct": 60.6,
-          "p75": 2793.0,
-          "poor_pct": 5.0,
+          "good_pct": 56.7,
+          "p75": 2877.0,
+          "poor_pct": 6.9,
           "rating": "needs_improvement"
         }
       },
@@ -116,7 +116,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.maui.co.za/2-sleeper-navi/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-10T04:15:08Z",
+      "last_crawl": "2026-11-13T07:51:35Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.maui.co.za/2-sleeper-navi/",
@@ -146,7 +146,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://www.maui.co.za/branches/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-01T22:47:16Z",
+      "last_crawl": "2026-11-12T07:58:28Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://www.maui.co.za/branches/",
@@ -203,111 +203,115 @@
       "verdict": "PASS"
     }
   },
+  "llm_by_source": {
+    "chatgpt.com": 95,
+    "gemini.google.com": 1
+  },
   "pages_baseline": {
     "https://www.maui.co.za/": {
-      "clicks": 441,
-      "impressions": 22652,
-      "position": 7.574298075225146
+      "clicks": 449,
+      "impressions": 22254,
+      "position": 7.608025523501393
     },
     "https://www.maui.co.za/2-sleeper-navi/": {
       "clicks": 6,
-      "impressions": 516,
-      "position": 46.34496124031008
+      "impressions": 526,
+      "position": 47.039923954372625
     },
     "https://www.maui.co.za/4-sleeper-motorhome/": {
-      "clicks": 11,
+      "clicks": 13,
       "impressions": 1450,
-      "position": 32.63862068965517
+      "position": 32.56206896551724
     },
     "https://www.maui.co.za/6-sleeper-motorhome/": {
       "clicks": 12,
-      "impressions": 1141,
-      "position": 22.15775635407537
+      "impressions": 1151,
+      "position": 22.261511728931364
     },
     "https://www.maui.co.za/branches/": {
       "clicks": 4,
-      "impressions": 1852,
-      "position": 10.926025917926566
+      "impressions": 1747,
+      "position": 10.951345163136805
     },
     "https://www.maui.co.za/contact-us/": {
-      "clicks": 3,
-      "impressions": 1656,
-      "position": 19.267512077294686
+      "clicks": 2,
+      "impressions": 1560,
+      "position": 20.137179487179488
     },
     "https://www.maui.co.za/faqs/": {
       "clicks": 1,
-      "impressions": 1402,
-      "position": 21.45506419400856
+      "impressions": 1313,
+      "position": 22.92764661081493
     },
     "https://www.maui.co.za/get-a-quote/": {
       "clicks": 0,
-      "impressions": 865,
-      "position": 35.03699421965318
+      "impressions": 876,
+      "position": 35.36187214611872
     },
     "https://www.maui.co.za/motorhome-hire-cape-town/": {
       "clicks": 2,
-      "impressions": 268,
-      "position": 31.041044776119403
+      "impressions": 265,
+      "position": 31.633962264150945
     },
     "https://www.maui.co.za/motorhome-hire-durban/": {
       "clicks": 0,
-      "impressions": 58,
-      "position": 20.913793103448278
+      "impressions": 60,
+      "position": 22.033333333333335
     },
     "https://www.maui.co.za/motorhome-hire-east-london/": {
       "clicks": 0,
       "impressions": 26,
-      "position": 14.576923076923077
+      "position": 14.538461538461538
     },
     "https://www.maui.co.za/motorhome-hire-george/": {
       "clicks": 2,
-      "impressions": 25,
-      "position": 4.48
+      "impressions": 28,
+      "position": 4.821428571428571
     },
     "https://www.maui.co.za/motorhome-hire-johannesburg/": {
-      "clicks": 2,
-      "impressions": 310,
-      "position": 37.9
+      "clicks": 3,
+      "impressions": 318,
+      "position": 38.18238993710692
     },
     "https://www.maui.co.za/motorhome-hire-knysna/": {
-      "clicks": 1,
-      "impressions": 154,
-      "position": 53.11038961038961
+      "clicks": 2,
+      "impressions": 156,
+      "position": 55.62179487179487
     },
     "https://www.maui.co.za/motorhome-hire-nelspruit/": {
-      "clicks": 13,
-      "impressions": 369,
-      "position": 38.74254742547426
+      "clicks": 15,
+      "impressions": 379,
+      "position": 38.74406332453826
     },
     "https://www.maui.co.za/motorhome-hire-port-elizabeth/": {
       "clicks": 6,
-      "impressions": 107,
-      "position": 37.8411214953271
+      "impressions": 112,
+      "position": 38.830357142857146
     },
     "https://www.maui.co.za/privacy-policy/": {
       "clicks": 0,
-      "impressions": 5,
-      "position": 19.4
+      "impressions": 4,
+      "position": 22.25
     },
     "https://www.maui.co.za/travel-info/": {
       "clicks": 0,
-      "impressions": 427,
-      "position": 62.421545667447305
+      "impressions": 438,
+      "position": 61.98858447488585
     },
     "https://www.maui.co.za/travel-info/cape-town/": {
       "clicks": 1,
-      "impressions": 206,
-      "position": 14.092233009708737
+      "impressions": 212,
+      "position": 13.952830188679245
     },
     "https://www.maui.co.za/travel-info/cape-town/cape-point/": {
       "clicks": 1,
-      "impressions": 33,
-      "position": 44.63636363636363
+      "impressions": 34,
+      "position": 43.61764705882353
     },
     "https://www.maui.co.za/travel-info/cape-town/franschhoek/": {
-      "clicks": 1,
-      "impressions": 4,
-      "position": 35.75
+      "clicks": 0,
+      "impressions": 2,
+      "position": 66
     },
     "https://www.maui.co.za/travel-info/cape-town/hermanus/": {
       "clicks": 0,
@@ -321,23 +325,23 @@
     },
     "https://www.maui.co.za/travel-info/cape-town/stellenbosch/": {
       "clicks": 0,
-      "impressions": 59,
-      "position": 16.016949152542374
+      "impressions": 64,
+      "position": 15.515625
     },
     "https://www.maui.co.za/travel-info/eswatini/": {
       "clicks": 1,
-      "impressions": 69,
-      "position": 57.47826086956522
+      "impressions": 72,
+      "position": 57.18055555555556
     },
     "https://www.maui.co.za/travel-info/kruger-national-park/": {
       "clicks": 6,
-      "impressions": 282,
-      "position": 24.652482269503547
+      "impressions": 279,
+      "position": 24.591397849462364
     },
     "https://www.maui.co.za/travel-info/kwazulu-natal/": {
       "clicks": 0,
-      "impressions": 51,
-      "position": 58.470588235294116
+      "impressions": 52,
+      "position": 57.55769230769231
     },
     "https://www.maui.co.za/travel-info/kwazulu-natal/durban/": {
       "clicks": 0,
@@ -361,120 +365,120 @@
     },
     "https://www.maui.co.za/travel-info/south-africa/": {
       "clicks": 0,
-      "impressions": 161,
-      "position": 53.24844720496895
+      "impressions": 163,
+      "position": 54.34969325153374
     },
     "https://www.maui.co.za/travel-info/south-africa/drakensberg/": {
       "clicks": 1,
-      "impressions": 10,
-      "position": 25.1
+      "impressions": 11,
+      "position": 23.363636363636363
     },
     "https://www.maui.co.za/travel-info/south-africa/garden-route/": {
       "clicks": 0,
-      "impressions": 51,
-      "position": 18.705882352941178
+      "impressions": 49,
+      "position": 19.142857142857142
     },
     "https://www.maui.co.za/vehicles/": {
-      "clicks": 31,
-      "impressions": 5740,
-      "position": 21.413240418118466
+      "clicks": 30,
+      "impressions": 5655,
+      "position": 21.66525198938992
     },
     "https://www.maui.co.za/waiver/": {
       "clicks": 0,
-      "impressions": 123,
-      "position": 44.63414634146341
+      "impressions": 130,
+      "position": 44.284615384615385
     },
     "https://www.maui.co.za/wp-content/uploads/2020/05/specifications_and_equipment_m6b.pdf": {
       "clicks": 2,
-      "impressions": 55,
-      "position": 7.054545454545455
+      "impressions": 56,
+      "position": 6.839285714285714
     },
     "https://www.maui.co.za/wp-content/uploads/2026/02/THRSA-Rental-Terms-Conditions-May-2025.pdf": {
       "clicks": 1,
-      "impressions": 68,
-      "position": 3.4558823529411766
+      "impressions": 69,
+      "position": 3.4057971014492754
     }
   },
   "pages_current": {
     "https://www.maui.co.za/": {
-      "clicks": 100,
-      "impressions": 4519,
-      "position": 7.1256915246736
+      "clicks": 86,
+      "impressions": 3896,
+      "position": 7.143480492813142
     },
     "https://www.maui.co.za/2-sleeper-navi/": {
       "clicks": 5,
-      "impressions": 158,
-      "position": 47.18987341772152
+      "impressions": 137,
+      "position": 46.72992700729927
     },
     "https://www.maui.co.za/4-sleeper-motorhome/": {
-      "clicks": 4,
-      "impressions": 398,
-      "position": 31.957286432160803
+      "clicks": 2,
+      "impressions": 353,
+      "position": 31.662889518413596
     },
     "https://www.maui.co.za/6-sleeper-motorhome/": {
-      "clicks": 2,
-      "impressions": 302,
-      "position": 23.420529801324502
+      "clicks": 1,
+      "impressions": 263,
+      "position": 23.212927756653993
     },
     "https://www.maui.co.za/branches/": {
       "clicks": 1,
-      "impressions": 297,
-      "position": 14.026936026936028
+      "impressions": 260,
+      "position": 14.146153846153846
     },
     "https://www.maui.co.za/contact-us/": {
       "clicks": 0,
-      "impressions": 255,
-      "position": 24.8
+      "impressions": 224,
+      "position": 24.075892857142858
     },
     "https://www.maui.co.za/faqs/": {
       "clicks": 0,
-      "impressions": 229,
-      "position": 37.58951965065502
+      "impressions": 202,
+      "position": 36.92574257425743
     },
     "https://www.maui.co.za/get-a-quote/": {
       "clicks": 0,
-      "impressions": 214,
-      "position": 39.55140186915888
+      "impressions": 189,
+      "position": 38.77248677248677
     },
     "https://www.maui.co.za/motorhome-hire-cape-town/": {
       "clicks": 0,
-      "impressions": 98,
-      "position": 29.26530612244898
+      "impressions": 88,
+      "position": 29.681818181818183
     },
     "https://www.maui.co.za/motorhome-hire-durban/": {
       "clicks": 1,
-      "impressions": 50,
-      "position": 30.5
+      "impressions": 48,
+      "position": 29.5
     },
     "https://www.maui.co.za/motorhome-hire-east-london/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 13.5
+      "impressions": 7,
+      "position": 14.285714285714286
     },
     "https://www.maui.co.za/motorhome-hire-george/": {
       "clicks": 0,
-      "impressions": 9,
-      "position": 5.222222222222222
+      "impressions": 6,
+      "position": 4
     },
     "https://www.maui.co.za/motorhome-hire-johannesburg/": {
-      "clicks": 1,
-      "impressions": 148,
-      "position": 44.101351351351354
+      "clicks": 0,
+      "impressions": 129,
+      "position": 44.6124031007752
     },
     "https://www.maui.co.za/motorhome-hire-knysna/": {
-      "clicks": 2,
-      "impressions": 85,
-      "position": 43.45882352941177
+      "clicks": 1,
+      "impressions": 74,
+      "position": 42.689189189189186
     },
     "https://www.maui.co.za/motorhome-hire-nelspruit/": {
-      "clicks": 3,
-      "impressions": 94,
-      "position": 48.659574468085104
+      "clicks": 0,
+      "impressions": 76,
+      "position": 51.89473684210526
     },
     "https://www.maui.co.za/motorhome-hire-port-elizabeth/": {
       "clicks": 3,
-      "impressions": 63,
-      "position": 24.857142857142858
+      "impressions": 58,
+      "position": 21.82758620689655
     },
     "https://www.maui.co.za/privacy-policy/": {
       "clicks": 0,
@@ -488,18 +492,18 @@
     },
     "https://www.maui.co.za/travel-info/": {
       "clicks": 0,
-      "impressions": 143,
-      "position": 43.72027972027972
+      "impressions": 125,
+      "position": 42.224
     },
     "https://www.maui.co.za/travel-info/cape-town/": {
       "clicks": 0,
-      "impressions": 81,
-      "position": 8.333333333333332
+      "impressions": 72,
+      "position": 8.416666666666668
     },
     "https://www.maui.co.za/travel-info/cape-town/cape-point/": {
       "clicks": 0,
-      "impressions": 14,
-      "position": 17.571428571428573
+      "impressions": 13,
+      "position": 18.153846153846153
     },
     "https://www.maui.co.za/travel-info/cape-town/franschhoek/": {
       "clicks": 0,
@@ -513,23 +517,23 @@
     },
     "https://www.maui.co.za/travel-info/cape-town/stellenbosch/": {
       "clicks": 0,
-      "impressions": 42,
-      "position": 10.142857142857142
+      "impressions": 37,
+      "position": 10.216216216216216
     },
     "https://www.maui.co.za/travel-info/eswatini/": {
       "clicks": 0,
-      "impressions": 16,
-      "position": 51.5625
+      "impressions": 13,
+      "position": 51.84615384615385
     },
     "https://www.maui.co.za/travel-info/kruger-national-park/": {
       "clicks": 0,
-      "impressions": 54,
-      "position": 19.314814814814813
+      "impressions": 48,
+      "position": 20.145833333333332
     },
     "https://www.maui.co.za/travel-info/kwazulu-natal/": {
       "clicks": 0,
-      "impressions": 8,
-      "position": 22.5
+      "impressions": 7,
+      "position": 24.142857142857142
     },
     "https://www.maui.co.za/travel-info/kwazulu-natal/durban/": {
       "clicks": 0,
@@ -553,13 +557,13 @@
     },
     "https://www.maui.co.za/travel-info/south-africa/": {
       "clicks": 0,
-      "impressions": 49,
-      "position": 49.02040816326531
+      "impressions": 42,
+      "position": 48.095238095238095
     },
     "https://www.maui.co.za/travel-info/south-africa/drakensberg/": {
       "clicks": 1,
-      "impressions": 4,
-      "position": 3.75
+      "impressions": 3,
+      "position": 3
     },
     "https://www.maui.co.za/travel-info/south-africa/garden-route/": {
       "clicks": 0,
@@ -568,32 +572,36 @@
     },
     "https://www.maui.co.za/vehicles/": {
       "clicks": 4,
-      "impressions": 1250,
-      "position": 25.388
+      "impressions": 1098,
+      "position": 25.394353369763206
     },
     "https://www.maui.co.za/waiver/": {
       "clicks": 0,
-      "impressions": 38,
-      "position": 52.026315789473685
+      "impressions": 31,
+      "position": 55.16129032258065
     },
     "https://www.maui.co.za/wp-content/uploads/2020/05/specifications_and_equipment_m6b.pdf": {
       "clicks": 1,
-      "impressions": 13,
-      "position": 4.3076923076923075
+      "impressions": 11,
+      "position": 4.909090909090909
     },
     "https://www.maui.co.za/wp-content/uploads/2026/02/THRSA-Rental-Terms-Conditions-May-2025.pdf": {
       "clicks": 1,
-      "impressions": 15,
-      "position": 3.3333333333333335
+      "impressions": 13,
+      "position": 3.4615384615384617
     }
   },
   "source_status": {
+    "crux": {
+      "ok": true,
+      "targets": 4
+    },
     "ga4": {
-      "error": "DeadlineExceeded: 504 Deadline Exceeded",
-      "ok": false
+      "days_pulled": 41,
+      "ok": true
     },
     "gsc": {
-      "days_pulled": 43,
+      "days_pulled": 42,
       "ok": true
     }
   }
