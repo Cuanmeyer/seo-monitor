@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "baseline_scale": 4.0,
   "cwv": {
     "home": {
@@ -106,7 +106,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-13T10:31:32Z",
+      "last_crawl": "2026-11-15T21:06:42Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/",
@@ -116,7 +116,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/contact/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-14T17:57:32Z",
+      "last_crawl": "2026-11-16T09:21:09Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/contact/",
@@ -176,7 +176,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/rent-to-own-cars/pretoria/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-04T03:37:40Z",
+      "last_crawl": "2026-11-14T08:15:42Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/rent-to-own-cars/pretoria/",
@@ -196,7 +196,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-14T11:56:45Z",
+      "last_crawl": "2026-11-16T10:27:35Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/vehicles/",
@@ -206,7 +206,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://nfc.co.za/vehicles/pre-owned-vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-15T12:16:59Z",
+      "last_crawl": "2026-11-16T13:12:20Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://nfc.co.za/vehicles/pre-owned-vehicles/",
@@ -214,49 +214,54 @@
     }
   },
   "llm_by_source": {
-    "chatgpt.com": 413,
-    "gemini.google.com": 2
+    "chatgpt.com": 412,
+    "gemini.google.com": 3
   },
   "pages_baseline": {
     "https://nfc.co.za/": {
-      "clicks": 1894,
-      "impressions": 52407,
-      "position": 12.571965577117561
+      "clicks": 1930,
+      "impressions": 52591,
+      "position": 12.4959974140062
     },
     "https://nfc.co.za/5-common-myths-about-rent-to-own-cars-debunked/": {
       "clicks": 0,
-      "impressions": 94,
-      "position": 28.819148936170212
+      "impressions": 95,
+      "position": 30.178947368421053
     },
     "https://nfc.co.za/a-second-chance-on-the-road-rent-to-own-cars-for-blacklisted-individuals/": {
-      "clicks": 3,
-      "impressions": 298,
-      "position": 22.630872483221477
+      "clicks": 2,
+      "impressions": 308,
+      "position": 22.996753246753247
     },
     "https://nfc.co.za/about-us/": {
-      "clicks": 7,
-      "impressions": 1626,
-      "position": 5.166051660516605
+      "clicks": 9,
+      "impressions": 1580,
+      "position": 5.343670886075949
     },
     "https://nfc.co.za/apply/": {
       "clicks": 18,
-      "impressions": 1462,
-      "position": 8.03625170998632
+      "impressions": 1463,
+      "position": 7.92822966507177
     },
     "https://nfc.co.za/avoiding-rent-to-own-scams-red-flags-to-watch-out-for/": {
-      "clicks": 2,
-      "impressions": 269,
-      "position": 5.631970260223048
+      "clicks": 1,
+      "impressions": 270,
+      "position": 5.877777777777778
     },
     "https://nfc.co.za/beware-of-festive-season-scams-fraudsters-posing-as-no-finance-cars-representatives/": {
       "clicks": 0,
-      "impressions": 28,
-      "position": 8.75
+      "impressions": 30,
+      "position": 11.433333333333334
     },
     "https://nfc.co.za/book-a-service/": {
-      "clicks": 17,
-      "impressions": 1682,
-      "position": 6.925089179548157
+      "clicks": 16,
+      "impressions": 1662,
+      "position": 6.935619735258724
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYY4-RtPUqLbiQe30K1VHcbdW8Cg135_RLUq4jWgmFR83JxCMx2PtdzTbSTSU1BScKq5MPTKLuAvffK3tNEv86IEKUPuvA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYY8TzodoLez9hX6T-ZmZjw7n0OOW3qmT4jEwAOfq22oLF1bLQYV6VzNS1A1FEogK29U7hHWeEYCL0oSkvuXjzsQMS1glg%3D%3D": {
       "clicks": 0,
@@ -273,12 +278,22 @@
       "impressions": 1,
       "position": 3
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYEfF1a0AL2EMFst-rPHiCugUZxlk6dG4d9KN0-ZW4ugo2DNd7VCktTiS2ctjeYN-EJ2ZTN3y8t0VWIFRSP14ixeFhVUQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYF4jhnVurDx43SDe6I_lr4McJiHMeZrta4IMuNBFTdj3RttOIwhkZRZ7GnHuSmr4-y1VG6h-_HcJrfUCHNM0OdHLgZwA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 3
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYIPEKvKwv6_RZJsWPnezzpw5znhuhJvpDj2SpwiH1sNF8gFXGg-h15iJfii50Ar03S_NMFxSIA8aH0QdKPONZnDjQC6w%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYOkkyfQd2qOzCiWb0YuaNCQUY2XpK9abJVHbtzbjRRnARm2yfGhlBEHKhMhIQRv4wgQZJED26q9FoVUflsY9OwfduKsQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -293,12 +308,42 @@
       "impressions": 1,
       "position": 2
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYnBmF2SntTU0xUryB6d1BaB8P845wkGAf2Kb3IHeCUCpAsNMcu2-DZaL-ZHmhyaJopsLZCCZR_IdV4ITIdYTgDsb5-lw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYnma7ttSKxSXmg7XCyfwwMGDN_nDyXmOPzaZqbwIVzrqMu5ul7dBJXlVKOBi3lpzFIf8fGyacb_xYyCkGJ9rNdHXOZeg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYr-4EyBEQhGRDH85jerBsqYtMJaEetcm9F2r9gjKAdo_dzBxukc1fukwMsEu1LHs5wi-GBzDE819AWYSlg7OSVaONpZg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYrKXbyAxtgrul-jwArGFqLItsAfR_u6lBkSbMEdTuhlFjT2X3ZlXSug6JFBx95I5e4hbRHLElTs5IChmn2mi9CkhkCiw%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYvap8gyeXKSjics674YnKkObJGNGVy2xmbSeWJ-oGoZrBV4ULZK4CEHwMfL7NU70Z1A1gvSdxR064NRJyLVC0kpQ4O5A%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYz32oCPUIIVt2dmrc9drkOoeMqwhFrVkhqC6bLo68vyyeHRTY5wBFlNRq3aZbqZjK414Bu72HZsmcruFSFzMhGvHifJg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZ1ibns1cyMoqV7Oncl2Ch3fRjZHIqvkx13obNviHeChDzGx3Dzgz0PacsoVt9st2dmBzQ0bmKMd0IhheuAOi86Y_i0mg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZ8xPxS5Xx55ZqAqIxPSLEpIWs9MZQouxkBkEKCgYbsDWwrxRdEjzYIQvCa3RSQ03tX4MK9XpDBQs3YpugJFBM7ueQ0Eg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -318,15 +363,35 @@
       "impressions": 1,
       "position": 1
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZFnpSnIkyYxRQ1BHnfBwFgni-ndTl70jN7zb1PI4pE6LvLx7PC8iMXy2D9UJzydyXMF9lBzHlHIF8Mz8c_hlqtR_e-rg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZGIFvIg3CHcEhAcorbOoJuO-cX1pKkwOjjF5xqhqnD_keskdRHtOFVH_HiuN6X2YxBLaLZ5bMqYf3igfKcFI0UQQvm6Q%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZRTWbSTniyA88_eIhR8g2TcIM0_CeyNvugERmD2-Hg_huIILxjd1D5EU1hocBK9BicdjM2pnlZ5pu31kZtt3JixsvDhA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZdzWie7m56AZ8HnqLFpLs_lUdAkLwRV7g_OjXm0oejiAIzlsOThFD2x22DerhvqqvSTNsy3kMKBeihS1TORhIO8BjYxQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZhmhTjeCY2kPWt71e4S_Im3bPynfNWWrseGciG3g6XL8SUCTDH_1Bj81g_85IvkapgGY0ZKGn-LJ5FkiXiYaBlKrnt6g%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZiePHnjER2qLk3vZ8U-_TW2-ZKO-GGvUGLrqFc8M6WGtQjUOKu8Co3tOZy0S1fCzapA7AKE5CueQkYv-7QRkmECQtjmA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZks6x57D2RFAtK6s5Lajy7AmS9lI9e6z2cFwbOh221YMai8Lq_KopiD8Xrzt6tUh1ksBolEqq1akEdCKB94ikR3UBgcg%3D%3D": {
       "clicks": 0,
@@ -338,12 +403,27 @@
       "impressions": 1,
       "position": 2
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZpLyGUNc1eED5iY4tfJWNGOEHwASbwXaAppdl0sMO2Hse4-FWAlXncUB4-KeM8-pZFZnUsMoxtsXRABSU4cdj5lUN3tQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZzV_doqR9lgpSg-JQQS7Ke93O49mxn9nj5km4kEAVnn0RdcfaIzwt6sxT9s7cZCgZtMFaxsonjiCaSZkPJVIoUOOqLPg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 3
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYa-2w8A_haYOOl22sUv6w9JlD-SiLNRpxCLG5bd-rAU1mfCQgcejW5rA-bIW5FcUZ7zBMRq_YIw5zgXBkJ1lyNLya2CdQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYa-JFEeR7d9__H6Hw9BGM4LHIPPzJegybB4UhSxdQTaKSkLm6XYsRAAsfV8hr4Fryh3z2xL4sneK4ZKxagyCJ9LYPg2DA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYa03UOq5Vdhr9PYxR5Vr_THVkOxY8LttcH8yMAkY0hOHrQ9Yoj6FOGCLylTH4GNUQos4MLEdP8-zOsGvp-FQH5gfDVzIQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
@@ -363,7 +443,22 @@
       "impressions": 1,
       "position": 2
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaJ9yeApqHUxfVDv5_xj0RDZZAd1Af0ThyfBQ3CDlffcVlBv2eauDLWVQihxYbx75B3BgH-uqB6Kk6FkYcwOLhPOCZiiw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaNJRUbIJ4bs5noCWUXGzViGBrzlXjUctf5ce205TOCEDyA0VK02ZY_1jEjDvxLlllWcTXF8jKIVV60efoapNP2kVZvbQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaOe2iuCTfUuNm7_qiFHZV4ieuLXhG6eKMa-Bfls42G-nySVLtBLgLYpoTMZPemNEQkNPOnfA4p8jRO9AGt5SVLo_zYeA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaQ8VUY8P5F0d3Iz-EUBZruXYAUxxpdzHW90rz-nWVyF9Lrl0pJ1FaoGT-7O5qitcxFq0-Q0fCZoUPTQUl7-4IMjFw92A%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
@@ -377,6 +472,11 @@
       "clicks": 0,
       "impressions": 1,
       "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYahxO3fPLEOnD1IMZ8S--Y--oDbUXb86e37j92FK8d3Bb2qrVBfBO7LhaRkYTYClmwD5bR-cshKqMsUmGiDd5ArJ_dCNg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 13
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYapoXlOY17_18JBgJXd3uVyebxewzEqM7XN8_bdZdG-pxLvrkcXrfrI2sPF3tRQtg4UCDSNufjpFgLEHClr9xgKDcPZTQ%3D%3D": {
       "clicks": 0,
@@ -403,10 +503,25 @@
       "impressions": 1,
       "position": 2
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbJmOpHtLSB23zBkMvMziJ92BpwTCCk8gDDJSm8oBBozQYdEHBFy8BER4S8S0Dc2O1m5Ce5Cmdk_KgGFqQZXC4TE0Xt7g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbK72Enh4sI79StwI32H9lciGQ_nbaOSs6SjG5Z5LXv3ju9kNuQ7zqRiGO8xexWAGg-pV4jBl4wfwMW1yPoxq7lFIvCyA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbLGafWoZgcQ-9lHwaTtqG95FKhwOEqizgUhkBdV0mDcQ7Dl1SYGQf7QO-VjqDEyVtg6BA2UsJQr7clNOV1ReipTW2RkQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbQO9FvH_HswugKvDWs0mN7n8Lu2KC3_wQ326f1djLejuXMnYmkJkdJ-siR2S1esVG1iymZ4cCeZd9qO2j7c3es_EsdXg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbU4prCz2GuzHXDO474_dQc_HCKT0OgDlq1F7PAKNDTxP-K-7L563N1NP8IuPKVU0wNIiw7p_HYG067aiUiM5aCzNo49A%3D%3D": {
       "clicks": 0,
@@ -418,10 +533,40 @@
       "impressions": 1,
       "position": 4
     },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbVcJzwwS5EoWnUzVEyL0RTyjA7BNX7KtXRJtWBsvEz8TZIf83xe56ky4vcspWDz4ERskH-T0_SPJi0n-sj2eaYrhyBPA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbW1siyBwbIDgkwwUznSPzn1lEm2bOGfPnn9vdoHXw06CzgfTU5h46uaf1-HiTTj4Ctm2BgJW2--UhMDJ82_nkBBfabgw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbWRzJMYhDT75S3rB9Eb3ykRPDfW_1t53wX8pXhfqmx-0-WjKbRbml-9Bkbu-Ve8HLPk580iLiwzBy396kGckK3EhlXTQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbYaw_R-r1tHqQp9PRsxUq1W6NqyHhVG--9Wp6ETMBNf1X3ob_FyfyWdWOKrVis1VJl7IxUkLFQAzfJnAPTn9RCFqcS2Q%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbZ1iEFLFdQ7pmKckXk-lznOKuh9EXgJZokBxpNubnJsFt2IPOP9c0ddsStBEh1iUrJw-dDD3393QYjGj1fbLKkZUKNEg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbZeLZ2Jq5uObZSVdrGCBieaukEMTHRAwbH01PKw24B5czC5gMk6Fh4Q69Q04fE4M4wAimkdHCpfLo8APuHZtIn8UPKIA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbhDDztwHgGs2FTL1TlexQO7gF6L11LqkasaiuAzvw0FMeAeWOgZKuIsDcOED8m6iEoRThqJhhsGafk0oSzrJwdoH0Dxg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbirW9OgqsHRlikqTXc4pDIN-bmxFKOLHGe8YYVraLs9Nb9V7-by8IBy99wG1Qcq1uQDPtm2MC8RTTmQEPcV3TBzLwPdA%3D%3D": {
       "clicks": 0,
@@ -438,10 +583,20 @@
       "impressions": 1,
       "position": 2
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY1Pe9uCAlSA_3zBiBa-Nrd_M-6p5Q8swTuC_YFI6Bt39zU7tWIXfNvVUCTFKDe1s_KP0DEdHX8Oh1QNYRV7zyikMh2pQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY1bDKj8O3twKEWPfPbaERfruQfLP-PCWctSOcqwvih9TbhJzuGMjbxp844a4Ui1FgEr_u-tw9MiRqoHiQK2qRG3L2rAA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY43FbpJtCDEFuAT-GSUkZAkj00NuBfMNd1NY5MTToGc21faJ9B9_63SQnpexoFnAyE_Pwj03thKrvharED0Ip2ZtfjPQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY57OIgb6cWOec2LQJ9Zakde3usiVgxR76YnM46P6TuU2D0NLk4bwfB6I5VdXzZ7y9bvq-DveHLvFg-ZSUfdXbqenfRBw%3D%3D": {
       "clicks": 0,
@@ -458,47 +613,212 @@
       "impressions": 1,
       "position": 4
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYBVgcw5RS8vFmos2rS40PPUWHM49cZEmL1JLiecP6u3sMwo8RIBH37BLG75YJql3uL2IaGrDWr3Gg3lmsKtMMtE9IZrw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYDCJ85qKXvSOMQyGAV5JE9OKquyLojpMFNmqB8ALdp64qServ-VETUNr_zW2_Qovz70XgbYYF3Fn2n3pbQeE2HoZz4CQ%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYEyU4mnpm2N_Xx9LGkjiXmYzr1V3XZSX7i1VEU4oklR5AIkrEAJqQo5WQTA9ZdDQawOk7OnDRD55BHkSISuLQ-MEXMQQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYG-iKOSI_sVv0AH2jGd492UGJf_kJPs-Bqt0Wf27jmvtjvEuDdO3oaam1sas9bkV738bfYNSNUQ8t1HzrKlXNWrNDm7A%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYHDl61nUZWnUCi9uvp36GXIlYfF18uECuwedCgZqFKNevLTWQsB__HtvoR2oKzyB3i8QxQc6vdhyciH9gG8CVBcxWyfA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYJuR4IYTOaBZQ_dv34zCiZWGaSw0TPUVbPcqzcZsEXRolhfkvlsf714G2mF48sqRV3rCgclBXecRvyh1ta3cUIwQabsQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 5
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYLr_A-qVLYjwypcaMrxOEbbVXIUyyKVCT1cK0c2TXSyOGlO8JCsqCXOlME9Ryzhv2z9V4WGstCIreLgQLo4vOPfwiRbw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYPHbImNLhJ6whDiVto51ECprxIUBr6rZAPPwbuZwir2DaZHwQJPPmMyKR7-RmWYuVu26FJ1H3R8SU2h7U8_ug2gxUOmQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 9
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYPvOpqGFej6uNepAJg6MopLRdBqdxNKyuXiUVZCqNXjugTCbOCap8dvuI21HyyE7TJ1rdpefV1alROboTVdRGkIR8Qwg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYVcIPUnhdg3gw7y3gRYfLfi7NbK3izgA_t1-mM8fzqdrB8BqYj7ThvV0MduuzawBHy2OyLzguMeUAfKmpvB34z3PhpBg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYVeaFHrmy5Aj0pBSa_qZsSodVgP4LL-TnqQDUsWZoOzrMrEGh6GnFPPe7JVmRQVTAAbXIUmiU7DMHimKhMbKQJfdRY5Q%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYWCXo9hqAipln7UJCiaEKEjbdmfaF-gvupS1-zj6S1tB9vp1OdITScPNirUiKZMEdU0PyjcEswLOQwcaVPSi0J7d-OZA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYWdpK0Q3QgFbyjZaChEJw2mO7o2ahb8HFLL-jWal-5bChk4JgYK6vS-A80JfkzaSGgoYAxMEjr6In5jrUC3s6Sq4rQAA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 41
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYWnU9JRyuUL1fthozwA8OfaS8-OUgupt1mWDE9Dzz4O_uIgUsTI-iXHlV-GVZ1Mlr_95mX4VJmqUcuE6_tZ_B2hXe00w%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 4
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYXLVWiM0vsS6Qukta3oTs7a3pFyz7K0sr-pp62F6yU5nwyVttCO61HUDBH4mDuHuSvLQB1sjZZwma1BTeKTmWemOgh4g%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYYI6hMeogHc_wPSiDhnxGC5xgp8zlswy3DKCoohOe7_1vcsELFuAmiG6FlJOdgj_hex3Cjs4kXOuMK-w-Aybg20MfM8Q%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY_RXGlieYnOWdJSwt6jfneMxKHg0RqkNNZeIRfn-_os8L3qpaWWLBuG4L-J0NbOrju90ofv7C1nlmiKWfi_3pqgb2e4A%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY_tuIBv07SfgsRMBWE6N_vAY2l8lBZ0Ol2WuK_Fm6BaKdBBmHLRCmmxaWgbUHRzK7FLpYkTocC-N49kMo1Tl_ECBSo3Q%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYbITUZ7NonNElD3xqRdpXXEnr3z8WAUC-qE7CQ-8AFzh6_84DZ5Kj7vGCwHipNCH7qceZgnSo34DCzQkVzmbrakacAlg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYchGH2I8vo8i0U-c8hu1GrS6x8cWzHGj_z24uFEdy-wTQJYx37cqM6amNN2dQFvlLpLfECbe6wSvzu-h5IHAq5UW7vMQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYe2byZWZpHtvdv5uI_fCjD3PE-7E-wQM_vc1ZwwXa5A-adOCv9hIeBM3yoCEzpBsz1v-d1RskEmsYQ6paav_ugT2ojVw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYh0zMJzJS2-Fly-MTVGohz0yOOsQ2im7DFycRYUU3xs0dqwcaxxwuQKRupnXr65TXUhgQUzIWxbjtRuYA1UFNhhS9hdw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYhUu7tqOgEHCTWD8QhW1W4SylBuxzzZjMkMPDmHmK8a_tELzg3txhrhXZ3UEV176FafSI7GDPdBMSCPrRLuk54jfHcCg%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYi16Yl-hx5hg3_Npzdif5cB-DwUY19FODlHFOKYqPBBTyKjBOWQ5eDIpVe6XHcYxNPOB0MG2sAjTcM7pnCZh22-w-u7g%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYi9J51G1vp1yacJ7cakgt1JfY_IomOeiVePLXeZvRbXGk9NY4uMCwQxQCbIYcl3mCTWaDdxde1DpV-VR-C1xgyCzB_Vg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYiet3oz1c0FswbRTdawwyOQYxI48bnACjBKcx1l6mJ9EZq9Vf7GSKx1YcY8ks8X-GGwKD6HOMDrItAfs4FVKyhSszi7A%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 13
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYkN6Xgd8Ef4QXgiv6YWrpldbwlrAMaW5QOMn5p0rdyBLAS0xqgFrCP0kvEccIJBSQfUIBsaSdOraf8uV2nmWCevOvpPQ%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 3
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYm2EH2OaTlyxTycP0Y74plZq05NyqqCLpWqc-vNqoZ1zfRqrLQk04DZCCv8pIxCqMyd15SKODkgJlX-Bkw4TbCqqVWnQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYn20Hk6VLxHD-88IzbVAqu08sUVFz8CMpJRHjBITy_wSxG54ZSvDGW16Xeav1tkfJ30oKoViWh_GJ3FMftCtCUME8Pww%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYoIYkUxjzVJb8NqKGG8xCuPBvc6PJJTghkdZHc494CEuNrsWm40-LC1kxH_9mbGRrylQdZqe1ZTjj96zPIVniq_H9SRQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 11
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYp1csD5FSncUlw6sqkPzxl764X_jm7Xr9RcWIfTTEcTSoQoXg_cOwpPbxyyqP4mszBgOEfjacykuzRD60c2UwoecQVDQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYqXUxTXip0yfrTL8U23AwB_JFB-y8_estYXNuSG2d5c2fGL8CzgL_kX0cophWZZI1JO1IiKz_p9sh-zQnOcaI9pOGH9Q%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYrPvPRGwcr2yaD6xwbBVF_0DikB86kqE73zTnP6kao1ZP5GkxV2QG_L9F-eST2vBzKl5bVXG99s952JavNWmpkIGS7bg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 12
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYrtrnqWRtCLt4hp-ztfR0q2JEVVFdkc-0qOTsuuG4ngKNaLIPAdeNahe04ACOX8Btt5tQZ2OTpO3BZfu2UVxNba_YGAQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYsceletQ0rKg_aPbHWazopNr-zKT6L6VOB7rIaFNaH9nlDGL_0j5rk_5gm0QLrej1PEMNv4eUDXlaS_kagdv8dD5ivqg%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYtIrBxpQuhEJCggtJiGSsc0s1La1FiQbWehkL8uSmJz6lcecKRd6LPV8ZqWSaAkyAqt2w4zefTqAWK5UvfXC3PZZQk1Q%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYtcEMH7VxF3cBByz0NVXdwx9YjqqZQ2Tbf3O-OrDHZEk6J6fMH63WAnQlCcXtB5I1wZwdqR9Bg9sPECZlQ-aZH2KBZ5g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYubJTuEeQjRUhpcEPVxQuYdE_X5KkMeUVu6HFLa7NfmiTofVDAiSA6ytv4N1hd2h32ikg7_BQbAWR1xIiMQee34_ky8Q%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYx4eodPG2KS8eh6wK_ytweBDxu3S5JTTIo2-IiV7viPwEE4CedawtuvdWjlCQdJwpY4QqAxT9JawFhW5VFf5MpBCaKpw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYz-WkQEzS-XaoJ2Qd0MPzROMNn1d1QGNiSYkrgN40AJjibi3H-sW6n0oLMv8zfs56bHpiEJV-vIa7n1pLvzHQizwW1Mw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYzZvtb4ua70cabFRsD4Yj0RAepZzD3iEsxmaRQNFhaaMED_myX30rbBKhUN977tPjmuA41nUyXFmk7q4ZqvC7MLr6wuw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ3K6SkQbYzw-jn6mgmPDCdD77hvNLteQvp9m046go-g_bWV-x4WiRIXv2NrpEioguybfR-MD6hZiCAEYqesnrUidkldQ%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 5
@@ -508,7 +828,62 @@
       "impressions": 1,
       "position": 5
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ7obkt879mWFV0quYtI0XxPUKC9cVfxKwry1_EXDX5qYDLXqWHCWHNION-a0ib2Taowtd6OACwGRwMtRR4Lw4qMr9_Vw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ7y2bWo508GlXSQNV7x0olA38OI5A9cjWfuXaqOFAgIDwgHl9fbtR9K9nlgYPzeL6TSUu9FlANnEQCppUfJfywihQgcA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ9iIyefVWs5mJhC5XDK6hEGEXgNjrIDHPmcCFdKGEW8OhNc0wCTrcMDP9Sg-9_atY0ZXbCyPYzvs5zaF4nq7vXgwr4Fg%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ9tfqca6RRqNDctWvfbrqFH6ZZnNyVQfSOF2gu24CJ0JoOQyOfPvBbTEtB4KZbDe7xL7lyn1HNguM5vrbD77Su_tf3pw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZB3dqeGhtdNMffzW4cSh0v69gWy7oyscBHZtBmdGWi2gH1nWc64Tr7G7QmHrZ70ZhA5-F4693FCbFem0VvwlVl67KW5w%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZBJd0cNgXyLubpWq9c0iJKAltfsWJnL6W_iAs9l1IioUy625orRjnQtcv_uqDwJPTBhPsJOwc083NXQ_0Yq2tns6GceQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZBfsj5_aDC0Gg9Q9rTwbbFQzWM6aXxhohyEKKHA_753OHprCAPJdUf9iDBwm1MWIcIHz4cDvXJfzzMRiPEIH-x2zjApA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZBlHG8vBhDuWiOPaHMqSMarTb05pHfnPTpG09jGszs9Mku46bXFG6FTv5RREiGooVF-EBMOS1b7TKCCHliWRMhBUGlEA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZFR_X1RHJKQaZHbMengufRWSKWPBi39QXUS1jAFv__9zH85jhULTyAsXfZPOgMMGFPEbOTtrT3wns2dukMC1sKKja84g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZFsYVjhtrrTVSmciR-nJR0SPly3GMdk2slCFjYWlvutmVXYEodAOoQ8wx5NcQV1h_asucGAorKdWqoT-LWgGUptqUM4A%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZFwm2qfFwJXeLUagCbAF4cuWjgLzMMXzDyjXsh0CFhuTrxL12VvuUrQKNFbV8MhQpYhjVWBeUwXIPoNvbrz_8LfjNrrw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZHePbDJQ-KVMsQ6SzoIACZE2lpWTQshlJ_QBEXfK6uaT_ZlI8MSNlp0ew4foh87k10_t3jbasRWPR4hGlUVuRcSIQt4w%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -517,6 +892,11 @@
       "clicks": 0,
       "impressions": 1,
       "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZJOcdUZAp1Ykvte4bXJHPr1SpDpXd670daTcwTE2-hRU_YO5IcSJVwP3EQ8bUPi52iUlt17RG33vN-B45AKqQDWXtxrg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZKYQNU5wbBLaXTiDNfMRM0WKZWDJNbuDBU0HztoTh3hYfw6QvtJYRIM4WieiVRb1ikPSrn23GPkNd-8roPgfyDsMkGTA%3D%3D&source=cat": {
       "clicks": 0,
@@ -528,7 +908,52 @@
       "impressions": 1,
       "position": 2
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZN-e3JlWpc43WWtVTBqN2glVVQSnwOhvcv1KYbnHgEqd4y3oMBdWU5rhi3A7JHZvHWGaOy2ugvVjgCpAqnnHdO5iFW6g%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZOzSx2gSF-XMoDLwt-rq-VekLvAeg_utMeLCVrpAKRtBQKHAp3hVEPRp6kPUErgYQi4R4zsgWT4HbTwoT8HNo5T-erVQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZRtXiZqWQyC0Mm3Wt3gx6129xlSL2noKM-K1yH_6bGNY2wxdOVFir9l6xU19ol_1HV1GHWOdy-nBag4vIRjpyYhs0gRA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZVjQa1jyBwirCpAEjyJd40Cn2Ln6-5tx9QVwa0Q6tA5WkKqDxaCHLRxeTigMDfZzHyNapqFam-aWydTAFN8hG-JUC8RQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZWWsuERRW7iKZffl5hSkVY3YlsKR0YvNzF4YdLzoLSo9DfcKyfy07Tps3j05z5zTLuvZIZ5OBIcO33-bgeDrNensevfw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZXFt8PXS94Zo6rR82Y5Uz11_nafOXVZP5YcAKBQi10H259VJxULkHonYQBT38gOjsSq6BTbFJysF5IucBcYXqqzOTHfw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZYezeL4L22vliueTVBygBTfBcOxbFv61SZ_Lm0mrPqD65pQOJrdJmO2t_dI3yGKkwvSmjXQukXHL--YGV2NIuzXe3aVQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZbOqgYJWsW7Qs1J3oa6uHarOamu9rMGwVUeO-znFnM-wAS30UayDoMhCT8ht34mo_EkPxjqRMWS-UbzMyxYpNeUeyOkA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZf-8wRtxYsNhV77fU0Dep2DyOKo70N2hQGyN9gkEJ5MrOG_t0l2cv-1kKwOIFlMQ-2yq9fnSLfx9MsGn1O0-YsX2s6QQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZfKYfA4kOtajCcqGIn4HEtTaFHh0wLYXmEVIBqYDw1fMNXxX1Nrty0mWrZhmxd6-VMaHZfTyRHtU8q_neYfmK_Hp0fuA%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -537,6 +962,11 @@
       "clicks": 0,
       "impressions": 1,
       "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZgnlp168wwsLLBMN9E5XpiXopz2BohgkaqpWBnFmVxbDBnpNlqPRtbkuUFOAyUN_MV5qaMaZil-y9r63e8Ri8g-L-MMA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZk1qNh-WO7jHBsYX2CP60eo6NE6vpU8_0SQTTO3UgoHpt0J2dRwTCaR5DKbDDabrAT-_xLsXA51QpshfF6K-oPXJpeUA%3D%3D&source=cat": {
       "clicks": 0,
@@ -547,6 +977,26 @@
       "clicks": 0,
       "impressions": 1,
       "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZnENjc2RVNIzu3a78PTZg_lnKsekJbYKOLgfP-7lLKdATSjGbjN7yS2OM4yHr2P6jhrCp0C63nbp6AiwYLc-c9jvvbaw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZsCtj1gUlcDNoZJUKnsCoDu_b5_rrvcNuVUVRgC4W_bfKxH0KHwcvfCxsLCd07AL7Wiw3ESWl7WkvHpTM3v_YRrVku9w%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZuB68UELEhlRPeV8mTIzmKckxOYFJnydbHhHO9Uz7S4aDcdiPyIJlASjh-alEbzicsfprbA03p97D85auptcaZo5fnUA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZuBM8Gj9WiLwfsiHkN59t8znogRkRXxUYts8myCkl6ODueer_rY_hEvT-N2nEXcAvA99se7V4YkYkqTv2qk7OhQ75tWQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZvwjlCKi1zBti4riwuGx5favetRctGUuhBH7a7i8zKCHZIKajZq77J5IG7sAKLonbj-RaOQeYwLTYy_BT4ImWBzRJpuQ%3D%3D": {
       "clicks": 0,
@@ -568,515 +1018,235 @@
       "impressions": 1,
       "position": 5
     },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa1jK-sXRdM0PX4zPiE4WIFb2Tq4MNwWggKfBngnH9syca9c9TeP9S0V-TJB-8kzLVx8VOxCZcc_yFsP3Is9SU98aDrdQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa24Ef0oftcQnM5SeqsNXYwiKDxfda9U9HmGmQ3HhcMA5K2ll1mwhlWv6AAAf9X_BwhwXt_06WOofbD2Y77LaNlD4Wwww%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa4F7asy_Phq33lPbCJRrdBOYwMJq71zyi8RrfVvghDsB6tE2HYC1S73qyoXhmA3jQUwLSj4H1jn5FZWYqsz6tzAhYYbQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa6Tv97p2ZFQ484Z667e2QHg6GkwSB_WPiJDTjCzqx-djWPxNkWaiUK3LdGTZARA4rhvV7G2pQFHmWCbwxORNB-qJwPmg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa7AQqSXlNuzjPiiJ3msQi1RE5nocGXo1ZzGLBh1h5461Z0vVFZM13UBnrvN8Wfco4PB8LF2sHraVaICOgf1nSaVckiKA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa7Do5tnbPJjOrCfpr7nwq-b_kXb8R4ZF9srdBAjuKfPhjH3It8PDYnV2a-WMWbgj5rCYR7Dv1Bu0p-VxQM3E4O2YyClA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaF28Rj_lSkN9vpyeAfP9z-KNbZi6qRNqi0_DkkqMx9tUcxIu9PHUptXPxm0XehSbdVcoYWPVkYtMnRJrmkIpOf_HhYug%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaKeOEj1KFjshdlqfNZKkgYmMZbonBKi5kEymN7fQUwFhz7zzvL22s66iThCpaIefW_dtSQeCoBPCgSsyv6Pq8wGadHZA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaLFnpKZUyHvbF1OAMhg-H773n0yrrGt0in0iBJBgnJagVpRPSZ89S6HNh4i9PzzFK7GRgzp8s2kue2uPF6tLIsmUaq0g%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaMglqK8dHQE22swJMEen9tj_T43mi1J2OeLDgbUmIgUvUmM3KElch9ALNCuxsrCmvlNeg20SkKw72nESrbda1g8ehCEA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaOkO8JoHtuWKpWLykS2_NcNOp7iTwlQCXWXFfqk9C1sY5vkEWi8ht5WhqNY8umI90JEBgULeCEWUog2-B19cMrnYIh6g%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaPMcKt4Ls24Q-r-C5j1_I-8by0-Jzs0Xe8hWQxpRN660az5QXtdrWdr0thCgpEKOjSCHQyzPRd38mhS7QW5ZYkRqs8UQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 7
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaQWUYf1R_aFPwyBG_yLegAMBQy8VuuavhH9Z1AQ0Y2XR9hR-2qnXhfXRqDLlURNZ7j8oAbCahSFqoMnXqDI2QUNeyZew%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 9
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaVDYRTHqeCMK9JV687YRYaKcY2tElqU9bGYps2LXD6VaSWnXizvX4iOWBX4JgMU-fWg5BKcX5KwIOkh7cV9sj7w1pdqw%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 11
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaXcaGN9aYQSZ8MsWHO1l8tCZVc2O0rTobKmga34eneqNXenlv2XkJv4WZ5grOu0dEE7LXVGt7q-lES8WGWqlXcCdVAuQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 11
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYafXTJu2S__ygeLneSKUYLbM76u1dJJ2RYedKCvbepqZyV9jgDwF6LK4A1__fwe2tRsKSdWh7nBUt8DUQTTo7YhwGx0qg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYafd1sKSJ_YTQQTiywFTbGw4smwcyOR164UiAKyQdoo7XiAohvtej1ik1n-5GZoypgAd_pi-PbQTMxAxz08hTZBqza_5A%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYagiyhiVqxQEvEqzh5AS5VIm_joH3-im1MgoydWeIqtZ5aj20FsOSamC02nG3byshdwfN9LbI-s2FnfBCgJBOcfb8c7EA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYahLAuAGpBlANnv8xjjqhJBQbFnHnLz_KBDxcL0Py6LwNvhafC3-gs2AI46YxJsoiGLM28MutiiZtuDBx_wr7lKifXuYA%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 10
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYahSPtbRkj4fGNloScymvzLXiP6D9YsThWj719roLPehGZIhMJTtNAXGjvbIJ7whi096Agn4O1LzQEZStqZYVwlfVV2uw%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYanL8M-V74Msx5GtJt2nki-_0SOE2nA2VEjPHf__WBvlYBYfCFM5Rb0NuUQS3ibu2wBYPQv1eGrQYs1K6F2czdv3mFtOQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 7
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYap1dvXXJxzhhAW2_0zJzLkuYjcP_H7A8J_TIlJAifYoZabj4Cj3MBj9D2OUgVl5-Acxg2p6wGiQBZtjNVwq-8Bng6IMA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaq0HosPzeAilLyJU8e9Y67eSdy5wrv0DHwIY3Lsf-orSxZoAXIO2Ph0Clh4skKqPsXBB53YfvaubldaUy65MW3-lVzUQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 4
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaquWCZ5rv2w5N76YiDwHt4_CR8YYEECvv_gmth21Nf0rd5sDEv1VQ26uYjXVVKYdAywuZep_37qAvaxi2ME4Y_OJl6tA%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYatBdvnd3nHECn0JEQ5EK4N8PHaEfj08uJVZNGIMkE0z_6mCodPLphPYQYQBXXSyW1LPzINWhFUu92MdElS0ce14PGP_A%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 12
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYatJQm5LjwOFOA9oLvO4E9Zlm48IsLWlTfo_SPZ8zFp_RMV-1zwPrgWe_FK1uDQ2JNHoNNsw7w4d5-3WLq1jfuBATZ7DA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 13
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYauSn7hylDMS6POOUJr8rCFYGNTnm46LqS1tcb1_0dldXyRLWuZ0CAGNYWTvoeJRb1xxyQaWPLFDCfJdLLcgz5tYRJNGQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYb-9s-P_XspZfjkSwOlVVY4KrHOIrgBid3n3yRWpohsDSYAavVPHgN6UiWghzA575JH-Ea74giVEeK-gimEz0s51Fk8Nw%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYb0NlAkjFucJku3GJNDQhjoNYrAZfB9MYefabTVjfwwJDZ6jqHJP0li7hit5rnKLhux-HgtDDlksNOudaS0VQGbgA4gqA%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYb8NDp8QZM7y1G0YfS1KKqulG1JVSjocf5IU00Dv-NLQybuUPD63hsFqElEXG5uwTxn8U18OWPAMJO0JhIzV3ec_tBWmA%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbF2PB9sq7g0E5OTM5UzbYLN11ImOzucAoT-Smifk-STcfWFt83vLe6_ydwawbqdpIL7gJx4YKRTdhmkaTfPe-um9j8Rw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 9
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbJNh863McCQ9QgFUJxwI0CKHU3SzeitQDyBbZbCf6V1Sudp4qMFtCa9nEdzPMiaHGme2WRupEgYGlYEhidKPhJz62JcQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbLXZdWXxy0LFdOSJ8hhTqwgthU_g480CcCiPW-se8HSKdon_6GvImHJs1iEk9uLdtJKvjz_Jr3TL0g9qnIeVzBEeUgJQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbNpGZsOzm48G9JPmBuqarYDfeR-MG2ECKBJdj3Q6nVCtWT8_UNIAGe5lcSGBl6_w0QV-AUHk4QZ_hy_BGabQt6LiQzVg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbSh9C-kqYJDC7PzLiftchLsicKOQ9KcxwqpVw8byKT3vk-9F-nacQf_UKZuBWCg1FOfKKvuYkvPT4WBw0EL6aKNCeRRg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbSirWFlfat1TJq-vcebClk84A9aBYwd2unDlR-aU375Jhx79hzv3J617KykHbOHVCFtJfBdTF5o9OlNRYOomu6LuHhNg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbSx7wj1E7fScLQwkbfMWTnV7ti7micKKWvZlGQnoQfai6nNb-UcrTmK2ohEIcR1lpXLBEVK19nHIXL0-9T7Z8qFCHSCg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbWyli5mFr3Y_9eDYliAbUz4dRsLXXxX8GPMGq9fIi14N7ugvbMAWf7j29r1_jU_ijIN7NyMduk7aaUOZkRSa1DO8ONig%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYb_aVJRucfApwP2FTwTJLVPgo1QIn-TV2RUfaVwP9_uBreL_LTSsSfwFCtzk0TqQW4NYujNaB9e3vSP2nRDXrGeVO_eNQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbaD7b4CdScCYkuPQIoRDNhhoBWTJxXY6fpSco5Lj_BYkLgBZfBws8N5EpVhNp4xAszWdIk58NEpZNrZJY41cpDIWEGSQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 4
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbkB_ekal2VAzGgbdfAIdYlb9ZwQg8lSnNWVz2HY4F6ULjT7ttVXdbv9SvdEM0LjstI3Nmep-961fLC2BKvj0qNEkAbDw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYblZH5OW8CR6e5G4kJqyUIl2C5VTw5fQ1F8xpQhZ0685QAVpaRxIdfDGzBRKatc0H1TuZR_gcmCx4IIRPujcbWX6AzueA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbq5bv_So7KT5VFG-AoAUHkyrwOtYd_ByOELRxSxoaQBVy20rqXzQ3QH_OJVVYqMe77R6tGF7YvpVJLkH3dP8IXx3tanw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbs5oZHlVnmUofgGhMVPLFPTSlZrCDTGCfS-QJ6EdExWn10YWZ6VJOEyD-jGhUz_8AXizzvwI1NX55OYI0lFTtE2rV3sw%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbti6NzBq2wemxToXpPTM1pMMobkC3-9q3nDnX-SGitJPGBgXZG2xEy3pjbkWuYPA7g4sgmwhtj9sdwLoH-qyAX1Mb4Tg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbtwOga8RylzC0KByx2mldkOoR723VcqqDRfSK85CVaBl-qjX2CKZzAxkrQ2s_Gkj7WUmT5_Ixd19Z8V7iD8LgJu0_sLA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbuvVGMywPoz3zY6XEXL75ebqr4Igwa_d0rwZ1sIX1Sk0HjunvKZMNGk94p5xSsYPhd76Uvebq-_whRpwB3SeKwUK9r6g%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 8
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbvXJ8sjKbuHNYNjJqJ4oPAZ15JkDssTMDJBh_dCF_hkM2t0pr8qtoJvtvQjcKsWwjXglA21wNrQuzdJzaUoFZCEyn2WA%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYbzKOhF-txvxPA0Wpo_iid9rCjAfR1Iiqh0xdTUhmsVxK3L1td8mZLZ0tMdY1r6I34vOIlYHTERzD4QJNp4R_AH42v8oQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
     "https://nfc.co.za/careers/": {
-      "clicks": 40,
-      "impressions": 2024,
-      "position": 9.722826086956522
+      "clicks": 38,
+      "impressions": 1997,
+      "position": 9.752128192288433
     },
     "https://nfc.co.za/contact/": {
-      "clicks": 218,
-      "impressions": 14931,
-      "position": 2.997655883731833
-    },
-    "https://nfc.co.za/disclaimer/": {
-      "clicks": 0,
-      "impressions": 9,
-      "position": 28.88888888888889
-    },
-    "https://nfc.co.za/enquire/c2r3o6s8s0b1u2t7t6o1c5k": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 9
+      "clicks": 223,
+      "impressions": 15050,
+      "position": 2.9777408637873757
     },
     "https://nfc.co.za/frequently-asked-questions/": {
       "clicks": 20,
-      "impressions": 753,
-      "position": 4.699867197875166
-    },
-    "https://nfc.co.za/from-dreams-to-driveways-how-rent-to-own-makes-car-ownership-possible-for-everyday-south-africans/": {
-      "clicks": 0,
-      "impressions": 7,
-      "position": 11.571428571428571
-    },
-    "https://nfc.co.za/how-a-rent-to-buy-car-can-unlock-more-income-opportunities-in-south-africa/": {
-      "clicks": 0,
-      "impressions": 72,
-      "position": 19.90277777777778
+      "impressions": 757,
+      "position": 4.708058124174372
     },
     "https://nfc.co.za/how-does-rent-to-own-work-a-complete-guide-for-south-african-drivers/": {
       "clicks": 13,
-      "impressions": 1956,
-      "position": 9.580265848670757
+      "impressions": 2001,
+      "position": 9.587706146926537
     },
     "https://nfc.co.za/how-it-works/": {
-      "clicks": 65,
-      "impressions": 9700,
-      "position": 4.137319587628866
-    },
-    "https://nfc.co.za/how-rent-to-buy-helps-south-africans-take-control-of-their-daily-commute/": {
-      "clicks": 0,
-      "impressions": 3,
-      "position": 6
-    },
-    "https://nfc.co.za/how-to-choose-the-best-rent-to-own-car-for-your-budget-and-lifestyle/": {
-      "clicks": 0,
-      "impressions": 6,
-      "position": 8.5
-    },
-    "https://nfc.co.za/how-to-choose-the-right-vehicle-for-your-stage-of-life/": {
-      "clicks": 0,
-      "impressions": 24,
-      "position": 7.541666666666667
+      "clicks": 59,
+      "impressions": 9738,
+      "position": 4.115321421236393
     },
     "https://nfc.co.za/how-to-get-back-on-track-with-rent-to-own-car-solutions-after-being-blacklisted/": {
-      "clicks": 4,
-      "impressions": 87,
-      "position": 16.149425287356323
+      "clicks": 3,
+      "impressions": 83,
+      "position": 14.686746987951807
     },
     "https://nfc.co.za/how-to-get-the-most-out-of-your-rent-to-own-car-agreement/": {
       "clicks": 1,
-      "impressions": 186,
-      "position": 8.473118279569892
+      "impressions": 189,
+      "position": 8.44973544973545
     },
     "https://nfc.co.za/how-to-upgrade-your-rent-to-own-car-without-breaking-the-bank/": {
-      "clicks": 2,
-      "impressions": 157,
-      "position": 6.3312101910828025
-    },
-    "https://nfc.co.za/in-house-car-finance-vs-rent-to-own-whats-the-difference/": {
-      "clicks": 0,
-      "impressions": 26,
-      "position": 7.923076923076923
+      "clicks": 1,
+      "impressions": 156,
+      "position": 6.397435897435898
     },
     "https://nfc.co.za/job/used-car-sales-executive-brackenfell-cape-town/": {
       "clicks": 2,
-      "impressions": 158,
-      "position": 5.734177215189874
-    },
-    "https://nfc.co.za/job/used-car-sales-executive-durban/": {
-      "clicks": 0,
-      "impressions": 330,
-      "position": 9.957575757575757
-    },
-    "https://nfc.co.za/job/used-car-sales-executive-johannesburg/": {
-      "clicks": 0,
-      "impressions": 9,
-      "position": 7.666666666666667
-    },
-    "https://nfc.co.za/job/used-car-sales-executive-milnerton/": {
-      "clicks": 0,
-      "impressions": 298,
-      "position": 3.7651006711409396
-    },
-    "https://nfc.co.za/job/used-car-sales-executive-springs/": {
-      "clicks": 0,
-      "impressions": 45,
-      "position": 6.688888888888889
+      "impressions": 161,
+      "position": 5.540372670807454
     },
     "https://nfc.co.za/market-leader/": {
       "clicks": 2,
-      "impressions": 262,
-      "position": 31.133587786259543
+      "impressions": 271,
+      "position": 32.75645756457564
     },
     "https://nfc.co.za/no-credit-no-problem-how-rent-to-own-cars-help-people-without-a-credit-history/": {
       "clicks": 25,
-      "impressions": 1004,
-      "position": 11.910358565737052
+      "impressions": 999,
+      "position": 12.123123123123124
     },
     "https://nfc.co.za/no-finance-cars-blog/": {
       "clicks": 1,
-      "impressions": 92,
-      "position": 10.826086956521738
+      "impressions": 100,
+      "position": 12.93
     },
     "https://nfc.co.za/our-areas/": {
-      "clicks": 12,
-      "impressions": 2913,
-      "position": 6.181256436663234
-    },
-    "https://nfc.co.za/planning-for-the-future-tax-considerations-for-owning-a-car-after-rent-to-own/": {
-      "clicks": 0,
-      "impressions": 31,
-      "position": 10.258064516129032
-    },
-    "https://nfc.co.za/privacy-policy/": {
-      "clicks": 0,
-      "impressions": 55,
-      "position": 8.527272727272727
-    },
-    "https://nfc.co.za/rebound/a2n1o5s0t4r0a6c2a560": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 9
+      "clicks": 11,
+      "impressions": 2904,
+      "position": 6.210055096418733
     },
     "https://nfc.co.za/referrals/": {
       "clicks": 21,
-      "impressions": 257,
-      "position": 9.898832684824903
+      "impressions": 262,
+      "position": 9.82442748091603
     },
     "https://nfc.co.za/rent-to-own-a-bakkie-in-south-africa/": {
       "clicks": 3,
-      "impressions": 50,
-      "position": 9.9
+      "impressions": 48,
+      "position": 10
     },
     "https://nfc.co.za/rent-to-own-cars-for-self-employed-south-africans-how-to-qualify-without-payslips/": {
       "clicks": 2,
-      "impressions": 57,
-      "position": 6.701754385964913
-    },
-    "https://nfc.co.za/rent-to-own-cars-in-south-africa/": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
+      "impressions": 59,
+      "position": 6.627118644067797
     },
     "https://nfc.co.za/rent-to-own-cars-under-debt-review-what-you-need-to-know-before-you-apply/": {
       "clicks": 4,
-      "impressions": 162,
-      "position": 12.969135802469136
+      "impressions": 181,
+      "position": 16.171270718232044
     },
     "https://nfc.co.za/rent-to-own-cars-vs-leasing-key-differences-explained/": {
-      "clicks": 3,
-      "impressions": 589,
-      "position": 31.563667232597624
+      "clicks": 2,
+      "impressions": 598,
+      "position": 31.989966555183948
     },
     "https://nfc.co.za/rent-to-own-cars/benoni/": {
       "clicks": 15,
-      "impressions": 841,
-      "position": 8.331747919143876
+      "impressions": 857,
+      "position": 8.450408401400233
     },
     "https://nfc.co.za/rent-to-own-cars/boksburg/": {
       "clicks": 240,
-      "impressions": 6723,
-      "position": 7.902721999107541
+      "impressions": 6693,
+      "position": 8.05722396533692
     },
     "https://nfc.co.za/rent-to-own-cars/cape-town/": {
-      "clicks": 89,
-      "impressions": 5584,
-      "position": 22.572170487106018
+      "clicks": 92,
+      "impressions": 5675,
+      "position": 22.71488986784141
     },
     "https://nfc.co.za/rent-to-own-cars/centurion/": {
-      "clicks": 36,
-      "impressions": 951,
-      "position": 11.832807570977918
+      "clicks": 35,
+      "impressions": 954,
+      "position": 12.453878406708595
     },
     "https://nfc.co.za/rent-to-own-cars/durban/": {
-      "clicks": 157,
-      "impressions": 4650,
-      "position": 12.556774193548387
+      "clicks": 158,
+      "impressions": 4662,
+      "position": 12.593522093522093
     },
     "https://nfc.co.za/rent-to-own-cars/george/": {
       "clicks": 15,
-      "impressions": 554,
-      "position": 20.915162454873645
+      "impressions": 563,
+      "position": 20.680284191829486
     },
     "https://nfc.co.za/rent-to-own-cars/germiston/": {
-      "clicks": 10,
-      "impressions": 400,
-      "position": 15.35
+      "clicks": 11,
+      "impressions": 419,
+      "position": 15.489260143198091
     },
     "https://nfc.co.za/rent-to-own-cars/johannesburg/": {
-      "clicks": 20,
-      "impressions": 2557,
-      "position": 37.33554947203754
+      "clicks": 19,
+      "impressions": 2595,
+      "position": 37.54489402697495
     },
     "https://nfc.co.za/rent-to-own-cars/kempton-park/": {
-      "clicks": 22,
-      "impressions": 701,
-      "position": 10.520684736091297
+      "clicks": 20,
+      "impressions": 696,
+      "position": 10.78448275862069
     },
     "https://nfc.co.za/rent-to-own-cars/krugersdorp/": {
-      "clicks": 13,
-      "impressions": 850,
-      "position": 10.770588235294118
+      "clicks": 12,
+      "impressions": 839,
+      "position": 10.68772348033373
     },
     "https://nfc.co.za/rent-to-own-cars/midrand/": {
-      "clicks": 31,
-      "impressions": 948,
-      "position": 18.589662447257385
-    },
-    "https://nfc.co.za/rent-to-own-cars/paarl": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "clicks": 32,
+      "impressions": 958,
+      "position": 18.167014613778704
     },
     "https://nfc.co.za/rent-to-own-cars/paarl/": {
-      "clicks": 15,
-      "impressions": 312,
-      "position": 8.897435897435898
+      "clicks": 17,
+      "impressions": 316,
+      "position": 8.911392405063292
     },
     "https://nfc.co.za/rent-to-own-cars/pietermaritzburg/": {
-      "clicks": 57,
-      "impressions": 1237,
-      "position": 14.11236863379143
+      "clicks": 56,
+      "impressions": 1252,
+      "position": 14.340255591054314
     },
     "https://nfc.co.za/rent-to-own-cars/pinetown/": {
-      "clicks": 27,
-      "impressions": 1388,
-      "position": 11.393371757925072
+      "clicks": 28,
+      "impressions": 1377,
+      "position": 11.247639796659405
     },
     "https://nfc.co.za/rent-to-own-cars/pretoria/": {
-      "clicks": 146,
-      "impressions": 6296,
-      "position": 13.350381194409149
-    },
-    "https://nfc.co.za/rent-to-own-cars/randfontein": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 93
+      "clicks": 152,
+      "impressions": 6505,
+      "position": 13.091929285165257
     },
     "https://nfc.co.za/rent-to-own-cars/randfontein/": {
       "clicks": 7,
-      "impressions": 451,
-      "position": 10.54988913525499
+      "impressions": 442,
+      "position": 10.82579185520362
     },
     "https://nfc.co.za/rent-to-own-cars/roodepoort/": {
       "clicks": 23,
-      "impressions": 740,
-      "position": 12.274324324324324
+      "impressions": 712,
+      "position": 12.323033707865168
     },
     "https://nfc.co.za/rent-to-own-cars/springs/": {
-      "clicks": 48,
-      "impressions": 1471,
-      "position": 11.689326988443236
+      "clicks": 47,
+      "impressions": 1458,
+      "position": 11.810699588477366
     },
     "https://nfc.co.za/rent-to-own-cars/vanderbijlpark/": {
-      "clicks": 16,
-      "impressions": 376,
-      "position": 21.789893617021278
+      "clicks": 13,
+      "impressions": 395,
+      "position": 23.59240506329114
     },
     "https://nfc.co.za/rent-to-own-cars/vereeniging/": {
       "clicks": 28,
-      "impressions": 841,
-      "position": 20.072532699167656
+      "impressions": 854,
+      "position": 20.181498829039814
     },
     "https://nfc.co.za/rent-to-own-cars/witbank/": {
-      "clicks": 26,
-      "impressions": 881,
-      "position": 16.38365493757094
+      "clicks": 25,
+      "impressions": 874,
+      "position": 16.66704805491991
     },
     "https://nfc.co.za/rent-to-own-vehicles/2023-toyota-corolla-cross/": {
       "clicks": 13,
-      "impressions": 386,
-      "position": 6.538860103626943
+      "impressions": 389,
+      "position": 6.5244215938303345
     },
     "https://nfc.co.za/rent-to-own-vehicles/2025-toyota-corolla-cross/": {
       "clicks": 2,
@@ -1084,321 +1254,261 @@
       "position": 5.619047619047619
     },
     "https://nfc.co.za/rent-to-own-vehicles/2026-changan-alsvin-1-4-cs-mt/": {
-      "clicks": 9,
+      "clicks": 8,
       "impressions": 66,
-      "position": 3.9696969696969697
+      "position": 3.893939393939394
     },
     "https://nfc.co.za/rent-to-own-vehicles/chery-tiggo-7-pro/": {
       "clicks": 31,
-      "impressions": 237,
-      "position": 5.0886075949367084
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/citroen-c3-aircross-max/": {
-      "clicks": 0,
-      "impressions": 10,
-      "position": 6.8
+      "impressions": 242,
+      "position": 5.066115702479339
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3-aircross-plus/": {
       "clicks": 2,
-      "impressions": 25,
-      "position": 6.68
+      "impressions": 24,
+      "position": 6.5
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3/": {
       "clicks": 5,
-      "impressions": 71,
-      "position": 7.169014084507042
+      "impressions": 73,
+      "position": 7.095890410958904
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5-diesel/": {
       "clicks": 1,
-      "impressions": 39,
-      "position": 4.9743589743589745
+      "impressions": 40,
+      "position": 4.8
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5/": {
-      "clicks": 9,
-      "impressions": 174,
-      "position": 9.844827586206897
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/honda-ballade/": {
-      "clicks": 0,
-      "impressions": 25,
-      "position": 5.2
+      "clicks": 10,
+      "impressions": 175,
+      "position": 9.977142857142857
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v-trendline/": {
       "clicks": 7,
-      "impressions": 486,
-      "position": 5.253086419753086
+      "impressions": 478,
+      "position": 5.2112970711297075
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v/": {
       "clicks": 4,
-      "impressions": 78,
-      "position": 5.166666666666667
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-comfort/": {
-      "clicks": 0,
-      "impressions": 337,
-      "position": 4.189910979228486
+      "impressions": 73,
+      "position": 5.082191780821918
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-elegance/": {
       "clicks": 2,
-      "impressions": 76,
-      "position": 13.736842105263158
+      "impressions": 73,
+      "position": 14.821917808219178
     },
     "https://nfc.co.za/rent-to-own-vehicles/lepas-amur/": {
       "clicks": 43,
-      "impressions": 424,
-      "position": 3.580188679245283
+      "impressions": 434,
+      "position": 3.5714285714285716
     },
     "https://nfc.co.za/rent-to-own-vehicles/mahindra-pik-up/": {
-      "clicks": 18,
-      "impressions": 144,
-      "position": 10.333333333333334
+      "clicks": 19,
+      "impressions": 149,
+      "position": 10.087248322147651
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-almera/": {
       "clicks": 3,
       "impressions": 218,
-      "position": 4.610091743119266
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-acenta/": {
-      "clicks": 0,
-      "impressions": 15,
-      "position": 4.8
+      "position": 4.7431192660550465
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-panel-van/": {
       "clicks": 1,
-      "impressions": 285,
-      "position": 4.217543859649123
+      "impressions": 296,
+      "position": 4.222972972972973
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-visia/": {
-      "clicks": 15,
-      "impressions": 273,
-      "position": 8.296703296703296
+      "clicks": 16,
+      "impressions": 276,
+      "position": 8.264492753623188
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-np200/": {
       "clicks": 19,
       "impressions": 414,
-      "position": 8.93961352657005
+      "position": 8.86231884057971
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kiger/": {
       "clicks": 10,
-      "impressions": 262,
-      "position": 9.591603053435115
+      "impressions": 263,
+      "position": 10.247148288973383
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid-climber/": {
       "clicks": 7,
-      "impressions": 2982,
-      "position": 6.307511737089202
+      "impressions": 2935,
+      "position": 6.287904599659284
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid/": {
       "clicks": 13,
-      "impressions": 405,
-      "position": 11.760493827160493
+      "impressions": 400,
+      "position": 11.845
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-celerio/": {
       "clicks": 2,
-      "impressions": 61,
-      "position": 12.147540983606557
+      "impressions": 58,
+      "position": 12.689655172413794
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-s-presso/": {
       "clicks": 4,
-      "impressions": 122,
-      "position": 14.532786885245901
+      "impressions": 120,
+      "position": 14.866666666666667
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-swift/": {
-      "clicks": 28,
-      "impressions": 488,
-      "position": 11.600409836065573
+      "clicks": 32,
+      "impressions": 503,
+      "position": 11.105367793240557
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-punch/": {
       "clicks": 1,
-      "impressions": 81,
-      "position": 13.592592592592593
+      "impressions": 80,
+      "position": 13.7625
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-tiago/": {
-      "clicks": 12,
-      "impressions": 497,
-      "position": 6.06841046277666
+      "clicks": 13,
+      "impressions": 487,
+      "position": 6.032854209445585
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-corolla-quest/": {
       "clicks": 7,
-      "impressions": 313,
-      "position": 8.156549520766774
+      "impressions": 317,
+      "position": 8.280757097791799
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-hilux-single-cab/": {
-      "clicks": 8,
-      "impressions": 223,
-      "position": 6.739910313901345
+      "clicks": 10,
+      "impressions": 219,
+      "position": 6.657534246575342
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet-cross/": {
-      "clicks": 12,
-      "impressions": 303,
-      "position": 6.072607260726072
+      "clicks": 13,
+      "impressions": 306,
+      "position": 6.2254901960784315
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet/": {
       "clicks": 12,
-      "impressions": 197,
-      "position": 8.416243654822335
+      "impressions": 199,
+      "position": 8.407035175879397
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-urban-cruiser/": {
       "clicks": 7,
-      "impressions": 71,
-      "position": 10.985915492957746
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/toyota-vitz": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 1.5
+      "impressions": 69,
+      "position": 11.130434782608695
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-vitz/": {
-      "clicks": 7,
-      "impressions": 883,
-      "position": 7.618346545866364
+      "clicks": 9,
+      "impressions": 1239,
+      "position": 5.828087167070218
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-sedan/": {
-      "clicks": 4,
-      "impressions": 1420,
-      "position": 5.1394366197183095
+      "clicks": 5,
+      "impressions": 1385,
+      "position": 5.1985559566787005
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-comfortline/": {
       "clicks": 3,
-      "impressions": 135,
-      "position": 6.222222222222222
+      "impressions": 131,
+      "position": 6.3816793893129775
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-trendline/": {
       "clicks": 7,
-      "impressions": 316,
-      "position": 12.462025316455696
-    },
-    "https://nfc.co.za/rent-to-own-vs-public-transport-the-freedom-and-advantages-of-owning-your-ride/": {
-      "clicks": 0,
-      "impressions": 11,
-      "position": 6.090909090909091
-    },
-    "https://nfc.co.za/rent-to-own-vs-traditional-financing-for-blacklisted-customers/": {
-      "clicks": 0,
-      "impressions": 55,
-      "position": 20.69090909090909
+      "impressions": 317,
+      "position": 12.40378548895899
     },
     "https://nfc.co.za/responsible-ownership-and-implications-of-owning-a-car-when-blacklisted/": {
       "clicks": 8,
-      "impressions": 279,
-      "position": 8.100358422939067
-    },
-    "https://nfc.co.za/tax-saver-deals/": {
-      "clicks": 0,
-      "impressions": 4,
-      "position": 61.25
-    },
-    "https://nfc.co.za/terms-of-use/": {
-      "clicks": 0,
-      "impressions": 38,
-      "position": 16.13157894736842
+      "impressions": 274,
+      "position": 8.113138686131386
     },
     "https://nfc.co.za/the-future-of-rent-to-own-vehicles-in-south-africa/": {
       "clicks": 2,
-      "impressions": 86,
-      "position": 12.05813953488372
-    },
-    "https://nfc.co.za/the-practical-path-to-car-ownership-how-rent-to-buy-helps-south-africans-budget-smarter/": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 10.5
+      "impressions": 88,
+      "position": 11.943181818181818
     },
     "https://nfc.co.za/understanding-your-rights-and-responsibilities-in-a-rent-to-own-agreement/": {
       "clicks": 2,
-      "impressions": 21,
-      "position": 7.333333333333333
+      "impressions": 22,
+      "position": 7.2727272727272725
     },
     "https://nfc.co.za/vehicle-upgrade/": {
-      "clicks": 13,
-      "impressions": 460,
-      "position": 5.978260869565218
+      "clicks": 12,
+      "impressions": 471,
+      "position": 6.10615711252654
     },
     "https://nfc.co.za/vehicles/": {
-      "clicks": 378,
-      "impressions": 21764,
-      "position": 13.247656680757213
+      "clicks": 394,
+      "impressions": 21950,
+      "position": 13.306013667425969
     },
     "https://nfc.co.za/vehicles/new-vehicles/": {
-      "clicks": 45,
-      "impressions": 10671,
-      "position": 8.466591697123043
+      "clicks": 47,
+      "impressions": 10751,
+      "position": 8.654357734164265
     },
     "https://nfc.co.za/vehicles/pre-owned-vehicles/": {
-      "clicks": 163,
-      "impressions": 16040,
-      "position": 11.048004987531172
+      "clicks": 157,
+      "impressions": 16134,
+      "position": 11.158485186562539
     },
     "https://nfc.co.za/what-happens-if-you-miss-a-payment-on-a-rent-to-own-car/": {
-      "clicks": 60,
+      "clicks": 61,
       "impressions": 860,
-      "position": 6.224418604651163
+      "position": 6.18953488372093
     },
     "https://nfc.co.za/what-it-actually-means-to-get-a-car-without-going-through-a-bank/": {
       "clicks": 3,
-      "impressions": 218,
-      "position": 22.321100917431192
+      "impressions": 249,
+      "position": 24.823293172690764
     },
     "https://nfc.co.za/who-qualifies-for-a-rent-to-own-vehicle-in-south-africa/": {
       "clicks": 6,
-      "impressions": 540,
-      "position": 12.364814814814816
-    },
-    "https://nfc.co.za/why-rent-to-buy-is-becoming-the-smart-choice-for-south-africans-starting-over/": {
-      "clicks": 0,
-      "impressions": 4,
-      "position": 10.75
+      "impressions": 530,
+      "position": 12.179245283018869
     },
     "https://nfc.co.za/why-rent-to-buy/": {
       "clicks": 1,
-      "impressions": 293,
-      "position": 7.535836177474403
+      "impressions": 291,
+      "position": 8.061855670103093
     }
   },
   "pages_current": {
     "https://nfc.co.za/": {
-      "clicks": 599,
-      "impressions": 15495,
-      "position": 9.57702484672475
+      "clicks": 573,
+      "impressions": 15954,
+      "position": 9.050206844678451
     },
     "https://nfc.co.za/5-common-myths-about-rent-to-own-cars-debunked/": {
       "clicks": 0,
-      "impressions": 20,
-      "position": 32.3
+      "impressions": 22,
+      "position": 26.818181818181817
     },
     "https://nfc.co.za/a-second-chance-on-the-road-rent-to-own-cars-for-blacklisted-individuals/": {
       "clicks": 0,
-      "impressions": 107,
-      "position": 19.672897196261683
+      "impressions": 96,
+      "position": 17.854166666666668
     },
     "https://nfc.co.za/about-us/": {
-      "clicks": 4,
-      "impressions": 216,
-      "position": 7.708333333333333
+      "clicks": 2,
+      "impressions": 211,
+      "position": 8.028436018957347
     },
     "https://nfc.co.za/apply/": {
-      "clicks": 1,
-      "impressions": 432,
-      "position": 6.326388888888889
+      "clicks": 5,
+      "impressions": 476,
+      "position": 5.8466386554621845
     },
     "https://nfc.co.za/avoiding-rent-to-own-scams-red-flags-to-watch-out-for/": {
       "clicks": 0,
-      "impressions": 67,
-      "position": 7.074626865671642
+      "impressions": 74,
+      "position": 6.135135135135135
     },
     "https://nfc.co.za/beware-of-festive-season-scams-fraudsters-posing-as-no-finance-cars-representatives/": {
       "clicks": 0,
-      "impressions": 7,
-      "position": 15.857142857142858
+      "impressions": 5,
+      "position": 2.6
     },
     "https://nfc.co.za/book-a-service/": {
       "clicks": 3,
-      "impressions": 330,
-      "position": 6.221212121212122
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYY4-RtPUqLbiQe30K1VHcbdW8Cg135_RLUq4jWgmFR83JxCMx2PtdzTbSTSU1BScKq5MPTKLuAvffK3tNEv86IEKUPuvA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
+      "impressions": 338,
+      "position": 6.0325443786982245
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYY4hQDBlTaovyZ9PpRdTffn-U0DeYHTjLcm29lIHUf2qRsPA2JMlmcBWwfLpRCnacZjCvP81dqdfnN0oHu5PNkbXi6mEA%3D%3D": {
       "clicks": 0,
@@ -1409,11 +1519,6 @@
       "clicks": 0,
       "impressions": 1,
       "position": 5
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYEfF1a0AL2EMFst-rPHiCugUZxlk6dG4d9KN0-ZW4ugo2DNd7VCktTiS2ctjeYN-EJ2ZTN3y8t0VWIFRSP14ixeFhVUQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYFBMyEuEUHHFHSJ8Q1C2AJinQljv0hP5PU641PuKDF9D935_IxJUXLBvjyPtd1OhUTXBX7CrQJIPPRvsjbHZhDwTvBEA%3D%3D": {
       "clicks": 0,
@@ -1426,11 +1531,6 @@
       "position": 1
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYNB8Dw4IjcrvWTTz6QE6GhhxxQYIYy_srgh-4dq97TZEoqxm5lv4khEEasv3O-3PnzcLwqYes4g92mRsjFmd5ch1UPxg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYOkkyfQd2qOzCiWb0YuaNCQUY2XpK9abJVHbtzbjRRnARm2yfGhlBEHKhMhIQRv4wgQZJED26q9FoVUflsY9OwfduKsQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -1451,21 +1551,6 @@
       "position": 5
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYajpsPNAvQBG-ufTt6iqEx-puQiC0KBIilFnLJDjhcbLAvLyf1idF6a_qGSIPJfeZd_QhZkfTrIJmzhf4FKrRCJ7bmVg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYnBmF2SntTU0xUryB6d1BaB8P845wkGAf2Kb3IHeCUCpAsNMcu2-DZaL-ZHmhyaJopsLZCCZR_IdV4ITIdYTgDsb5-lw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYnma7ttSKxSXmg7XCyfwwMGDN_nDyXmOPzaZqbwIVzrqMu5ul7dBJXlVKOBi3lpzFIf8fGyacb_xYyCkGJ9rNdHXOZeg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYr-4EyBEQhGRDH85jerBsqYtMJaEetcm9F2r9gjKAdo_dzBxukc1fukwMsEu1LHs5wi-GBzDE819AWYSlg7OSVaONpZg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -1495,20 +1580,10 @@
       "impressions": 1,
       "position": 5
     },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYYz32oCPUIIVt2dmrc9drkOoeMqwhFrVkhqC6bLo68vyyeHRTY5wBFlNRq3aZbqZjK414Bu72HZsmcruFSFzMhGvHifJg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZ0iCqonuWV9y7Ckn76u2Pd_Zi0TzsiHZVSVt-IaxgL6xUXZE8GR5Z4kfo_d7oC1vH14GAg0Eb56HSztNEkv9g8lF7jlQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZ1ibns1cyMoqV7Oncl2Ch3fRjZHIqvkx13obNviHeChDzGx3Dzgz0PacsoVt9st2dmBzQ0bmKMd0IhheuAOi86Y_i0mg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZ60yinGP07xPNzmmIht2KGWDO7Y1eDX31ylhqNHektT-YbrmfjTaRaKCTi8Z7JyAPlLkC16eqILj7HEG2YjiySKHcSSA%3D%3D": {
       "clicks": 0,
@@ -1525,25 +1600,10 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZ8xPxS5Xx55ZqAqIxPSLEpIWs9MZQouxkBkEKCgYbsDWwrxRdEjzYIQvCa3RSQ03tX4MK9XpDBQs3YpugJFBM7ueQ0Eg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZCed9g_oErTv-HJXkvRqERsbhRymPHt8NmMJ_iFPiflk9AIQzsGMAQD6r9N_ApKIYK1aXmFtQpZMkDToBHAOLQ19hNYA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 12
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZFnpSnIkyYxRQ1BHnfBwFgni-ndTl70jN7zb1PI4pE6LvLx7PC8iMXy2D9UJzydyXMF9lBzHlHIF8Mz8c_hlqtR_e-rg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZGIFvIg3CHcEhAcorbOoJuO-cX1pKkwOjjF5xqhqnD_keskdRHtOFVH_HiuN6X2YxBLaLZ5bMqYf3igfKcFI0UQQvm6Q%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZJ-1iVZIdOqiqlHBmi0wkfH7MsJXGAxanUWJ-uPpO9PViPHI_8YKUg5MEmlVI2cL3r02vtFYNZeoo3a-cuqVSI_vkzXw%3D%3D": {
       "clicks": 0,
@@ -1590,11 +1650,6 @@
       "impressions": 1,
       "position": 2
     },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZdzWie7m56AZ8HnqLFpLs_lUdAkLwRV7g_OjXm0oejiAIzlsOThFD2x22DerhvqqvSTNsy3kMKBeihS1TORhIO8BjYxQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZf-cz9t5nOncJKrMq3w2YeUvyQZV20NHIf84SG8qMh0cHDbW1CVPDmLaTN84wpqPE2V3mkqmjX6iqgTpp_yqzZeu4eGg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
@@ -1606,16 +1661,6 @@
       "position": 5
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZhlZ7Z8e1ApSR-yjNahmOPorYlBEB7qe6x0UNkOQwEsgvQzU2ZC1MugedqRHxcS3Vpuf3qedbnccxwpw-KcSOS5VvRkA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZiePHnjER2qLk3vZ8U-_TW2-ZKO-GGvUGLrqFc8M6WGtQjUOKu8Co3tOZy0S1fCzapA7AKE5CueQkYv-7QRkmECQtjmA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYZpLyGUNc1eED5iY4tfJWNGOEHwASbwXaAppdl0sMO2Hse4-FWAlXncUB4-KeM8-pZFZnUsMoxtsXRABSU4cdj5lUN3tQ%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
@@ -1639,16 +1684,6 @@
       "clicks": 0,
       "impressions": 1,
       "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYa-JFEeR7d9__H6Hw9BGM4LHIPPzJegybB4UhSxdQTaKSkLm6XYsRAAsfV8hr4Fryh3z2xL4sneK4ZKxagyCJ9LYPg2DA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYa03UOq5Vdhr9PYxR5Vr_THVkOxY8LttcH8yMAkY0hOHrQ9Yoj6FOGCLylTH4GNUQos4MLEdP8-zOsGvp-FQH5gfDVzIQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYa3YoLFGoFgWTZLQ1Tt1dk31c3mnELOVbx3uhPF4u4hSP6ZBFHOPTtMHvWf3sjumyxGQxKyor7gUtpH26KUI2kOYaBCug%3D%3D": {
       "clicks": 0,
@@ -1690,21 +1725,6 @@
       "impressions": 1,
       "position": 6
     },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaJ9yeApqHUxfVDv5_xj0RDZZAd1Af0ThyfBQ3CDlffcVlBv2eauDLWVQihxYbx75B3BgH-uqB6Kk6FkYcwOLhPOCZiiw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaOe2iuCTfUuNm7_qiFHZV4ieuLXhG6eKMa-Bfls42G-nySVLtBLgLYpoTMZPemNEQkNPOnfA4p8jRO9AGt5SVLo_zYeA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaQ8VUY8P5F0d3Iz-EUBZruXYAUxxpdzHW90rz-nWVyF9Lrl0pJ1FaoGT-7O5qitcxFq0-Q0fCZoUPTQUl7-4IMjFw92A%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaQ_Ujze-LfnzAMqbLXj52EwHlU1471_EYuK7bHu2_3SWCg8cA9Avs8jAyp_Ae8-7P-xRk0xTpIfaQlJ-COC43rHMzZzw%3D%3D": {
       "clicks": 0,
       "impressions": 1,
@@ -1729,11 +1749,6 @@
       "clicks": 0,
       "impressions": 1,
       "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYahxO3fPLEOnD1IMZ8S--Y--oDbUXb86e37j92FK8d3Bb2qrVBfBO7LhaRkYTYClmwD5bR-cshKqMsUmGiDd5ArJ_dCNg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 13
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYaiKP0gEpw2V4C6A7VYqK-tC1ruPc46ih7QA7LNBMzYemBob9XDsPV42p_z85f_oFgxg7yL4OzAMXANM4oGcdsdma_EkA%3D%3D": {
       "clicks": 0,
@@ -1800,22 +1815,7 @@
       "impressions": 1,
       "position": 2
     },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbJmOpHtLSB23zBkMvMziJ92BpwTCCk8gDDJSm8oBBozQYdEHBFy8BER4S8S0Dc2O1m5Ce5Cmdk_KgGFqQZXC4TE0Xt7g%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbLGafWoZgcQ-9lHwaTtqG95FKhwOEqizgUhkBdV0mDcQ7Dl1SYGQf7QO-VjqDEyVtg6BA2UsJQr7clNOV1ReipTW2RkQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbPhWt6_9-o5sNCKLTGCJe4URBZxHL7an_wbeGss_N_uLLZB3AJMT7Dq8qYHcsfvMTnaqit08vIVLOCxCrZuNmlJVoFAQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbQO9FvH_HswugKvDWs0mN7n8Lu2KC3_wQ326f1djLejuXMnYmkJkdJ-siR2S1esVG1iymZ4cCeZd9qO2j7c3es_EsdXg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
@@ -1825,35 +1825,10 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbVcJzwwS5EoWnUzVEyL0RTyjA7BNX7KtXRJtWBsvEz8TZIf83xe56ky4vcspWDz4ERskH-T0_SPJi0n-sj2eaYrhyBPA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbW1siyBwbIDgkwwUznSPzn1lEm2bOGfPnn9vdoHXw06CzgfTU5h46uaf1-HiTTj4Ctm2BgJW2--UhMDJ82_nkBBfabgw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 4
-    },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbWKmJT1HLYczhMbtQ1iKhgh1JPotnGoemNgp3OM6SYTyTkQ5dbQpVfiWOiStV5bFIXzacafTQB_WoK7bRHRXJlEreOvA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbWRzJMYhDT75S3rB9Eb3ykRPDfW_1t53wX8pXhfqmx-0-WjKbRbml-9Bkbu-Ve8HLPk580iLiwzBy396kGckK3EhlXTQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbYaw_R-r1tHqQp9PRsxUq1W6NqyHhVG--9Wp6ETMBNf1X3ob_FyfyWdWOKrVis1VJl7IxUkLFQAzfJnAPTn9RCFqcS2Q%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbZeLZ2Jq5uObZSVdrGCBieaukEMTHRAwbH01PKw24B5czC5gMk6Fh4Q69Q04fE4M4wAimkdHCpfLo8APuHZtIn8UPKIA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbeV-JKDzL1S-_7ixto7YxS_g6kcoUnvBINkWZJSCFQoZBTAaXo9Qhc_EpK2kqKucZUcIX3g7vAEQEmYruq3hZ01s6m3A%3D%3D": {
       "clicks": 0,
@@ -1866,11 +1841,6 @@
       "position": 2
     },
     "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbgDpzQIf75ugY_ifPvFUAENVhcY1lT29wH1ldG8OnnDLSNwAyY-S66AsA6H5M4OTIpS1YcwvFKiOT5gTzdhdoMttG-EA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?gsas=1&ahbb=1&rwg_token=ALcMQYbhDDztwHgGs2FTL1TlexQO7gF6L11LqkasaiuAzvw0FMeAeWOgZKuIsDcOED8m6iEoRThqJhhsGafk0oSzrJwdoH0Dxg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
@@ -1915,11 +1885,6 @@
       "impressions": 1,
       "position": 6
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY1Pe9uCAlSA_3zBiBa-Nrd_M-6p5Q8swTuC_YFI6Bt39zU7tWIXfNvVUCTFKDe1s_KP0DEdHX8Oh1QNYRV7zyikMh2pQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY1bgVX0RCzrnipIeIAchkAf1nDPw6O-CGyahn64LpeBQTnS1gFfmPHOiJQ0s75L7tosGzoob5KealQZDL1SKrlroKUKA%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
@@ -1936,11 +1901,6 @@
       "position": 3
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY31on5gCiiFGiw7a4No_6BI76ydvK-WfDO1-Favf-DSVzjIiYB3EU1iN_wSbJxgYyiQ-bE1rWIxtNV2w45HFaGYAe18A%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY43FbpJtCDEFuAT-GSUkZAkj00NuBfMNd1NY5MTToGc21faJ9B9_63SQnpexoFnAyE_Pwj03thKrvharED0Ip2ZtfjPQ%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 3
@@ -1985,11 +1945,6 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYBVgcw5RS8vFmos2rS40PPUWHM49cZEmL1JLiecP6u3sMwo8RIBH37BLG75YJql3uL2IaGrDWr3Gg3lmsKtMMtE9IZrw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 8
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYDGngI8pMh90omwRcqVPcW8EtsqvU-OQ7iWBONn2haKVlk87mq6Fitsk3pW3yMGLqZU7WnJxYnQS3gmgvFRgapGNbvLQ%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
@@ -2000,25 +1955,10 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYEyU4mnpm2N_Xx9LGkjiXmYzr1V3XZSX7i1VEU4oklR5AIkrEAJqQo5WQTA9ZdDQawOk7OnDRD55BHkSISuLQ-MEXMQQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 9
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYFtA65UofbI_2fuiaN5jI_huIpzRvnt3u4OLBhLY9AzYbgwtkWf7B2a6w3M6LgcpEs90gf8Fm9z7pyWz_kbXPzLHGLrw%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYG-iKOSI_sVv0AH2jGd492UGJf_kJPs-Bqt0Wf27jmvtjvEuDdO3oaam1sas9bkV738bfYNSNUQ8t1HzrKlXNWrNDm7A%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 12
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYHDl61nUZWnUCi9uvp36GXIlYfF18uECuwedCgZqFKNevLTWQsB__HtvoR2oKzyB3i8QxQc6vdhyciH9gG8CVBcxWyfA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 4
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYHWR_XrcqzjqhFyRvypMHiODDPYcpeZjlCQbRGeO0bZAQikUEujW_AoKPOJX-cCWWCEzDalJKTj5OiQPLeOFFrYywvGQ%3D%3D&source=cat": {
       "clicks": 0,
@@ -2050,20 +1990,10 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYLr_A-qVLYjwypcaMrxOEbbVXIUyyKVCT1cK0c2TXSyOGlO8JCsqCXOlME9Ryzhv2z9V4WGstCIreLgQLo4vOPfwiRbw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYMJ8GKqCxZGt8gltkA0LqRwOYqrokQbV0INjmyUWuRgVD7wMNqrTsUbqNczFyIhGsM4unI-cmDaciMbxx6edShGMAraA%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYPvOpqGFej6uNepAJg6MopLRdBqdxNKyuXiUVZCqNXjugTCbOCap8dvuI21HyyE7TJ1rdpefV1alROboTVdRGkIR8Qwg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 9
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYUTO6xsmA999FhUsZ-er_8l_j5bzgFQiUqbAeOApxjLmDFkIdFaqwiQ0NmaL-VoO6PKIx6dfYfXGw3KwSR8KSc_W0x0w%3D%3D": {
       "clicks": 0,
@@ -2075,80 +2005,25 @@
       "impressions": 1,
       "position": 2
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYVcIPUnhdg3gw7y3gRYfLfi7NbK3izgA_t1-mM8fzqdrB8BqYj7ThvV0MduuzawBHy2OyLzguMeUAfKmpvB34z3PhpBg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYVeaFHrmy5Aj0pBSa_qZsSodVgP4LL-TnqQDUsWZoOzrMrEGh6GnFPPe7JVmRQVTAAbXIUmiU7DMHimKhMbKQJfdRY5Q%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYWCXo9hqAipln7UJCiaEKEjbdmfaF-gvupS1-zj6S1tB9vp1OdITScPNirUiKZMEdU0PyjcEswLOQwcaVPSi0J7d-OZA%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYWdpK0Q3QgFbyjZaChEJw2mO7o2ahb8HFLL-jWal-5bChk4JgYK6vS-A80JfkzaSGgoYAxMEjr6In5jrUC3s6Sq4rQAA%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 41
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYXLVWiM0vsS6Qukta3oTs7a3pFyz7K0sr-pp62F6yU5nwyVttCO61HUDBH4mDuHuSvLQB1sjZZwma1BTeKTmWemOgh4g%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYXrBWNkmpLtk5CYc_dsugsaluzFmkEHBiYkx-5uuMZ7k326hRyRgmwMw-AvY4L9j-xYZZ_b6SpIMtppA7OHAfMV9KKXQ%3D%3D": {
       "clicks": 1,
       "impressions": 1,
       "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYYI6hMeogHc_wPSiDhnxGC5xgp8zlswy3DKCoohOe7_1vcsELFuAmiG6FlJOdgj_hex3Cjs4kXOuMK-w-Aybg20MfM8Q%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY_DqSZzeBwLpWIXkmaoR2Av4g_lmQqSn0UaOvWsMZagWLenZ3_khGu0cAkngK6u2FiRXSd6DIhW4DYkQ0hF3_K1JZCOA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY_RXGlieYnOWdJSwt6jfneMxKHg0RqkNNZeIRfn-_os8L3qpaWWLBuG4L-J0NbOrju90ofv7C1nlmiKWfi_3pqgb2e4A%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYY_tuIBv07SfgsRMBWE6N_vAY2l8lBZ0Ol2WuK_Fm6BaKdBBmHLRCmmxaWgbUHRzK7FLpYkTocC-N49kMo1Tl_ECBSo3Q%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYbEJY8iXgljz0UTYNYEFQgrZlN4Oi3NN-jWlbf3o-N5t8IZvgGpAGz38VZUMEbaeOu_rV4dJVy9IcpwH1th9brzczgnA%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 4
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYbITUZ7NonNElD3xqRdpXXEnr3z8WAUC-qE7CQ-8AFzh6_84DZ5Kj7vGCwHipNCH7qceZgnSo34DCzQkVzmbrakacAlg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 12
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYchGH2I8vo8i0U-c8hu1GrS6x8cWzHGj_z24uFEdy-wTQJYx37cqM6amNN2dQFvlLpLfECbe6wSvzu-h5IHAq5UW7vMQ%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYdsCR7mrGBq4qo4nVMzwN1BmxNTtGy-9N54whXeTyX-9w8PORwUfnPXoL5952dSZDwRvAWE9jm0a4ZuxBMNdAy-L5i4Q%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYe2byZWZpHtvdv5uI_fCjD3PE-7E-wQM_vc1ZwwXa5A-adOCv9hIeBM3yoCEzpBsz1v-d1RskEmsYQ6paav_ugT2ojVw%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYeAXGgnM65dEDRBJSHQSr3QjN3JzmvESeJAZTpSDCPG-z-5cEyhBzyJ4-HOEjLHJfeGNMSEEJoArLBvM8cE7gjMBjCNw%3D%3D&source=cat": {
       "clicks": 0,
@@ -2165,57 +2040,17 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYh0zMJzJS2-Fly-MTVGohz0yOOsQ2im7DFycRYUU3xs0dqwcaxxwuQKRupnXr65TXUhgQUzIWxbjtRuYA1UFNhhS9hdw%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYhUu7tqOgEHCTWD8QhW1W4SylBuxzzZjMkMPDmHmK8a_tELzg3txhrhXZ3UEV176FafSI7GDPdBMSCPrRLuk54jfHcCg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYi9J51G1vp1yacJ7cakgt1JfY_IomOeiVePLXeZvRbXGk9NY4uMCwQxQCbIYcl3mCTWaDdxde1DpV-VR-C1xgyCzB_Vg%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYiLuNkd0t6CgZGXWExY2h4w-0towvv9r0wmZhtpUvBRfKJqK0xw8SWGO373tw6DgqkM22xj9iz9iLOU7VNvDK0gvUCcg%3D%3D&source=cat": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYiet3oz1c0FswbRTdawwyOQYxI48bnACjBKcx1l6mJ9EZq9Vf7GSKx1YcY8ks8X-GGwKD6HOMDrItAfs4FVKyhSszi7A%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 13
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYjxRvbwbDJkceEhKzOHCm8FG4LTu1_wPQhZb7mkFS5mJj4qI43ubK-pnneuC59mv62h8YZtX_Rw0_3T6IOd4i6IuAAZg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 2
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYm2EH2OaTlyxTycP0Y74plZq05NyqqCLpWqc-vNqoZ1zfRqrLQk04DZCCv8pIxCqMyd15SKODkgJlX-Bkw4TbCqqVWnQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYn20Hk6VLxHD-88IzbVAqu08sUVFz8CMpJRHjBITy_wSxG54ZSvDGW16Xeav1tkfJ30oKoViWh_GJ3FMftCtCUME8Pww%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYolEesCak70DnOjoi3YfYk6QZ_MjRShmT42wqAnWhS11f1jKZX-yJxUBX1sgSNsFH_h5VvOi-xBFLVAYaPGBQ0BESFeg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYp1csD5FSncUlw6sqkPzxl764X_jm7Xr9RcWIfTTEcTSoQoXg_cOwpPbxyyqP4mszBgOEfjacykuzRD60c2UwoecQVDQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYqXUxTXip0yfrTL8U23AwB_JFB-y8_estYXNuSG2d5c2fGL8CzgL_kX0cophWZZI1JO1IiKz_p9sh-zQnOcaI9pOGH9Q%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 5
@@ -2230,30 +2065,10 @@
       "impressions": 1,
       "position": 1
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYrtrnqWRtCLt4hp-ztfR0q2JEVVFdkc-0qOTsuuG4ngKNaLIPAdeNahe04ACOX8Btt5tQZ2OTpO3BZfu2UVxNba_YGAQ%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 7
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYsceletQ0rKg_aPbHWazopNr-zKT6L6VOB7rIaFNaH9nlDGL_0j5rk_5gm0QLrej1PEMNv4eUDXlaS_kagdv8dD5ivqg%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
-    },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYt68_mCFyX-tego1QSW8dh7k1QIsLh0bCh8UimgeZ9apys2jZFMzrxkgEcgn010zsmUXWTQRiC4r1WOo-MtFOXSQE7fA%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 10
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYtcEMH7VxF3cBByz0NVXdwx9YjqqZQ2Tbf3O-OrDHZEk6J6fMH63WAnQlCcXtB5I1wZwdqR9Bg9sPECZlQ-aZH2KBZ5g%3D%3D": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
-    },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYubJTuEeQjRUhpcEPVxQuYdE_X5KkMeUVu6HFLa7NfmiTofVDAiSA6ytv4N1hd2h32ikg7_BQbAWR1xIiMQee34_ky8Q%3D%3D&source=cat": {
-      "clicks": 0,
-      "impressions": 1,
-      "position": 3
     },
     "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYv-PrBrj8A2z2uc7NCmJ3mKmDj6A0D9L6LXSBSxXwUswvntx99wdzAZkJQPHlTM9h3JJE6YqrVaBGoZjS8fphOFgvU_g%3D%3D": {
       "clicks": 0,
@@ -2275,255 +2090,555 @@
       "impressions": 1,
       "position": 4
     },
-    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYx4eodPG2KS8eh6wK_ytweBDxu3S5JTTIo2-IiV7viPwEE4CedawtuvdWjlCQdJwpY4QqAxT9JawFhW5VFf5MpBCaKpw%3D%3D&source=cat": {
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYyikgMp2XuaHJNuHi5NXVm6QY_JnDNQx9Yq8K0zkamEyWTNYgPFFgvPvG7L92ltHt4wudWj4Ey9YjyNUHiRW2RVyGo9g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYz9J6z2qfaeYDO6VliCnwfXt0Vzlb2TUqrEDQBeNXhV8NFKbq6BG3LwUg2P74OqUpSLDJJATW_SFuycsLuLpHH8rOn4w%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYYzKoU_2nCcXZRILQzDwKLIi-4sfWuwhSZ3y6yQE_4xFPezqqhiDH3XLyk9P2Hw3mBGphwsMOrD8y8vs2RlyNJY8OVRHw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ-q5KH9YATMTdHpKjk57qiDcpglNEYtwee62qLHf1aMoK37FKeHfcMWpAbEReVL1GF4ZqF7tXWRsgbrIZI6ZE4zoxxRA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ04aswBajxZPdZue2Dv5nYdKGQmgwyamaQVCfWGchqJRWuA7wSjQF9oAkYIeYDJ5HvrTyDLhOzOMMW3wGqCouBEC5SxQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ1m73Tq4PS1ctEU1tLkDC6cSavpXh1lDGgpD6oVV13Q8VQzC1hpxoKzUkQForXvW3ysd8cy0LsXNNjcl0bpbBYs11-yA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ2hAd1o6T_x9w_HnkTsZA4AarDSQk15oobf_1mmigiMn4MAHyEdCU24eDcOERpsdh9qzS_M9FjfXYb761wH3Io2BjCGw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ3fBtaMFiCrvrbzUMG1zR3Sbq0j5iJABXcPYuQjeC5L646rnX93QPdhUaBwMszd2wPTLZ9BBItUXoJbhTMNZUPCpawOw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ3rIheYPQ7Q5N01qOp0Jvagr5_ukzDSseZ0-QpttEiJ_0Btd8HiBZeW1poewXY59ek3n0XOfRyo038Hyy9geJeYlTDkA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ4OKF_a8H7Z264yWBwiuotFuuBdG_XOiN0Pqb_uiJIyU6tz0AcwpHK73xynzP8tk6a5DJoL13hiraj83eivEyF6cm3Zw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ5BenN6tO1kqNb5q4CMDz03SsLAwdYaRUYs5l6NNlujgr7VSj7UiRsw55xu_ii-w5Pndvtaa54tRaXr0hoFWDkEiX8iQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ5tSntgWtdwXXhj7Fa2jaLn9PEE6BMAQUoVILD7hO2GzkMYD-3SzTcExghnI7iSvVjxZ3F2WiFqKV61224I-bhdwNcWQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ68M-3e1KGXQJmUonULw3eApRDb6789V4V4x3awdk64jr2KgRI1pXWAdEzNr8Tjza0loqxDoOpA18yWRcDwOhmET57Sg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ6U2v8wm_k-IYef9LDkUXCKvc-cU5iO2JJK4-SKy6OdW6l5TiNeTHTX5cRgOF38XHGb5AFhVooJOhKgfG8DOVveDe_Hg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZA4dlG1QF4UMP823R6TJeDZ0w_phXZUXui8sEpkmcaMuffftujvgHMgCEppvqXhtS-5OcTKU2lMHW4B4VXb9PCXZdE0g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZBH_9r084LdLvVY9yGHgQgRXCjOMmgVj776uDwWK8bZ-hCDmYG_AY8jDZG-jXns0CLDSQClXk9cXngdvKO82VGxTQUBA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZHPhpImBHEP7UB-Pa39StDZFaJn_8cyfjfjbSN38N7VDH840WeF2loiKziNq2XNluKtUzM7GOUo6GG79jgg1V4-TImfg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZIPb2VJRwXspCoSwRshJpZl5H4vhPZeGck8fi9tZH_N-HMx2u1xvVKzs_A7V-5PplrN2siOWigvf-SNjfSorYwzucZHw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZJuwYPqUFSPwAQdV6GH7Ecc17iBMZI0XF1m4Hnav9T0YelR0iBLirrCcUYIZ-NX4leb_93FgZxJKQjYo4tb_yfd_QUcQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZLPEylwkSu6oU86wuRz7LHnyQbMtHf8v-OR0RhV8qh8uIro-OSpWRMdv0tbylnVuaUoSB9PA5Y2kWAHs8oljC5uiwMRw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZMBnD4-sJA4E-HQadh8VlKQqY4Kh5IX_jka7jDuNDN7Xk54HFXuOcTTz_AgKo9VJGix7VlRs1fxHCuBk7_MSQLDFYV2w%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZQODFmCNfIHD49Pv1g39ZxkY7dVqYa7iCPyl0dcfBMZWFYcuRmBfhnLFDTL1Zz5zgBMBzcIUWpuGytbst-nbt8vhWz7w%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZYI7eami85xDjed01Gzz_9FZnnmQkuiMWC71k8Jp3EzA-t9jNiP-nTkeGODqt_Gl24B9GL4aFi0wvEnYb5B7re3_phjA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZ_vBWDsfj_T4vakNX9G_aMW0fZBmzhq24tafbNEQ3BdPJZkcjGO9iIa9Adc9SwDuqKyiwLame1_VdPZcqPLYr32Jfcaw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZalb18t0zm3VF6tJ92RvOLVOtQelWcgwjuVzAzZRgWKMXHlCtdicuL6nYS8ujixCHldqNkdeAhX-grxctYNcNr1qBWyA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZfokEdkl5sF4Uua7HebWjWROA3WIf7-hdp1GvAgt-fk5w29Yh8_6FhFDstMw0Ruy9DHrSH8cQAL1mNvv4ftjNaC9su0A%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZgGuYL_O6ftjygaMvtP2n9vvyFo86Ew1SF7j16JBkl0zKdXtXEm0dlcX5yUxGmNacckQyrmgDVs-QALKOiZLyO39aCNg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZgabhFoDRIvE5L1a9qe2jLHeSSgYaOEbyH791Ph5JR4ncFWCe7HINDMu1CZVLXb3m9ldzUp2U8aY6dv7iOStIsfVU0hw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZhxMCQlGkPEkOkRsrnXdHQlE7zJS3t3SzM8QOscWFw8qpDf0krvgVCT7ZM5TyrVhQfNep849_qkIE51nl1XxSb4BsbCw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZj0PVg4oG9boA3-Yj9xOOqQ6NPlhv2f23DGchM1l-8oaoiHrB6A25RLBF0yBlL7ugwaRcTy2YR8EEfIH5Zi85Tdfxt4A%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZk0jJSDXWrqNkSkG9gSV1UCrPwrgXC__gg02zjobZOI83_ySePXHWTjsZUsH2TI5EEqxMeWdlxSU5myGrbKsWOmodmhQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZks35KiF3knAWEmf9LCl5rpbcGcnlfFscmpCF61WlpR2NvGzpFXynre8p93-0JM5wZZIFH6LY0bIJw2g-vLj_GOydmFw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZloWIEcogNto492e95NoBrr7Fjvkgp1P1FRir-TdDtVFrSHIYfMxxpxBZnjQimq8ax9E7YPcULPvM5lbP9KuKgQdH8Fw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZnq6v4cdCw3-b_Os9ce5-DoQoEmeRhkuIJUEZQak5Ra6uaWUU3WELMNzTTMlN7gYcGrp5V2upl3i6aj9d2E7-crtn3mg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZpHYkIY_A1Hv1VCU8MSbU8TzNghmIT1OgpZVsbmqIA7QGJ6CoD4H8p8xvNyN2GVtuWYrh3YkTfGUve6R_ZG9kRyvtSZw%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZqBu3t_w8_oaT805LdjowT9ybzmlCbru0TadXWqeKLUEsT7fnrePl-d7mZqVGzo3t-VAbjXOKhAns17W-NDy2WVkVVAA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZqu3uqUqntuVCC9aaA2zm7nBXHHOpgY45dPNKkT3NM0VVJevM7Ut4gf_vWojmPJwqVNz1O2aKrPA_hU1wy1AQEb9Y2MA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZqw33ZHIsMZDI8oShe8NzdnKf8BqF9EC8M1T4evYFB7MzkZtjGZ4mKJfWrx-sc0C_o40fUfa-t2lBmipzlr4OOli9k4Q%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZrXczytFlwLTYzyds8icgq112dAYGFwLTQ2dyI2Soonqybrut-4rjSsoshoE93uPQZeyQG_TwbHaFZU4zYKTSTzBTx-g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZrc5zpp3-n9AYKPJzYa7W03UImpzJAwJEVanBavUgzBwvIqlmNYRq3ZIUD5cWgivP4xOhP1lPwt9OHs1JU8w8nA3lgkA%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZrivGbHSquvjB1Z9rNVr_hWGVtkLr1hl5t77pRYkZEqZw9HtUeM5rEVaTprmEb_htlWaMbDZQx1Rj2lIFYWG2DbSogbg%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZs2PtESq1r-x1lzIc0R8CslO7oP70-FhX9ueJ75cE_5Rj6LqJzQ2kELB-vPs9oW88HMPnJzieNKisZRw9EVkbNzbuZpA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZs5H_SmUnzw5gXGP48Y_y0RHxkMaIRfx1McRmNLoa6FF5TKVGNyPasNrosnn4Sh9YTLZOhXOVgLsIzB0GO0cFu2uf0Uw%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZuoYNDnI2tGlvZQEYQXURw9p9tspeySq-gDe2ggjg-vyyrD8jOVvIPKeQj2oyFgldisqedaZpGSnf5_bHh2kNXfq7XqQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZv70AwCZS-Isa6ypvDEuYHEx_05nXmwQLch5l9ArEnWSQ4Lg9XDMt7l7Fsc96MUgrrktB5_sO4STIvKoIjx43_5q8h9g%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZvRZT42wuE_axrAwi_OENEo04bPnVAOtgX6rshXmgdX_ThikrcGEnOXcOp3kJXoDdnMTuX7hObLyX5qIU6fw-lkd1vAQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZwc6yZJ4EfFnxm0lB28GjW17r7hURuUHyRpmowgexB_nE_9wXMqpdBW3QIz-hxjO-ZsRqpBljmzMoK35wgRSdaqQ01SA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZwhDZ9owPOPCCXXZ46lucZms5QwZpL0uA7MRDnnpDtNUsHJ1b9776VLOnSPMuuP6cUROfRN62LgNDjP0guVYJWTfNXzg%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZxfDqS5cFHa8DsK0I3UH2qtqdQKsUsQN7RyUwEQOkZimV-zkDNEF254v6Di_5RhOabxtAURzlVHslXgVAwVv_njYq-dg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZxuv0jdx-NDQosQ5YhCfUAm5PWiXSbw7Cgh9qOiC4a-po5E13dQiZVI9J2Ky493_V6DNxQc78vpT9wzpfT5YqQr-v0Tg%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYZzbk8AKOMk6GT-7KjCGnzVwJS0cj12B5QbPJNsXEM6nEoDhwOSfXADTN_EkwqrBqMMhkSFoUQlpkY4M-dL6IuVM3mmWQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa1DdqKJ6awm0dIhZUd5rPLNai_034jkX3YR0bPmX7wdb1JfhoiPLT_zWoT0zLO8eJ1yH8ZAmWIFhZN58A9ZA7eTt8PKg%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa5GTJOelY7hs0YPZ2yAdZRuein-QSjKWNGG5Cj1WJ4wZMF_d103qoLda74AFbtBrMv7iRtgU5MET6rC_I4kjMXP-YnmA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa8s2i8R3VHZA1yxtyLmlYxNnEEjudaYQbVis9PkDqiSX5aDrpPSCMMzYHjsM6-oBq3CR1Ksjo9ugQNluohGJ4cDJBDeA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYa9YC-k0DyCXFlYrqjFPl9r1vujjcHMP_r_PBb_TiypQ9kf9VrI9YjvAG_e0lduhlzZNilZN8MxaArvNIuawEkJL0KgeQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaAIk5u99SAlb7PE8VTebNRQ_Ffr_ckHzR4ALd4BJjnzsgHDzJ1XYamCe-WTmw5b21LeYecGvmOXaxGwxZoyM-jgpYcdQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaBuAibVYsd1arHeJ3HYjsdrTx9E0wHkxy21fPgRYFqECoKq3jHnEHrNRQeFWaVnMjBlsCOBtKn-LxGdkuwTrWr-imOpQ%3D%3D&source=cat": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaH5V9wSJV-4bOkH-vp2Sx_b4Tc9CcyQ-q5r20jZ01H1pplHYVhriaEAG81Mvqf9jL8aYQskCwdFE-ic1te1ZFJ0E-_RQ%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaHnVgNstdGY5hLRaOTYBrFb9fQNJ3uCu0wJRkVrlVA1pS3i7MAcjT941WaEOtHZxtbQwW2BiKYRffzw6hkIPMPjOkXWA%3D%3D": {
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11
+    },
+    "https://nfc.co.za/book-a-service/?rwg_token=ALcMQYaJI7gtT8IxVOFdNLCwTtlylf7mj-igob3S-B8As4a3Yxmka_TJ2mi_DNI6ITO_RazKDlIl1-FrVFeka8iTsjuWm7vRbg%3D%3D": {
       "clicks": 0,
       "impressions": 1,
       "position": 3
     },
     "https://nfc.co.za/careers/": {
-      "clicks": 5,
-      "impressions": 254,
-      "position": 8.433070866141733
+      "clicks": 4,
+      "impressions": 244,
+      "position": 8.188524590163935
     },
     "https://nfc.co.za/contact/": {
-      "clicks": 48,
-      "impressions": 4183,
-      "position": 2.472627300980158
+      "clicks": 49,
+      "impressions": 4042,
+      "position": 2.518802572983671
     },
     "https://nfc.co.za/frequently-asked-questions/": {
-      "clicks": 5,
+      "clicks": 4,
       "impressions": 185,
-      "position": 4.372972972972973
+      "position": 4.664864864864865
     },
     "https://nfc.co.za/how-does-rent-to-own-work-a-complete-guide-for-south-african-drivers/": {
-      "clicks": 4,
-      "impressions": 588,
-      "position": 8.88265306122449
+      "clicks": 6,
+      "impressions": 587,
+      "position": 8.357751277683136
     },
     "https://nfc.co.za/how-it-works/": {
-      "clicks": 27,
-      "impressions": 2695,
-      "position": 2.732096474953618
+      "clicks": 31,
+      "impressions": 2611,
+      "position": 2.8705476828801224
     },
     "https://nfc.co.za/how-to-upgrade-your-rent-to-own-car-without-breaking-the-bank/": {
-      "clicks": 1,
-      "impressions": 35,
-      "position": 9.314285714285715
+      "clicks": 2,
+      "impressions": 44,
+      "position": 9.477272727272727
     },
     "https://nfc.co.za/no-credit-no-problem-how-rent-to-own-cars-help-people-without-a-credit-history/": {
       "clicks": 10,
-      "impressions": 217,
-      "position": 13.165898617511521
+      "impressions": 227,
+      "position": 13.321585903083701
     },
     "https://nfc.co.za/our-areas/": {
       "clicks": 2,
-      "impressions": 798,
-      "position": 5.669172932330827
+      "impressions": 799,
+      "position": 5.7571964956195245
     },
     "https://nfc.co.za/referrals/": {
       "clicks": 5,
-      "impressions": 72,
-      "position": 10.333333333333334
+      "impressions": 74,
+      "position": 10.513513513513514
     },
     "https://nfc.co.za/rent-to-own-cars-under-debt-review-what-you-need-to-know-before-you-apply/": {
-      "clicks": 2,
-      "impressions": 68,
-      "position": 21.808823529411764
+      "clicks": 4,
+      "impressions": 61,
+      "position": 13.180327868852459
     },
     "https://nfc.co.za/rent-to-own-cars-vs-leasing-key-differences-explained/": {
       "clicks": 1,
-      "impressions": 148,
-      "position": 34.513513513513516
+      "impressions": 165,
+      "position": 31.921212121212122
     },
     "https://nfc.co.za/rent-to-own-cars/benoni/": {
-      "clicks": 4,
-      "impressions": 238,
-      "position": 7.785714285714286
+      "clicks": 6,
+      "impressions": 231,
+      "position": 7.229437229437229
     },
     "https://nfc.co.za/rent-to-own-cars/boksburg/": {
-      "clicks": 56,
-      "impressions": 1526,
-      "position": 8.613368283093052
+      "clicks": 64,
+      "impressions": 1520,
+      "position": 8.05986842105263
     },
     "https://nfc.co.za/rent-to-own-cars/cape-town/": {
-      "clicks": 19,
-      "impressions": 1879,
-      "position": 22.479510377860564
+      "clicks": 18,
+      "impressions": 1920,
+      "position": 22.752083333333335
     },
     "https://nfc.co.za/rent-to-own-cars/centurion/": {
       "clicks": 8,
-      "impressions": 302,
-      "position": 16.278145695364238
+      "impressions": 298,
+      "position": 16.248322147651006
     },
     "https://nfc.co.za/rent-to-own-cars/durban/": {
       "clicks": 42,
-      "impressions": 1084,
-      "position": 11.59870848708487
+      "impressions": 1065,
+      "position": 11.19718309859155
     },
     "https://nfc.co.za/rent-to-own-cars/george/": {
       "clicks": 9,
-      "impressions": 110,
-      "position": 14.436363636363636
+      "impressions": 102,
+      "position": 15.352941176470589
     },
     "https://nfc.co.za/rent-to-own-cars/germiston/": {
-      "clicks": 4,
-      "impressions": 137,
-      "position": 10.642335766423358
+      "clicks": 3,
+      "impressions": 124,
+      "position": 9.46774193548387
     },
     "https://nfc.co.za/rent-to-own-cars/johannesburg/": {
-      "clicks": 4,
-      "impressions": 655,
-      "position": 37.616793893129774
+      "clicks": 6,
+      "impressions": 609,
+      "position": 37.38095238095238
+    },
+    "https://nfc.co.za/rent-to-own-cars/kempton-park/": {
+      "clicks": 2,
+      "impressions": 136,
+      "position": 10.5
     },
     "https://nfc.co.za/rent-to-own-cars/krugersdorp/": {
       "clicks": 2,
-      "impressions": 117,
-      "position": 6.205128205128205
+      "impressions": 119,
+      "position": 5.80672268907563
     },
     "https://nfc.co.za/rent-to-own-cars/midrand/": {
       "clicks": 13,
-      "impressions": 315,
-      "position": 19.24126984126984
+      "impressions": 321,
+      "position": 20.292834890965732
     },
     "https://nfc.co.za/rent-to-own-cars/paarl/": {
-      "clicks": 4,
-      "impressions": 78,
-      "position": 13.307692307692308
+      "clicks": 3,
+      "impressions": 103,
+      "position": 9.883495145631068
     },
     "https://nfc.co.za/rent-to-own-cars/pietermaritzburg/": {
       "clicks": 16,
-      "impressions": 306,
-      "position": 12.50326797385621
+      "impressions": 299,
+      "position": 13.036789297658864
     },
     "https://nfc.co.za/rent-to-own-cars/pinetown/": {
       "clicks": 2,
-      "impressions": 370,
-      "position": 11.856756756756758
+      "impressions": 386,
+      "position": 13.313471502590673
     },
     "https://nfc.co.za/rent-to-own-cars/pretoria/": {
-      "clicks": 34,
-      "impressions": 2298,
-      "position": 9.692341166231506
+      "clicks": 29,
+      "impressions": 2189,
+      "position": 9.7866605756053
     },
     "https://nfc.co.za/rent-to-own-cars/randfontein/": {
       "clicks": 2,
-      "impressions": 68,
-      "position": 15.544117647058824
+      "impressions": 62,
+      "position": 16.306451612903224
     },
     "https://nfc.co.za/rent-to-own-cars/roodepoort/": {
-      "clicks": 4,
-      "impressions": 101,
-      "position": 9.198019801980198
+      "clicks": 3,
+      "impressions": 94,
+      "position": 10.808510638297872
     },
     "https://nfc.co.za/rent-to-own-cars/springs/": {
-      "clicks": 17,
-      "impressions": 360,
-      "position": 11.833333333333334
+      "clicks": 14,
+      "impressions": 363,
+      "position": 11.297520661157025
     },
     "https://nfc.co.za/rent-to-own-cars/vanderbijlpark/": {
-      "clicks": 5,
-      "impressions": 194,
-      "position": 31.917525773195877
+      "clicks": 7,
+      "impressions": 197,
+      "position": 32.9746192893401
     },
     "https://nfc.co.za/rent-to-own-cars/vereeniging/": {
-      "clicks": 12,
-      "impressions": 265,
-      "position": 17.577358490566038
+      "clicks": 11,
+      "impressions": 245,
+      "position": 18.49795918367347
     },
     "https://nfc.co.za/rent-to-own-cars/witbank/": {
       "clicks": 3,
-      "impressions": 230,
-      "position": 28.77391304347826
+      "impressions": 233,
+      "position": 29.03862660944206
     },
     "https://nfc.co.za/rent-to-own-vehicles/2023-toyota-corolla-cross/": {
-      "clicks": 3,
-      "impressions": 110,
-      "position": 5.954545454545454
+      "clicks": 2,
+      "impressions": 116,
+      "position": 6.603448275862069
     },
     "https://nfc.co.za/rent-to-own-vehicles/2025-toyota-corolla-cross/": {
       "clicks": 1,
-      "impressions": 5,
-      "position": 5
+      "impressions": 6,
+      "position": 4.333333333333334
     },
     "https://nfc.co.za/rent-to-own-vehicles/2026-changan-alsvin-1-4-cs-mt/": {
-      "clicks": 1,
-      "impressions": 24,
-      "position": 4.791666666666666
+      "clicks": 2,
+      "impressions": 34,
+      "position": 4.705882352941177
     },
     "https://nfc.co.za/rent-to-own-vehicles/chery-tiggo-7-pro/": {
       "clicks": 1,
-      "impressions": 41,
-      "position": 3.7560975609756095
+      "impressions": 42,
+      "position": 4.238095238095238
     },
     "https://nfc.co.za/rent-to-own-vehicles/citroen-c3/": {
-      "clicks": 1,
+      "clicks": 2,
       "impressions": 12,
-      "position": 4.916666666666666
+      "position": 4.666666666666666
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5-diesel/": {
       "clicks": 1,
-      "impressions": 10,
-      "position": 4.9
+      "impressions": 12,
+      "position": 4.416666666666666
     },
     "https://nfc.co.za/rent-to-own-vehicles/gwm-steed-5/": {
-      "clicks": 2,
-      "impressions": 35,
-      "position": 17.085714285714285
+      "clicks": 1,
+      "impressions": 41,
+      "position": 18.634146341463413
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v-trendline/": {
       "clicks": 1,
-      "impressions": 160,
-      "position": 4.58125
+      "impressions": 169,
+      "position": 4.550295857988166
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-br-v/": {
       "clicks": 1,
       "impressions": 27,
-      "position": 12.592592592592593
+      "position": 12.666666666666666
     },
     "https://nfc.co.za/rent-to-own-vehicles/honda-wrv-1-2-elegance/": {
       "clicks": 1,
-      "impressions": 21,
-      "position": 20.476190476190474
+      "impressions": 20,
+      "position": 18.5
     },
     "https://nfc.co.za/rent-to-own-vehicles/lepas-amur/": {
-      "clicks": 13,
-      "impressions": 139,
-      "position": 3.647482014388489
+      "clicks": 15,
+      "impressions": 135,
+      "position": 3.6296296296296298
     },
     "https://nfc.co.za/rent-to-own-vehicles/mahindra-pik-up/": {
       "clicks": 7,
-      "impressions": 53,
-      "position": 10.358490566037736
+      "impressions": 54,
+      "position": 10.166666666666666
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-magnite-visia/": {
-      "clicks": 2,
-      "impressions": 59,
-      "position": 11.254237288135593
+      "clicks": 1,
+      "impressions": 63,
+      "position": 14.65079365079365
     },
     "https://nfc.co.za/rent-to-own-vehicles/nissan-np200/": {
-      "clicks": 6,
-      "impressions": 85,
-      "position": 7.905882352941177
+      "clicks": 8,
+      "impressions": 97,
+      "position": 7.896907216494846
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kiger/": {
-      "clicks": 3,
-      "impressions": 63,
-      "position": 12.26984126984127
+      "clicks": 4,
+      "impressions": 65,
+      "position": 10.938461538461539
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid-climber/": {
-      "clicks": 6,
-      "impressions": 507,
-      "position": 4.68836291913215
+      "clicks": 7,
+      "impressions": 513,
+      "position": 4.707602339181287
     },
     "https://nfc.co.za/rent-to-own-vehicles/renault-kwid/": {
       "clicks": 3,
-      "impressions": 131,
-      "position": 17.53435114503817
+      "impressions": 137,
+      "position": 17.67883211678832
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-s-presso/": {
       "clicks": 1,
-      "impressions": 27,
-      "position": 15.333333333333334
+      "impressions": 30,
+      "position": 17.966666666666665
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-swift": {
       "clicks": 1,
@@ -2531,79 +2646,79 @@
       "position": 1
     },
     "https://nfc.co.za/rent-to-own-vehicles/suzuki-swift/": {
-      "clicks": 6,
-      "impressions": 135,
-      "position": 9.785185185185185
+      "clicks": 3,
+      "impressions": 126,
+      "position": 12.642857142857142
     },
     "https://nfc.co.za/rent-to-own-vehicles/tata-punch/": {
       "clicks": 1,
-      "impressions": 36,
-      "position": 15.777777777777779
-    },
-    "https://nfc.co.za/rent-to-own-vehicles/tata-tiago/": {
-      "clicks": 1,
-      "impressions": 88,
-      "position": 7.2727272727272725
+      "impressions": 45,
+      "position": 17.177777777777777
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-corolla-quest/": {
       "clicks": 2,
-      "impressions": 113,
-      "position": 10.079646017699115
+      "impressions": 122,
+      "position": 9.60655737704918
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-hilux-single-cab/": {
-      "clicks": 6,
-      "impressions": 56,
-      "position": 5.410714285714286
+      "clicks": 5,
+      "impressions": 51,
+      "position": 5.352941176470588
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-starlet-cross/": {
-      "clicks": 3,
-      "impressions": 334,
-      "position": 5.287425149700598
+      "clicks": 2,
+      "impressions": 490,
+      "position": 4.959183673469388
     },
     "https://nfc.co.za/rent-to-own-vehicles/toyota-vitz/": {
-      "clicks": 5,
-      "impressions": 1315,
-      "position": 2.2988593155893535
+      "clicks": 4,
+      "impressions": 1007,
+      "position": 2.461767626613704
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-sedan/": {
-      "clicks": 5,
-      "impressions": 98,
-      "position": 6.428571428571429
+      "clicks": 4,
+      "impressions": 95,
+      "position": 6.105263157894737
     },
     "https://nfc.co.za/rent-to-own-vehicles/vw-polo-vivo-trendline/": {
       "clicks": 4,
-      "impressions": 77,
-      "position": 9.376623376623376
+      "impressions": 88,
+      "position": 9.636363636363637
     },
     "https://nfc.co.za/understanding-your-rights-and-responsibilities-in-a-rent-to-own-agreement/": {
       "clicks": 1,
-      "impressions": 10,
-      "position": 5.5
+      "impressions": 9,
+      "position": 5.444444444444445
+    },
+    "https://nfc.co.za/vehicle-upgrade/": {
+      "clicks": 1,
+      "impressions": 100,
+      "position": 5.69
     },
     "https://nfc.co.za/vehicles/": {
-      "clicks": 144,
-      "impressions": 6545,
-      "position": 10.30496562261268
+      "clicks": 136,
+      "impressions": 6501,
+      "position": 10.262728810952161
     },
     "https://nfc.co.za/vehicles/new-vehicles/": {
       "clicks": 15,
-      "impressions": 3318,
-      "position": 9.283905967450272
+      "impressions": 3208,
+      "position": 9.188591022443891
     },
     "https://nfc.co.za/vehicles/pre-owned-vehicles/": {
-      "clicks": 45,
-      "impressions": 4791,
-      "position": 11.678772698810269
+      "clicks": 50,
+      "impressions": 4733,
+      "position": 12.0105641242341
     },
     "https://nfc.co.za/what-happens-if-you-miss-a-payment-on-a-rent-to-own-car/": {
       "clicks": 9,
-      "impressions": 119,
-      "position": 4.420168067226891
+      "impressions": 113,
+      "position": 4.442477876106194
     },
     "https://nfc.co.za/why-rent-to-buy/": {
       "clicks": 2,
-      "impressions": 68,
-      "position": 14.235294117647058
+      "impressions": 66,
+      "position": 12.727272727272727
     }
   },
   "source_status": {
