@@ -368,9 +368,11 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fm5armour.co.za%2F",
     "occurrences": 2,
     "pct_change": -28.9,
+    "resolved_at": "2026-11-17",
+    "resolved_reason": "not seen for 3 days",
     "severity": "warning",
     "signal": "organic_clicks",
-    "status": "open",
+    "status": "resolved",
     "summary": "Organic clicks -28.9% against a 28-day baseline"
   },
   {
@@ -438,5 +440,25 @@
     "signal": "indexation_priority",
     "status": "resolved",
     "summary": "1 priority URL(s) not indexed as expected"
+  },
+  {
+    "as_of": "2026-11-17",
+    "baseline_value": 0,
+    "client": "britz",
+    "client_name": "Britz 4x4",
+    "current_value": -28.1,
+    "detail": [
+      "Average position moved +0.60 over the same window"
+    ],
+    "detected_at": "2026-11-20T14:01:05+00:00",
+    "hint": "Impressions expanded without clicks following, which usually means new exposure on lower-relevance queries rather than a genuine gain. Average position also worsened by 0.6, which supports that reading.",
+    "last_seen": "2026-11-20T14:01:05+00:00",
+    "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.britz.co.za%2F",
+    "occurrences": 1,
+    "pct_change": -28.1,
+    "severity": "warning",
+    "signal": "ctr_divergence",
+    "status": "open",
+    "summary": "CTR down 28% while impressions ran +28.3% and clicks -7.7%"
   }
 ]
