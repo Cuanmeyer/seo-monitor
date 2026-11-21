@@ -456,9 +456,31 @@
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.britz.co.za%2F",
     "occurrences": 1,
     "pct_change": -28.1,
+    "resolved_at": "2026-11-18",
+    "resolved_reason": "back inside threshold",
     "severity": "warning",
     "signal": "ctr_divergence",
-    "status": "open",
+    "status": "resolved",
     "summary": "CTR down 28% while impressions ran +28.3% and clicks -7.7%"
+  },
+  {
+    "as_of": "2026-11-18",
+    "baseline_value": 0,
+    "client": "maui",
+    "client_name": "Maui Motorhomes",
+    "current_value": 1,
+    "detail": [
+      "origin CLS: good -> needs improvement (p75 0.12)"
+    ],
+    "detected_at": "2026-11-21T13:19:55+00:00",
+    "hint": "CrUX is a 28-day trailing window, so the underlying change started earlier than today.",
+    "last_seen": "2026-11-21T13:19:55+00:00",
+    "link": null,
+    "occurrences": 1,
+    "pct_change": null,
+    "severity": "warning",
+    "signal": "core_web_vitals",
+    "status": "open",
+    "summary": "Core Web Vitals regressed on 1 template metric(s)"
   }
 ]
