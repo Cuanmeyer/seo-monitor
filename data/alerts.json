@@ -478,9 +478,11 @@
     "link": null,
     "occurrences": 1,
     "pct_change": null,
+    "resolved_at": "2026-11-19",
+    "resolved_reason": "back inside threshold",
     "severity": "warning",
     "signal": "core_web_vitals",
-    "status": "open",
+    "status": "resolved",
     "summary": "Core Web Vitals regressed on 1 template metric(s)"
   }
 ]
