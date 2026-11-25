@@ -2366,6 +2366,20 @@
         "impressions": 58373,
         "position": 5.266938481832354
       }
+    },
+    "2026-11-22": {
+      "ga4": {
+        "conversions": 17.0,
+        "llm_sessions": 45,
+        "revenue": 13040.000042,
+        "sessions": 1239
+      },
+      "gsc": {
+        "clicks": 1241,
+        "ctr": 0.019769016328156114,
+        "impressions": 62775,
+        "position": 4.80431700517722
+      }
     }
   },
   "state": {
@@ -2494,17 +2508,17 @@
     "last_cwv_run": "2026-11-18",
     "last_indexed_rate": 100.0,
     "streak_dates": {
-      "core_web_vitals": "2026-11-21",
-      "ctr_divergence": "2026-11-21",
-      "indexation_priority": "2026-11-21",
-      "indexation_rate": "2026-11-21",
-      "llm_referrals": "2026-11-21",
-      "organic_clicks": "2026-11-21",
-      "organic_impressions": "2026-11-21"
+      "core_web_vitals": "2026-11-22",
+      "ctr_divergence": "2026-11-22",
+      "indexation_priority": "2026-11-22",
+      "indexation_rate": "2026-11-22",
+      "llm_referrals": "2026-11-22",
+      "organic_clicks": "2026-11-22",
+      "organic_impressions": "2026-11-22"
     },
     "streaks": {
       "core_web_vitals": 0,
-      "ctr_divergence": 0,
+      "ctr_divergence": 1,
       "indexation_priority": 0,
       "indexation_rate": 0,
       "llm_referrals": 0,
@@ -2512,5 +2526,5 @@
       "organic_impressions": 0
     }
   },
-  "updated_at": "2026-11-24T15:30:40.029408+00:00"
+  "updated_at": "2026-11-25T15:16:50.791904+00:00"
 }

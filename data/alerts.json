@@ -486,23 +486,23 @@
     "summary": "Core Web Vitals regressed on 1 template metric(s)"
   },
   {
-    "as_of": "2026-11-21",
+    "as_of": "2026-11-22",
     "baseline_value": 0,
     "client": "nfc",
     "client_name": "NFC",
-    "current_value": -28.0,
+    "current_value": -33.1,
     "detail": [
-      "Average position moved +0.04 over the same window"
+      "Average position moved +0.17 over the same window"
     ],
     "detected_at": "2026-11-23T15:41:16+00:00",
     "hint": "Impressions expanded without clicks following, which usually means new exposure on lower-relevance queries rather than a genuine gain.",
-    "last_seen": "2026-11-24T15:33:00+00:00",
+    "last_seen": "2026-11-25T15:19:19+00:00",
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fnfc.co.za%2F",
-    "occurrences": 2,
-    "pct_change": -28.0,
+    "occurrences": 3,
+    "pct_change": -33.1,
     "severity": "warning",
     "signal": "ctr_divergence",
     "status": "open",
-    "summary": "CTR down 28% while impressions ran +39.6% and clicks +0.5%"
+    "summary": "CTR down 33% while impressions ran +40.6% and clicks -6.0%"
   }
 ]
