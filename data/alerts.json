@@ -486,23 +486,43 @@
     "summary": "Core Web Vitals regressed on 1 template metric(s)"
   },
   {
-    "as_of": "2026-11-22",
+    "as_of": "2026-11-23",
     "baseline_value": 0,
     "client": "nfc",
     "client_name": "NFC",
-    "current_value": -33.1,
+    "current_value": -33.6,
     "detail": [
-      "Average position moved +0.17 over the same window"
+      "Average position moved +0.65 over the same window"
     ],
     "detected_at": "2026-11-23T15:41:16+00:00",
-    "hint": "Impressions expanded without clicks following, which usually means new exposure on lower-relevance queries rather than a genuine gain.",
-    "last_seen": "2026-11-25T15:19:19+00:00",
+    "hint": "No single cause stands out. Open the GSC performance view and segment by page and query.",
+    "last_seen": "2026-11-26T14:43:35+00:00",
     "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fnfc.co.za%2F",
-    "occurrences": 3,
-    "pct_change": -33.1,
+    "occurrences": 4,
+    "pct_change": -33.6,
     "severity": "warning",
     "signal": "ctr_divergence",
     "status": "open",
-    "summary": "CTR down 33% while impressions ran +40.6% and clicks -6.0%"
+    "summary": "CTR down 34% while impressions ran +38.4% and clicks -8.1%"
+  },
+  {
+    "as_of": "2026-11-23",
+    "baseline_value": 0,
+    "client": "greyhound",
+    "client_name": "Greyhound",
+    "current_value": -25.0,
+    "detail": [
+      "Average position moved -0.47 over the same window"
+    ],
+    "detected_at": "2026-11-26T14:41:19+00:00",
+    "hint": "Impressions expanded without clicks following, which usually means new exposure on lower-relevance queries rather than a genuine gain.",
+    "last_seen": "2026-11-26T14:41:19+00:00",
+    "link": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fgreyhound.co.za%2F",
+    "occurrences": 1,
+    "pct_change": -25.0,
+    "severity": "warning",
+    "signal": "ctr_divergence",
+    "status": "open",
+    "summary": "CTR down 25% while impressions ran +41.0% and clicks +5.7%"
   }
 ]
