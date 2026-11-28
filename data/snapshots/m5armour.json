@@ -1,26 +1,26 @@
 {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "baseline_scale": 4.0,
   "cwv": {
     "home": {
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 91.7,
+          "good_pct": 91.8,
           "p75": 0.0,
-          "poor_pct": 1.7,
+          "poor_pct": 1.2,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 69.0,
-          "p75": 236.0,
-          "poor_pct": 7.6,
+          "good_pct": 70.5,
+          "p75": 230.0,
+          "poor_pct": 7.4,
           "rating": "needs_improvement"
         },
         "LCP": {
-          "good_pct": 24.4,
-          "p75": 6589.0,
-          "poor_pct": 56.4,
+          "good_pct": 24.6,
+          "p75": 6458.0,
+          "poor_pct": 54.4,
           "rating": "poor"
         }
       },
@@ -30,21 +30,21 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 94.9,
+          "good_pct": 94.8,
           "p75": 0.01,
-          "poor_pct": 1.8,
+          "poor_pct": 1.9,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 74.7,
-          "p75": 200.0,
-          "poor_pct": 6.7,
+          "good_pct": 75.4,
+          "p75": 196.0,
+          "poor_pct": 5.7,
           "rating": "good"
         },
         "LCP": {
-          "good_pct": 57.8,
-          "p75": 3763.0,
-          "poor_pct": 22.5,
+          "good_pct": 56.6,
+          "p75": 3831.0,
+          "poor_pct": 23.2,
           "rating": "needs_improvement"
         }
       },
@@ -54,21 +54,21 @@
       "form_factor": "PHONE",
       "metrics": {
         "CLS": {
-          "good_pct": 93.2,
+          "good_pct": 93.3,
           "p75": 0.0,
-          "poor_pct": 1.8,
+          "poor_pct": 1.7,
           "rating": "good"
         },
         "INP": {
-          "good_pct": 66.6,
-          "p75": 255.0,
-          "poor_pct": 8.4,
+          "good_pct": 67.5,
+          "p75": 251.0,
+          "poor_pct": 8.1,
           "rating": "needs_improvement"
         },
         "LCP": {
-          "good_pct": 42.9,
-          "p75": 5220.0,
-          "poor_pct": 38.1,
+          "good_pct": 43.8,
+          "p75": 4996.0,
+          "poor_pct": 36.2,
           "rating": "poor"
         }
       },
@@ -82,7 +82,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://m5armour.co.za/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-27T10:04:46Z",
+      "last_crawl": "2026-11-28T13:17:39Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://m5armour.co.za/",
@@ -102,7 +102,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://m5armour.co.za/b4-armoured-vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-26T09:19:53Z",
+      "last_crawl": "2026-11-27T16:56:49Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://m5armour.co.za/b4-armoured-vehicles/",
@@ -112,7 +112,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://m5armour.co.za/b6-armoured-vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-27T13:57:29Z",
+      "last_crawl": "2026-11-28T07:21:50Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://m5armour.co.za/b6-armoured-vehicles/",
@@ -122,7 +122,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://m5armour.co.za/buy-vehicles/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-27T11:09:52Z",
+      "last_crawl": "2026-11-28T04:51:51Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://m5armour.co.za/buy-vehicles/",
@@ -132,7 +132,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://m5armour.co.za/contact-us/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-17T16:42:14Z",
+      "last_crawl": "2026-11-28T13:36:01Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://m5armour.co.za/contact-us/",
@@ -142,7 +142,7 @@
       "coverage_state": "Submitted and indexed",
       "google_canonical": "https://m5armour.co.za/toyota-armoured-cars/",
       "indexing_state": "INDEXING_ALLOWED",
-      "last_crawl": "2026-11-27T08:39:54Z",
+      "last_crawl": "2026-11-27T18:11:49Z",
       "ok": true,
       "robots_state": "ALLOWED",
       "user_canonical": "https://m5armour.co.za/toyota-armoured-cars/",
@@ -154,44 +154,44 @@
   },
   "pages_baseline": {
     "https://m5armour.co.za/": {
-      "clicks": 169,
-      "impressions": 4864,
-      "position": 9.501850328947368
+      "clicks": 163,
+      "impressions": 4791,
+      "position": 9.50678355249426
     },
     "https://m5armour.co.za/about-m5-armour/": {
-      "clicks": 4,
-      "impressions": 362,
-      "position": 27.593922651933703
+      "clicks": 3,
+      "impressions": 331,
+      "position": 27.972809667673715
     },
     "https://m5armour.co.za/armoured-toyota-hilux-guide/": {
       "clicks": 0,
-      "impressions": 19,
-      "position": 8.526315789473685
+      "impressions": 18,
+      "position": 8.61111111111111
     },
     "https://m5armour.co.za/armoured-vehicles/2025-toyota-landcruiser-300-v6-3-3d-zx-white-1691933/": {
       "clicks": 0,
-      "impressions": 14,
-      "position": 7.714285714285714
+      "impressions": 10,
+      "position": 10.4
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-fortuner-2-8-gd-6-4x4-vx-a-t-white-1269291/": {
       "clicks": 0,
-      "impressions": 5,
-      "position": 7.8
+      "impressions": 4,
+      "position": 7.75
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-fortuner-2-8-gd-6-4x4-vx-a-t-white-1269293/": {
       "clicks": 0,
-      "impressions": 84,
-      "position": 4.345238095238095
+      "impressions": 82,
+      "position": 4.341463414634147
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-fortuner-2-8-gd-6-4x4-vx-a-t-white-1269900/": {
       "clicks": 0,
-      "impressions": 6,
-      "position": 7.833333333333333
+      "impressions": 5,
+      "position": 5.8
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-fortuner-2-8-gd-6-4x4-vx-a-t-white-1269901/": {
       "clicks": 0,
-      "impressions": 12,
-      "position": 1.5
+      "impressions": 11,
+      "position": 1
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-fortuner-2-8-gd-6-4x4-vx-a-t-white-1269902/": {
       "clicks": 0,
@@ -200,85 +200,90 @@
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-fortuner-2-8-gd-6-4x4-vx-a-t-white-1269905/": {
       "clicks": 1,
-      "impressions": 136,
-      "position": 6.786764705882353
+      "impressions": 131,
+      "position": 6.717557251908397
     },
     "https://m5armour.co.za/armoured-vehicles/2026-toyota-hilux-2-8-gd-6-rb-legend-4x4-a-t-p-u-d-c-white-1688679/": {
       "clicks": 1,
-      "impressions": 32,
-      "position": 6.71875
+      "impressions": 28,
+      "position": 6.678571428571429
     },
     "https://m5armour.co.za/b4-armoured-vehicles/": {
       "clicks": 4,
-      "impressions": 433,
-      "position": 63.916859122401846
+      "impressions": 430,
+      "position": 63.91627906976744
     },
     "https://m5armour.co.za/b6-armour-ak-47/": {
       "clicks": 0,
-      "impressions": 36,
-      "position": 8.61111111111111
+      "impressions": 40,
+      "position": 8.125
     },
     "https://m5armour.co.za/b6-armoured-vehicles/": {
-      "clicks": 33,
-      "impressions": 1895,
-      "position": 34.669656992084434
+      "clicks": 34,
+      "impressions": 1841,
+      "position": 34.718087995654535
     },
     "https://m5armour.co.za/buy-vehicles/": {
-      "clicks": 117,
-      "impressions": 2687,
-      "position": 18.953107554893933
+      "clicks": 118,
+      "impressions": 2667,
+      "position": 18.512185976752907
     },
     "https://m5armour.co.za/contact-us/": {
-      "clicks": 7,
-      "impressions": 172,
-      "position": 4.162790697674419
+      "clicks": 6,
+      "impressions": 169,
+      "position": 4.1360946745562135
     },
     "https://m5armour.co.za/cost-to-armour-a-vehicle/": {
       "clicks": 2,
-      "impressions": 205,
-      "position": 7.985365853658537
+      "impressions": 206,
+      "position": 7.864077669902913
     },
     "https://m5armour.co.za/faqs/": {
       "clicks": 0,
-      "impressions": 26,
-      "position": 4.653846153846153
+      "impressions": 24,
+      "position": 4.666666666666666
     },
     "https://m5armour.co.za/ford-ranger-armoured-bakkies/": {
       "clicks": 5,
-      "impressions": 74,
-      "position": 35.54054054054054
+      "impressions": 78,
+      "position": 34.3974358974359
     },
     "https://m5armour.co.za/new-builds-in-progress/": {
       "clicks": 0,
-      "impressions": 57,
-      "position": 3.3157894736842106
+      "impressions": 45,
+      "position": 3.422222222222222
     },
     "https://m5armour.co.za/new-vs-second-hand-armoured-vehicles/": {
       "clicks": 0,
-      "impressions": 63,
-      "position": 2.5238095238095237
+      "impressions": 74,
+      "position": 2.5
     },
     "https://m5armour.co.za/privacy-policy/": {
       "clicks": 0,
       "impressions": 5,
       "position": 4.4
     },
+    "https://m5armour.co.za/subscribe-to-our-mailing-list/": {
+      "clicks": 0,
+      "impressions": 2,
+      "position": 7
+    },
     "https://m5armour.co.za/toyota-armoured-cars/": {
       "clicks": 7,
-      "impressions": 579,
-      "position": 62.112262521588946
+      "impressions": 565,
+      "position": 61.01946902654867
     }
   },
   "pages_current": {
     "https://m5armour.co.za/": {
-      "clicks": 21,
-      "impressions": 919,
-      "position": 10.953210010881392
+      "clicks": 22,
+      "impressions": 847,
+      "position": 10.916174734356552
     },
     "https://m5armour.co.za/about-m5-armour/": {
       "clicks": 0,
-      "impressions": 69,
-      "position": 31.72463768115942
+      "impressions": 63,
+      "position": 33.38095238095238
     },
     "https://m5armour.co.za/armoured-toyota-hilux-guide/": {
       "clicks": 0,
@@ -298,65 +303,64 @@
     "https://m5armour.co.za/b4-armoured-vehicles/": {
       "clicks": 1,
       "impressions": 61,
-      "position": 72.09836065573771
+      "position": 74.47540983606558
     },
     "https://m5armour.co.za/b6-armour-ak-47/": {
       "clicks": 0,
-      "impressions": 13,
-      "position": 4.615384615384615
+      "impressions": 10,
+      "position": 4.6
     },
     "https://m5armour.co.za/b6-armoured-vehicles/": {
-      "clicks": 5,
-      "impressions": 308,
-      "position": 28.814935064935064
+      "clicks": 4,
+      "impressions": 299,
+      "position": 27.210702341137125
     },
     "https://m5armour.co.za/buy-vehicles/": {
-      "clicks": 29,
-      "impressions": 579,
-      "position": 15.196891191709845
+      "clicks": 31,
+      "impressions": 550,
+      "position": 15.047272727272727
     },
     "https://m5armour.co.za/contact-us/": {
       "clicks": 0,
-      "impressions": 35,
-      "position": 2.6285714285714286
+      "impressions": 31,
+      "position": 3.3548387096774195
     },
     "https://m5armour.co.za/cost-to-armour-a-vehicle/": {
       "clicks": 0,
-      "impressions": 55,
-      "position": 7.2727272727272725
+      "impressions": 49,
+      "position": 7.448979591836735
     },
     "https://m5armour.co.za/faqs/": {
       "clicks": 0,
-      "impressions": 3,
-      "position": 9.333333333333334
+      "impressions": 5,
+      "position": 6
     },
     "https://m5armour.co.za/ford-ranger-armoured-bakkies/": {
       "clicks": 1,
-      "impressions": 18,
-      "position": 6.222222222222222
+      "impressions": 13,
+      "position": 4.461538461538462
     },
     "https://m5armour.co.za/new-builds-in-progress/": {
       "clicks": 0,
-      "impressions": 3,
-      "position": 5.333333333333333
+      "impressions": 5,
+      "position": 4.4
     },
     "https://m5armour.co.za/new-vs-second-hand-armoured-vehicles/": {
       "clicks": 1,
-      "impressions": 28,
-      "position": 4.821428571428571
-    },
-    "https://m5armour.co.za/subscribe-to-our-mailing-list/": {
-      "clicks": 0,
-      "impressions": 2,
-      "position": 7
+      "impressions": 23,
+      "position": 5.217391304347826
     },
     "https://m5armour.co.za/toyota-armoured-cars/": {
       "clicks": 1,
-      "impressions": 55,
-      "position": 24.254545454545454
+      "impressions": 48,
+      "position": 27.916666666666668
     }
   },
   "source_status": {
+    "crux": {
+      "ok": true,
+      "targets": 3
+    },
     "ga4": {
       "days_pulled": 43,
       "ok": true
